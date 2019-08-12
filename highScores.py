@@ -46,7 +46,7 @@ def updateHighScores():
                 scores[song] = [data]
 
     # generate HighScore list for song 'Overkill'
-    timeString = datetime.datetime.now().strftime("%B %d @ %I").replace(' 0', ' ')
+    timeString = datetime.datetime.now().strftime("%B %d - %I").replace(' 0', ' ')
     print(f"OVERKILL - {timeString}")
     players = ["DINO", "BAN", "BARTENDER"]
     htmlString = ""
@@ -60,7 +60,7 @@ def updateHighScores():
                     good = score['gameStats']['goodCutsCount']
                     bad = score['gameStats']['badCutsCount']
                     miss = score['gameStats']['missedCutsCount']
-                    scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %m @ %I:%M").replace(' 0', ' ').strip()
+                    scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %m - %I:%M").replace(' 0', ' ').strip()
                     if "JR " in player or " JR" in player:
                         playerJR = player.replace(" JR", " ").replace("JR ", "")
                         htmlStringKids += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{playerJR}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
