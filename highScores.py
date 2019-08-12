@@ -129,7 +129,7 @@ def updateHighScores():
             </tr>
         </table>
 
-        <hr><h2>Recent Games</h2>
+        <hr><h3>Recent Games</h3>
         <table style="width: 600px">
             <tr>
                 <th style="text-align: right">TIME</th>
