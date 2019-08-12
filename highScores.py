@@ -3,16 +3,26 @@ import glob #directory listing
 import json
 from pprint import pprint #pritty json print
 from operator import itemgetter #sorting
+import hashlib # hash strings (detect index.html file changes)
 
-#import requests
-#import base64
+# github related imports and settings
 import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 from git import Repo
 
-scores = {}
+def git_push():
+    try:
+        repo = Repo('.git')
+        repo.git.add(update=True)
+        repo.index.commit('update from the python script')
+        origin = repo.remote(name='origin')
+        origin.push()
+    except Exception as e:
+        print('Failed to push with error: '+ str(e))
 
-files = [f for f in glob.glob("C:/Users/Oculus/OneDrive/scores/*.txt")]
+# process score files
+scores = {}
+files = [f for f in glob.glob("../scores/*.txt")]
 
 for f in files:
     with open(f, "r") as data_file:
@@ -25,9 +35,8 @@ for f in files:
             scores[song] = sorted(scores[song], key=itemgetter('score'), reverse=True)
         else:
             scores[song] = [data]
-            
-#pprint(scores)
 
+# generate HighScore list for song 'Overkill'
 print("OVERKILL")
 result = {}
 players = ["DINO", "BAN", "BARTENDER"]
@@ -51,7 +60,6 @@ for key, value in scores.items():
 
 
 # generate and save HTML file
-f = open('index.html', 'w')
 message = """<html>
 <head></head>
 <body style="padding: 40">
@@ -80,19 +88,21 @@ message = """<html>
     </table>
 </body>
 </html>"""
-f.write(message)
-f.close()
 
-# push to github
+with open('index.html', "r") as indexFile:
+    hashObjectOld = hashlib.md5(indexFile.read().encode('utf-8'))
+    hashStringOld = hashObjectOld.hexdigest()
+    print("hash old: " + hashStringOld)
 
-def git_push():
-    try:
-        repo = Repo('.git')
-        repo.git.add(update=True)
-        repo.index.commit('update from the python script')
-        origin = repo.remote(name='origin')
-        origin.push()
-    except Exception as e:
-        print('Failed to push with error: '+ str(e))
+    hashObjectNew = hashlib.md5(message.encode('utf-8'))
+    hashStringNew = hashObjectNew.hexdigest()
+    print("hash new: " + hashStringNew)
 
-git_push()
+# update index.html file
+if hashStringNew != hashStringOld:
+    print("updating index.html and pushing code")
+    f = open('index.html', 'w')
+    f.write(message)
+    f.close()
+
+    git_push() # push changes to gitHub
