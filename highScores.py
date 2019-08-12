@@ -95,7 +95,6 @@ def updateHighScores():
     </head>
     <body style="padding: 40">
         <h1>August Competition - Overkill</h1>
-        <h3>""" + timeString + """</h3>
 
         <table style="width: 400px">
             <tr>
