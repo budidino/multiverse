@@ -98,26 +98,33 @@ def updateHighScores():
         <h1>August Competition - Overkill</h1>
         <h3>""" + timeString + """</h3>
 
-        <hr><h2>15 or older</h2>
         <table style="width: 400px">
             <tr>
-                <th style="text-align: left">PLAYER</th>
-                <th>CUTS</th>
-                <th>DIFFICULTY</th>
-                <th style="text-align: right">SCORE</th>
+                <td>
+                    <hr><h2>15 or older</h2>
+                    <table style="width: 400px">
+                        <tr>
+                            <th style="text-align: left">PLAYER</th>
+                            <th>CUTS</th>
+                            <th>DIFFICULTY</th>
+                            <th style="text-align: right">SCORE</th>
+                        </tr>
+                        """ + htmlString + """
+                    </table>
+                    </td>
+                <td>
+                    <hr><h2>14 or younger</h2>
+                    <table style="width: 400px">
+                        <tr>
+                            <th style="text-align: left">PLAYER</th>
+                            <th>CUTS</th>
+                            <th>DIFFICULTY</th>
+                            <th style="text-align: right">SCORE</th>
+                        </tr>
+                        """ + htmlStringKids + """
+                    </table>
+                </td>
             </tr>
-            """ + htmlString + """
-        </table>
-
-        <hr><h2>14 or younger</h2>
-        <table style="width: 400px">
-            <tr>
-                <th style="text-align: left">PLAYER</th>
-                <th>CUTS</th>
-                <th>DIFFICULTY</th>
-                <th style="text-align: right">SCORE</th>
-            </tr>
-            """ + htmlStringKids + """
         </table>
 
         <hr><h2>Recent Games</h2>
