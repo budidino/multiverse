@@ -85,11 +85,9 @@ f.close()
 
 # push to github
 
-PATH_OF_GIT_REPO = '.git'
-
 def git_push():
     try:
-        repo = Repo(PATH_OF_GIT_REPO)
+        repo = Repo('.git')
         repo.git.add(update=True)
         repo.index.commit('update from the python script')
         origin = repo.remote(name='origin')
