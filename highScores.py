@@ -13,11 +13,13 @@ import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 from git import Repo
 
-waitTime = 30.0
+oneDriveDir = f'C:/Users/Oculus/OneDrive/'
+
+waitTime = 10.0
 
 def git_push():
     try:
-        repo = Repo('.git')
+        repo = Repo(f'{oneDriveDir}githubProject/.git')
         repo.git.add(update=True)
         repo.index.commit('update from the python script')
         origin = repo.remote(name='origin')
@@ -30,7 +32,7 @@ def updateHighScores():
     # process score files
     scores = {}
     latestScores = []
-    files = [f for f in glob.glob("../scores/*.txt")]
+    files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
 
     for f in files:
         with open(f, "r") as data_file:
@@ -146,7 +148,7 @@ def updateHighScores():
     </body>
     </html>"""
 
-    with open('index.html', "r") as indexFile:
+    with open(f'{oneDriveDir}githubProject/index.html', "r") as indexFile:
         hashObjectOld = hashlib.md5(indexFile.read().encode('utf-8'))
         hashStringOld = hashObjectOld.hexdigest()
         print("hash old: " + hashStringOld)
@@ -158,7 +160,7 @@ def updateHighScores():
     # update index.html file
     if hashStringNew != hashStringOld:
         print("updating index.html and pushing code")
-        f = open('index.html', 'w')
+        f = open(f'{oneDriveDir}githubProject/index.html', 'w')
         f.write(message)
         f.close()
 
