@@ -1,4 +1,4 @@
-# TODO: show highscore position 
+# TODO: show highscore in that song
 
 import glob #directory listing
 import json
