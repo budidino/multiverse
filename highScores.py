@@ -82,9 +82,7 @@ def updateHighScores():
             pcName = '#1'
         if "custom_level" in songName:
             songName = "custom"
-        #scoreTime = datetime.datetime.now().strftime(" %I:%M %p").replace(' 0', ' ').strip()
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M %p").replace(' 0', ' ').strip()
-        #datetime.datetime.
         print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']} - {songName}")
         htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
 
