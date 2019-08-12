@@ -93,7 +93,7 @@ def updateHighScores():
         <meta http-equiv="refresh" content="30" />
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body style="padding: 40">
+    <body style="padding: 25">
         <h1>August Competition - Overkill</h1>
 
         <table style="width: 400px">
