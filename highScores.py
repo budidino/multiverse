@@ -60,11 +60,12 @@ def updateHighScores():
                     good = score['gameStats']['goodCutsCount']
                     bad = score['gameStats']['badCutsCount']
                     miss = score['gameStats']['missedCutsCount']
+                    scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M %p").replace(' 0', ' ').strip()
                     if "JR " in player or " JR" in player:
                         playerJR = player.replace(" JR", " ").replace("JR ", "")
-                        htmlStringKids += f"<tr><td>{playerJR}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
+                        htmlStringKids += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{playerJR}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
                     else:
-                        htmlString += f"<tr><td>{player}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
+                        htmlString += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
                     print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few
@@ -102,6 +103,7 @@ def updateHighScores():
                     <h2>15 or older</h2>
                     <table style="width: 400px">
                         <tr>
+                            <th style="text-align: right">TIME</th>
                             <th style="text-align: left">PLAYER</th>
                             <th>CUTS</th>
                             <th>DIFFICULTY</th>
@@ -115,6 +117,7 @@ def updateHighScores():
                     <h2>14 or younger</h2>
                     <table style="width: 400px">
                         <tr>
+                            <th style="text-align: right">TIME</th>
                             <th style="text-align: left">PLAYER</th>
                             <th>CUTS</th>
                             <th>DIFFICULTY</th>
