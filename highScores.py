@@ -100,7 +100,7 @@ def updateHighScores():
 
         <table style="width: 400px">
             <tr>
-                <td>
+                <td valign="top">
                     <h2>15 or older</h2>
                     <table style="width: 400px">
                         <tr>
@@ -112,8 +112,8 @@ def updateHighScores():
                         """ + htmlString + """
                     </table>
                     </td>
-                <td><br/></td>
-                <td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td valign="top">
                     <h2>14 or younger</h2>
                     <table style="width: 400px">
                         <tr>
