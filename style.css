@@ -9,6 +9,7 @@ h1 {
      font-variant: normal;
      font-weight: 700;
      line-height: 26.4px;
+     color: greenyellow;
 }
 h2 {
      font-family: monospace;
@@ -17,7 +18,7 @@ h2 {
      font-variant: normal;
      font-weight: 700;
      line-height: 15.4px;
-     color: green;
+     color: greenyellow;
 }
 
 p {
