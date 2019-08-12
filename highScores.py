@@ -71,7 +71,7 @@ def updateHighScores():
     htmlStringLatest = ""
     latestScores = sorted(latestScores, key=itemgetter('timestamp'), reverse=True)
     print("latest scores")
-    for score in latestScores[:5]:
+    for score in latestScores[:10]:
         songName = score['song']
         player = score['player']
         good = score['gameStats']['goodCutsCount']
