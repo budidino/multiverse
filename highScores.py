@@ -12,7 +12,7 @@ import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 from git import Repo
 
-waitTime = 15.0
+waitTime = 30.0
 
 def git_push():
     try:
@@ -68,7 +68,10 @@ def updateHighScores():
 
     # generate and save HTML file
     message = """<html>
-    <head></head>
+    <head>
+        <title>Multiverse VR</title>
+        <meta http-equiv="refresh" content="30" />
+    </head>
     <body style="padding: 40">
         <h1>August Competition - Overkill</h1>
         <h3>""" + timeString + """</h3>
