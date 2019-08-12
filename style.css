@@ -1,6 +1,6 @@
 body {
      background-color: black;
-     color: white
+     color: white;
 }
 h1 {
      font-family: monospace;
@@ -10,13 +10,14 @@ h1 {
      font-weight: 700;
      line-height: 26.4px;
 }
-h3 {
+h2 {
      font-family: monospace;
-     font-size: 14px;
+     font-size: 18px;
      font-style: normal;
      font-variant: normal;
      font-weight: 700;
      line-height: 15.4px;
+     color: green;
 }
 
 p {
