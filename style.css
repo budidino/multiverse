@@ -6,7 +6,7 @@ h1 {
      font-weight: 700;
      line-height: 26.4px;
 }
- h3 {
+h3 {
      font-family: monospace;
      font-size: 14px;
      font-style: normal;
@@ -14,7 +14,8 @@ h1 {
      font-weight: 700;
      line-height: 15.4px;
 }
- p {
+
+p {
      font-family: monospace;
      font-size: 14px;
      font-style: normal;
@@ -22,7 +23,8 @@ h1 {
      font-weight: 400;
      line-height: 20px;
 }
- blockquote {
+
+blockquote {
      font-family: monospace;
      font-size: 21px;
      font-style: normal;
@@ -30,7 +32,26 @@ h1 {
      font-weight: 400;
      line-height: 30px;
 }
- pre {
+
+pre {
+     font-family: monospace;
+     font-size: 13px;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: 400;
+     line-height: 18.5714px;
+}
+
+th {
+     font-family: monospace;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: bold;
+     font-variant: normal;
+     line-height: 18.5714px;
+}
+
+td {
      font-family: monospace;
      font-size: 13px;
      font-style: normal;
