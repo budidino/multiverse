@@ -28,6 +28,7 @@ def git_push():
 def updateHighScores():
     # process score files
     scores = {}
+    latestScores = []
     files = [f for f in glob.glob("../scores/*.txt")]
 
     for f in files:
@@ -36,6 +37,8 @@ def updateHighScores():
             song = data['song']
             data.pop('modifiers', None)
             data.pop('settings', None)
+
+            latestScores.append(data)
             if song in scores:
                 scores[song].append(data)
                 scores[song] = sorted(scores[song], key=itemgetter('score'), reverse=True)
@@ -43,9 +46,8 @@ def updateHighScores():
                 scores[song] = [data]
 
     # generate HighScore list for song 'Overkill'
-    timeString = datetime.datetime.now().strftime("%B %d - %I %p").replace(' 0', ' ')
+    timeString = datetime.datetime.now().strftime("%B %d @ %I %p").replace(' 0', ' ')
     print(f"OVERKILL - {timeString}")
-    result = {}
     players = ["DINO", "BAN", "BARTENDER"]
     htmlString = ""
     htmlStringKids = ""
@@ -65,6 +67,26 @@ def updateHighScores():
                         htmlString += f"<tr><td>{player}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
                     print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
+    # sort scores by timestamp and display last few
+    htmlStringLatest = ""
+    latestScores = sorted(latestScores, key=itemgetter('timestamp'), reverse=True)
+    print("latest scores")
+    for score in latestScores[:5]:
+        songName = score['song']
+        player = score['player']
+        good = score['gameStats']['goodCutsCount']
+        bad = score['gameStats']['badCutsCount']
+        miss = score['gameStats']['missedCutsCount']
+        pcName = '#2'
+        if score['computerName'] == "Oculus":
+            pcName = '#1'
+        if "custom_level" in songName:
+            songName = "custom"
+        #scoreTime = datetime.datetime.now().strftime(" %I:%M %p").replace(' 0', ' ').strip()
+        scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M %p").replace(' 0', ' ').strip()
+        #datetime.datetime.
+        print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']} - {songName}")
+        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
@@ -76,7 +98,7 @@ def updateHighScores():
         <h1>August Competition - Overkill</h1>
         <h3>""" + timeString + """</h3>
 
-        <h2>15 or older</h2>
+        <hr><h2>15 or older</h2>
         <table style="width: 400px">
             <tr>
                 <th style="text-align: left">PLAYER</th>
@@ -87,7 +109,7 @@ def updateHighScores():
             """ + htmlString + """
         </table>
 
-        <h2>14 or younger</h2>
+        <hr><h2>14 or younger</h2>
         <table style="width: 400px">
             <tr>
                 <th style="text-align: left">PLAYER</th>
@@ -96,6 +118,20 @@ def updateHighScores():
                 <th style="text-align: right">SCORE</th>
             </tr>
             """ + htmlStringKids + """
+        </table>
+
+        <hr><h2>Recent Games</h2>
+        <table style="width: 600px">
+            <tr>
+                <th style="text-align: right">TIME</th>
+                <th>PC</th>
+                <th style="text-align: left">PLAYER</th>
+                <th style="text-align: left">SONG</th>
+                <th>CUTS</th>
+                <th>DIFFICULTY</th>
+                <th style="text-align: right">SCORE</th>
+            </tr>
+            """ + htmlStringLatest + """
         </table>
     </body>
     </html>"""
@@ -110,7 +146,7 @@ def updateHighScores():
         print("hash new: " + hashStringNew)
 
     # update index.html file
-    if hashStringNew != hashStringOld:
+    if hashStringNew == hashStringOld:
         print("updating index.html and pushing code")
         f = open('index.html', 'w')
         f.write(message)
