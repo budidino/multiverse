@@ -91,6 +91,7 @@ def updateHighScores():
     <head>
         <title>Multiverse VR</title>
         <meta http-equiv="refresh" content="30" />
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body style="padding: 40">
         <h1>August Competition - Overkill</h1>
