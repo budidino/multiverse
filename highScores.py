@@ -146,7 +146,7 @@ def updateHighScores():
         print("hash new: " + hashStringNew)
 
     # update index.html file
-    if hashStringNew == hashStringOld:
+    if hashStringNew != hashStringOld:
         print("updating index.html and pushing code")
         f = open('index.html', 'w')
         f.write(message)
