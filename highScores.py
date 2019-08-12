@@ -4,6 +4,8 @@ import json
 from pprint import pprint #pritty json print
 from operator import itemgetter #sorting
 import hashlib # hash strings (detect index.html file changes)
+import time # so we can sleep
+import datetime
 
 # github related imports and settings
 import os
@@ -41,7 +43,8 @@ def updateHighScores():
                 scores[song] = [data]
 
     # generate HighScore list for song 'Overkill'
-    print("OVERKILL")
+    timeString = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    print(f"OVERKILL - {timeString}")
     result = {}
     players = ["DINO", "BAN", "BARTENDER"]
     htmlString = ""
@@ -68,6 +71,7 @@ def updateHighScores():
     <head></head>
     <body style="padding: 40">
         <h1>August Competition - Overkill</h1>
+        <h2>updated: """ + timeString + """
 
         <h2>15 or older</h2>
         <table style="width: 400px">
