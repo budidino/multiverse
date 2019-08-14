@@ -92,61 +92,61 @@ def updateHighScores():
 
     # generate and save HTML file
     message = """<html>
-    <head>
-        <title>Multiverse VR</title>
-        <meta http-equiv="refresh" content="30" />
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body style="padding: 25">
-        <h1>August Competition - Overkill</h1>
-
-        <table style="width: 400px">
-            <tr>
-                <td valign="top">
-                    <h2>15 or older</h2>
-                    <table style="width: 400px">
-                        <tr>
-                            <th style="text-align: right">TIME</th>
-                            <th style="text-align: left">PLAYER</th>
-                            <th>CUTS</th>
-                            <th>DIFFICULTY</th>
-                            <th style="text-align: right">SCORE</th>
-                        </tr>
-                        """ + htmlString + """
-                    </table>
-                    </td>
-                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td valign="top">
-                    <h2>14 or younger</h2>
-                    <table style="width: 400px">
-                        <tr>
-                            <th style="text-align: right">TIME</th>
-                            <th style="text-align: left">PLAYER</th>
-                            <th>CUTS</th>
-                            <th>DIFFICULTY</th>
-                            <th style="text-align: right">SCORE</th>
-                        </tr>
-                        """ + htmlStringKids + """
-                    </table>
-                </td>
-            </tr>
-        </table>
-
-        <hr><h2>Recent Games</h2>
-        <table style="width: 600px">
-            <tr>
-                <th style="text-align: right">TIME</th>
-                <th>PC</th>
-                <th style="text-align: left">PLAYER</th>
-                <th style="text-align: left">SONG</th>
-                <th>CUTS</th>
-                <th>DIFFICULTY</th>
-                <th style="text-align: right">SCORE</th>
-            </tr>
-            """ + htmlStringLatest + """
-        </table>
-    </body>
-    </html>"""
+		<head>
+			<title>Multiverse VR</title>
+			<!-- <meta http-equiv="refresh" content="30" /> -->
+			<meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0"> 
+			<meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0"> 
+			<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+		<body>
+			<h1>August Competition - Overkill</h1>
+			<div>
+				<div class="older">
+					<h2>15 and older</h2>
+					<table>
+						<tr>
+							<th style="text-align: center">TIME</th>
+							<th style="text-align: left">PLAYER</th>
+							<th>CUTS</th>
+							<th>DIFFICULTY</th>
+							<th style="text-align: right">SCORE</th>
+						</tr>
+						""" + htmlString + """
+					</table>
+				</div>
+				<div class="younger">
+					<h2>14 and younger</h2>
+					<table>
+						<tr>
+							<th style="text-align: right">TIME</th>
+							<th style="text-align: left">PLAYER</th>
+							<th>CUTS</th>
+							<th>DIFFICULTY</th>
+							<th style="text-align: right">SCORE</th>
+						</tr>
+						""" + htmlStringKids + """
+					</table>
+				</div>
+			</div>
+			<div class="recents">
+				<hr>
+				<h2>Recent Games</h2>
+				<table>
+					<tr>
+						<th style="text-align: right">TIME</th>
+						<th>PC</th>
+						<th style="text-align: left">PLAYER</th>
+						<th style="text-align: left">SONG</th>
+						<th>CUTS</th>
+						<th>DIFFICULTY</th>
+						<th style="text-align: right">SCORE</th>
+					</tr>
+					""" + htmlStringLatest + """
+				</table>
+			</div>
+		</body>
+	</html>"""
 
     with open(f'{oneDriveDir}githubProject/index.html', "r") as indexFile:
         hashObjectOld = hashlib.md5(indexFile.read().encode('utf-8'))
