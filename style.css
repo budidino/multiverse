@@ -1,4 +1,5 @@
 body {
+	font-family: monospace;
 	background-color: black;
 	color: white;
 	padding: 1vw;
@@ -7,7 +8,6 @@ body {
 
 
 h1, h2 {
-	font-family: monospace;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
@@ -29,7 +29,6 @@ table, th, td {
 }
 
 th, td {
-	font-family: monospace;
 	font-style: normal;
 	font-variant: normal;
 }
@@ -48,12 +47,27 @@ tr:nth-child(even) {
 	background-color:#303030;
 }
 
+#leaderboard tr:nth-child(n+2):nth-child(-n+4) {
+	font-weight: bold;
+}
+
+#leaderboard tr:nth-child(2) {
+	background-color:#daa52099;
+}
+
+#leaderboard tr:nth-child(3) {
+	background-color:#c0c0c099;
+}
+
+#leaderboard tr:nth-child(4) {
+	background-color:#cd7f3299;
+}
+
+
 hr {
 	margin-top: 30px;
 	margin-bottom: 25px;
 }
-
-
 
 .older, .younger {
 	float: left;
@@ -75,7 +89,7 @@ hr {
 	}
 
 	h1 {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	h2 {
@@ -89,7 +103,7 @@ hr {
 
 	td {
 		font-size: 14;
-		padding: 1px 2px;
+		padding: 3px 5px;
 	}
 
 
