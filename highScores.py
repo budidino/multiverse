@@ -44,9 +44,12 @@ def updateHighScores():
             latestScores.append(data)
             if song in scores:
                 scores[song].append(data)
-                # scores[song] = sorted(scores[song], key=itemgetter('score'), reverse=True)
             else:
                 scores[song] = [data]
+
+    # sort all the highscore lists
+    for s in scores.keys():
+        scores[s] = sorted(scores[s], key=itemgetter('score'), reverse=True)
 
     # generate HighScore list for song 'Overkill'
     timeString = datetime.datetime.now().strftime("%B %d - %I").replace(' 0', ' ')
@@ -71,10 +74,7 @@ def updateHighScores():
                         htmlString += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
                     print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
-    # sort scores by timestamp and display last few
-    for s in scores:
-        scores[s] = sorted(scores[s], key=itemgetter('score'), reverse=True)
-        
+    # sort scores by timestamp and display last few    
     htmlStringLatest = ""
     latestScores = sorted(latestScores, key=itemgetter('timestamp'), reverse=True)
     print("latest scores")
