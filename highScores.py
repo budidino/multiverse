@@ -120,7 +120,7 @@ def updateHighScores():
 					</table>
 				</div>
 				<div class="younger">
-					<h2>14 and younger</h2>
+					<h2>12 and younger</h2>
 					<table>
 						<tr>
 							<th style="text-align: center">TIME</th>
