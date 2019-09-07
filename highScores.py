@@ -107,7 +107,7 @@ def updateHighScores():
 			<h1>""" + datetime.datetime.now().strftime("%B") + """ Competition - """ + competitionSongName + """</h1>
 			<div>
 				<div class="older">
-					<h2>15 and older</h2>
+					<h2>13 and older</h2>
 					<table>
 						<tr>
 							<th style="text-align: center">TIME</th>
