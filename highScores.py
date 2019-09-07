@@ -17,6 +17,8 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 10.0
 
+competitionSongName = "ORIGINS"
+
 def git_push():
     try:
         repo = Repo(f'{oneDriveDir}githubProject/.git')
@@ -53,12 +55,12 @@ def updateHighScores():
 
     # generate HighScore list for song 'Overkill'
     timeString = datetime.datetime.now().strftime("%B %d - %I").replace(' 0', ' ')
-    print(f"OVERKILL - {timeString}")
+    print(f"{competitionSongName} - {timeString}")
     players = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
     htmlString = ""
     htmlStringKids = ""
     for key, value in scores.items():
-        if key == "Overkill":
+        if key.lower() == competitionSongName.lower():
             for score in value:
                 player = score['player']
                 if player not in players and len(player) > 1:
@@ -102,7 +104,7 @@ def updateHighScores():
 			<link rel="stylesheet" type="text/css" href="style.css">
 		</head>
 		<body>
-			<h1>August Competition - Overkill</h1>
+			<h1>""" + datetime.datetime.now().strftime("%B") + """ Competition - """ + competitionSongName + """</h1>
 			<div>
 				<div class="older">
 					<h2>15 and older</h2>
