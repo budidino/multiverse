@@ -123,7 +123,7 @@ def updateHighScores():
 					<h2>14 and younger</h2>
 					<table>
 						<tr>
-							<th style="text-align: right">TIME</th>
+							<th style="text-align: center">TIME</th>
 							<th style="text-align: left">PLAYER</th>
 							<th>CUTS</th>
 							<th>DIFFICULTY</th>
