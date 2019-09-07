@@ -92,8 +92,9 @@ def updateHighScores():
         if "custom_level" in songName:
             songName = "custom"
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M").replace(' 0', '  ').strip()
-        print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']} - {songName}")
-        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
+        if "difficulty" in score:
+            print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']} - {songName}")
+            htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
