@@ -78,9 +78,9 @@ def updateHighScores():
                     resultsCompetition.append(score)
                     processedPlayers.append(player)
 
-                    _score = score["score"]
-                    
-                    resultsCompetitionCSV += f"{player}, {}"
+                    # TODO: CSV instead of JSON to make google charts easier
+                    #_score = score["score"]
+                    #resultsCompetitionCSV += f"{player}, {}"
 
     # save the highscore if there are scores in it
     if len(resultsCompetition) > 0:
@@ -104,6 +104,7 @@ def updateHighScores():
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
         if dateFromTS == dateToday:
             resultsLatest.append(score)
+            # TODO: CSV instead of JSON to make google charts easier
 
     # save latest if there are any
     if len(resultsLatest) > 0:
