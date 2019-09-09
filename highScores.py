@@ -38,6 +38,7 @@ def updateHighScores():
 
     for f in files:
         with open(f, "r") as data_file:
+            print(f"start: {f}")
             data = json.load(data_file)
             song = data['song']
             data.pop('modifiers', None)
@@ -48,7 +49,9 @@ def updateHighScores():
                 scores[song].append(data)
             else:
                 scores[song] = [data]
+            print(f"end: {f}")
 
+    print("NEXT STEP")
     # sort all the highscore lists
     for s in scores.keys():
         scores[s] = sorted(scores[s], key=itemgetter('score'), reverse=True)

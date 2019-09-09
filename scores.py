@@ -2,6 +2,7 @@
 # upload scores json somewhere based on device ID and them merge those two on iOS or wherever we preview data?
 # update LocalDailyLeaderboards.dat to delete lowest score in any list that has 10 songs to make sure we fetch every score
 # maybe keep only the best score
+# add difficulty to fail/quit because it's available through player data
 
 import getpass #computer name
 import time
@@ -81,6 +82,8 @@ def fetchAndStoreSettings():
                 latestFilename = f"{scoresFolderPath}{str(timestamp)}{computerUser}.txt"
                 with open(latestFilename, 'a+') as outfile:
                     latestFileJson = {
+                        "timestamp": timestamp,
+                        "song": "#unknown",
                         "isFail": isFail,
                         "isQuit": isQuit,
                         "computerName": computerUser,
@@ -138,6 +141,10 @@ def updateLatestFileIfDataAvailable():
                 if scoreValue == previousGameScore["totalScore"]:
                     #delete latestFilename
                     os.remove(latestFilename)
+
+                    # used to guess who played when fail or quit
+                    global latestPlayer
+                    latestPlayer = player
 
                     global latestFileJson
                     with open(fileName, 'a+') as outfile:
