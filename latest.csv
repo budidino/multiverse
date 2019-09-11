@@ -1,4 +1,17 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+10:47, 196s, False, False, UNKNOWN, #1, #unknown, 773 / 797, #unknown, 280963, True, False, False, False
+10:15, 110s, False, False, JHENE VONA LUZLE, #1, BeatSaber, 83 / 94, Easy, 10434, True, False, False, False
+10:09, 110s, False, False, KATE, #1, BeatSaber, 93 / 94, Easy, 32910, True, False, False, False
+10:05, 134s, False, False, K, #1, BalearicPumping, 135 / 170, Easy, 9268, True, False, False, False
+10:01, 8s, False, True, UNKNOWN, #1, #unknown, 4 / 7, #unknown, 0, True, False, False, False
+09:58, 141s, False, False, TOPHERS, #1, 100Bills, 195 / 196, Normal, 51490, True, False, False, False
+09:39, 214s, False, False, MAEVE, #1, Rattlesnake, 1019 / 1071, ExpertPlus, 336233, True, False, False, False
+09:35, 42s, False, True, UNKNOWN, #1, #unknown, 250 / 278, #unknown, 0, True, False, False, False
+09:33, 209s, False, False, MAEVE, #1, custom, 1195 / 1236, ExpertPlus, 436367, True, False, False, False
+09:29, 214s, False, False, MAEVE, #1, ReasonForLiving, 832 / 903, ExpertPlus, 260268, True, False, False, False
+09:25, 251s, False, False, MAEVE, #1, custom, 1080 / 1099, ExpertPlus, 404784, True, False, False, False
+09:20, 223s, False, False, MAEVE, #1, custom, 571 / 594, Expert, 197388, True, False, False, False
+08:47, 120s, False, False, BIT, #1, custom, 1065 / 1111, ExpertPlus, 355712, True, False, False, False
 08:44, 196s, False, False, BIT, #1, custom, 771 / 797, ExpertPlus, 275070, True, False, False, False
 08:40, 214s, False, False, BIT, #1, ReasonForLiving, 842 / 903, ExpertPlus, 287049, True, False, False, False
 08:36, 134s, False, False, BIT, #1, BalearicPumping, 531 / 608, ExpertPlus, 139964, True, False, False, False
