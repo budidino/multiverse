@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568201422,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NINA",
+        "song": "Breezer",
+        "difficulty": "Normal",
+        "score": 40088,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4735907316207886,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 11,
+            "cutScoreWithoutMultiplier": 13502,
+            "goodCutsCount": 157,
+            "handDistanceTravelled": 231,
+            "missedCutsCount": 5,
+            "timePlayed": 121.4375,
+            "totalScore": 40088
+        }
+    },
+    {
         "timestamp": 1568201253,
         "computerName": "Oculus",
         "isFail": false,
