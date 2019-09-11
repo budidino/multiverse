@@ -125,7 +125,7 @@ def updateHighScores():
 
     # get all scores from today
     resultsLatest = []
-    resultsLatestCSV = "time, duration, fail, quit, player, pc, song, cuts, difficulty, score, FC, no fail, disappearing, ghost, faster song\n"
+    resultsLatestCSV = "time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song\n"
     for score in latestScores:
         dateFromTS = datetime.datetime.utcfromtimestamp(score["timestamp"]).strftime('%Y-%m-%d')
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -157,13 +157,11 @@ def updateHighScores():
             resultsLatestCSV += f", {score['isFail']}"
             resultsLatestCSV += f", {score['isQuit']}"
             resultsLatestCSV += f", {cleanPlayer}"
-            resultsLatestCSV += f", {cleanPlayer}"
             resultsLatestCSV += f", {pcName}"
             resultsLatestCSV += f", {songName}"
-            resultsLatestCSV += f", {score['gameStats']['goodCutsCount']} / {score['gameStats']['badCutsCount'] + score['gameStats']['missedCutsCount']}" # cuts
+            resultsLatestCSV += f", {score['gameStats']['goodCutsCount']} / {score['gameStats']['badCutsCount'] + score['gameStats']['missedCutsCount'] + score['gameStats']['goodCutsCount']}" # cuts
             resultsLatestCSV += f", {difficulty}"
             resultsLatestCSV += f", {score['score']}"
-            resultsLatestCSV += f", {score['fullCombo']}" # FC
             resultsLatestCSV += f", {score['modifiers']['noFail']}" # no fail
             resultsLatestCSV += f", {score['modifiers']['disappearingArrows']}" # disappearingArrows
             resultsLatestCSV += f", {score['modifiers']['ghostNotes']}" # ghostNotes
