@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+08:31, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 07:30, 121s, False, False, NINA, #1, Breezer, 157 / 173, Normal, 40088, True, False, False, False
 07:27, 170s, False, False, NINA, #1, CountryRounds, 195 / 208, Normal, 52089, True, False, False, False
 07:24, 6s, False, True, UNKNOWN, #1, #unknown, 3 / 3, #unknown, 0, True, False, False, False
