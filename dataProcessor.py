@@ -125,7 +125,7 @@ def updateHighScores():
 
     # get all scores from today
     resultsLatest = []
-    resultsLatestCSV = ""
+    resultsLatestCSV = "time, duration, player, pc, song, good, bad"
     for score in latestScores:
         dateFromTS = datetime.datetime.utcfromtimestamp(score["timestamp"]).strftime('%Y-%m-%d')
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -141,7 +141,8 @@ def updateHighScores():
             if "custom_level" in songName:
                 songName = "custom"
 
-            resultsLatestCSV += f", {datetime.datetime.fromtimestamp(score['timestamp']).strftime('%I:%M')}" # time
+            resultsLatestCSV += datetime.datetime.fromtimestamp(score['timestamp']).strftime('%I:%M') # time
+            resultsLatestCSV += f", {int(score['gameStats']['timePlayed'])}s" # seconds played
             resultsLatestCSV += f", {cleanPlayer}"
             resultsLatestCSV += f", {pcName}"
             resultsLatestCSV += f", {songName}"
