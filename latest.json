@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568187887,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "Boundless",
+        "difficulty": "ExpertPlus",
+        "score": 283007,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5999454259872437,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 21,
+            "cutScoreWithoutMultiplier": 84032,
+            "goodCutsCount": 808,
+            "handDistanceTravelled": 1018,
+            "missedCutsCount": 17,
+            "timePlayed": 184.75,
+            "totalScore": 283007
+        }
+    },
+    {
         "timestamp": 1568187670,
         "computerName": "Oculus",
         "isFail": false,
