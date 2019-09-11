@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568205654,
-        "song": "#unknown",
+        "timestamp": 1568205655,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "ReasonForLiving",
+        "difficulty": "ExpertPlus",
         "score": 287049,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
