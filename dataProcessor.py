@@ -70,7 +70,7 @@ def updateHighScores():
     print(f"{competitionSongName} - {timeString}")
     processedPlayers = []
     resultsCompetition = []
-    resultsCompetitionCSV = "date, time, player, good cuts, bad cuts, difficuly, score, FC, no fail, dissappearing, ghost, faster, JR"
+    resultsCompetitionCSV = "date, time, player, good cuts, bad cuts, difficuly, score, FC, no fail, dissappearing, ghost, faster, JR\n"
     for key, value in highscoresList.items():
         if key.lower() == competitionSongName.lower():
             for score in value:
