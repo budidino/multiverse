@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568199454,
-        "song": "#unknown",
+        "timestamp": 1568199465,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "RETCHIE",
+        "song": "BalearicPumping",
+        "difficulty": "Easy",
         "score": 50769,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
