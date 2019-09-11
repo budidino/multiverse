@@ -16,7 +16,7 @@ from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
-waitTime = 1.0
+waitTime = 2.0
 
 competitionSongName = "ORIGINS"
 ignorePlayersList = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
