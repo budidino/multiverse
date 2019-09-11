@@ -1,4 +1,12 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+12:34, 4s, False, True, UNKNOWN, #1, #unknown, 9 / 9, #unknown, 0, False, False, False, False
+12:34, 7s, True, False, UNKNOWN, #1, #unknown, 12 / 17, #unknown, 0, False, False, False, False
+12:34, 7s, False, True, UNKNOWN, #1, #unknown, 15 / 15, #unknown, 0, False, False, False, False
+12:33, 50s, True, False, UNKNOWN, #1, #unknown, 153 / 171, #unknown, 0, False, False, False, False
+12:32, 4s, False, True, UNKNOWN, #1, #unknown, 8 / 9, #unknown, 0, False, False, False, False
+12:32, 50s, True, False, UNKNOWN, #1, #unknown, 157 / 170, #unknown, 0, False, False, False, False
+12:31, 4s, False, True, UNKNOWN, #1, #unknown, 8 / 8, #unknown, 0, False, False, False, False
+12:30, 1s, False, True, UNKNOWN, #1, #unknown, 1 / 1, #unknown, 0, False, False, False, False
 12:24, 147s, False, False, SEAN, #1, Origins, 276 / 286, Normal, 180649, False, False, False, False
 12:21, 147s, False, False, SEAN, #1, Origins, 311 / 380, Hard, 56017, True, False, False, False
 12:18, 147s, False, False, SEAN, #1, Origins, 281 / 286, Normal, 96763, True, False, False, False
