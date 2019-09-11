@@ -1,4 +1,31 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:39, 185s, False, False, UNKNOWN, #1, #unknown, 762 / 782, #unknown, 287746, True, False, False, False
+06:35, 209s, False, False, MAEVE, #1, custom, 1173 / 1236, ExpertPlus, 400812, True, False, False, False
+06:31, 366s, False, False, MAEVE, #1, custom, 1899 / 2060, ExpertPlus, 601116, True, False, False, False
+06:24, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
+05:35, 304s, False, True, UNKNOWN, #1, #unknown, 1717 / 1812, #unknown, 0, True, False, False, False
+05:30, 196s, False, True, UNKNOWN, #1, #unknown, 774 / 797, #unknown, 0, True, False, False, False
+05:26, 228s, False, False, BIT, #1, custom, 1677 / 2001, ExpertPlus, 407613, True, False, False, False
+05:22, 137s, True, False, UNKNOWN, #1, #unknown, 420 / 435, #unknown, 0, False, True, False, True
+05:20, 177s, False, False, BIT, #1, Origins, 532 / 542, Expert, 440309, False, False, False, True
+05:17, 147s, False, False, JOROSS JR, #1, Origins, 375 / 380, Hard, 287209, False, False, False, False
+05:14, 31s, False, True, UNKNOWN, #1, #unknown, 47 / 51, #unknown, 0, True, False, False, False
+05:12, 147s, False, False, VIGO JR, #1, Origins, 431 / 542, Expert, 88192, True, False, False, False
+05:09, 37s, False, True, UNKNOWN, #1, #unknown, 83 / 90, #unknown, 0, False, False, False, False
+05:08, 147s, False, False, VIGO JR, #1, Origins, 373 / 380, Hard, 275760, False, False, False, False
+05:04, 165s, True, False, UNKNOWN, #1, #unknown, 397 / 415, #unknown, 0, False, False, False, False
+05:00, 147s, False, False, JOROSS JR, #1, Origins, 366 / 380, Hard, 267991, False, False, False, False
+04:57, 147s, False, False, JOROSS JR, #1, Origins, 366 / 380, Hard, 262322, False, False, False, False
+04:54, 147s, False, False, VIGO JR, #1, Origins, 370 / 380, Hard, 263324, False, False, False, False
+04:51, 147s, False, False, VIGO JR, #1, Origins, 376 / 380, Hard, 294199, False, False, False, False
+04:47, 238s, False, False, KEN JR, #1, Crystallized, 768 / 1340, Expert, 86482, True, False, False, False
+04:42, 147s, False, False, KEN JR, #1, Origins, 376 / 380, Hard, 304676, False, False, False, False
+04:39, 3s, False, True, UNKNOWN, #1, #unknown, 2 / 2, #unknown, 0, True, False, False, False
+04:37, 209s, False, False, MAEVE, #1, custom, 1189 / 1236, ExpertPlus, 423044, True, False, False, False
+04:33, 188s, False, False, MAEVE, #1, custom, 987 / 1024, ExpertPlus, 340537, True, False, False, False
+04:29, 10s, False, True, UNKNOWN, #1, #unknown, 40 / 40, #unknown, 0, True, False, False, False
+04:29, 264s, False, False, MAEVE, #1, custom, 1516 / 1765, ExpertPlus, 341051, True, False, False, False
+04:24, 220s, False, False, MAEVE, #1, custom, 919 / 942, ExpertPlus, 335933, True, False, False, False
 04:20, 209s, False, False, MAEVE, #1, custom, 1183 / 1236, ExpertPlus, 406192, True, False, False, False
 04:16, 196s, False, False, MAEVE, #1, custom, 761 / 797, ExpertPlus, 249320, True, False, False, False
 04:12, 177s, False, False, MAEVE, #1, Origins, 526 / 542, Expert, 405344, False, False, False, True
