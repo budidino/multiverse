@@ -125,7 +125,7 @@ def updateHighScores():
 
     # get all scores from today
     resultsLatest = []
-    resultsLatestCSV = "time, duration, player, pc, song, good, bad"
+    resultsLatestCSV = "time, duration, player, pc, song, cuts, difficulty, score, FC, no fail, disappearing, ghost, faster song\n"
     for score in latestScores:
         dateFromTS = datetime.datetime.utcfromtimestamp(score["timestamp"]).strftime('%Y-%m-%d')
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -146,8 +146,7 @@ def updateHighScores():
             resultsLatestCSV += f", {cleanPlayer}"
             resultsLatestCSV += f", {pcName}"
             resultsLatestCSV += f", {songName}"
-            resultsLatestCSV += f", {score['gameStats']['goodCutsCount']}" # good cuts
-            resultsLatestCSV += f", {score['gameStats']['badCutsCount'] + score['gameStats']['missedCutsCount']}" # bad+miss cuts
+            resultsLatestCSV += f", {score['gameStats']['goodCutsCount']} / {score['gameStats']['badCutsCount'] + score['gameStats']['missedCutsCount']}" # cuts
             resultsLatestCSV += f", {score['difficulty']}" # difficulty
             resultsLatestCSV += f", {score['score']}" # score
             resultsLatestCSV += f", {score['fullCombo']}" # FC
