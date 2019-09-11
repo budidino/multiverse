@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568201242,
-        "song": "#unknown",
+        "timestamp": 1568201253,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NINA",
+        "song": "CountryRounds",
+        "difficulty": "Normal",
         "score": 52089,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
