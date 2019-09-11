@@ -1,0 +1,822 @@
+[
+    {
+        "timestamp": 1567859698,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 445864,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6119078397750854,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 57240,
+            "goodCutsCount": 540,
+            "handDistanceTravelled": 755,
+            "missedCutsCount": 1,
+            "timePlayed": 147.9375,
+            "totalScore": 445864
+        }
+    },
+    {
+        "timestamp": 1568094277,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "QT",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 442005,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.184201955795288,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 57134,
+            "goodCutsCount": 539,
+            "handDistanceTravelled": 866,
+            "missedCutsCount": 1,
+            "timePlayed": 147.9375,
+            "totalScore": 442005
+        }
+    },
+    {
+        "timestamp": 1568106319,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 423941,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5444966554641724,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 54281,
+            "goodCutsCount": 527,
+            "handDistanceTravelled": 892,
+            "missedCutsCount": 9,
+            "timePlayed": 177.5,
+            "totalScore": 423941
+        }
+    },
+    {
+        "timestamp": 1568104871,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KEN JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 310277,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.646039605140686,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 40339,
+            "goodCutsCount": 377,
+            "handDistanceTravelled": 762,
+            "missedCutsCount": 2,
+            "timePlayed": 147.9375,
+            "totalScore": 310277
+        }
+    },
+    {
+        "timestamp": 1567504755,
+        "computerName": "Oculus",
+        "player": "YCE",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 306145,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5717886686325073,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 39312,
+            "goodCutsCount": 378,
+            "handDistanceTravelled": 685,
+            "missedCutsCount": 1,
+            "timePlayed": 147.9375,
+            "totalScore": 306145
+        }
+    },
+    {
+        "timestamp": 1568086747,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 305407,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5669034719467163,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 39037,
+            "goodCutsCount": 379,
+            "handDistanceTravelled": 768,
+            "missedCutsCount": 0,
+            "timePlayed": 147.9375,
+            "totalScore": 305407
+        }
+    },
+    {
+        "timestamp": 1567850526,
+        "computerName": "Oculus",
+        "player": "MINGMING",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 302617,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.492812156677246,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 39312,
+            "goodCutsCount": 378,
+            "handDistanceTravelled": 739,
+            "missedCutsCount": 1,
+            "timePlayed": 147.9375,
+            "totalScore": 302617
+        }
+    },
+    {
+        "timestamp": 1568105104,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "VIGO JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 291539,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.646039605140686,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 38352,
+            "goodCutsCount": 376,
+            "handDistanceTravelled": 675,
+            "missedCutsCount": 1,
+            "timePlayed": 147.9375,
+            "totalScore": 291539
+        }
+    },
+    {
+        "timestamp": 1567756826,
+        "computerName": "Oculus",
+        "player": "ELI",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 205678,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5382791757583618,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 55860,
+            "goodCutsCount": 532,
+            "handDistanceTravelled": 770,
+            "missedCutsCount": 6,
+            "timePlayed": 147.9375,
+            "totalScore": 205678
+        }
+    },
+    {
+        "timestamp": 1567832682,
+        "computerName": "Oculus",
+        "player": "AJ",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 133163,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 35530,
+            "goodCutsCount": 374,
+            "handDistanceTravelled": 614,
+            "missedCutsCount": 5,
+            "timePlayed": 147.9375,
+            "totalScore": 133163
+        }
+    },
+    {
+        "timestamp": 1568006928,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "YNNARA JR",
+        "song": "Origins",
+        "difficulty": "Easy",
+        "score": 109853,
+        "fullCombo": true,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6193903684616089,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 14129,
+            "goodCutsCount": 199,
+            "handDistanceTravelled": 139,
+            "missedCutsCount": 0,
+            "timePlayed": 147.9375,
+            "totalScore": 109853
+        }
+    },
+    {
+        "timestamp": 1568110549,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JAMES",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 99886,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5230480432510376,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 22,
+            "cutScoreWithoutMultiplier": 31770,
+            "goodCutsCount": 353,
+            "handDistanceTravelled": 358,
+            "missedCutsCount": 5,
+            "timePlayed": 147.9375,
+            "totalScore": 99886
+        }
+    },
+    {
+        "timestamp": 1567937082,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HATON JR",
+        "song": "Origins",
+        "difficulty": "Normal",
+        "score": 73687,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.493374228477478,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 18,
+            "cutScoreWithoutMultiplier": 23660,
+            "goodCutsCount": 260,
+            "handDistanceTravelled": 367,
+            "missedCutsCount": 8,
+            "timePlayed": 147.9375,
+            "totalScore": 73687
+        }
+    },
+    {
+        "timestamp": 1567831091,
+        "computerName": "Oculus",
+        "player": "DIV JR",
+        "song": "Origins",
+        "difficulty": "Normal",
+        "score": 42342,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 44,
+            "cutScoreWithoutMultiplier": 16543,
+            "goodCutsCount": 233,
+            "handDistanceTravelled": 176,
+            "missedCutsCount": 9,
+            "timePlayed": 147.9375,
+            "totalScore": 42342
+        }
+    },
+    {
+        "timestamp": 1567829409,
+        "computerName": "Oculus",
+        "player": "YASH JR",
+        "song": "Origins",
+        "difficulty": "Normal",
+        "score": 41652,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 33,
+            "cutScoreWithoutMultiplier": 20060,
+            "goodCutsCount": 236,
+            "handDistanceTravelled": 363,
+            "missedCutsCount": 17,
+            "timePlayed": 147.9375,
+            "totalScore": 41652
+        }
+    },
+    {
+        "timestamp": 1567830299,
+        "computerName": "Oculus",
+        "player": "JAMILAV JR",
+        "song": "Origins",
+        "difficulty": "Easy",
+        "score": 34072,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 11220,
+            "goodCutsCount": 187,
+            "handDistanceTravelled": 106,
+            "missedCutsCount": 3,
+            "timePlayed": 147.9375,
+            "totalScore": 34072
+        }
+    },
+    {
+        "timestamp": 1567941390,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ZANDER ",
+        "song": "Origins",
+        "difficulty": "Normal",
+        "score": 32538,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.493374228477478,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 43,
+            "cutScoreWithoutMultiplier": 17172,
+            "goodCutsCount": 212,
+            "handDistanceTravelled": 407,
+            "missedCutsCount": 31,
+            "timePlayed": 147.9375,
+            "totalScore": 32538
+        }
+    },
+    {
+        "timestamp": 1567832425,
+        "computerName": "Oculus",
+        "player": "EIZEN JR",
+        "song": "Origins",
+        "difficulty": "Easy",
+        "score": 30118,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 12308,
+            "goodCutsCount": 181,
+            "handDistanceTravelled": 110,
+            "missedCutsCount": 3,
+            "timePlayed": 147.9375,
+            "totalScore": 30118
+        }
+    },
+    {
+        "timestamp": 1567829873,
+        "computerName": "Oculus",
+        "player": "ASHLEY JR",
+        "song": "Origins",
+        "difficulty": "Normal",
+        "score": 24137,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 38,
+            "cutScoreWithoutMultiplier": 15124,
+            "goodCutsCount": 199,
+            "handDistanceTravelled": 309,
+            "missedCutsCount": 49,
+            "timePlayed": 147.9375,
+            "totalScore": 24137
+        }
+    },
+    {
+        "timestamp": 1567830083,
+        "computerName": "Oculus",
+        "player": "AVRILLE JR",
+        "song": "Origins",
+        "difficulty": "Normal",
+        "score": 13640,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4916990995407104,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 51,
+            "cutScoreWithoutMultiplier": 8404,
+            "goodCutsCount": 191,
+            "handDistanceTravelled": 75,
+            "missedCutsCount": 44,
+            "timePlayed": 147.9375,
+            "totalScore": 13640
+        }
+    }
+]
