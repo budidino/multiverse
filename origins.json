@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1567859698,
+        "timestamp": 1568187538,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "BIT",
         "song": "Origins",
         "difficulty": "Expert",
-        "score": 445864,
+        "score": 446993,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -25,7 +25,7 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.6119078397750854,
+            "playerHeight": 1.5999454259872437,
             "disableSFX": false,
             "reduceDebris": false,
             "noTextsAndHuds": false,
@@ -35,10 +35,10 @@
             "badCutsCount": 1,
             "cutScoreWithoutMultiplier": 57240,
             "goodCutsCount": 540,
-            "handDistanceTravelled": 755,
+            "handDistanceTravelled": 773,
             "missedCutsCount": 1,
             "timePlayed": 147.9375,
-            "totalScore": 445864
+            "totalScore": 446993
         }
     },
     {
