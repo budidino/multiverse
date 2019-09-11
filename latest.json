@@ -1,12 +1,54 @@
 [
     {
-        "timestamp": 1568205407,
+        "timestamp": 1568205654,
         "song": "#unknown",
         "isFail": false,
         "isQuit": false,
         "computerName": "Oculus",
         "player": "UNKNOWN",
+        "score": 287049,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.75387704372406,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 31,
+            "cutScoreWithoutMultiplier": 87568,
+            "goodCutsCount": 842,
+            "handDistanceTravelled": 1074,
+            "missedCutsCount": 30,
+            "timePlayed": 214.0,
+            "totalScore": 287049
+        }
+    },
+    {
+        "timestamp": 1568205411,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "BalearicPumping",
+        "difficulty": "ExpertPlus",
         "score": 139964,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
