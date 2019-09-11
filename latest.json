@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568183380,
-        "song": "#unknown",
+        "timestamp": 1568183446,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JMMMMM",
+        "song": "LvlInsane",
+        "difficulty": "Expert",
         "score": 25183,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
