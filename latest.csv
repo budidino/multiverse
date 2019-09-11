@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-03:50, 120s, False, False, UNKNOWN, #1, #unknown, 1061 / 1111, #unknown, 357132, True, False, False, False
+03:50, 120s, False, False, BIT, #1, custom, 1061 / 1111, ExpertPlus, 357132, True, False, False, False
 03:48, 196s, False, False, BIT, #1, custom, 770 / 797, ExpertPlus, 280105, True, False, False, False
 03:44, 184s, False, False, BIT, #1, Boundless, 808 / 846, ExpertPlus, 283007, True, False, False, False
 03:41, 177s, False, False, BIT, #1, Origins, 535 / 542, Expert, 462569, False, False, False, True
