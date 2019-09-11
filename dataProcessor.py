@@ -137,9 +137,16 @@ def updateHighScores():
             pcName = '#2'
             if score['computerName'] == "Oculus":
                 pcName = '#1'
-            songName = score['song']
+
+            songName = "#unknown"
+            if 'song' in score:
+                songName = score['song']
             if "custom_level" in songName:
                 songName = "custom"
+            
+            difficulty = "#unknown"
+            if 'difficulty' in score:
+                difficulty = score['difficulty']
 
             resultsLatestCSV += datetime.datetime.fromtimestamp(score['timestamp']).strftime('%I:%M') # time
             resultsLatestCSV += f", {int(score['gameStats']['timePlayed'])}s" # seconds played
@@ -147,8 +154,8 @@ def updateHighScores():
             resultsLatestCSV += f", {pcName}"
             resultsLatestCSV += f", {songName}"
             resultsLatestCSV += f", {score['gameStats']['goodCutsCount']} / {score['gameStats']['badCutsCount'] + score['gameStats']['missedCutsCount']}" # cuts
-            resultsLatestCSV += f", {score['difficulty']}" # difficulty
-            resultsLatestCSV += f", {score['score']}" # score
+            resultsLatestCSV += f", {difficulty}"
+            resultsLatestCSV += f", {score['score']}"
             resultsLatestCSV += f", {score['fullCombo']}" # FC
             resultsLatestCSV += f", {score['modifiers']['noFail']}" # no fail
             resultsLatestCSV += f", {score['modifiers']['disappearingArrows']}" # disappearingArrows
@@ -157,7 +164,7 @@ def updateHighScores():
                 resultsLatestCSV += f", {True}" # is faster song
             else:
                 resultsLatestCSV += f", {False}" # not faster song
-            resultsCompetitionCSV += "\n" # end of line
+            resultsLatestCSV += "\n" # end of line
 
     # save latest if there are any
     if len(resultsLatest) > 0:
