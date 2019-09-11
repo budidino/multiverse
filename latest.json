@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568198774,
-        "song": "#unknown",
+        "timestamp": 1568198787,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "BurningSands",
+        "difficulty": "ExpertPlus",
         "score": 285360,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
