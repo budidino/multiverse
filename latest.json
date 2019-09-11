@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568175849,
-        "song": "#unknown",
+        "timestamp": 1568175851,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "SEAN",
+        "song": "Origins",
+        "difficulty": "Normal",
         "score": 180649,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
