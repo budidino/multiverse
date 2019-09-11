@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1568198343,
-        "song": "#unknown",
+        "timestamp": 1568198530,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "MAEVE",
+        "song": "Warriors",
+        "difficulty": "ExpertPlus",
+        "score": 242536,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4718843698501587,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 26,
+            "cutScoreWithoutMultiplier": 73500,
+            "goodCutsCount": 735,
+            "handDistanceTravelled": 914,
+            "missedCutsCount": 27,
+            "timePlayed": 165.9375,
+            "totalScore": 242536
+        }
+    },
+    {
+        "timestamp": 1568198345,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "Natural",
+        "difficulty": "ExpertPlus",
         "score": 287746,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
