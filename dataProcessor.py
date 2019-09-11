@@ -125,7 +125,7 @@ def updateHighScores():
 
     # get all scores from today
     resultsLatest = []
-    resultsLatestCSV = "time, duration, player, pc, song, cuts, difficulty, score, FC, no fail, disappearing, ghost, faster song\n"
+    resultsLatestCSV = "time, duration, fail, quit, player, pc, song, cuts, difficulty, score, FC, no fail, disappearing, ghost, faster song\n"
     for score in latestScores:
         dateFromTS = datetime.datetime.utcfromtimestamp(score["timestamp"]).strftime('%Y-%m-%d')
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -133,6 +133,10 @@ def updateHighScores():
             resultsLatest.append(score)
             
             # CSV instead of JSON to make google charts easier
+            player = "UNKNOWN"
+            if 'player' in score:
+                player = score['player']
+
             cleanPlayer = re.sub(' +', ' ', player)
             pcName = '#2'
             if score['computerName'] == "Oculus":
@@ -150,6 +154,9 @@ def updateHighScores():
 
             resultsLatestCSV += datetime.datetime.fromtimestamp(score['timestamp']).strftime('%I:%M') # time
             resultsLatestCSV += f", {int(score['gameStats']['timePlayed'])}s" # seconds played
+            resultsLatestCSV += f", {score['isFail']}"
+            resultsLatestCSV += f", {score['isQuit']}"
+            resultsLatestCSV += f", {cleanPlayer}"
             resultsLatestCSV += f", {cleanPlayer}"
             resultsLatestCSV += f", {pcName}"
             resultsLatestCSV += f", {songName}"
