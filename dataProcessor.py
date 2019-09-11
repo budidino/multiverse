@@ -70,7 +70,7 @@ def updateHighScores():
     print(f"{competitionSongName} - {timeString}")
     processedPlayers = []
     resultsCompetition = []
-    resultsCompetitionCSV = ""
+    resultsCompetitionCSV = "date, time, player, good cuts, bad cuts, difficuly, score, FC, no fail, dissappearing, ghost, faster, JR"
     for key, value in highscoresList.items():
         if key.lower() == competitionSongName.lower():
             for score in value:
@@ -81,6 +81,7 @@ def updateHighScores():
 
                     # CSV instead of JSON to make google charts easier
                     cleanPlayer = re.sub(' +', ' ', player.replace(" JR", "").replace("JR ", ""))
+
                     resultsCompetitionCSV += datetime.datetime.fromtimestamp(score['timestamp']).strftime('%b %d') # date
                     resultsCompetitionCSV += f", {datetime.datetime.fromtimestamp(score['timestamp']).strftime('%I:%M')}" # time
                     resultsCompetitionCSV += f", {cleanPlayer}"
