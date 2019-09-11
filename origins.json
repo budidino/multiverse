@@ -496,14 +496,14 @@
         }
     },
     {
-        "timestamp": 1568175370,
+        "timestamp": 1568175527,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "SEAN",
         "song": "Origins",
         "difficulty": "Normal",
-        "score": 89332,
+        "score": 96763,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -528,13 +528,13 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 5,
-            "cutScoreWithoutMultiplier": 24360,
-            "goodCutsCount": 280,
-            "handDistanceTravelled": 348,
-            "missedCutsCount": 1,
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 26133,
+            "goodCutsCount": 281,
+            "handDistanceTravelled": 378,
+            "missedCutsCount": 3,
             "timePlayed": 147.9375,
-            "totalScore": 89332
+            "totalScore": 96763
         }
     },
     {
