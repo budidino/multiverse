@@ -1,4 +1,8 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+02:27, 110s, False, False, MAEVE, #1, TurnMeOn, 212 / 244, Hard, 39642, True, False, False, False
+02:24, 110s, False, False, BIT, #1, BeatSaber, 105 / 116, Normal, 20770, True, False, False, False
+01:05, 256s, False, False, DINO, #1, ReasonForLiving, 859 / 903, ExpertPlus, 646316, False, False, False, True
+01:02, 214s, False, False, DINO, #1, ReasonForLiving, 879 / 903, ExpertPlus, 677420, False, False, False, False
 12:58, 181s, False, False, DINO, #1, ReasonForLiving, 884 / 903, ExpertPlus, 489047, False, False, False, False
 12:53, 83s, True, False, UNKNOWN, #1, #unknown, 425 / 435, #unknown, 0, False, False, False, False
 12:47, 44s, True, False, UNKNOWN, #1, #unknown, 171 / 184, #unknown, 0, False, False, False, False
