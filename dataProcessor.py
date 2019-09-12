@@ -47,6 +47,14 @@ def updateHighScores():
     # TODO: check latest file timestamp - if there are changes continue generating new highscores JSON
 
     for f in files:
+        try:
+            f = open(f, "r")
+        except IOError:
+            print('error')
+        else:
+            with f:
+            print f.readlines()
+            
         with open(f, "r") as data_file: # sometimes crashes here
             data = json.load(data_file)
 
