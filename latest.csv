@@ -1,4 +1,16 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+11:36, 54s, True, False, UNKNOWN, #1, #unknown, 152 / 167, #unknown, 0, False, False, False, True
+11:35, 134s, False, False, DINO, #1, FullCharge, 698 / 714, ExpertPlus, 541153, False, False, False, False
+11:32, 147s, False, False, DINO, #1, Origins, 564 / 584, ExpertPlus, 411580, False, False, False, False
+11:29, 125s, True, False, UNKNOWN, #1, #unknown, 500 / 533, #unknown, 0, False, False, False, False
+11:27, 125s, False, False, DINO, #1, Origins, 569 / 584, ExpertPlus, 309663, False, False, False, False
+11:24, 177s, False, False, DINO, #1, Origins, 527 / 542, Expert, 464145, False, True, False, True
+11:22, 177s, False, False, DINO, #1, Origins, 536 / 542, Expert, 472213, False, False, False, True
+11:19, 143s, False, True, UNKNOWN, #1, #unknown, 537 / 542, #unknown, 0, False, False, False, False
+06:59, 238s, False, False, MAEVE, #1, Crystallized, 1253 / 1340, Expert, 350057, True, False, False, False
+06:55, 205s, False, False, MAEVE, #1, WhatTheCat, 1009 / 1067, Expert, 324725, True, False, False, False
+06:51, 177s, False, False, MAEVE, #1, Origins, 527 / 542, Expert, 419761, False, False, False, True
+06:48, 71s, False, True, UNKNOWN, #1, #unknown, 185 / 199, #unknown, 0, False, False, False, True
 06:40, 189s, False, False, UNKNOWN, #1, #unknown, 907 / 943, #unknown, 317142, True, False, False, False
 06:37, 253s, False, False, MAEVE, #1, custom, 1563 / 1712, Expert, 438418, True, False, False, False
 06:32, 123s, False, False, MAEVE, #1, custom, 835 / 971, Expert, 226232, True, False, False, False

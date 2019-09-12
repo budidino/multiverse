@@ -48,26 +48,20 @@ def updateHighScores():
 
     for f in files:
         try:
-            f = open(f, "r")
+            data_file = open(f, "r")
         except IOError:
             print('error')
         else:
-            with f:
-            print f.readlines()
-            
-        with open(f, "r") as data_file: # sometimes crashes here
-            data = json.load(data_file)
+            with data_file:
+                data = json.load(data_file)
+                song = data["song"]
 
-            song = data["song"]
-            #data.pop('modifiers', None)
-            #data.pop('settings', None)
-
-            latestScores.append(data)
-            if song != "#unknown":
-                if song in highscoresList:
-                    highscoresList[song].append(data)
-                else:
-                    highscoresList[song] = [data]
+                latestScores.append(data)
+                if song != "#unknown":
+                    if song in highscoresList:
+                        highscoresList[song].append(data)
+                    else:
+                        highscoresList[song] = [data]
 
     # sort all the highscore lists
     for s in highscoresList.keys():
