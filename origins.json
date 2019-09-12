@@ -374,14 +374,14 @@
         }
     },
     {
-        "timestamp": 1568259707,
+        "timestamp": 1568260071,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "MJ JR",
         "song": "Origins",
         "difficulty": "Expert",
-        "score": 210981,
+        "score": 221915,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -399,20 +399,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.5155340433120728,
+            "playerHeight": 1.5128756761550903,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 6,
-            "cutScoreWithoutMultiplier": 55755,
-            "goodCutsCount": 531,
-            "handDistanceTravelled": 739,
-            "missedCutsCount": 5,
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 56700,
+            "goodCutsCount": 540,
+            "handDistanceTravelled": 774,
+            "missedCutsCount": 2,
             "timePlayed": 147.9375,
-            "totalScore": 210981
+            "totalScore": 221915
         }
     },
     {
