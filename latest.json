@@ -1,5 +1,45 @@
 [
     {
+        "timestamp": 1568260069,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "Oculus",
+        "player": "UNKNOWN",
+        "score": 221915,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5128756761550903,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 56700,
+            "goodCutsCount": 540,
+            "handDistanceTravelled": 774,
+            "missedCutsCount": 2,
+            "timePlayed": 147.9375,
+            "totalScore": 221915
+        }
+    },
+    {
         "timestamp": 1568259917,
         "song": "#unknown",
         "isFail": false,
