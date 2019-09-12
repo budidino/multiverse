@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568267566,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DLON",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
+        "score": 19567,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.566726803779602,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 7031,
+            "goodCutsCount": 89,
+            "handDistanceTravelled": 138,
+            "missedCutsCount": 3,
+            "timePlayed": 110.3125,
+            "totalScore": 19567
+        }
+    },
+    {
         "timestamp": 1568267338,
         "computerName": "Oculus",
         "isFail": false,
