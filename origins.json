@@ -374,14 +374,14 @@
         }
     },
     {
-        "timestamp": 1568191876,
+        "timestamp": 1568277789,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "VIGO JR",
         "song": "Origins",
         "difficulty": "Hard",
-        "score": 294199,
+        "score": 298678,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -399,20 +399,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.4328358173370361,
+            "playerHeight": 1.566726803779602,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 4,
-            "cutScoreWithoutMultiplier": 37976,
-            "goodCutsCount": 376,
-            "handDistanceTravelled": 784,
-            "missedCutsCount": 0,
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 39750,
+            "goodCutsCount": 375,
+            "handDistanceTravelled": 919,
+            "missedCutsCount": 2,
             "timePlayed": 147.9375,
-            "totalScore": 294199
+            "totalScore": 298678
         }
     },
     {

@@ -1,4 +1,22 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+05:04, 185s, False, False, UNKNOWN, #1, #unknown, 490 / 493, #unknown, 365707, False, False, False, False
+05:01, 178s, True, False, UNKNOWN, #1, #unknown, 577 / 611, #unknown, 0, False, False, False, False
+04:58, 50s, True, False, UNKNOWN, #1, #unknown, 155 / 168, #unknown, 0, False, False, False, False
+04:57, 232s, False, False, AJ, #1, ItsTime, 746 / 770, Hard, 517723, False, False, False, False
+04:43, 147s, False, False, VIGO JR, #1, Origins, 375 / 380, Hard, 298678, False, False, False, False
+04:34, 147s, False, False, VIGO JR, #1, Origins, 369 / 380, Hard, 276085, False, False, False, False
+04:30, 147s, False, False, KEN JR, #1, Origins, 375 / 380, Hard, 302421, False, False, False, False
+04:27, 147s, False, False, VIGO JR, #1, Origins, 371 / 380, Hard, 277729, False, False, False, False
+02:19, 147s, False, False, MJ, #1, Origins, 498 / 584, ExpertPlus, 133843, True, False, False, False
+02:16, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
+02:16, 109s, False, True, UNKNOWN, #1, #unknown, 492 / 552, #unknown, 0, True, False, False, False
+02:13, 120s, False, True, UNKNOWN, #1, #unknown, 542 / 584, #unknown, 0, True, False, False, False
+02:11, 110s, False, True, UNKNOWN, #1, #unknown, 487 / 552, #unknown, 0, True, False, False, False
+02:08, 121s, False, True, UNKNOWN, #1, #unknown, 529 / 584, #unknown, 0, True, False, False, False
+02:05, 119s, False, True, UNKNOWN, #1, #unknown, 416 / 498, #unknown, 0, True, False, False, False
+02:01, 110s, False, False, VENUS, #1, BeatSaber, 89 / 94, Easy, 19954, True, False, False, False
+01:58, 110s, False, False, LEONA, #1, BeatSaber, 93 / 94, Easy, 32412, True, False, False, False
+01:55, 110s, False, False, KRISTINE, #1, BeatSaber, 88 / 94, Easy, 19896, True, False, False, False
 01:52, 110s, False, False, DLON, #1, BeatSaber, 89 / 94, Easy, 19567, True, False, False, False
 01:48, 110s, False, False, JENNY, #1, BeatSaber, 89 / 94, Easy, 22070, True, False, False, False
 01:14, 142s, False, True, UNKNOWN, #1, #unknown, 479 / 584, #unknown, 0, True, False, False, False
