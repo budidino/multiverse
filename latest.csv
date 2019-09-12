@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+12:47, 172s, False, True, UNKNOWN, #1, #unknown, 519 / 542, #unknown, 0, False, False, False, True
+12:45, 130s, False, True, UNKNOWN, #1, #unknown, 508 / 512, #unknown, 0, False, False, False, False
+12:34, 125s, False, False, UNKNOWN, #1, #unknown, 507 / 584, #unknown, 56129, True, False, False, False
 12:03, 48s, False, True, UNKNOWN, #1, #unknown, 128 / 157, #unknown, 0, True, False, False, False
 12:02, 147s, False, False, QT, #1, Origins, 539 / 542, Expert, 439758, False, False, False, False
 11:58, 177s, False, False, MJ JR, #1, Origins, 523 / 542, Expert, 225742, True, False, False, True
