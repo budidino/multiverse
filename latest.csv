@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+05:52, 147s, False, False, UNKNOWN, #1, #unknown, 282 / 286, #unknown, 206680, False, False, False, False
+05:48, 104s, True, False, UNKNOWN, #1, #unknown, 241 / 259, #unknown, 0, False, False, False, False
+05:26, 160s, False, False, UNKNOWN, #1, #unknown, 382 / 486, #unknown, 0, True, False, False, False
 05:22, 100s, False, False, S, #1, Legend, 159 / 216, Hard, 0, True, False, False, False
 05:17, 177s, False, False, KEN JR, #1, Origins, 374 / 380, Hard, 321180, False, False, False, True
 05:15, 137s, False, False, BATA, #1, Escape, 127 / 157, Easy, 0, True, False, False, False
