@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568363716,
-        "song": "#unknown",
+        "timestamp": 1568363728,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "VIGO JR",
+        "song": "Origins",
+        "difficulty": "Hard",
         "score": 282454,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
