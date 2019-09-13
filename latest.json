@@ -1,5 +1,87 @@
 [
     {
+        "timestamp": 1568378901,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "ReasonForLiving",
+        "difficulty": "ExpertPlus",
+        "score": 321242,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5446885824203491,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 23,
+            "cutScoreWithoutMultiplier": 91245,
+            "goodCutsCount": 869,
+            "handDistanceTravelled": 1061,
+            "missedCutsCount": 11,
+            "timePlayed": 214.0,
+            "totalScore": 321242
+        }
+    },
+    {
+        "timestamp": 1568378646,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": true,
+        "computerName": "Oculus",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5446885824203491,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 66,
+            "cutScoreWithoutMultiplier": 175203,
+            "goodCutsCount": 1701,
+            "handDistanceTravelled": 1845,
+            "missedCutsCount": 45,
+            "timePlayed": 302.75,
+            "totalScore": 0
+        }
+    },
+    {
         "timestamp": 1568378326,
         "song": "#unknown",
         "isFail": false,
