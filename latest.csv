@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+07:34, 147s, False, False, UNKNOWN, #1, #unknown, 380 / 380, #unknown, 314800, False, False, False, False
+07:31, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 06:39, 125s, False, False, BENG, #1, Origins, 552 / 584, ExpertPlus, 77994, True, False, False, False
 06:36, 125s, False, False, BENG, #1, Origins, 544 / 584, ExpertPlus, 72111, True, False, False, False
 06:21, 134s, False, False, KUNG, #1, FullCharge, 562 / 574, Expert, 415013, False, False, False, False
