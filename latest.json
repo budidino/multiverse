@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568387223,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 302096,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.465783715248108,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 39312,
+            "goodCutsCount": 378,
+            "handDistanceTravelled": 779,
+            "missedCutsCount": 2,
+            "timePlayed": 147.9375,
+            "totalScore": 302096
+        }
+    },
+    {
         "timestamp": 1568387062,
         "computerName": "Oculus",
         "isFail": false,
