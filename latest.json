@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568370110,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "FullCharge",
+        "difficulty": "Expert",
+        "score": 415013,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 0.7973150014877319,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 57886,
+            "goodCutsCount": 562,
+            "handDistanceTravelled": 799,
+            "missedCutsCount": 3,
+            "timePlayed": 134.1875,
+            "totalScore": 415013
+        }
+    },
+    {
         "timestamp": 1568369966,
         "computerName": "Oculus",
         "isFail": false,
