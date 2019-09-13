@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568366560,
-        "song": "#unknown",
+        "timestamp": 1568366564,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "S",
+        "song": "Legend",
+        "difficulty": "Hard",
         "score": 0,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
