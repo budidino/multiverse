@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:35, 147s, False, False, UNKNOWN, #1, #unknown, 374 / 380, #unknown, 282454, False, False, False, False
 04:31, 177s, False, False, JOROSS JR, #1, Origins, 367 / 380, Hard, 276623, False, False, False, True
 04:29, 177s, False, False, JOROSS JR, #1, Origins, 369 / 380, Hard, 286283, False, False, False, True
 04:26, 137s, True, False, UNKNOWN, #1, #unknown, 283 / 302, #unknown, 0, False, False, False, True
