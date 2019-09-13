@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568383250,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "BadLiar",
+        "difficulty": "Expert",
+        "score": 232499,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4129568338394165,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 32,
+            "cutScoreWithoutMultiplier": 70761,
+            "goodCutsCount": 687,
+            "handDistanceTravelled": 1204,
+            "missedCutsCount": 13,
+            "timePlayed": 252.4375,
+            "totalScore": 232499
+        }
+    },
+    {
         "timestamp": 1568382984,
         "computerName": "Oculus",
         "isFail": false,
