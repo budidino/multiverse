@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568376697,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BENG",
+        "song": "custom_level_E64D6B7C5527D36005AE1801268798DD21CCF605",
+        "difficulty": "Expert",
+        "score": 584638,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4539812803268433,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 70455,
+            "goodCutsCount": 671,
+            "handDistanceTravelled": 1033,
+            "missedCutsCount": 3,
+            "timePlayed": 305.75,
+            "totalScore": 584638
+        }
+    },
+    {
         "timestamp": 1568376437,
         "song": "#unknown",
         "isFail": true,
