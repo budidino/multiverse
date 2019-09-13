@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568369963,
-        "song": "#unknown",
+        "timestamp": 1568369966,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "KUNG",
+        "song": "Immortal",
+        "difficulty": "Expert",
         "score": 533373,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
