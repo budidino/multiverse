@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568374942,
-        "song": "#unknown",
+        "timestamp": 1568374948,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MINGMING",
+        "song": "BadLiar",
+        "difficulty": "Expert",
         "score": 216617,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
