@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568386846,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "WhateverItTakes",
+        "difficulty": "Expert",
+        "score": 224771,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.465783715248108,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 29,
+            "cutScoreWithoutMultiplier": 71889,
+            "goodCutsCount": 773,
+            "handDistanceTravelled": 952,
+            "missedCutsCount": 34,
+            "timePlayed": 189.8125,
+            "totalScore": 224771
+        }
+    },
+    {
         "timestamp": 1568386593,
         "computerName": "Oculus",
         "isFail": false,
