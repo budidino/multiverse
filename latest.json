@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568463865,
-        "song": "#unknown",
+        "timestamp": 1568463877,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NOEMII",
+        "song": "WhateverItTakes",
+        "difficulty": "Hard",
         "score": 102078,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
