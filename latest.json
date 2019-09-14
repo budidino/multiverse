@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568460679,
-        "song": "#unknown",
+        "timestamp": 1568460683,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "SHA",
+        "song": "Thunder",
+        "difficulty": "Normal",
         "score": 63082,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
