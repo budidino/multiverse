@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568449622,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JOROSS JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 354784,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4586836099624634,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 40068,
+            "goodCutsCount": 378,
+            "handDistanceTravelled": 602,
+            "missedCutsCount": 1,
+            "timePlayed": 177.5,
+            "totalScore": 354784
+        }
+    },
+    {
         "timestamp": 1568449487,
         "computerName": "Oculus",
         "isFail": false,
