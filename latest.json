@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568464119,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NOEMII",
+        "song": "Natural",
+        "difficulty": "Hard",
+        "score": 104740,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7887393236160278,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 21,
+            "cutScoreWithoutMultiplier": 37516,
+            "goodCutsCount": 452,
+            "handDistanceTravelled": 582,
+            "missedCutsCount": 20,
+            "timePlayed": 185.8125,
+            "totalScore": 104740
+        }
+    },
+    {
         "timestamp": 1568463877,
         "computerName": "Oculus",
         "isFail": false,
