@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568438466,
-        "song": "#unknown",
+        "timestamp": 1568438470,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JOROSS JR",
+        "song": "Origins",
+        "difficulty": "Hard",
         "score": 303558,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
