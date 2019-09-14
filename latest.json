@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568456134,
-        "song": "#unknown",
+        "timestamp": 1568456137,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "VIGO JR",
+        "song": "Overkill",
+        "difficulty": "Expert",
         "score": 229772,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
