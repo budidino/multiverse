@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568444187,
-        "song": "#unknown",
+        "timestamp": 1568444193,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "BENG",
+        "song": "Escape",
+        "difficulty": "Hard",
         "score": 171487,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
