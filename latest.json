@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568454328,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 433394,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4661699533462524,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 55755,
+            "goodCutsCount": 531,
+            "handDistanceTravelled": 807,
+            "missedCutsCount": 8,
+            "timePlayed": 177.5,
+            "totalScore": 433394
+        }
+    },
+    {
         "timestamp": 1568454109,
         "computerName": "Oculus",
         "isFail": false,
