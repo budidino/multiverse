@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+03:48, 2s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, True
 03:47, 252s, False, False, KEN JRM, #1, BadLiar, 657 / 732, Expert, 204415, True, False, False, False
 03:43, 177s, False, False, KEN JR, #1, Origins, 379 / 380, Hard, 361173, False, True, False, True
 03:39, 110s, False, False, F, #1, BeatSaber, 86 / 94, Easy, 17159, True, False, False, False
