@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568447267,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KEN JRM",
+        "song": "BadLiar",
+        "difficulty": "Expert",
+        "score": 204415,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4586836099624634,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 48,
+            "cutScoreWithoutMultiplier": 68328,
+            "goodCutsCount": 657,
+            "handDistanceTravelled": 1520,
+            "missedCutsCount": 27,
+            "timePlayed": 252.4375,
+            "totalScore": 204415
+        }
+    },
+    {
         "timestamp": 1568446987,
         "computerName": "Oculus",
         "isFail": false,
