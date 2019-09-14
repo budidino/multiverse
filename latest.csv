@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-07:55, 110s, False, False, UNKNOWN, #1, #unknown, 114 / 116, #unknown, 33041, True, False, False, False
+07:59, 201s, False, False, UNKNOWN, #1, #unknown, 470 / 506, #unknown, 100795, True, False, False, False
+07:55, 110s, False, False, OWEN, #1, BeatSaber, 114 / 116, Normal, 33041, True, False, False, False
 07:48, 141s, False, False, IAN, #1, 100Bills, 195 / 196, Normal, 49764, True, False, False, False
 07:45, 110s, False, False, IAN, #1, BeatSaber, 112 / 116, Normal, 21453, True, False, False, False
 07:43, 201s, False, False, IAN, #1, Believer, 352 / 357, Easy, 79457, True, False, False, False
