@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568459740,
-        "song": "#unknown",
+        "timestamp": 1568459748,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NOEMI",
+        "song": "Escape",
+        "difficulty": "Normal",
         "score": 50318,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,

@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-07:15, 161s, False, False, UNKNOWN, #1, #unknown, 187 / 195, #unknown, 50318, True, False, False, False
+07:15, 161s, False, False, NOEMI, #1, Escape, 187 / 195, Normal, 50318, True, False, False, False
 07:11, 201s, False, False, NOEMI, #1, Believer, 429 / 506, Normal, 75316, True, False, False, False
 07:06, 110s, False, False, NOEMI, #1, BeatSaber, 92 / 94, Easy, 29658, True, False, False, False
 07:00, 110s, False, False, K, #1, BeatSaber, 110 / 116, Normal, 29462, True, False, False, False
