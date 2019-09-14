@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568464757,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "K",
+        "song": "Radioactive",
+        "difficulty": "Normal",
+        "score": 60375,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7887393236160278,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 63,
+            "cutScoreWithoutMultiplier": 28864,
+            "goodCutsCount": 352,
+            "handDistanceTravelled": 398,
+            "missedCutsCount": 20,
+            "timePlayed": 184.875,
+            "totalScore": 60375
+        }
+    },
+    {
         "timestamp": 1568464503,
         "song": "#unknown",
         "isFail": false,
