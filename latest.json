@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568464395,
-        "song": "#unknown",
+        "timestamp": 1568464400,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NOEMII",
+        "song": "BadLiar",
+        "difficulty": "Hard",
         "score": 114227,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
