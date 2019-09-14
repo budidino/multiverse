@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1568453654,
-        "song": "#unknown",
+        "timestamp": 1568453795,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "JOROSS JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 347367,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4661699533462524,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 39585,
+            "goodCutsCount": 377,
+            "handDistanceTravelled": 534,
+            "missedCutsCount": 2,
+            "timePlayed": 177.5,
+            "totalScore": 347367
+        }
+    },
+    {
+        "timestamp": 1568453658,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "N",
+        "song": "Epic",
+        "difficulty": "Hard",
         "score": 299455,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
