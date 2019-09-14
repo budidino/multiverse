@@ -168,15 +168,15 @@
         }
     },
     {
-        "timestamp": 1568446987,
+        "timestamp": 1568452298,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "KEN JR",
         "song": "Origins",
         "difficulty": "Hard",
-        "score": 361173,
-        "fullCombo": false,
+        "score": 363984,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -193,20 +193,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.4586836099624634,
+            "playerHeight": 1.4661699533462524,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 1,
-            "cutScoreWithoutMultiplier": 40174,
-            "goodCutsCount": 379,
-            "handDistanceTravelled": 818,
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 40280,
+            "goodCutsCount": 380,
+            "handDistanceTravelled": 787,
             "missedCutsCount": 0,
             "timePlayed": 177.5,
-            "totalScore": 361173
+            "totalScore": 363984
         }
     },
     {
