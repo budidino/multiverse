@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+03:55, 131s, True, False, UNKNOWN, #1, #unknown, 265 / 282, #unknown, 0, False, True, False, True
 03:52, 204s, False, False, KEN JR, #1, CountryRounds, 287 / 295, Hard, 227691, False, False, False, True
 03:50, 151s, True, False, UNKNOWN, #1, #unknown, 363 / 394, #unknown, 0, False, False, False, True
 03:48, 2s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, True
