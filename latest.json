@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568455917,
-        "song": "#unknown",
+        "timestamp": 1568455919,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JOROSS JR",
+        "song": "custom_level_D3FBDC4FBCA69AADB1084B7B2D44FED1A2923F0A",
+        "difficulty": "Expert",
         "score": 232833,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
