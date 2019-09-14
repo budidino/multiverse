@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568454549,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "GiveALittleLove",
+        "difficulty": "Expert",
+        "score": 560124,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4661699533462524,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 71864,
+            "goodCutsCount": 691,
+            "handDistanceTravelled": 972,
+            "missedCutsCount": 1,
+            "timePlayed": 162.9375,
+            "totalScore": 560124
+        }
+    },
+    {
         "timestamp": 1568454371,
         "song": "#unknown",
         "isFail": true,
