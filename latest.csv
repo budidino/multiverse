@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-09:55, 141s, False, False, UNKNOWN, #1, #unknown, 193 / 213, #unknown, 53883, True, False, False, False
+09:55, 141s, False, False, CHO, #1, CommercialPumping, 193 / 213, Normal, 53883, True, False, False, False
 08:46, 201s, False, False, K, #1, Believer, 436 / 506, Normal, 74793, True, False, False, False
 08:43, 201s, False, False, K, #1, Believer, 450 / 506, Normal, 96065, True, False, False, False
 08:39, 184s, False, False, K, #1, Radioactive, 352 / 435, Normal, 60375, True, False, False, False

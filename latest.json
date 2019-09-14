@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568469312,
-        "song": "#unknown",
+        "timestamp": 1568469323,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "CHO",
+        "song": "CommercialPumping",
+        "difficulty": "Normal",
         "score": 53883,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
