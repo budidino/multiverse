@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568439905,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KEN JR",
+        "song": "Thunder",
+        "difficulty": "Expert",
+        "score": 151179,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4793217182159424,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 40,
+            "cutScoreWithoutMultiplier": 59740,
+            "goodCutsCount": 580,
+            "handDistanceTravelled": 1177,
+            "missedCutsCount": 31,
+            "timePlayed": 177.375,
+            "totalScore": 151179
+        }
+    },
+    {
         "timestamp": 1568439687,
         "computerName": "Oculus",
         "isFail": false,
