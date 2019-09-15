@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568530650,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SHAQUIL",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 349503,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8804798126220703,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 13,
+            "cutScoreWithoutMultiplier": 50634,
+            "goodCutsCount": 522,
+            "handDistanceTravelled": 738,
+            "missedCutsCount": 7,
+            "timePlayed": 147.9375,
+            "totalScore": 349503
+        }
+    },
+    {
         "timestamp": 1568530453,
         "computerName": "Oculus",
         "isFail": false,
