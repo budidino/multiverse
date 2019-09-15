@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:07, 189s, False, False, INA, #1, PopStars, 332 / 341, Normal, 121677, True, False, False, False
+04:03, 28s, False, True, UNKNOWN, #1, #unknown, 10 / 86, #unknown, 0, True, False, False, False
 04:02, 36s, False, True, UNKNOWN, #1, #unknown, 78 / 114, #unknown, 0, True, False, False, False
 04:01, 189s, False, False, JOJN, #1, PopStars, 390 / 486, Hard, 73103, True, False, False, False
 03:57, 200s, False, False, JOHN, #1, Epic, 283 / 293, Easy, 94926, True, False, False, False
