@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568527692,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "GELLIE",
+        "song": "WhateverItTakes",
+        "difficulty": "Easy",
+        "score": 74891,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4975680112838745,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 23904,
+            "goodCutsCount": 249,
+            "handDistanceTravelled": 463,
+            "missedCutsCount": 8,
+            "timePlayed": 189.8125,
+            "totalScore": 74891
+        }
+    },
+    {
         "timestamp": 1568527211,
         "computerName": "Oculus",
         "isFail": false,
