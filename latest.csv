@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+12:37, 110s, False, False, KYLLE D, #1, BeatSaber, 96 / 116, Normal, 17822, True, False, False, False
+12:17, 65s, False, True, UNKNOWN, #1, #unknown, 251 / 297, #unknown, 0, True, False, False, False
 12:15, 147s, False, False, SHAQUIL, #1, Origins, 507 / 542, Expert, 161629, True, False, False, False
 12:13, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 12:12, 147s, False, False, UNKNOWN, #1, #unknown, 380 / 380, #unknown, 311880, False, False, False, False
