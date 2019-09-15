@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568527211,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BELLE",
+        "song": "ItsTime",
+        "difficulty": "Easy",
+        "score": 69163,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4218755960464478,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 26,
+            "cutScoreWithoutMultiplier": 26690,
+            "goodCutsCount": 314,
+            "handDistanceTravelled": 427,
+            "missedCutsCount": 17,
+            "timePlayed": 232.9375,
+            "totalScore": 69163
+        }
+    },
+    {
         "timestamp": 1568524213,
         "computerName": "Oculus",
         "isFail": false,
