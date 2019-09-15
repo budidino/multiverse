@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:24, 49s, False, True, UNKNOWN, #1, #unknown, 217 / 235, #unknown, 0, True, False, False, False
+04:22, 40s, True, False, UNKNOWN, #1, #unknown, 193 / 208, #unknown, 0, False, True, False, False
 04:21, 147s, False, False, SHAQUIL, #1, Origins, 526 / 542, Expert, 383431, False, True, False, False
 04:19, 2s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, True, False, False
 04:18, 147s, False, False, SHAQUIL, #1, Origins, 524 / 542, Expert, 348273, False, False, False, False
