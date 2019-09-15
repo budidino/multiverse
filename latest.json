@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568534041,
-        "song": "#unknown",
+        "timestamp": 1568534046,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JOHN",
+        "song": "CycleHit",
+        "difficulty": "Normal",
         "score": 154263,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
