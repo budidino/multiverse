@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+02:42, 177s, False, False, DINO, #1, Origins, 539 / 542, Expert, 467776, False, False, False, True
 02:40, 147s, False, False, DINO, #1, Origins, 559 / 584, ExpertPlus, 405406, False, False, False, False
 02:37, 103s, True, False, UNKNOWN, #1, #unknown, 379 / 406, #unknown, 0, False, False, False, False
 02:35, 124s, True, False, UNKNOWN, #1, #unknown, 495 / 527, #unknown, 0, False, False, False, False
