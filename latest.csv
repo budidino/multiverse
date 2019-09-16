@@ -1,4 +1,15 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:42, 177s, False, False, BIT, #1, Origins, 532 / 542, Expert, 458259, False, False, False, True
+06:39, 177s, False, False, BIT, #1, Origins, 540 / 542, Expert, 481859, False, False, False, True
+06:37, 147s, False, False, BIT, #1, Origins, 518 / 584, ExpertPlus, 156295, True, False, False, False
+06:34, 177s, False, False, BIT, #1, Origins, 520 / 542, Expert, 448862, False, True, False, True
+06:31, 177s, False, False, BIT, #1, Origins, 530 / 542, Expert, 441270, False, False, False, True
+06:29, 4s, False, True, UNKNOWN, #1, #unknown, 2 / 2, #unknown, 0, False, False, False, True
+06:18, 47s, False, True, UNKNOWN, #1, #unknown, 109 / 151, #unknown, 0, True, False, False, False
+06:17, 13s, False, True, UNKNOWN, #1, #unknown, 16 / 16, #unknown, 0, True, False, False, False
+06:16, 248s, False, True, UNKNOWN, #1, #unknown, 1026 / 1099, #unknown, 0, True, False, False, False
+06:12, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
+06:11, 147s, False, False, SHAQUIL, #1, Origins, 530 / 542, Expert, 374709, False, False, False, False
 05:08, 162s, False, False, AJ, #1, GiveALittleLove, 346 / 347, Hard, 119413, True, False, False, False
 05:05, 147s, False, False, AJ, #1, Origins, 377 / 380, Hard, 137057, True, False, False, False
 04:18, 153s, False, False, MAEVE, #1, Elixia, 718 / 744, ExpertPlus, 247126, True, False, False, False
