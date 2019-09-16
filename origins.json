@@ -626,12 +626,14 @@
         }
     },
     {
-        "timestamp": 1567832682,
+        "timestamp": 1568624705,
         "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
         "player": "AJ",
         "song": "Origins",
         "difficulty": "Hard",
-        "score": 133163,
+        "score": 137057,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -649,20 +651,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.4916990995407104,
+            "playerHeight": 1.5654290914535522,
             "disableSFX": false,
-            "reduceDebris": false,
+            "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
             "badCutsCount": 1,
-            "cutScoreWithoutMultiplier": 35530,
-            "goodCutsCount": 374,
-            "handDistanceTravelled": 614,
-            "missedCutsCount": 5,
+            "cutScoreWithoutMultiplier": 35815,
+            "goodCutsCount": 377,
+            "handDistanceTravelled": 585,
+            "missedCutsCount": 2,
             "timePlayed": 147.9375,
-            "totalScore": 133163
+            "totalScore": 137057
         }
     },
     {
