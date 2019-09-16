@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568611351,
-        "song": "#unknown",
+        "timestamp": 1568611358,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "custom_level_C1A1865119C136000A4637075FB29B9BFCF78D0C",
+        "difficulty": "Expert",
         "score": 305471,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
