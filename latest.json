@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568699433,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "custom_level_F2440B61286A37EEEF2F7F85B6EF5C638D6050AE",
+        "difficulty": "ExpertPlus",
+        "score": 83574,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": true,
+            "leftHanded": false,
+            "playerHeight": 1.6651570796966553,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 66,
+            "cutScoreWithoutMultiplier": 82650,
+            "goodCutsCount": 870,
+            "handDistanceTravelled": 1105,
+            "missedCutsCount": 95,
+            "timePlayed": 172.5625,
+            "totalScore": 83574
+        }
+    },
+    {
         "timestamp": 1568699164,
         "computerName": "Oculus",
         "isFail": false,
