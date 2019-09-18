@@ -1,12 +1,54 @@
 [
     {
-        "timestamp": 1568781217,
+        "timestamp": 1568782283,
         "song": "#unknown",
         "isFail": false,
         "isQuit": false,
         "computerName": "Oculus",
         "player": "UNKNOWN",
+        "score": 29461,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": true,
+            "leftHanded": false,
+            "playerHeight": 1.474997639656067,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 9919,
+            "goodCutsCount": 109,
+            "handDistanceTravelled": 236,
+            "missedCutsCount": 2,
+            "timePlayed": 110.3125,
+            "totalScore": 29461
+        }
+    },
+    {
+        "timestamp": 1568781221,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "AJ",
+        "song": "custom_level_2E437E7EFDA8962B3D94C4B5A596D83C02909426",
+        "difficulty": "Hard",
         "score": 194357,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
