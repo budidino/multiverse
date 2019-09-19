@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568883317,
-        "song": "#unknown",
+        "timestamp": 1568883322,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "DINO",
+        "song": "BurningSands",
+        "difficulty": "ExpertPlus",
         "score": 612754,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
