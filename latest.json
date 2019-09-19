@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568904599,
-        "song": "#unknown",
+        "timestamp": 1568904601,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "Boundless",
+        "difficulty": "ExpertPlus",
         "score": 305740,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
