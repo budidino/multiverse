@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-05:10, 177s, False, False, UNKNOWN, #1, #unknown, 379 / 380, #unknown, 328588, False, False, False, True
+05:11, 177s, False, False, YCE, #1, Origins, 379 / 380, Hard, 328588, False, False, False, True
 05:06, 209s, False, False, MAEVE, #1, custom, 1169 / 1236, ExpertPlus, 386664, True, False, False, False
 05:02, 130s, True, False, UNKNOWN, #1, #unknown, 625 / 651, #unknown, 0, False, False, False, False
 04:59, 155s, False, False, MAEVE, #1, custom, 666 / 719, Expert, 193471, True, False, False, False
