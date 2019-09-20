@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:00, 177s, False, False, MAEVE, #1, Origins, 505 / 542, Expert, 352433, False, True, False, True
 05:55, 40s, True, False, UNKNOWN, #1, #unknown, 66 / 76, #unknown, 0, False, False, True, True
 05:54, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, True, True
 05:54, 147s, False, False,  , #1, Origins, 549 / 584, ExpertPlus, 186762, True, False, False, False
