@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568972876,
-        "song": "#unknown",
+        "timestamp": 1568973250,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": " ",
+        "song": "Origins",
+        "difficulty": "ExpertPlus",
         "score": 186762,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
