@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1568967236,
-        "song": "#unknown",
+        "timestamp": 1568967245,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "HASH JR",
+        "song": "Origins",
+        "difficulty": "Hard",
         "score": 300488,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
