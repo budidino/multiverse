@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1568971566,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 303160,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5314383506774902,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 37673,
+            "goodCutsCount": 373,
+            "handDistanceTravelled": 630,
+            "missedCutsCount": 7,
+            "timePlayed": 177.5,
+            "totalScore": 303160
+        }
+    },
+    {
         "timestamp": 1568971427,
         "song": "#unknown",
         "isFail": false,
