@@ -1,12 +1,54 @@
 [
     {
-        "timestamp": 1569034445,
+        "timestamp": 1569034657,
         "song": "#unknown",
         "isFail": false,
         "isQuit": false,
         "computerName": "Oculus",
         "player": "UNKNOWN",
+        "score": 29143,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.2580299377441406,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 21,
+            "cutScoreWithoutMultiplier": 13904,
+            "goodCutsCount": 176,
+            "handDistanceTravelled": 335,
+            "missedCutsCount": 14,
+            "timePlayed": 162.9375,
+            "totalScore": 29143
+        }
+    },
+    {
+        "timestamp": 1569034472,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "AARON",
+        "song": "Elixia",
+        "difficulty": "Easy",
         "score": 19845,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,

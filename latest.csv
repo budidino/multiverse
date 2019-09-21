@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-10:54, 153s, False, False, UNKNOWN, #1, #unknown, 124 / 143, #unknown, 19845, True, False, False, False
+10:57, 162s, False, False, UNKNOWN, #1, #unknown, 176 / 211, #unknown, 29143, True, False, False, False
+10:54, 153s, False, False, AARON, #1, Elixia, 124 / 143, Easy, 19845, True, False, False, False
 10:50, 16s, False, True, UNKNOWN, #1, #unknown, 9 / 14, #unknown, 0, True, False, False, False
 10:35, 302s, False, False, VIGO, #1, BadLiar, 598 / 619, Hard, 472482, False, False, False, True
 10:31, 177s, False, False, VIGO JR, #1, Origins, 368 / 380, Hard, 292060, False, False, False, True
