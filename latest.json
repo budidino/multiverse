@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569038828,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "Warriors",
+        "difficulty": "ExpertPlus",
+        "score": 213745,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5276892185211182,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 39,
+            "cutScoreWithoutMultiplier": 68200,
+            "goodCutsCount": 682,
+            "handDistanceTravelled": 934,
+            "missedCutsCount": 67,
+            "timePlayed": 165.9375,
+            "totalScore": 213745
+        }
+    },
+    {
         "timestamp": 1569038589,
         "computerName": "Oculus",
         "isFail": false,
