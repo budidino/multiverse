@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569033063,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "VIGO JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 292060,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6711822748184204,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 37904,
+            "goodCutsCount": 368,
+            "handDistanceTravelled": 689,
+            "missedCutsCount": 7,
+            "timePlayed": 177.5,
+            "totalScore": 292060
+        }
+    },
+    {
         "timestamp": 1569032830,
         "computerName": "Oculus",
         "isFail": false,
