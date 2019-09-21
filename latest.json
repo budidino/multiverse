@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569060747,
-        "song": "#unknown",
+        "timestamp": 1569060750,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "M",
+        "song": "Warriors",
+        "difficulty": "Easy",
         "score": 67884,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
