@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+11:59, 3s, False, True, UNKNOWN, #1, #unknown, 0 / 2, #unknown, 0, True, False, False, False
 11:33, 189s, False, False, LIZ, #1, WhateverItTakes, 636 / 665, Hard, 370218, False, False, False, False
 11:30, 185s, False, False, LIZ, #1, Natural, 484 / 493, Hard, 356172, False, False, False, False
 11:26, 201s, False, False, LIZ, #1, Believer, 625 / 629, Hard, 469371, False, False, False, False
