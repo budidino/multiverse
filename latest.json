@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569034657,
-        "song": "#unknown",
+        "timestamp": 1569034665,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "AARON",
+        "song": "GiveALittleLove",
+        "difficulty": "Easy",
         "score": 29143,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
