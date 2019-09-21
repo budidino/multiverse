@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+02:01, 3s, True, False, UNKNOWN, #1, #unknown, 2 / 6, #unknown, 0, False, False, False, False
 02:01, 201s, False, False, MARK, #1, Believer, 493 / 506, Normal, 337688, False, False, False, False
 01:17, 177s, False, False, LIZ, #1, custom, 470 / 474, Hard, 351210, False, False, False, False
 01:13, 165s, False, False, LIZ, #1, Warriors, 525 / 525, Hard, 410897, False, False, False, False
