@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569039787,
-        "song": "#unknown",
+        "timestamp": 1569039792,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "    ",
+        "song": "Overkill",
+        "difficulty": "Expert",
         "score": 678776,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
