@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569036811,
-        "song": "#unknown",
+        "timestamp": 1569036813,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "LIZ",
+        "song": "WhateverItTakes",
+        "difficulty": "Hard",
         "score": 370218,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
