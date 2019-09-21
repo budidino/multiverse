@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+02:15, 177s, False, False, UNKNOWN, #1, #unknown, 368 / 380, #unknown, 67951, True, False, False, True
+02:12, 221s, False, False, MARK, #1, Radioactive, 640 / 714, Expert, 75476, True, False, False, True
 02:09, 177s, False, False, UNKNOWN, #1, #unknown, 367 / 380, #unknown, 65421, True, False, False, True
 02:07, 177s, False, False, JR MARK, #1, Origins, 277 / 286, Normal, 115424, True, False, False, True
 02:03, 91s, True, False, UNKNOWN, #1, #unknown, 198 / 212, #unknown, 0, False, False, False, False
