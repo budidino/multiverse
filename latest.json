@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569046013,
-        "song": "#unknown",
+        "timestamp": 1569046026,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JR MARK",
+        "song": "Origins",
+        "difficulty": "Normal",
         "score": 115424,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
