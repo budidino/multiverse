@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569033303,
-        "song": "#unknown",
+        "timestamp": 1569033309,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "VIGO",
+        "song": "BadLiar",
+        "difficulty": "Hard",
         "score": 472482,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
