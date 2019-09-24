@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569319962,
-        "song": "#unknown",
+        "timestamp": 1569319965,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "ELI",
+        "song": "Origins",
+        "difficulty": "Expert",
         "score": 428506,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
