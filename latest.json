@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569316342,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "J",
+        "song": "Believer",
+        "difficulty": "Easy",
+        "score": 26421,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.2073562145233154,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 47,
+            "cutScoreWithoutMultiplier": 18247,
+            "goodCutsCount": 257,
+            "handDistanceTravelled": 387,
+            "missedCutsCount": 53,
+            "timePlayed": 201.875,
+            "totalScore": 26421
+        }
+    },
+    {
         "timestamp": 1569316022,
         "computerName": "Oculus",
         "isFail": false,
