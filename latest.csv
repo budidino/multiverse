@@ -1,5 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-06:15, 125s, False, False, UNKNOWN, #1, #unknown, 552 / 584, #unknown, 79399, True, False, False, False
+06:25, 59s, False, True, UNKNOWN, #1, #unknown, 194 / 216, #unknown, 0, True, False, False, False
+06:18, 56s, False, True, UNKNOWN, #1, #unknown, 161 / 224, #unknown, 0, True, False, False, False
+06:15, 125s, False, False, ELI, #1, Origins, 552 / 584, ExpertPlus, 79399, True, False, False, False
 06:12, 147s, False, False, ELI, #1, Origins, 533 / 542, Expert, 428506, False, False, False, False
 05:23, 177s, False, False, VIGO JR, #1, Origins, 377 / 380, Hard, 336079, False, True, False, True
 05:20, 177s, False, False, KEN JR, #1, Origins, 375 / 380, Hard, 345374, False, True, False, True
