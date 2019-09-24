@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569321914,
-        "song": "#unknown",
+        "timestamp": 1569321916,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "ELI",
+        "song": "PopStars",
+        "difficulty": "Expert",
         "score": 639791,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
