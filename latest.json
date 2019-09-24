@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569322688,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ELI",
+        "song": "Warriors",
+        "difficulty": "Expert",
+        "score": 607151,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4034297466278076,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 75786,
+            "goodCutsCount": 743,
+            "handDistanceTravelled": 958,
+            "missedCutsCount": 7,
+            "timePlayed": 165.9375,
+            "totalScore": 607151
+        }
+    },
+    {
         "timestamp": 1569322455,
         "song": "#unknown",
         "isFail": false,
