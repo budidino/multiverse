@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:59, 45s, True, False, UNKNOWN, #1, #unknown, 160 / 176, #unknown, 0, False, False, True, False
 06:58, 165s, False, False, ELI, #1, Warriors, 743 / 757, Expert, 607151, False, True, False, False
 06:54, 69s, False, True, UNKNOWN, #1, #unknown, 311 / 355, #unknown, 0, True, False, False, False
 06:52, 219s, False, False, ELI, #1, custom, 726 / 746, Expert, 556698, False, False, False, False
