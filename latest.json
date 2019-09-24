@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569316816,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KEN JR",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 345374,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3291906118392944,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 40125,
+            "goodCutsCount": 375,
+            "handDistanceTravelled": 733,
+            "missedCutsCount": 3,
+            "timePlayed": 177.5,
+            "totalScore": 345374
+        }
+    },
+    {
         "timestamp": 1569316651,
         "computerName": "Oculus",
         "isFail": false,
