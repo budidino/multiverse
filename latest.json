@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569405883,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "Origins",
+        "difficulty": "ExpertPlus",
+        "score": 74360,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5759379863739014,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 12,
+            "cutScoreWithoutMultiplier": 56650,
+            "goodCutsCount": 550,
+            "handDistanceTravelled": 718,
+            "missedCutsCount": 22,
+            "timePlayed": 125.75,
+            "totalScore": 74360
+        }
+    },
+    {
         "timestamp": 1569405703,
         "song": "#unknown",
         "isFail": false,
