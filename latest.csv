@@ -1,22 +1,2 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-07:00, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, True, False, False
-07:00, 65s, True, False, UNKNOWN, #1, #unknown, 213 / 229, #unknown, 0, False, True, False, False
-06:59, 45s, True, False, UNKNOWN, #1, #unknown, 160 / 176, #unknown, 0, False, False, True, False
-06:58, 165s, False, False, ELI, #1, Warriors, 743 / 757, Expert, 607151, False, True, False, False
-06:54, 69s, False, True, UNKNOWN, #1, #unknown, 311 / 355, #unknown, 0, True, False, False, False
-06:52, 219s, False, False, ELI, #1, custom, 726 / 746, Expert, 556698, False, False, False, False
-06:48, 189s, True, False, UNKNOWN, #1, #unknown, 700 / 748, #unknown, 0, False, False, False, False
-06:45, 227s, False, False, ELI, #1, PopStars, 676 / 679, Expert, 639791, False, True, False, True
-06:38, 69s, False, True, UNKNOWN, #1, #unknown, 305 / 313, #unknown, 0, True, False, False, False
-06:27, 39s, False, True, UNKNOWN, #1, #unknown, 86 / 101, #unknown, 0, True, False, False, False
-06:25, 59s, False, True, UNKNOWN, #1, #unknown, 194 / 216, #unknown, 0, True, False, False, False
-06:18, 56s, False, True, UNKNOWN, #1, #unknown, 161 / 224, #unknown, 0, True, False, False, False
-06:15, 125s, False, False, ELI, #1, Origins, 552 / 584, ExpertPlus, 79399, True, False, False, False
-06:12, 147s, False, False, ELI, #1, Origins, 533 / 542, Expert, 428506, False, False, False, False
-05:23, 177s, False, False, VIGO JR, #1, Origins, 377 / 380, Hard, 336079, False, True, False, True
-05:20, 177s, False, False, KEN JR, #1, Origins, 375 / 380, Hard, 345374, False, True, False, True
-05:17, 201s, False, False, AJ, #1, Believer, 269 / 357, Easy, 42252, True, False, False, False
-05:12, 201s, False, False, J, #1, Believer, 257 / 357, Easy, 26421, True, False, False, False
-05:07, 201s, False, False, AJ, #1, Believer, 622 / 629, Hard, 215698, True, False, False, False
-01:08, 110s, False, False, UNKNOWN, #1, #unknown, 81 / 94, #unknown, 11730, True, False, False, False
-01:06, 110s, False, False, N, #1, BeatSaber, 89 / 94, Easy, 25474, True, False, False, False
+12:47, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
