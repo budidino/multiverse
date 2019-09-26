@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569503303,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "PopStars",
+        "difficulty": "Expert",
+        "score": 195870,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.529362440109253,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 23,
+            "cutScoreWithoutMultiplier": 63546,
+            "goodCutsCount": 623,
+            "handDistanceTravelled": 1001,
+            "missedCutsCount": 33,
+            "timePlayed": 189.25,
+            "totalScore": 195870
+        }
+    },
+    {
         "timestamp": 1569503077,
         "computerName": "Oculus",
         "isFail": false,
