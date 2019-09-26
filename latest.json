@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569472537,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "IAN",
+        "song": "Immortal",
+        "difficulty": "Hard",
+        "score": 130197,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3987362384796143,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 37,
+            "cutScoreWithoutMultiplier": 41168,
+            "goodCutsCount": 496,
+            "handDistanceTravelled": 506,
+            "missedCutsCount": 9,
+            "timePlayed": 174.1875,
+            "totalScore": 130197
+        }
+    },
+    {
         "timestamp": 1569472358,
         "song": "#unknown",
         "isFail": false,
