@@ -462,14 +462,14 @@
         }
     },
     {
-        "timestamp": 1568374486,
+        "timestamp": 1569497246,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "MINGMING",
         "song": "Origins",
         "difficulty": "Hard",
-        "score": 314800,
+        "score": 315592,
         "fullCombo": true,
         "modifiers": {
             "energyType": 0,
@@ -487,7 +487,7 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.4539812803268433,
+            "playerHeight": 1.557854413986206,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
@@ -495,12 +495,12 @@
         },
         "gameStats": {
             "badCutsCount": 0,
-            "cutScoreWithoutMultiplier": 39900,
+            "cutScoreWithoutMultiplier": 40280,
             "goodCutsCount": 380,
-            "handDistanceTravelled": 757,
+            "handDistanceTravelled": 768,
             "missedCutsCount": 0,
             "timePlayed": 147.9375,
-            "totalScore": 314800
+            "totalScore": 315592
         }
     },
     {
