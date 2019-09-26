@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569503973,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "ReasonForLiving",
+        "difficulty": "ExpertPlus",
+        "score": 321578,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6088637113571167,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 13,
+            "cutScoreWithoutMultiplier": 92220,
+            "goodCutsCount": 870,
+            "handDistanceTravelled": 1055,
+            "missedCutsCount": 20,
+            "timePlayed": 214.0,
+            "totalScore": 321578
+        }
+    },
+    {
         "timestamp": 1569503746,
         "song": "#unknown",
         "isFail": false,
