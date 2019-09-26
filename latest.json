@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569487775,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "PAN",
+        "song": "PopStars",
+        "difficulty": "Hard",
+        "score": 100704,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3987362384796143,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 43,
+            "cutScoreWithoutMultiplier": 36935,
+            "goodCutsCount": 415,
+            "handDistanceTravelled": 663,
+            "missedCutsCount": 28,
+            "timePlayed": 189.25,
+            "totalScore": 100704
+        }
+    },
+    {
         "timestamp": 1569476408,
         "computerName": "Oculus",
         "isFail": false,
