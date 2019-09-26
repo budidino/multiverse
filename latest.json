@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569498206,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 471121,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6460843086242676,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 56490,
+            "goodCutsCount": 538,
+            "handDistanceTravelled": 627,
+            "missedCutsCount": 2,
+            "timePlayed": 177.5,
+            "totalScore": 471121
+        }
+    },
+    {
         "timestamp": 1569498042,
         "computerName": "Oculus",
         "isFail": false,
