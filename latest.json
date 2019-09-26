@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569505739,
-        "song": "#unknown",
+        "timestamp": 1569505746,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MINGMING",
+        "song": "Warriors",
+        "difficulty": "Expert",
         "score": 97439,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
