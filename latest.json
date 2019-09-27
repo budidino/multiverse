@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569578156,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ANGEL",
+        "song": "Thunder",
+        "difficulty": "Normal",
+        "score": 80501,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.53857421875,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 24244,
+            "goodCutsCount": 319,
+            "handDistanceTravelled": 325,
+            "missedCutsCount": 7,
+            "timePlayed": 177.375,
+            "totalScore": 80501
+        }
+    },
+    {
         "timestamp": 1569577902,
         "computerName": "Oculus",
         "isFail": false,
