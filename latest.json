@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569578816,
-        "song": "#unknown",
+        "timestamp": 1569578820,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "IAN",
+        "song": "PopStars",
+        "difficulty": "Hard",
         "score": 120563,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
