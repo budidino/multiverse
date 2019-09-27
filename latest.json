@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569578974,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "IAN",
+        "song": "UnlimitedPower",
+        "difficulty": "Hard",
+        "score": 48164,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.53857421875,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 33,
+            "cutScoreWithoutMultiplier": 19836,
+            "goodCutsCount": 261,
+            "handDistanceTravelled": 276,
+            "missedCutsCount": 8,
+            "timePlayed": 119.8125,
+            "totalScore": 48164
+        }
+    },
+    {
         "timestamp": 1569578820,
         "computerName": "Oculus",
         "isFail": false,
