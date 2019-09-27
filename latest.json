@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569589369,
-        "song": "#unknown",
+        "timestamp": 1569589371,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "Crystallized",
+        "difficulty": "Expert",
         "score": 337638,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,

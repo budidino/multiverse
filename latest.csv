@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-09:02, 238s, False, False, UNKNOWN, #1, #unknown, 1182 / 1340, #unknown, 337638, True, False, False, False
+09:02, 238s, False, False, MAEVE, #1, Crystallized, 1182 / 1340, Expert, 337638, True, False, False, False
 08:39, 238s, False, False, BIT, #1, Crystallized, 1247 / 1340, Expert, 401706, True, False, False, False
 08:34, 317s, False, False, BIT, #1, CycleHit, 1578 / 1633, Expert, 567181, True, False, False, False
 08:28, 214s, False, False, BIT, #1, ReasonForLiving, 871 / 903, ExpertPlus, 324414, True, False, False, False
