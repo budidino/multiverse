@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569577649,
-        "song": "#unknown",
+        "timestamp": 1569577655,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "ANGEL",
+        "song": "PopStars",
+        "difficulty": "Normal",
         "score": 90998,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
