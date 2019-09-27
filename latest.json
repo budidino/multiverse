@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569590045,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "CycleHit",
+        "difficulty": "Expert",
+        "score": 512385,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5364798307418823,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 25,
+            "cutScoreWithoutMultiplier": 151704,
+            "goodCutsCount": 1548,
+            "handDistanceTravelled": 1821,
+            "missedCutsCount": 60,
+            "timePlayed": 317.1875,
+            "totalScore": 512385
+        }
+    },
+    {
         "timestamp": 1569589707,
         "computerName": "Oculus",
         "isFail": false,
