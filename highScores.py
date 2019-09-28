@@ -38,8 +38,12 @@ def updateHighScores():
 
     for f in files:
         with open(f, "r") as data_file:
-            #print(f"start: {f}")
-            data = json.load(data_file)
+            try:
+                data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+            except Exception as e:
+                print(f"damaged JSON for file: {f} - {e}")
+                continue
+
             song = data['song']
             data.pop('modifiers', None)
             data.pop('settings', None)

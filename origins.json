@@ -84,14 +84,14 @@
         }
     },
     {
-        "timestamp": 1568094277,
+        "timestamp": 1569652880,
         "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
         "player": "QT",
         "song": "Origins",
         "difficulty": "Expert",
-        "score": 442005,
+        "score": 462910,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -101,7 +101,7 @@
             "enabledObstacleType": 0,
             "fastNotes": false,
             "strictAngles": false,
-            "disappearingArrows": false,
+            "disappearingArrows": true,
             "ghostNotes": false,
             "noBombs": false,
             "songSpeed": 0
@@ -109,20 +109,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.184201955795288,
+            "playerHeight": 1.5983821153640747,
             "disableSFX": false,
-            "reduceDebris": true,
+            "reduceDebris": false,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 2,
-            "cutScoreWithoutMultiplier": 57134,
-            "goodCutsCount": 539,
-            "handDistanceTravelled": 866,
-            "missedCutsCount": 1,
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 57031,
+            "goodCutsCount": 533,
+            "handDistanceTravelled": 1014,
+            "missedCutsCount": 5,
             "timePlayed": 147.9375,
-            "totalScore": 442005
+            "totalScore": 462910
         }
     },
     {

@@ -53,7 +53,12 @@ def updateHighScores():
             print('error')
         else:
             with data_file:
-                data = json.load(data_file)
+                try:
+                    data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+                except Exception as e:
+                    print(f"damaged JSON for file: {f} - {e}")
+                    continue
+                
                 song = data["song"]
 
                 latestScores.append(data)
