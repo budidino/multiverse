@@ -6,11 +6,11 @@ time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, 
 08:37, 45s, False, True, UNKNOWN, #1, #unknown, 72 / 73, #unknown, 0, False, True, False, True
 08:37, 46s, False, True, UNKNOWN, #1, #unknown, 70 / 73, #unknown, 0, False, True, False, True
 08:35, 177s, False, False, HASH, #1, Origins, 378 / 380, Hard, 345679, False, True, False, True
-08:32, 177s, False, False, HASH, #1, Origins, 377 / 380, Hard, 316076, False, False, False, True
+08:32, 177s, False, False, HASH JR, #1, Origins, 377 / 380, Hard, 316076, False, False, False, True
 08:29, 177s, False, False, HASH JR, #1, Origins, 380 / 380, Hard, 327765, False, False, False, True
 08:26, 110s, False, True, UNKNOWN, #1, #unknown, 202 / 214, #unknown, 0, False, False, False, True
-08:25, 177s, False, False, HASH, #1, Origins, 370 / 380, Hard, 290376, False, False, False, True
-08:23, 177s, False, False, HASH, #1, Origins, 369 / 380, Hard, 301185, False, False, False, True
+08:25, 177s, False, False, HASH JR, #1, Origins, 370 / 380, Hard, 290376, False, False, False, True
+08:23, 177s, False, False, HASH JR, #1, Origins, 369 / 380, Hard, 301185, False, False, False, True
 08:20, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 08:20, 43s, False, True, UNKNOWN, #1, #unknown, 108 / 124, #unknown, 0, True, False, False, False
 08:19, 147s, False, False, HASH JR, #1, Origins, 378 / 380, Hard, 305698, False, False, False, False
