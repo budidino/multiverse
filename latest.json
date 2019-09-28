@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569673150,
-        "song": "#unknown",
+        "timestamp": 1569673153,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "HASH",
+        "song": "Origins",
+        "difficulty": "Hard",
         "score": 305698,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
