@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569673381,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 301185,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5983821153640747,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 37638,
+            "goodCutsCount": 369,
+            "handDistanceTravelled": 617,
+            "missedCutsCount": 2,
+            "timePlayed": 177.5,
+            "totalScore": 301185
+        }
+    },
+    {
         "timestamp": 1569673237,
         "song": "#unknown",
         "isFail": false,
