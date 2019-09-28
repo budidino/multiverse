@@ -1,12 +1,54 @@
 [
     {
-        "timestamp": 1569679833,
+        "timestamp": 1569680016,
         "song": "#unknown",
         "isFail": false,
         "isQuit": false,
         "computerName": "Oculus",
         "player": "UNKNOWN",
+        "score": 590845,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8437209129333496,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 81832,
+            "goodCutsCount": 772,
+            "handDistanceTravelled": 1474,
+            "missedCutsCount": 11,
+            "timePlayed": 174.1875,
+            "totalScore": 590845
+        }
+    },
+    {
+        "timestamp": 1569679834,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "Immortal",
+        "difficulty": "ExpertPlus",
         "score": 420434,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
