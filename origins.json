@@ -504,6 +504,48 @@
         }
     },
     {
+        "timestamp": 1569673927,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 316076,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5983821153640747,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 38454,
+            "goodCutsCount": 377,
+            "handDistanceTravelled": 600,
+            "missedCutsCount": 2,
+            "timePlayed": 177.5,
+            "totalScore": 316076
+        }
+    },
+    {
         "timestamp": 1569497246,
         "computerName": "Oculus",
         "isFail": false,
@@ -585,48 +627,6 @@
             "missedCutsCount": 3,
             "timePlayed": 177.5,
             "totalScore": 308630
-        }
-    },
-    {
-        "timestamp": 1569673153,
-        "computerName": "Oculus",
-        "isFail": false,
-        "isQuit": false,
-        "player": "HASH",
-        "song": "Origins",
-        "difficulty": "Hard",
-        "score": 305698,
-        "fullCombo": false,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": false,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.5983821153640747,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 1,
-            "cutScoreWithoutMultiplier": 39690,
-            "goodCutsCount": 378,
-            "handDistanceTravelled": 737,
-            "missedCutsCount": 1,
-            "timePlayed": 147.9375,
-            "totalScore": 305698
         }
     },
     {
