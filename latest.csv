@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+11:11, 162s, False, False, KING, #1, GiveALittleLove, 687 / 695, Expert, 485144, False, False, False, False
+11:07, 52s, True, False, UNKNOWN, #1, #unknown, 176 / 193, #unknown, 0, False, False, False, False
 10:25, 194s, True, False, UNKNOWN, #1, #unknown, 716 / 755, #unknown, 0, False, False, False, False
 10:22, 20s, True, False, UNKNOWN, #1, #unknown, 50 / 58, #unknown, 0, False, False, False, False
 10:21, 153s, False, False, DINO, #1, CrabRave, 704 / 715, ExpertPlus, 564641, False, False, False, False
