@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+08:08, 184s, False, False, UNKNOWN, #1, #unknown, 220 / 261, #unknown, 26434, True, False, False, False
 08:04, 201s, False, False, SYBIL, #1, Believer, 268 / 357, Easy, 25439, True, False, False, False
 06:48, 110s, False, False, UNKNOWN, #1, #unknown, 77 / 94, #unknown, 6008, True, False, False, False
 06:26, 172s, False, False, SANTHY, #1, OneHope, 246 / 286, Easy, 51224, True, False, False, False
