@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569679337,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "Origins",
+        "difficulty": "ExpertPlus",
+        "score": 377004,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8437209129333496,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 58170,
+            "goodCutsCount": 554,
+            "handDistanceTravelled": 1116,
+            "missedCutsCount": 21,
+            "timePlayed": 147.9375,
+            "totalScore": 377004
+        }
+    },
+    {
         "timestamp": 1569679163,
         "computerName": "Oculus",
         "isFail": false,
