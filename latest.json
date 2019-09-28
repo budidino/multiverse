@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569672501,
-        "song": "#unknown",
+        "timestamp": 1569672512,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "SYBIL",
+        "song": "Radioactive",
+        "difficulty": "Easy",
         "score": 26434,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
