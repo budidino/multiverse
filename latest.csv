@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+08:39, 42s, False, True, UNKNOWN, #1, #unknown, 61 / 62, #unknown, 0, False, True, False, True
 08:39, 39s, False, True, UNKNOWN, #1, #unknown, 56 / 57, #unknown, 0, False, True, False, True
 08:38, 39s, False, True, UNKNOWN, #1, #unknown, 55 / 56, #unknown, 0, False, True, False, True
 08:38, 39s, False, True, UNKNOWN, #1, #unknown, 54 / 55, #unknown, 0, False, True, False, True
@@ -12,8 +13,8 @@ time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, 
 08:23, 177s, False, False, HASH, #1, Origins, 369 / 380, Hard, 301185, False, False, False, True
 08:20, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 08:20, 43s, False, True, UNKNOWN, #1, #unknown, 108 / 124, #unknown, 0, True, False, False, False
-08:19, 147s, False, False, HASH, #1, Origins, 378 / 380, Hard, 305698, False, False, False, False
-08:16, 147s, False, False, HASH, #1, Origins, 373 / 380, Hard, 143920, True, False, False, False
+08:19, 147s, False, False, HASH JR, #1, Origins, 378 / 380, Hard, 305698, False, False, False, False
+08:16, 147s, False, False, HASH JR, #1, Origins, 373 / 380, Hard, 143920, True, False, False, False
 08:08, 184s, False, False, SYBIL, #1, Radioactive, 220 / 261, Easy, 26434, True, False, False, False
 08:04, 201s, False, False, SYBIL, #1, Believer, 268 / 357, Easy, 25439, True, False, False, False
 06:48, 110s, False, False, UNKNOWN, #1, #unknown, 77 / 94, #unknown, 6008, True, False, False, False
