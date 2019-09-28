@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569678806,
-        "song": "#unknown",
+        "timestamp": 1569678810,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "DINO",
+        "song": "Origins",
+        "difficulty": "Expert",
         "score": 449993,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
