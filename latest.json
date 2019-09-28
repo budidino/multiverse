@@ -1,12 +1,96 @@
 [
     {
-        "timestamp": 1569678946,
-        "song": "#unknown",
+        "timestamp": 1569679163,
+        "computerName": "Oculus",
         "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "Origins",
+        "difficulty": "ExpertPlus",
+        "score": 375067,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8437209129333496,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 11,
+            "cutScoreWithoutMultiplier": 58618,
+            "goodCutsCount": 553,
+            "handDistanceTravelled": 1127,
+            "missedCutsCount": 20,
+            "timePlayed": 147.9375,
+            "totalScore": 375067
+        }
+    },
+    {
+        "timestamp": 1569679009,
+        "song": "#unknown",
+        "isFail": true,
         "isQuit": false,
         "computerName": "Oculus",
         "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8437209129333496,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 8692,
+            "goodCutsCount": 82,
+            "handDistanceTravelled": 247,
+            "missedCutsCount": 6,
+            "timePlayed": 37.625,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1569678949,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "Origins",
+        "difficulty": "Expert",
         "score": 505682,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
