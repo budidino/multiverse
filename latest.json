@@ -1,12 +1,138 @@
 [
     {
-        "timestamp": 1569662728,
+        "timestamp": 1569666197,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SANTHY",
+        "song": "Elixia",
+        "difficulty": "Easy",
+        "score": 50930,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5983821153640747,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 13632,
+            "goodCutsCount": 142,
+            "handDistanceTravelled": 333,
+            "missedCutsCount": 0,
+            "timePlayed": 153.5625,
+            "totalScore": 50930
+        }
+    },
+    {
+        "timestamp": 1569663375,
         "song": "#unknown",
         "isFail": false,
         "isQuit": false,
         "computerName": "Oculus",
         "player": "UNKNOWN",
+        "score": 50368,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5983821153640747,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 16,
+            "cutScoreWithoutMultiplier": 16380,
+            "goodCutsCount": 180,
+            "handDistanceTravelled": 288,
+            "missedCutsCount": 3,
+            "timePlayed": 147.9375,
+            "totalScore": 50368
+        }
+    },
+    {
+        "timestamp": 1569663208,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SANTHY",
+        "song": "AngelVoices",
+        "difficulty": "Easy",
+        "score": 112592,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5983821153640747,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 82,
+            "cutScoreWithoutMultiplier": 45900,
+            "goodCutsCount": 510,
+            "handDistanceTravelled": 938,
+            "missedCutsCount": 15,
+            "timePlayed": 371.8125,
+            "totalScore": 112592
+        }
+    },
+    {
+        "timestamp": 1569662785,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SANTHY",
+        "song": "PopStars",
+        "difficulty": "Easy",
         "score": 45727,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
