@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569666406,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SANTHY",
+        "song": "OneHope",
+        "difficulty": "Easy",
+        "score": 51224,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5983821153640747,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 34,
+            "cutScoreWithoutMultiplier": 21894,
+            "goodCutsCount": 246,
+            "handDistanceTravelled": 430,
+            "missedCutsCount": 6,
+            "timePlayed": 172.75,
+            "totalScore": 51224
+        }
+    },
+    {
         "timestamp": 1569666197,
         "computerName": "Oculus",
         "isFail": false,
