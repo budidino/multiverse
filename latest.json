@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569753913,
-        "song": "#unknown",
+        "timestamp": 1569753923,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "DINO",
+        "song": "custom_level_69C2AA72ABBF8A0AA0EEBE239F7C17D5BB44FAE7",
+        "difficulty": "ExpertPlus",
         "score": 327185,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
