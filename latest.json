@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569748280,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "CycleHit",
+        "difficulty": "Expert",
+        "score": 585010,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6477680206298828,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 32,
+            "cutScoreWithoutMultiplier": 162019,
+            "goodCutsCount": 1573,
+            "handDistanceTravelled": 1504,
+            "missedCutsCount": 28,
+            "timePlayed": 317.1875,
+            "totalScore": 585010
+        }
+    },
+    {
         "timestamp": 1569747933,
         "song": "#unknown",
         "isFail": false,
