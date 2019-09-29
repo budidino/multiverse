@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569749483,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "Thunder",
+        "difficulty": "Hard",
+        "score": 414218,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5146557092666626,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 53970,
+            "goodCutsCount": 514,
+            "handDistanceTravelled": 911,
+            "missedCutsCount": 2,
+            "timePlayed": 177.375,
+            "totalScore": 414218
+        }
+    },
+    {
         "timestamp": 1569749294,
         "computerName": "Oculus",
         "isFail": false,
