@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569753199,
-        "song": "#unknown",
+        "timestamp": 1569753210,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "custom_level_3E876BF953031541E3EBDC006D913BDD7034D1DE",
+        "difficulty": "ExpertPlus",
         "score": 223763,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
