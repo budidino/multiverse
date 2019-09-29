@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569751951,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "BadLiar",
+        "difficulty": "Hard",
+        "score": 501273,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.508280873298645,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 65377,
+            "goodCutsCount": 611,
+            "handDistanceTravelled": 1296,
+            "missedCutsCount": 5,
+            "timePlayed": 252.4375,
+            "totalScore": 501273
+        }
+    },
+    {
         "timestamp": 1569749682,
         "computerName": "Oculus",
         "isFail": false,
