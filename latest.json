@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569753413,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "custom_level_69C2AA72ABBF8A0AA0EEBE239F7C17D5BB44FAE7",
+        "difficulty": "ExpertPlus",
+        "score": 274331,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5474307537078857,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 82820,
+            "goodCutsCount": 820,
+            "handDistanceTravelled": 1081,
+            "missedCutsCount": 67,
+            "timePlayed": 171.375,
+            "totalScore": 274331
+        }
+    },
+    {
         "timestamp": 1569753210,
         "computerName": "Oculus",
         "isFail": false,
