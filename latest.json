@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569754963,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 381960,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5504287481307983,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 23,
+            "cutScoreWithoutMultiplier": 52839,
+            "goodCutsCount": 513,
+            "handDistanceTravelled": 927,
+            "missedCutsCount": 6,
+            "timePlayed": 147.9375,
+            "totalScore": 381960
+        }
+    },
+    {
         "timestamp": 1569754760,
         "computerName": "Oculus",
         "isFail": false,
