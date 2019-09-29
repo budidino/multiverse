@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569740995,
-        "song": "#unknown",
+        "timestamp": 1569741011,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "DIANE",
+        "song": "BeatSaber",
+        "difficulty": "Normal",
         "score": 9279,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
