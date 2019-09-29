@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569761050,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "GiveALittleLove",
+        "difficulty": "Hard",
+        "score": 290228,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5151305198669434,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 37368,
+            "goodCutsCount": 346,
+            "handDistanceTravelled": 752,
+            "missedCutsCount": 0,
+            "timePlayed": 162.9375,
+            "totalScore": 290228
+        }
+    },
+    {
         "timestamp": 1569760859,
         "computerName": "Oculus",
         "isFail": false,
