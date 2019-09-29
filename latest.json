@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569757160,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "Warriors",
+        "difficulty": "Hard",
+        "score": 422090,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5317187309265137,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 53655,
+            "goodCutsCount": 511,
+            "handDistanceTravelled": 975,
+            "missedCutsCount": 4,
+            "timePlayed": 165.9375,
+            "totalScore": 422090
+        }
+    },
+    {
         "timestamp": 1569756872,
         "computerName": "Oculus",
         "isFail": false,
