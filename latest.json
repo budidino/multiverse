@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569741714,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MIGZ",
+        "song": "BeatSaber",
+        "difficulty": "Normal",
+        "score": 19662,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6463433504104614,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 6102,
+            "goodCutsCount": 113,
+            "handDistanceTravelled": 98,
+            "missedCutsCount": 2,
+            "timePlayed": 110.3125,
+            "totalScore": 19662
+        }
+    },
+    {
         "timestamp": 1569741190,
         "computerName": "Oculus",
         "isFail": false,
