@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1569840791,
-        "song": "#unknown",
+        "timestamp": 1569840808,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JUDELIE",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
         "score": 27898,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
