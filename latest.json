@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1569921512,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KEN JR",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 241803,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4947832822799683,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 18,
+            "cutScoreWithoutMultiplier": 59895,
+            "goodCutsCount": 605,
+            "handDistanceTravelled": 826,
+            "missedCutsCount": 6,
+            "timePlayed": 242.25,
+            "totalScore": 241803
+        }
+    },
+    {
         "timestamp": 1569921279,
         "computerName": "Oculus",
         "isFail": false,
