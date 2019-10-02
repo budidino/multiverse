@@ -1,4 +1,16 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:57, 171s, False, True, UNKNOWN, #1, #unknown, 785 / 912, #unknown, 0, True, False, False, False
+06:53, 198s, False, True, UNKNOWN, #1, #unknown, 920 / 1051, #unknown, 0, True, False, False, False
+06:50, 161s, False, True, UNKNOWN, #1, #unknown, 887 / 1013, #unknown, 0, True, False, False, False
+06:46, 30s, False, True, UNKNOWN, #1, #unknown, 116 / 172, #unknown, 0, True, False, False, False
+06:45, 205s, False, False, MJ, #1, WhatTheCat, 900 / 1067, Expert, 227728, True, False, False, False
+06:41, 28s, False, True, UNKNOWN, #1, #unknown, 121 / 131, #unknown, 0, True, False, False, False
+06:41, 26s, False, True, UNKNOWN, #1, #unknown, 100 / 116, #unknown, 0, True, False, False, False
+06:40, 26s, False, True, UNKNOWN, #1, #unknown, 106 / 117, #unknown, 0, True, False, False, False
+06:40, 20s, False, True, UNKNOWN, #1, #unknown, 60 / 60, #unknown, 0, True, False, False, False
+06:32, 471s, False, False, BIT, #1, custom, 3122 / 3369, ExpertPlus, 974616, True, False, False, False
+06:24, 317s, False, False, BIT, #1, CycleHit, 1604 / 1633, Expert, 617891, True, False, False, False
+06:18, 238s, False, False, BIT, #1, Crystallized, 1282 / 1340, Expert, 463267, True, False, False, False
 06:14, 153s, False, False, BIT, #1, CrabRave, 689 / 715, ExpertPlus, 261440, True, False, False, False
 06:11, 2s, False, True, UNKNOWN, #1, #unknown, 2 / 2, #unknown, 0, True, False, False, False
 06:10, 250s, False, False, BIT, #1, custom, 1330 / 1347, Expert, 536132, True, False, False, False
