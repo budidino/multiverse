@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570025895,
-        "song": "#unknown",
+        "timestamp": 1570025935,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "YENG",
+        "song": "WhatTheCat",
+        "difficulty": "Hard",
         "score": 215013,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
