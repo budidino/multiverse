@@ -1,5 +1,85 @@
 [
     {
+        "timestamp": 1570020690,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "Oculus",
+        "player": "UNKNOWN",
+        "score": 268836,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6086101531982422,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 75888,
+            "goodCutsCount": 744,
+            "handDistanceTravelled": 1138,
+            "missedCutsCount": 17,
+            "timePlayed": 222.1875,
+            "totalScore": 268836
+        }
+    },
+    {
+        "timestamp": 1570017264,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "Oculus",
+        "player": "UNKNOWN",
+        "score": 345318,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.539372444152832,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 13,
+            "cutScoreWithoutMultiplier": 97196,
+            "goodCutsCount": 1034,
+            "handDistanceTravelled": 1127,
+            "missedCutsCount": 20,
+            "timePlayed": 205.3125,
+            "totalScore": 345318
+        }
+    },
+    {
         "timestamp": 1570017049,
         "computerName": "Oculus",
         "isFail": false,
