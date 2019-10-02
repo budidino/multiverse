@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+09:26, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
 09:25, 307s, False, False, BIT, #1, custom, 1758 / 1812, ExpertPlus, 643190, True, False, False, False
 09:19, 213s, False, True, UNKNOWN, #1, #unknown, 1143 / 1349, #unknown, 0, True, False, False, False
 09:15, 153s, False, False, BIT, #1, CrabRave, 695 / 715, ExpertPlus, 264028, True, False, False, False
