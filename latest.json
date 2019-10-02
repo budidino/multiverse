@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570022127,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "CrabRave",
+        "difficulty": "ExpertPlus",
+        "score": 264028,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7048367261886597,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 72975,
+            "goodCutsCount": 695,
+            "handDistanceTravelled": 863,
+            "missedCutsCount": 12,
+            "timePlayed": 153.4375,
+            "totalScore": 264028
+        }
+    },
+    {
         "timestamp": 1570021961,
         "song": "#unknown",
         "isFail": false,
