@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570014053,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "WhatTheCat",
+        "difficulty": "Expert",
+        "score": 257786,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6751859188079834,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 48,
+            "cutScoreWithoutMultiplier": 92169,
+            "goodCutsCount": 931,
+            "handDistanceTravelled": 959,
+            "missedCutsCount": 88,
+            "timePlayed": 205.3125,
+            "totalScore": 257786
+        }
+    },
+    {
         "timestamp": 1570013842,
         "song": "#unknown",
         "isFail": false,
