@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570014398,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "custom_level_861F137D5B834567CC49AF99B33E53171B799F98",
+        "difficulty": "ExpertPlus",
+        "score": 302637,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6751859188079834,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 41,
+            "cutScoreWithoutMultiplier": 105056,
+            "goodCutsCount": 1072,
+            "handDistanceTravelled": 1153,
+            "missedCutsCount": 62,
+            "timePlayed": 319.75,
+            "totalScore": 302637
+        }
+    },
+    {
         "timestamp": 1570014053,
         "computerName": "Oculus",
         "isFail": false,
