@@ -1,4 +1,38 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+05:09, 228s, False, False, BIT, #1, custom, 1732 / 2001, ExpertPlus, 446268, True, False, False, False
+05:03, 217s, False, False, BIT, #1, BurningSands, 1069 / 1126, ExpertPlus, 368406, True, False, False, False
+04:59, 153s, False, False, BIT, #1, CrabRave, 707 / 715, ExpertPlus, 279841, True, False, False, False
+04:56, 203s, False, False, BIT, #1, Overkill, 1253 / 1308, ExpertPlus, 460413, True, False, False, False
+04:53, 203s, False, True, UNKNOWN, #1, #unknown, 1043 / 1067, #unknown, 0, True, False, False, False
+04:49, 79s, True, False, UNKNOWN, #1, #unknown, 312 / 320, #unknown, 0, False, False, False, False
+04:44, 205s, False, False, HASH JR, #1, WhatTheCat, 647 / 662, Normal, 483002, False, False, False, False
+04:40, 63s, True, False, UNKNOWN, #1, #unknown, 233 / 252, #unknown, 0, False, False, False, False
+04:38, 48s, True, False, UNKNOWN, #1, #unknown, 174 / 194, #unknown, 0, False, False, False, False
+04:37, 79s, True, False, UNKNOWN, #1, #unknown, 243 / 248, #unknown, 0, False, False, False, False
+04:35, 158s, True, False, UNKNOWN, #1, #unknown, 491 / 508, #unknown, 0, False, False, False, False
+04:31, 205s, False, False, HASH JR, #1, WhatTheCat, 649 / 662, Normal, 493005, False, False, False, False
+04:27, 153s, True, False, UNKNOWN, #1, #unknown, 472 / 490, #unknown, 0, False, False, False, False
+04:22, 161s, False, False, MAEVE, #1, custom, 900 / 925, ExpertPlus, 645781, False, False, False, False
+04:19, 205s, False, False, MAEVE, #1, WhatTheCat, 1003 / 1067, Expert, 306005, True, False, False, False
+04:15, 228s, False, False, MAEVE, #1, custom, 1616 / 2001, ExpertPlus, 340075, True, False, False, False
+04:10, 217s, False, False, MAEVE, #1, BurningSands, 1077 / 1126, ExpertPlus, 367480, True, False, False, False
+04:06, 178s, False, False, MAEVE, #1, custom, 480 / 484, Expert, 383719, False, False, False, False
+04:03, 196s, False, False, MAEVE, #1, custom, 766 / 776, Expert, 598281, False, False, False, False
+03:57, 86s, True, False, UNKNOWN, #1, #unknown, 260 / 279, #unknown, 0, False, False, False, False
+03:56, 144s, True, False, UNKNOWN, #1, #unknown, 427 / 450, #unknown, 0, False, False, False, False
+03:53, 149s, True, False, UNKNOWN, #1, #unknown, 443 / 468, #unknown, 0, False, False, False, False
+03:51, 62s, False, True, UNKNOWN, #1, #unknown, 198 / 251, #unknown, 0, True, False, False, False
+03:49, 205s, False, False, HASH JR, #1, WhatTheCat, 629 / 662, Normal, 212452, True, False, False, False
+03:43, 203s, False, False, BIT, #1, Overkill, 1249 / 1308, ExpertPlus, 432932, True, False, False, False
+03:39, 120s, False, False, BIT, #1, custom, 1054 / 1111, ExpertPlus, 328305, True, False, False, False
+03:37, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
+03:36, 214s, False, False, BIT, #1, ReasonForLiving, 876 / 903, ExpertPlus, 319890, True, False, False, False
+03:32, 317s, False, False, BIT, #1, CycleHit, 1624 / 1633, Expert, 650081, True, False, False, False
+03:27, 203s, False, True, UNKNOWN, #1, #unknown, 1024 / 1067, #unknown, 0, True, False, False, False
+03:12, 166s, False, False, JAMES , #1, custom, 652 / 818, Expert, 114524, True, False, False, False
+03:09, 199s, False, False, JAMES, #1, custom, 368 / 452, Expert, 75196, True, False, False, False
+03:05, 193s, False, False, JAMES, #1, custom, 552 / 761, Expert, 90528, True, False, False, False
+02:58, 165s, False, False, SEAN, #1, Warriors, 439 / 525, Hard, 96069, True, False, False, False
 02:55, 184s, False, False, SEAN, #1, Radioactive, 619 / 714, Expert, 44874, True, False, False, False
 02:52, 177s, False, False, SEAN, #1, Thunder, 420 / 521, Hard, 66155, True, False, False, False
 02:49, 201s, False, False, SEAN, #1, Believer, 548 / 629, Hard, 112359, True, False, False, False
