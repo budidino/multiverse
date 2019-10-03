@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570081791,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JAMES",
+        "song": "Epic",
+        "difficulty": "Hard",
+        "score": 302584,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.537105679512024,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 40670,
+            "goodCutsCount": 415,
+            "handDistanceTravelled": 648,
+            "missedCutsCount": 2,
+            "timePlayed": 200.875,
+            "totalScore": 302584
+        }
+    },
+    {
         "timestamp": 1570081574,
         "computerName": "Oculus",
         "isFail": false,
