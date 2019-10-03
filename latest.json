@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570085733,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SEAN",
+        "song": "Radioactive",
+        "difficulty": "Expert",
+        "score": 44874,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.537105679512024,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 26,
+            "cutScoreWithoutMultiplier": 47663,
+            "goodCutsCount": 619,
+            "handDistanceTravelled": 626,
+            "missedCutsCount": 69,
+            "timePlayed": 184.875,
+            "totalScore": 44874
+        }
+    },
+    {
         "timestamp": 1570085533,
         "computerName": "Oculus",
         "isFail": false,
