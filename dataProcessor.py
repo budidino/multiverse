@@ -6,7 +6,7 @@ from pprint import pprint #pritty json print
 from operator import itemgetter #sorting
 import hashlib # hash strings (detect index.html file changes)
 import time # so we can sleep
-import datetime
+from datetime import datetime
 import re # string replace
 
 # github related imports and settings
@@ -18,9 +18,10 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 2.0
 
-date_format = "%d-%m-%Y"
+date_format = "%Y-%m-%d"
 competitionSongName = "WhatTheCat"
-competitionDateStart = datetime.strptime('8/18/2008', date_format)
+competitionDateStart = datetime.strptime('2019-10-01', date_format)
+competitionDateStart = datetime.strptime('2019-10-31', date_format)
 
 ignorePlayersList = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
 
