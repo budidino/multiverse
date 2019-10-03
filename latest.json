@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570081574,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JAMES",
+        "song": "CrabRave",
+        "difficulty": "Normal",
+        "score": 130948,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.537105679512024,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 36181,
+            "goodCutsCount": 373,
+            "handDistanceTravelled": 514,
+            "missedCutsCount": 2,
+            "timePlayed": 153.4375,
+            "totalScore": 130948
+        }
+    },
+    {
         "timestamp": 1570081404,
         "song": "#unknown",
         "isFail": false,
