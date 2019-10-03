@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-02:37, 121s, False, False, UNKNOWN, #1, #unknown, 161 / 173, #unknown, 35474, True, False, False, False
+02:40, 110s, False, False, OSUS, #1, TurnMeOn, 145 / 156, Normal, 29506, True, False, False, False
+02:37, 121s, False, False, PAT, #1, Breezer, 161 / 173, Normal, 35474, True, False, False, False
 02:33, 110s, False, False, ELLY, #1, BeatSaber, 90 / 94, Easy, 19603, True, False, False, False
 02:15, 53s, True, False, UNKNOWN, #1, #unknown, 145 / 160, #unknown, 0, False, False, False, False
 02:14, 217s, False, False, HASH JR, #1, BurningSands, 461 / 472, Normal, 151914, True, False, False, False
