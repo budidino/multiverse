@@ -18,7 +18,7 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 2.0
 
-competitionSongName = "ORIGINS"
+competitionSongName = "WhatTheCat"
 ignorePlayersList = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
 
 fileHashCompetition = ""
