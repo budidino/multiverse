@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570107862,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "WhatTheCat",
+        "difficulty": "Expert",
+        "score": 320461,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": true,
+            "playerHeight": 1.6176637411117554,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 29,
+            "cutScoreWithoutMultiplier": 97873,
+            "goodCutsCount": 1009,
+            "handDistanceTravelled": 1175,
+            "missedCutsCount": 29,
+            "timePlayed": 205.3125,
+            "totalScore": 320461
+        }
+    },
+    {
         "timestamp": 1570107466,
         "computerName": "Oculus",
         "isFail": false,
