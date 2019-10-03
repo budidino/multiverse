@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570085116,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SEAN",
+        "song": "WhatTheCat",
+        "difficulty": "Expert",
+        "score": 18058,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.537105679512024,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 53,
+            "cutScoreWithoutMultiplier": 40920,
+            "goodCutsCount": 744,
+            "handDistanceTravelled": 542,
+            "missedCutsCount": 270,
+            "timePlayed": 205.3125,
+            "totalScore": 18058
+        }
+    },
+    {
         "timestamp": 1570084849,
         "computerName": "Oculus",
         "isFail": false,
