@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1570076109,
-        "song": "#unknown",
+        "timestamp": 1570077091,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "NN",
+        "song": "BeatSaber",
+        "difficulty": "Normal",
+        "score": 22782,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7288676500320435,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 9785,
+            "goodCutsCount": 103,
+            "handDistanceTravelled": 252,
+            "missedCutsCount": 7,
+            "timePlayed": 110.3125,
+            "totalScore": 22782
+        }
+    },
+    {
+        "timestamp": 1570076110,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "custom_level_A38FD8581EB892CC7090F78BFE61E9C256478CF3",
+        "difficulty": "ExpertPlus",
         "score": 550320,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
