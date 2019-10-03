@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570077312,
-        "song": "#unknown",
+        "timestamp": 1570077362,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NN",
+        "song": "Digital",
+        "difficulty": "Normal",
         "score": 147193,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
