@@ -18,7 +18,10 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 2.0
 
+date_format = "%d-%m-%Y"
 competitionSongName = "WhatTheCat"
+competitionDateStart = datetime.strptime('8/18/2008', date_format)
+
 ignorePlayersList = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
 
 fileHashCompetition = ""
