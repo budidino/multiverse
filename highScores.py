@@ -17,7 +17,7 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 10.0
 
-competitionSongName = "ORIGINS"
+competitionSongName = "WhatTheCat"
 
 def git_push():
     try:
