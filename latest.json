@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570084409,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ELLY",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
+        "score": 19603,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.537105679512024,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 6660,
+            "goodCutsCount": 90,
+            "handDistanceTravelled": 125,
+            "missedCutsCount": 1,
+            "timePlayed": 110.3125,
+            "totalScore": 19603
+        }
+    },
+    {
         "timestamp": 1570083335,
         "song": "#unknown",
         "isFail": true,
