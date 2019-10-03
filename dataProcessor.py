@@ -6,7 +6,7 @@ from pprint import pprint #pritty json print
 from operator import itemgetter #sorting
 import hashlib # hash strings (detect index.html file changes)
 import time # so we can sleep
-from datetime import datetime
+import datetime
 import re # string replace
 
 # github related imports and settings
@@ -18,10 +18,9 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 2.0
 
-date_format = "%Y-%m-%d"
 competitionSongName = "WhatTheCat"
-competitionDateStart = datetime.strptime('2019-10-01', date_format)
-competitionDateStart = datetime.strptime('2019-10-31', date_format)
+competitionDateStart = datetime.date(2019, 10, 1)
+competitionDateEnd = datetime.date(2019, 10, 31)
 
 ignorePlayersList = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
 
@@ -92,6 +91,10 @@ def updateHighScores():
 
                     # CSV instead of JSON to make google charts easier
                     cleanPlayer = re.sub(' +', ' ', player.replace(" JR", "").replace("JR ", ""))
+
+                    resultDate = datetime.date.fromtimestamp(score['timestamp'])
+                    if resultDate < competitionDateStart or resultDate > competitionDateEnd:
+                        continue
 
                     resultsCompetitionCSV += datetime.datetime.fromtimestamp(score['timestamp']).strftime('%b %d') # date
                     resultsCompetitionCSV += f", {datetime.datetime.fromtimestamp(score['timestamp']).strftime('%I:%M')}" # time

@@ -18,6 +18,8 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 waitTime = 10.0
 
 competitionSongName = "WhatTheCat"
+competitionDateStart = datetime.date(2019, 10, 1)
+competitionDateEnd = datetime.date(2019, 10, 31)
 
 def git_push():
     try:
@@ -71,6 +73,11 @@ def updateHighScores():
             for score in value:
                 player = score['player']
                 if player not in players and len(player) > 1:
+
+                    resultDate = datetime.date.fromtimestamp(score['timestamp'])
+                    if resultDate < competitionDateStart or resultDate > competitionDateEnd:
+                        continue
+
                     players.append(player)
                     good = score['gameStats']['goodCutsCount']
                     bad = score['gameStats']['badCutsCount']
