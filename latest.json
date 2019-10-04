@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570191187,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "WhatTheCat",
+        "difficulty": "Normal",
+        "score": 260224,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.539939045906067,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 68120,
+            "goodCutsCount": 655,
+            "handDistanceTravelled": 1079,
+            "missedCutsCount": 1,
+            "timePlayed": 205.3125,
+            "totalScore": 260224
+        }
+    },
+    {
         "timestamp": 1570190956,
         "computerName": "Oculus",
         "isFail": false,
