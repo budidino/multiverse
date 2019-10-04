@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570170419,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "UATDOG",
+        "song": "Machine",
+        "difficulty": "Normal",
+        "score": 133922,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.667106032371521,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 11,
+            "cutScoreWithoutMultiplier": 37260,
+            "goodCutsCount": 405,
+            "handDistanceTravelled": 532,
+            "missedCutsCount": 1,
+            "timePlayed": 179.8125,
+            "totalScore": 133922
+        }
+    },
+    {
         "timestamp": 1570170201,
         "computerName": "Oculus",
         "isFail": false,
