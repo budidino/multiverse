@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570170158,
-        "song": "#unknown",
+        "timestamp": 1570170201,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "UATDOG",
+        "song": "Believer",
+        "difficulty": "Normal",
         "score": 51569,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
