@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570171362,
-        "song": "#unknown",
+        "timestamp": 1570171366,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JAYNALYN",
+        "song": "INeedYou",
+        "difficulty": "Normal",
         "score": 63298,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
