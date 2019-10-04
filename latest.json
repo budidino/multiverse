@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570168504,
-        "song": "#unknown",
+        "timestamp": 1570168515,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JAYNALYN",
+        "song": "CommercialPumping",
+        "difficulty": "Normal",
         "score": 37252,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
