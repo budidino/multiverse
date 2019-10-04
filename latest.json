@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570190703,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "ItsTime",
+        "difficulty": "Hard",
+        "score": 623853,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.539939045906067,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 80220,
+            "goodCutsCount": 764,
+            "handDistanceTravelled": 1238,
+            "missedCutsCount": 2,
+            "timePlayed": 232.9375,
+            "totalScore": 623853
+        }
+    },
+    {
         "timestamp": 1570190414,
         "computerName": "Oculus",
         "isFail": false,
