@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570167404,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MMM",
+        "song": "PopStars",
+        "difficulty": "Expert",
+        "score": 64183,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.667106032371521,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 119,
+            "cutScoreWithoutMultiplier": 31968,
+            "goodCutsCount": 444,
+            "handDistanceTravelled": 549,
+            "missedCutsCount": 116,
+            "timePlayed": 189.25,
+            "totalScore": 64183
+        }
+    },
+    {
         "timestamp": 1570166655,
         "song": "#unknown",
         "isFail": true,
