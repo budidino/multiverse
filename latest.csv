@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+01:23, 25s, True, False, UNKNOWN, #1, #unknown, 99 / 110, #unknown, 0, False, False, False, False
 01:22, 205s, False, False, MJ, #1, WhatTheCat, 1008 / 1067, Expert, 350065, True, False, False, False
 01:18, 110s, False, False, SIR, #1, BeatSaber, 109 / 116, Normal, 24466, True, False, False, False
 12:53, 205s, False, False, HASH JR, #1, WhatTheCat, 649 / 662, Normal, 496350, False, False, False, False
