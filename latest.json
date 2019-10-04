@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570169931,
-        "song": "#unknown",
+        "timestamp": 1570169941,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "UATDOG",
+        "song": "INeedYou",
+        "difficulty": "Hard",
         "score": 59203,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
