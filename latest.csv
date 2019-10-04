@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+02:10, 130s, False, False, CAROL, #1, INeedYou, 193 / 224, Normal, 38418, True, False, False, False
 02:06, 161s, False, False, GYPSY, #1, Escape, 248 / 287, Hard, 47294, True, False, False, False
 02:03, 117s, False, False, GYPSY, #1, Legend, 210 / 289, Expert, 19384, True, False, False, False
 02:00, 170s, False, False, GYPSY, #1, CountryRounds, 207 / 208, Normal, 68093, True, False, False, False
