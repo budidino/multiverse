@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570168800,
-        "song": "#unknown",
+        "timestamp": 1570168836,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "GYPSY",
+        "song": "CountryRounds",
+        "difficulty": "Normal",
         "score": 68093,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
