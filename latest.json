@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570177110,
-        "song": "#unknown",
+        "timestamp": 1570177118,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "HASH JR",
+        "song": "WhatTheCat",
+        "difficulty": "Normal",
         "score": 245220,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
