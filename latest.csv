@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-02:03, 117s, False, False, UNKNOWN, #1, #unknown, 210 / 289, #unknown, 19384, True, False, False, False
+02:06, 161s, False, False, GYPSY, #1, Escape, 248 / 287, Hard, 47294, True, False, False, False
+02:03, 117s, False, False, GYPSY, #1, Legend, 210 / 289, Expert, 19384, True, False, False, False
 02:00, 170s, False, False, GYPSY, #1, CountryRounds, 207 / 208, Normal, 68093, True, False, False, False
 01:56, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
 01:55, 141s, False, False, JAYNALYN, #1, CommercialPumping, 198 / 213, Normal, 37252, True, False, False, False

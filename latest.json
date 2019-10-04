@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1570168989,
-        "song": "#unknown",
+        "timestamp": 1570169175,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "GYPSY",
+        "song": "Escape",
+        "difficulty": "Hard",
+        "score": 47294,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.667106032371521,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 31,
+            "cutScoreWithoutMultiplier": 19096,
+            "goodCutsCount": 248,
+            "handDistanceTravelled": 434,
+            "missedCutsCount": 8,
+            "timePlayed": 161.5,
+            "totalScore": 47294
+        }
+    },
+    {
+        "timestamp": 1570168996,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "GYPSY",
+        "song": "Legend",
+        "difficulty": "Expert",
         "score": 19384,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
