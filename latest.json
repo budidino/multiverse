@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570167713,
-        "song": "#unknown",
+        "timestamp": 1570167721,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "QIRK",
+        "song": "PopStars",
+        "difficulty": "Normal",
         "score": 115768,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
