@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570190956,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "custom_level_7ED25D3B4C32D819722056CD79A4FE8198DF2A45",
+        "difficulty": "Expert",
+        "score": 162200,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.539939045906067,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 11,
+            "cutScoreWithoutMultiplier": 47792,
+            "goodCutsCount": 464,
+            "handDistanceTravelled": 934,
+            "missedCutsCount": 9,
+            "timePlayed": 178.0625,
+            "totalScore": 162200
+        }
+    },
+    {
         "timestamp": 1570190703,
         "computerName": "Oculus",
         "isFail": false,
