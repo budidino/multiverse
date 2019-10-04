@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570182786,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "WhatTheCat",
+        "difficulty": "Hard",
+        "score": 312910,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7375127077102661,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 30,
+            "cutScoreWithoutMultiplier": 78570,
+            "goodCutsCount": 810,
+            "handDistanceTravelled": 692,
+            "missedCutsCount": 24,
+            "timePlayed": 246.375,
+            "totalScore": 312910
+        }
+    },
+    {
         "timestamp": 1570182608,
         "computerName": "Oculus",
         "isFail": false,
