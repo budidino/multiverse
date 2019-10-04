@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570171208,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JAYNALYN",
+        "song": "ReasonForLiving",
+        "difficulty": "Normal",
+        "score": 104632,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.667106032371521,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 29766,
+            "goodCutsCount": 363,
+            "handDistanceTravelled": 366,
+            "missedCutsCount": 3,
+            "timePlayed": 214.0,
+            "totalScore": 104632
+        }
+    },
+    {
         "timestamp": 1570170961,
         "computerName": "Oculus",
         "isFail": false,
