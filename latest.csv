@@ -1,5 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-05:17, 191s, False, False, UNKNOWN, #1, #unknown, 780 / 795, #unknown, 577010, False, False, False, False
+05:17, 4s, True, False, UNKNOWN, #1, #unknown, 7 / 12, #unknown, 0, False, False, False, False
+05:17, 2s, True, False, UNKNOWN, #1, #unknown, 1 / 5, #unknown, 0, False, False, False, False
+05:17, 191s, False, False, CHICKEN, #1, HighHopes, 780 / 795, Expert, 577010, False, False, False, False
 05:11, 60s, True, False, UNKNOWN, #1, #unknown, 194 / 211, #unknown, 0, False, False, False, False
 05:10, 84s, True, False, UNKNOWN, #1, #unknown, 340 / 362, #unknown, 0, False, False, False, False
 05:09, 23s, True, False, UNKNOWN, #1, #unknown, 60 / 69, #unknown, 0, False, False, False, False
