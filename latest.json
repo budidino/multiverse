@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570280837,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NOEMI",
+        "song": "Victorious",
+        "difficulty": "Hard",
+        "score": 95964,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5708197355270386,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 47,
+            "cutScoreWithoutMultiplier": 39840,
+            "goodCutsCount": 498,
+            "handDistanceTravelled": 638,
+            "missedCutsCount": 30,
+            "timePlayed": 176.0,
+            "totalScore": 95964
+        }
+    },
+    {
         "timestamp": 1570280621,
         "computerName": "Oculus",
         "isFail": false,
