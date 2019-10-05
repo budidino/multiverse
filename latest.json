@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570270164,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "TheGreatestShow",
+        "difficulty": "Expert",
+        "score": 534712,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.869586706161499,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 67932,
+            "goodCutsCount": 629,
+            "handDistanceTravelled": 1259,
+            "missedCutsCount": 0,
+            "timePlayed": 168.125,
+            "totalScore": 534712
+        }
+    },
+    {
         "timestamp": 1570267448,
         "song": "#unknown",
         "isFail": true,
