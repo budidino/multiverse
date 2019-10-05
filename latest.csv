@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:58, 176s, False, False, KUNG, #1, Victorious, 668 / 674, Expert, 542993, False, False, False, False
+04:55, 57s, True, False, UNKNOWN, #1, #unknown, 176 / 193, #unknown, 0, False, False, False, False
 04:54, 168s, False, False, KUNG, #1, TheGreatestShow, 628 / 630, Expert, 522649, False, False, False, False
 04:51, 1s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
 03:59, 105s, False, False, B, #1, custom, 6 / 380, Expert, 166, True, False, False, False
