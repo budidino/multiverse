@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570271116,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "EmperorsNewClothes",
+        "difficulty": "ExpertPlus",
+        "score": 457786,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.869586706161499,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 66356,
+            "goodCutsCount": 626,
+            "handDistanceTravelled": 1099,
+            "missedCutsCount": 15,
+            "timePlayed": 156.625,
+            "totalScore": 457786
+        }
+    },
+    {
         "timestamp": 1570270923,
         "computerName": "Oculus",
         "isFail": false,
