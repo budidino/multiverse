@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570260922,
-        "song": "#unknown",
+        "timestamp": 1570260926,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "AJ",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
         "score": 318872,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
