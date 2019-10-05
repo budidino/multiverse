@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570282185,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ALEX",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 126342,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5708197355270386,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 46,
+            "cutScoreWithoutMultiplier": 50324,
+            "goodCutsCount": 547,
+            "handDistanceTravelled": 816,
+            "missedCutsCount": 36,
+            "timePlayed": 201.875,
+            "totalScore": 126342
+        }
+    },
+    {
         "timestamp": 1570281968,
         "computerName": "Oculus",
         "isFail": false,
