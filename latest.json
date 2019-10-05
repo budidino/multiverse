@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1570281549,
-        "song": "#unknown",
+        "timestamp": 1570281765,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "ALEX",
+        "song": "Thunder",
+        "difficulty": "Normal",
+        "score": 92058,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5708197355270386,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 20,
+            "cutScoreWithoutMultiplier": 29856,
+            "goodCutsCount": 311,
+            "handDistanceTravelled": 584,
+            "missedCutsCount": 3,
+            "timePlayed": 177.375,
+            "totalScore": 92058
+        }
+    },
+    {
+        "timestamp": 1570281557,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ALEX",
+        "song": "Believer",
+        "difficulty": "Normal",
         "score": 120855,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,

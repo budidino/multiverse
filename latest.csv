@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-09:19, 201s, False, False, UNKNOWN, #1, #unknown, 395 / 506, #unknown, 120855, True, False, False, False
+09:22, 177s, False, False, ALEX, #1, Thunder, 311 / 334, Normal, 92058, True, False, False, False
+09:19, 201s, False, False, ALEX, #1, Believer, 395 / 506, Normal, 120855, True, False, False, False
 09:10, 191s, False, False, NOEMI, #1, HighHopes, 482 / 546, Hard, 107462, True, False, False, False
 09:07, 176s, False, False, NOEMI, #1, Victorious, 498 / 575, Hard, 95964, True, False, False, False
 09:03, 168s, False, False, NOEMI, #1, TheGreatestShow, 414 / 440, Hard, 119157, True, False, False, False
