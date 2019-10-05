@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570281047,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NOEMI",
+        "song": "HighHopes",
+        "difficulty": "Hard",
+        "score": 107462,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5708197355270386,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 40,
+            "cutScoreWithoutMultiplier": 40006,
+            "goodCutsCount": 482,
+            "handDistanceTravelled": 594,
+            "missedCutsCount": 24,
+            "timePlayed": 191.5,
+            "totalScore": 107462
+        }
+    },
+    {
         "timestamp": 1570280837,
         "computerName": "Oculus",
         "isFail": false,
