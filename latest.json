@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570281965,
-        "song": "#unknown",
+        "timestamp": 1570281968,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "ALEX",
+        "song": "Radioactive",
+        "difficulty": "Normal",
         "score": 89879,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
