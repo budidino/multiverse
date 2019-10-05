@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570280405,
-        "song": "#unknown",
+        "timestamp": 1570280415,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NOEMI",
+        "song": "Crystallized",
+        "difficulty": "Hard",
         "score": 86899,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
