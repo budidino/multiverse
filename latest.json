@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570283630,
-        "song": "#unknown",
+        "timestamp": 1570283640,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "CHICKEN",
+        "song": "custom_level_6cd (Aleph - 0 - fayhe)",
+        "difficulty": "Expert",
         "score": 41465,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
