@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570280617,
-        "song": "#unknown",
+        "timestamp": 1570280621,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "NOEMI",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
         "score": 119157,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
