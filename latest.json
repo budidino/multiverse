@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570259668,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JOSH",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
+        "score": 8254,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.610808253288269,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 20,
+            "cutScoreWithoutMultiplier": 6768,
+            "goodCutsCount": 72,
+            "handDistanceTravelled": 174,
+            "missedCutsCount": 2,
+            "timePlayed": 110.3125,
+            "totalScore": 8254
+        }
+    },
+    {
         "timestamp": 1570258741,
         "computerName": "Oculus",
         "isFail": false,
