@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+10:29, 147s, False, False, CHICKEN, #1, Origins, 252 / 286, Normal, 70308, True, False, False, False
 10:25, 189s, False, False, ALEX, #1, WhateverItTakes, 254 / 267, Easy, 79783, True, False, False, False
 10:21, 10s, True, False, UNKNOWN, #1, #unknown, 10 / 14, #unknown, 0, False, False, False, False
 10:18, 205s, False, False, MAEVE, #1, WhatTheCat, 846 / 864, Hard, 658061, False, False, False, False
