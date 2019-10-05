@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-06:14, 188s, False, False, UNKNOWN, #1, #unknown, 581 / 581, #unknown, 528616, False, False, False, True
+06:18, 229s, False, False, DINO, #1, HighHopes, 786 / 795, Expert, 682563, False, False, False, True
+06:14, 188s, False, False, DINO, #1, EmperorsNewClothes, 581 / 581, Expert, 528616, False, False, False, True
 06:12, 211s, False, False, DINO, #1, Victorious, 668 / 674, Expert, 581696, False, False, False, True
 06:09, 168s, False, False, DINO, #1, TheGreatestShow, 629 / 630, Expert, 534712, False, False, False, False
 05:24, 104s, True, False, UNKNOWN, #1, #unknown, 379 / 402, #unknown, 0, False, False, False, False

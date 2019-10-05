@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1570270470,
-        "song": "#unknown",
+        "timestamp": 1570270706,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "DINO",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 682563,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.869586706161499,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 82530,
+            "goodCutsCount": 786,
+            "handDistanceTravelled": 1325,
+            "missedCutsCount": 7,
+            "timePlayed": 229.8125,
+            "totalScore": 682563
+        }
+    },
+    {
+        "timestamp": 1570270474,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "EmperorsNewClothes",
+        "difficulty": "Expert",
         "score": 528616,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
