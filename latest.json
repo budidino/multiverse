@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570283245,
-        "song": "#unknown",
+        "timestamp": 1570283252,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "CHICKEN",
+        "song": "BeatSaber",
+        "difficulty": "Normal",
         "score": 25151,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
