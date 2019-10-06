@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570351004,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "BalearicPumpingNoArrows",
+        "difficulty": "Expert",
+        "score": 58573,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6830023527145386,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 44,
+            "cutScoreWithoutMultiplier": 33880,
+            "goodCutsCount": 385,
+            "handDistanceTravelled": 284,
+            "missedCutsCount": 30,
+            "timePlayed": 134.375,
+            "totalScore": 58573
+        }
+    },
+    {
         "timestamp": 1570350848,
         "computerName": "Oculus",
         "isFail": false,
