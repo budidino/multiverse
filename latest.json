@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570342450,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "BeatSaberNoArrows",
+        "difficulty": "Expert",
+        "score": 45986,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6355265378952026,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 29,
+            "cutScoreWithoutMultiplier": 22572,
+            "goodCutsCount": 228,
+            "handDistanceTravelled": 343,
+            "missedCutsCount": 10,
+            "timePlayed": 110.3125,
+            "totalScore": 45986
+        }
+    },
+    {
         "timestamp": 1570342308,
         "computerName": "Oculus",
         "isFail": false,
