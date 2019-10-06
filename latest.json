@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570342797,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "EscapeNoArrows",
+        "difficulty": "Expert",
+        "score": 75190,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6355265378952026,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 32,
+            "cutScoreWithoutMultiplier": 33440,
+            "goodCutsCount": 352,
+            "handDistanceTravelled": 368,
+            "missedCutsCount": 15,
+            "timePlayed": 161.4375,
+            "totalScore": 75190
+        }
+    },
+    {
         "timestamp": 1570342616,
         "computerName": "Oculus",
         "isFail": false,
