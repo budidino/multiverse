@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570350655,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "RumNBassNoArrows",
+        "difficulty": "Expert",
+        "score": 93942,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6830023527145386,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 66,
+            "cutScoreWithoutMultiplier": 48598,
+            "goodCutsCount": 517,
+            "handDistanceTravelled": 489,
+            "missedCutsCount": 20,
+            "timePlayed": 189.8125,
+            "totalScore": 93942
+        }
+    },
+    {
         "timestamp": 1570350451,
         "song": "#unknown",
         "isFail": false,
