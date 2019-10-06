@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570342616,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "100BillsNoArrows",
+        "difficulty": "Expert",
+        "score": 68612,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6355265378952026,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 52,
+            "cutScoreWithoutMultiplier": 34224,
+            "goodCutsCount": 372,
+            "handDistanceTravelled": 416,
+            "missedCutsCount": 13,
+            "timePlayed": 141.5,
+            "totalScore": 68612
+        }
+    },
+    {
         "timestamp": 1570342450,
         "computerName": "Oculus",
         "isFail": false,
