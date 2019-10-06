@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570344647,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "TheGreatestShow",
+        "difficulty": "ExpertPlus",
+        "score": 221016,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5495413541793823,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 14,
+            "cutScoreWithoutMultiplier": 69731,
+            "goodCutsCount": 677,
+            "handDistanceTravelled": 1181,
+            "missedCutsCount": 23,
+            "timePlayed": 168.125,
+            "totalScore": 221016
+        }
+    },
+    {
         "timestamp": 1570344470,
         "computerName": "Oculus",
         "isFail": false,
