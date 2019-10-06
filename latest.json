@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570350848,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "BeThereForYouNoArrows",
+        "difficulty": "Expert",
+        "score": 80110,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6830023527145386,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 52,
+            "cutScoreWithoutMultiplier": 39605,
+            "goodCutsCount": 445,
+            "handDistanceTravelled": 380,
+            "missedCutsCount": 22,
+            "timePlayed": 171.6875,
+            "totalScore": 80110
+        }
+    },
+    {
         "timestamp": 1570350655,
         "computerName": "Oculus",
         "isFail": false,
