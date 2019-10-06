@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:40, 170s, False, False, UNKNOWN, #1, #unknown, 472 / 544, #unknown, 91829, True, False, False, False
 04:36, 134s, False, False, BIT, #1, BalearicPumpingNoArrows, 385 / 459, Expert, 58573, True, False, False, False
 04:34, 171s, False, False, BIT, #1, BeThereForYouNoArrows, 445 / 519, Expert, 80110, True, False, False, False
 04:30, 189s, False, False, BIT, #1, RumNBassNoArrows, 517 / 603, Expert, 93942, True, False, False, False
