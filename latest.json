@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570349911,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH JR",
+        "song": "WhatTheCat",
+        "difficulty": "Normal",
+        "score": 531236,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5495413541793823,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 68432,
+            "goodCutsCount": 658,
+            "handDistanceTravelled": 1085,
+            "missedCutsCount": 0,
+            "timePlayed": 205.3125,
+            "totalScore": 531236
+        }
+    },
+    {
         "timestamp": 1570345469,
         "computerName": "Oculus",
         "isFail": false,
