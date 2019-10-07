@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570423581,
-        "song": "#unknown",
+        "timestamp": 1570423583,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "HASH JR",
+        "song": "EscapeOneSaber",
+        "difficulty": "Expert",
         "score": 62637,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
