@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570423768,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH JR",
+        "song": "ElixiaOneSaber",
+        "difficulty": "Expert",
+        "score": 48572,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.576379656791687,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 43,
+            "cutScoreWithoutMultiplier": 32680,
+            "goodCutsCount": 344,
+            "handDistanceTravelled": 481,
+            "missedCutsCount": 142,
+            "timePlayed": 153.5625,
+            "totalScore": 48572
+        }
+    },
+    {
         "timestamp": 1570423583,
         "computerName": "Oculus",
         "isFail": false,
