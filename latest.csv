@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+12:57, 45s, True, False, UNKNOWN, #1, #unknown, 121 / 133, #unknown, 0, False, False, False, False
 12:56, 147s, False, False, HASH JR, #1, Origins, 378 / 380, Hard, 285254, False, False, False, False
 12:49, 153s, False, False, HASH JR, #1, ElixiaOneSaber, 344 / 529, Expert, 48572, True, False, False, False
 12:46, 161s, False, False, HASH JR, #1, EscapeOneSaber, 276 / 368, Expert, 62637, True, False, False, False
