@@ -1,28 +1,3 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-09:27, 40s, True, False, UNKNOWN, #1, #unknown, 97 / 109, #unknown, 0, False, False, False, False
-09:26, 119s, True, False, UNKNOWN, #1, #unknown, 525 / 563, #unknown, 0, False, False, False, False
-09:24, 30s, True, False, UNKNOWN, #1, #unknown, 116 / 127, #unknown, 0, False, False, False, False
-09:23, 3s, False, True, UNKNOWN, #1, #unknown, 7 / 11, #unknown, 0, False, False, False, False
-09:21, 156s, False, False, BARTENDER, #1, EmperorsNewClothes, 617 / 650, ExpertPlus, 409532, False, False, False, False
-09:18, 156s, False, False, BARTENDER, #1, EmperorsNewClothes, 578 / 581, Expert, 452686, False, False, False, False
-09:16, 0s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
-09:15, 110s, False, False,  , #1, BeatSaber, 84 / 94, Easy, 18684, True, False, False, False
-09:01, 110s, False, False,  , #1, BeatSaber, 85 / 94, Easy, 18042, True, False, False, False
-04:33, 53s, True, False, UNKNOWN, #1, #unknown, 215 / 233, #unknown, 0, False, False, False, False
-04:32, 43s, True, False, UNKNOWN, #1, #unknown, 165 / 182, #unknown, 0, False, False, False, False
-04:31, 91s, True, False, UNKNOWN, #1, #unknown, 368 / 395, #unknown, 0, False, False, False, False
-04:30, 52s, True, False, UNKNOWN, #1, #unknown, 212 / 227, #unknown, 0, False, False, False, False
-04:29, 51s, True, False, UNKNOWN, #1, #unknown, 206 / 225, #unknown, 0, False, False, False, False
-04:28, 16s, True, False, UNKNOWN, #1, #unknown, 52 / 60, #unknown, 0, False, False, False, False
-04:27, 30s, True, False, UNKNOWN, #1, #unknown, 116 / 126, #unknown, 0, False, False, False, False
-04:27, 41s, True, False, UNKNOWN, #1, #unknown, 165 / 179, #unknown, 0, False, False, False, False
-04:26, 5s, False, True, UNKNOWN, #1, #unknown, 14 / 17, #unknown, 0, True, False, False, False
-01:53, 28s, False, True, UNKNOWN, #1, #unknown, 135 / 144, #unknown, 0, True, False, False, False
-01:52, 12s, False, True, UNKNOWN, #1, #unknown, 26 / 41, #unknown, 0, True, False, False, False
-01:00, 128s, False, True, UNKNOWN, #1, #unknown, 71 / 625, #unknown, 0, True, False, False, False
-12:57, 45s, True, False, UNKNOWN, #1, #unknown, 121 / 133, #unknown, 0, False, False, False, False
-12:56, 147s, False, False, HASH JR, #1, Origins, 378 / 380, Hard, 285254, False, False, False, False
-12:49, 153s, False, False, HASH JR, #1, ElixiaOneSaber, 344 / 529, Expert, 48572, True, False, False, False
-12:46, 161s, False, False, HASH JR, #1, EscapeOneSaber, 276 / 368, Expert, 62637, True, False, False, False
-12:43, 45s, True, False, UNKNOWN, #1, #unknown, 62 / 71, #unknown, 0, False, False, False, False
-12:39, 205s, False, False, HASH JR, #1, WhatTheCat, 660 / 662, Normal, 526536, False, False, False, False
+06:54, 110s, False, False, UNKNOWN, #1, #unknown, 84 / 94, #unknown, 19558, True, False, False, False
+06:49, 2s, False, True, UNKNOWN, #1, #unknown, 0 / 0, #unknown, 0, True, False, False, False
