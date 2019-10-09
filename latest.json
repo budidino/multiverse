@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570609988,
-        "song": "#unknown",
+        "timestamp": 1570609989,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "WhatTheCat",
+        "difficulty": "Expert",
         "score": 291351,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
