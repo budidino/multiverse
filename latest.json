@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570684507,
-        "song": "#unknown",
+        "timestamp": 1570684549,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MMM",
+        "song": "Believer",
+        "difficulty": "Normal",
         "score": 116636,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
