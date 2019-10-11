@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+01:16, 189s, False, False, RICHARD, #1, WhateverItTakes, 501 / 665, Hard, 60263, True, False, False, False
 01:12, 236s, False, False, RICHARD, #1, custom, 360 / 372, Normal, 113578, True, False, False, False
 01:08, 236s, False, False, RICHARD, #1, custom, 352 / 372, Normal, 105188, True, False, False, False
 01:03, 192s, False, False, JONIMAR, #1, custom, 628 / 1015, ExpertPlus, 73749, True, False, False, False

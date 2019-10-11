@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570771015,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "RICHARD",
+        "song": "WhateverItTakes",
+        "difficulty": "Hard",
+        "score": 60263,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.568449854850769,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 93,
+            "cutScoreWithoutMultiplier": 35070,
+            "goodCutsCount": 501,
+            "handDistanceTravelled": 563,
+            "missedCutsCount": 71,
+            "timePlayed": 189.8125,
+            "totalScore": 60263
+        }
+    },
+    {
         "timestamp": 1570770771,
         "computerName": "Oculus",
         "isFail": false,
