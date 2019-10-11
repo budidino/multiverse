@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570784579,
-        "song": "#unknown",
+        "timestamp": 1570784586,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "T",
+        "song": "WhatTheCat",
+        "difficulty": "Easy",
         "score": 127597,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
