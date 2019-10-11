@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1570769227,
-        "song": "#unknown",
+        "timestamp": 1570769452,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "JONIMAR",
+        "song": "custom_level_E29A327ABD7F15B7C3EF76FAAC2A893B68A41F4A",
+        "difficulty": "Hard",
+        "score": 30244,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.568449854850769,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 47,
+            "cutScoreWithoutMultiplier": 19670,
+            "goodCutsCount": 281,
+            "handDistanceTravelled": 321,
+            "missedCutsCount": 53,
+            "timePlayed": 116.0,
+            "totalScore": 30244
+        }
+    },
+    {
+        "timestamp": 1570769230,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "IAN",
+        "song": "custom_level_E29A327ABD7F15B7C3EF76FAAC2A893B68A41F4A",
+        "difficulty": "Hard",
         "score": 41556,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
