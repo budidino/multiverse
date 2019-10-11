@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570767580,
-        "song": "#unknown",
+        "timestamp": 1570767593,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JONIMAR",
+        "song": "Believer",
+        "difficulty": "Hard",
         "score": 69393,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
