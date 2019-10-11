@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+01:02, 192s, False, False, UNKNOWN, #1, #unknown, 628 / 1015, #unknown, 73749, True, False, False, False
 12:56, 236s, False, False, JONIMAR, #1, custom, 360 / 372, Normal, 93570, True, False, False, False
 12:50, 116s, False, False, JONIMAR, #1, custom, 281 / 381, Hard, 30244, True, False, False, False
 12:47, 116s, False, False, IAN, #1, custom, 312 / 381, Hard, 41556, True, False, False, False
