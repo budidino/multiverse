@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570770131,
-        "song": "#unknown",
+        "timestamp": 1570770214,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JONIMAR",
+        "song": "custom_level_CA715E7B3AB2B5514919893F150190717E2EFBBE",
+        "difficulty": "ExpertPlus",
         "score": 73749,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
