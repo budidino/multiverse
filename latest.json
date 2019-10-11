@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570772770,
-        "song": "#unknown",
+        "timestamp": 1570772774,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "RICHARD",
+        "song": "AngelVoices",
+        "difficulty": "Expert",
         "score": 99256,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
