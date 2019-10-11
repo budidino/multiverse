@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570771839,
-        "song": "#unknown",
+        "timestamp": 1570771848,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "JONIMAR",
+        "song": "Radioactive",
+        "difficulty": "Normal",
         "score": 55832,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
