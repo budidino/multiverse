@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570861646,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MJ",
+        "song": "custom_level_60fd (Everybody Do The Flop (asdfmovie song) - Monteblanco)",
+        "difficulty": "Expert",
+        "score": 210703,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4768584966659546,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 55536,
+            "goodCutsCount": 534,
+            "handDistanceTravelled": 606,
+            "missedCutsCount": 5,
+            "timePlayed": 140.875,
+            "totalScore": 210703
+        }
+    },
+    {
         "timestamp": 1570861405,
         "computerName": "Oculus",
         "isFail": false,
