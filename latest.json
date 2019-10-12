@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570865449,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 703208,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8512581586837769,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 92220,
+            "goodCutsCount": 870,
+            "handDistanceTravelled": 1562,
+            "missedCutsCount": 5,
+            "timePlayed": 191.5,
+            "totalScore": 703208
+        }
+    },
+    {
         "timestamp": 1570865167,
         "computerName": "Oculus",
         "isFail": false,
