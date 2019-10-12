@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570869813,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "Overkill",
+        "difficulty": "ExpertPlus",
+        "score": 413242,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6383031606674194,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 30,
+            "cutScoreWithoutMultiplier": 122100,
+            "goodCutsCount": 1221,
+            "handDistanceTravelled": 1122,
+            "missedCutsCount": 57,
+            "timePlayed": 203.9375,
+            "totalScore": 413242
+        }
+    },
+    {
         "timestamp": 1570869570,
         "song": "#unknown",
         "isFail": false,
