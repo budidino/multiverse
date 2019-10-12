@@ -1,4 +1,8 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:34, 317s, False, False, UNKNOWN, #1, #unknown, 1613 / 1633, #unknown, 642947, True, False, False, False
+04:29, 65s, False, True, UNKNOWN, #1, #unknown, 378 / 397, #unknown, 0, True, False, False, False
+04:27, 203s, False, True, UNKNOWN, #1, #unknown, 1045 / 1067, #unknown, 0, True, False, False, False
+03:44, 168s, True, False, UNKNOWN, #1, #unknown, 862 / 894, #unknown, 0, False, False, False, False
 03:41, 176s, False, False, DINO, #1, Victorious, 696 / 711, ExpertPlus, 546001, False, False, False, False
 03:38, 93s, True, False, UNKNOWN, #1, #unknown, 344 / 361, #unknown, 0, False, False, False, False
 03:36, 168s, False, False, DINO, #1, TheGreatestShow, 681 / 714, ExpertPlus, 487741, False, False, False, False
