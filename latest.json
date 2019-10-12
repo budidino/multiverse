@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570865167,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BARTENDER",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 524157,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5788459777832031,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 18,
+            "cutScoreWithoutMultiplier": 83200,
+            "goodCutsCount": 832,
+            "handDistanceTravelled": 1195,
+            "missedCutsCount": 33,
+            "timePlayed": 191.5,
+            "totalScore": 524157
+        }
+    },
+    {
         "timestamp": 1570864958,
         "computerName": "Oculus",
         "isFail": false,
