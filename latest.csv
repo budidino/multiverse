@@ -1,4 +1,9 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+03:22, 156s, False, False, BARTENDER, #1, EmperorsNewClothes, 620 / 650, ExpertPlus, 421091, False, False, False, False
+03:19, 125s, True, False, UNKNOWN, #1, #unknown, 477 / 508, #unknown, 0, False, False, False, False
+02:38, 145s, True, False, UNKNOWN, #1, #unknown, 688 / 732, #unknown, 0, False, False, False, False
+02:36, 102s, True, False, UNKNOWN, #1, #unknown, 501 / 529, #unknown, 0, False, False, False, False
+02:34, 149s, False, True, UNKNOWN, #1, #unknown, 868 / 934, #unknown, 0, True, False, False, False
 02:30, 148s, True, False, UNKNOWN, #1, #unknown, 715 / 752, #unknown, 0, False, False, False, False
 02:27, 17s, False, True, UNKNOWN, #1, #unknown, 59 / 72, #unknown, 0, True, False, False, False
 02:27, 140s, False, False, MJ, #1, custom, 534 / 540, Expert, 210703, True, False, False, False
