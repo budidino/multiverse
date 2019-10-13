@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1570954278,
-        "song": "#unknown",
+        "timestamp": 1570954448,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
+        "player": "KUNG",
+        "song": "EmperorsNewClothes",
+        "difficulty": "ExpertPlus",
+        "score": 504340,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4956761598587036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 66872,
+            "goodCutsCount": 643,
+            "handDistanceTravelled": 1018,
+            "missedCutsCount": 3,
+            "timePlayed": 156.625,
+            "totalScore": 504340
+        }
+    },
+    {
+        "timestamp": 1570954279,
         "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
         "score": 678803,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
