@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1570954649,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "Victorious",
+        "difficulty": "ExpertPlus",
+        "score": 480787,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4956761598587036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 71032,
+            "goodCutsCount": 683,
+            "handDistanceTravelled": 1057,
+            "missedCutsCount": 23,
+            "timePlayed": 176.0,
+            "totalScore": 480787
+        }
+    },
+    {
         "timestamp": 1570954448,
         "computerName": "Oculus",
         "isFail": false,
