@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1570959809,
-        "song": "#unknown",
+        "timestamp": 1570959827,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "DOMSKI",
+        "song": "BeatSaber",
+        "difficulty": "Normal",
         "score": 27551,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
