@@ -1,5 +1,89 @@
 [
     {
+        "timestamp": 1570951022,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "Natural",
+        "difficulty": "ExpertPlus",
+        "score": 598567,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4956761598587036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 79310,
+            "goodCutsCount": 770,
+            "handDistanceTravelled": 1088,
+            "missedCutsCount": 7,
+            "timePlayed": 185.8125,
+            "totalScore": 598567
+        }
+    },
+    {
+        "timestamp": 1570950812,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "BadLiar",
+        "difficulty": "ExpertPlus",
+        "score": 658147,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4956761598587036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 92803,
+            "goodCutsCount": 901,
+            "handDistanceTravelled": 1431,
+            "missedCutsCount": 19,
+            "timePlayed": 252.4375,
+            "totalScore": 658147
+        }
+    },
+    {
         "timestamp": 1570950545,
         "song": "#unknown",
         "isFail": true,
