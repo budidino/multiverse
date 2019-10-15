@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571141904,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "Warriors",
+        "difficulty": "Hard",
+        "score": 439085,
+        "fullCombo": true,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4946908950805664,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 55650,
+            "goodCutsCount": 525,
+            "handDistanceTravelled": 1041,
+            "missedCutsCount": 0,
+            "timePlayed": 165.953125,
+            "totalScore": 439085
+        }
+    },
+    {
         "timestamp": 1571141722,
         "computerName": "budid",
         "isFail": false,
