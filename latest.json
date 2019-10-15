@@ -1,15 +1,17 @@
 [
     {
-        "timestamp": 1571061408,
-        "song": "#unknown",
+        "timestamp": 1571141517,
+        "computerName": "budid",
         "isFail": false,
-        "isQuit": true,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "HighHopes",
+        "difficulty": "Hard",
+        "score": 462217,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
-            "noFail": true,
+            "noFail": false,
             "instaFail": false,
             "failOnSaberClash": false,
             "enabledObstacleType": 0,
@@ -23,302 +25,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.6100908517837524,
+            "playerHeight": 1.4946908950805664,
             "disableSFX": false,
             "reduceDebris": false,
             "noTextsAndHuds": false,
-            "advancedHud": true
+            "advancedHud": false
         },
         "gameStats": {
             "badCutsCount": 0,
-            "cutScoreWithoutMultiplier": 3074,
-            "goodCutsCount": 29,
-            "handDistanceTravelled": 72,
-            "missedCutsCount": 2,
-            "timePlayed": 22.125,
-            "totalScore": 0
-        }
-    },
-    {
-        "timestamp": 1571061362,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": true,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.6100908517837524,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 0,
-            "cutScoreWithoutMultiplier": 0,
-            "goodCutsCount": 0,
-            "handDistanceTravelled": 4,
-            "missedCutsCount": 8,
-            "timePlayed": 8.875,
-            "totalScore": 0
-        }
-    },
-    {
-        "timestamp": 1571060726,
-        "song": "#unknown",
-        "isFail": true,
-        "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": false,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.6100908517837524,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 9,
-            "cutScoreWithoutMultiplier": 28126,
-            "goodCutsCount": 287,
-            "handDistanceTravelled": 297,
-            "missedCutsCount": 13,
-            "timePlayed": 61.0625,
-            "totalScore": 0
-        }
-    },
-    {
-        "timestamp": 1571060659,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": true,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": false,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.6100908517837524,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 4,
-            "cutScoreWithoutMultiplier": 29726,
-            "goodCutsCount": 334,
-            "handDistanceTravelled": 219,
-            "missedCutsCount": 3,
-            "timePlayed": 80.6875,
-            "totalScore": 0
-        }
-    },
-    {
-        "timestamp": 1571060563,
-        "computerName": "Oculus",
-        "isFail": false,
-        "isQuit": false,
-        "player": "BB",
-        "song": "BurningSands",
-        "difficulty": "Expert",
-        "score": 607351,
-        "fullCombo": false,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": false,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.5488923788070679,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 19,
-            "cutScoreWithoutMultiplier": 84506,
-            "goodCutsCount": 899,
-            "handDistanceTravelled": 758,
-            "missedCutsCount": 8,
-            "timePlayed": 217.0,
-            "totalScore": 607351
-        }
-    },
-    {
-        "timestamp": 1571060326,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": true,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": false,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.5488923788070679,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 11,
-            "cutScoreWithoutMultiplier": 41135,
-            "goodCutsCount": 433,
-            "handDistanceTravelled": 392,
-            "missedCutsCount": 12,
-            "timePlayed": 125.3125,
-            "totalScore": 0
-        }
-    },
-    {
-        "timestamp": 1571060164,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": true,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.5488923788070679,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 1,
-            "cutScoreWithoutMultiplier": 5428,
-            "goodCutsCount": 59,
-            "handDistanceTravelled": 57,
-            "missedCutsCount": 1,
-            "timePlayed": 22.5,
-            "totalScore": 0
-        }
-    },
-    {
-        "timestamp": 1571060130,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": true,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
-        "score": 0,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.5488923788070679,
-            "disableSFX": false,
-            "reduceDebris": false,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 46,
-            "cutScoreWithoutMultiplier": 34580,
-            "goodCutsCount": 364,
-            "handDistanceTravelled": 445,
-            "missedCutsCount": 80,
-            "timePlayed": 108.0625,
-            "totalScore": 0
+            "cutScoreWithoutMultiplier": 58422,
+            "goodCutsCount": 546,
+            "handDistanceTravelled": 1055,
+            "missedCutsCount": 0,
+            "timePlayed": 191.515625,
+            "totalScore": 462217
         }
     }
 ]
