@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+10:04, 150s, False, True, UNKNOWN, #2, #unknown, 367 / 430, #unknown, 0, True, False, False, False
 09:58, 191s, False, False, MIMIM, #2, HighHopes, 339 / 348, Normal, 247404, False, False, False, False
 09:52, 165s, False, False, MINGMING, #2, Warriors, 521 / 525, Hard, 421332, False, False, False, False
 09:49, 232s, False, False, MINGMING, #2, custom, 438 / 461, Hard, 154359, True, False, False, False
