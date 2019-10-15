@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571147937,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MIMIM",
+        "song": "HighHopes",
+        "difficulty": "Normal",
+        "score": 247404,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6901676654815674,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 34578,
+            "goodCutsCount": 339,
+            "handDistanceTravelled": 669,
+            "missedCutsCount": 2,
+            "timePlayed": 191.515625,
+            "totalScore": 247404
+        }
+    },
+    {
         "timestamp": 1571147556,
         "computerName": "budid",
         "isFail": false,
