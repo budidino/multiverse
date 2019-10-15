@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571143990,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "custom_level_731-481 Senbonzakura - Kurousa P - f.Hatsune Miku",
+        "difficulty": "ExpertPlus",
+        "score": 376372,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5339739322662354,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 20,
+            "cutScoreWithoutMultiplier": 102254,
+            "goodCutsCount": 1247,
+            "handDistanceTravelled": 1029,
+            "missedCutsCount": 3,
+            "timePlayed": 244.07421875,
+            "totalScore": 376372
+        }
+    },
+    {
         "timestamp": 1571143736,
         "song": "#unknown",
         "isFail": false,
