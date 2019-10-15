@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571152551,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "TheGreatestShow",
+        "difficulty": "ExpertPlus",
+        "score": 497440,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6169729232788086,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 71656,
+            "goodCutsCount": 689,
+            "handDistanceTravelled": 1061,
+            "missedCutsCount": 15,
+            "timePlayed": 168.12109375,
+            "totalScore": 497440
+        }
+    },
+    {
         "timestamp": 1571152376,
         "computerName": "budid",
         "isFail": false,
