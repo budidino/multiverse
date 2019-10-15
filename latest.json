@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571147361,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "custom_level_9D31D3AAB3D58AB540DF63CAED06D62FF1CFEFDD",
+        "difficulty": "Hard",
+        "score": 154359,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5067481994628906,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 17,
+            "cutScoreWithoutMultiplier": 45552,
+            "goodCutsCount": 438,
+            "handDistanceTravelled": 1001,
+            "missedCutsCount": 6,
+            "timePlayed": 232.720703125,
+            "totalScore": 154359
+        }
+    },
+    {
         "timestamp": 1571147089,
         "computerName": "budid",
         "isFail": false,
