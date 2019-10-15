@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571155163,
-        "song": "#unknown",
+        "timestamp": 1571155167,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "CrabRave",
+        "difficulty": "ExpertPlus",
         "score": 506442,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
