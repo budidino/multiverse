@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571143176,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "custom_level_4373 (Came Here for Love - bennydabeast)",
+        "difficulty": "ExpertPlus",
+        "score": 543364,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5339739322662354,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 70761,
+            "goodCutsCount": 687,
+            "handDistanceTravelled": 1215,
+            "missedCutsCount": 4,
+            "timePlayed": 204.72265625,
+            "totalScore": 543364
+        }
+    },
+    {
         "timestamp": 1571142961,
         "song": "#unknown",
         "isFail": false,
