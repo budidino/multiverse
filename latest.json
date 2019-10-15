@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571142142,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "WhatTheCat",
+        "difficulty": "Normal",
+        "score": 532285,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4946908950805664,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": false
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 67877,
+            "goodCutsCount": 659,
+            "handDistanceTravelled": 1152,
+            "missedCutsCount": 1,
+            "timePlayed": 205.30859375,
+            "totalScore": 532285
+        }
+    },
+    {
         "timestamp": 1571141904,
         "computerName": "budid",
         "isFail": false,
