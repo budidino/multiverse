@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571215954,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "WhatTheCat",
+        "difficulty": "Hard",
+        "score": 683624,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5181827545166016,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 88920,
+            "goodCutsCount": 855,
+            "handDistanceTravelled": 1396,
+            "missedCutsCount": 2,
+            "timePlayed": 205.3046875,
+            "totalScore": 683624
+        }
+    },
+    {
         "timestamp": 1571215742,
         "computerName": "budid",
         "isFail": false,
