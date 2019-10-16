@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571214452,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "BurningSands",
+        "difficulty": "ExpertPlus",
+        "score": 384395,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6063580513000488,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 14,
+            "cutScoreWithoutMultiplier": 112320,
+            "goodCutsCount": 1080,
+            "handDistanceTravelled": 1391,
+            "missedCutsCount": 32,
+            "timePlayed": 216.990234375,
+            "totalScore": 384395
+        }
+    },
+    {
         "timestamp": 1571214202,
         "computerName": "budid",
         "isFail": false,
