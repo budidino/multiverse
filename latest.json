@@ -1,17 +1,17 @@
 [
     {
-        "timestamp": 1571221422,
+        "timestamp": 1571221629,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "MAEVE",
-        "song": "custom_level_F2440B61286A37EEEF2F7F85B6EF5C638D6050AE",
+        "song": "INeedYou",
         "difficulty": "ExpertPlus",
-        "score": 696399,
+        "score": 168695,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
-            "noFail": false,
+            "noFail": true,
             "instaFail": false,
             "failOnSaberClash": false,
             "enabledObstacleType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 8,
-            "cutScoreWithoutMultiplier": 98703,
-            "goodCutsCount": 997,
-            "handDistanceTravelled": 1330,
-            "missedCutsCount": 26,
-            "timePlayed": 203.03515625,
-            "totalScore": 696399
+            "badCutsCount": 21,
+            "cutScoreWithoutMultiplier": 58300,
+            "goodCutsCount": 583,
+            "handDistanceTravelled": 716,
+            "missedCutsCount": 31,
+            "timePlayed": 130.591796875,
+            "totalScore": 168695
         }
     },
     {
-        "timestamp": 1571221420,
-        "song": "#unknown",
+        "timestamp": 1571221422,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "custom_level_F2440B61286A37EEEF2F7F85B6EF5C638D6050AE",
+        "difficulty": "ExpertPlus",
         "score": 696399,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
