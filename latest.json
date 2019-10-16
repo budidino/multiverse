@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571211007,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SHAQUIL",
+        "song": "custom_level_865989367D940D9964CC158CAC54768676176EA4",
+        "difficulty": "Expert",
+        "score": 298456,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6201828718185425,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 28,
+            "cutScoreWithoutMultiplier": 80560,
+            "goodCutsCount": 848,
+            "handDistanceTravelled": 1124,
+            "missedCutsCount": 28,
+            "timePlayed": 292.216796875,
+            "totalScore": 298456
+        }
+    },
+    {
         "timestamp": 1571210788,
         "song": "#unknown",
         "isFail": false,
