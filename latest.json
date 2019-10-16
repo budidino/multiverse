@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571225909,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SKYE",
+        "song": "Boundless",
+        "difficulty": "ExpertPlus",
+        "score": 271368,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4686930179595947,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 80800,
+            "goodCutsCount": 808,
+            "handDistanceTravelled": 927,
+            "missedCutsCount": 23,
+            "timePlayed": 184.74609375,
+            "totalScore": 271368
+        }
+    },
+    {
         "timestamp": 1571225705,
         "computerName": "budid",
         "isFail": false,
