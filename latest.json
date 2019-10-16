@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571221863,
-        "song": "#unknown",
+        "timestamp": 1571221871,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BEEP",
+        "song": "PopStars",
+        "difficulty": "ExpertPlus",
         "score": 262903,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
