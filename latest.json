@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571226146,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SKYE",
+        "song": "custom_level_52CF3774EF1705F2830A85AD3147BE9C52C795AF",
+        "difficulty": "ExpertPlus",
+        "score": 248763,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4686930179595947,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 12,
+            "cutScoreWithoutMultiplier": 76255,
+            "goodCutsCount": 755,
+            "handDistanceTravelled": 984,
+            "missedCutsCount": 26,
+            "timePlayed": 197.91796875,
+            "totalScore": 248763
+        }
+    },
+    {
         "timestamp": 1571225909,
         "computerName": "budid",
         "isFail": false,
