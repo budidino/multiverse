@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571394051,
-        "song": "#unknown",
+        "timestamp": 1571394059,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "PILYO",
+        "song": "Elixia",
+        "difficulty": "ExpertPlus",
         "score": 505981,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
