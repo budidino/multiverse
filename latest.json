@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571482403,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JET",
+        "song": "custom_level_865989367D940D9964CC158CAC54768676176EA4",
+        "difficulty": "Hard",
+        "score": 375912,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3936347961425781,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 51980,
+            "goodCutsCount": 565,
+            "handDistanceTravelled": 679,
+            "missedCutsCount": 9,
+            "timePlayed": 243.5078125,
+            "totalScore": 375912
+        }
+    },
+    {
         "timestamp": 1571482132,
         "computerName": "budid",
         "isFail": false,
@@ -286,4 +328,9 @@
             "cutScoreWithoutMultiplier": 53956,
             "goodCutsCount": 574,
             "handDistanceTravelled": 667,
-            "missedCutsCoun
+            "missedCutsCount": 7,
+            "timePlayed": 260.8984375,
+            "totalScore": 427527
+        }
+    }
+]
