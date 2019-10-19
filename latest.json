@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571482704,
-        "song": "#unknown",
+        "timestamp": 1571482710,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JET",
+        "song": "custom_level_D54AD194FE09598964D1C065887E52F2C4248B30",
+        "difficulty": "Hard",
         "score": 410810,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
