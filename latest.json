@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571562104,
-        "song": "#unknown",
+        "timestamp": 1571562273,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JOHNZKY",
+        "song": "Escape",
+        "difficulty": "Easy",
         "score": 41030,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
