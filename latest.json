@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571567236,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "EmperorsNewClothes",
+        "difficulty": "ExpertPlus",
+        "score": 510836,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.423654317855835,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 67410,
+            "goodCutsCount": 642,
+            "handDistanceTravelled": 1158,
+            "missedCutsCount": 6,
+            "timePlayed": 156.6484375,
+            "totalScore": 510836
+        }
+    },
+    {
         "timestamp": 1571567070,
         "song": "#unknown",
         "isFail": false,
