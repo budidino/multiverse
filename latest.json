@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1571574162,
+        "timestamp": 1571574372,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "BIT",
-        "song": "CrabRave",
+        "song": "PopStars",
         "difficulty": "ExpertPlus",
-        "score": 524272,
+        "score": 671772,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 9,
-            "cutScoreWithoutMultiplier": 72384,
-            "goodCutsCount": 696,
-            "handDistanceTravelled": 949,
-            "missedCutsCount": 10,
-            "timePlayed": 153.40234375,
-            "totalScore": 524272
+            "badCutsCount": 16,
+            "cutScoreWithoutMultiplier": 93704,
+            "goodCutsCount": 901,
+            "handDistanceTravelled": 1214,
+            "missedCutsCount": 17,
+            "timePlayed": 189.25390625,
+            "totalScore": 671772
         }
     },
     {
-        "timestamp": 1571574158,
-        "song": "#unknown",
+        "timestamp": 1571574162,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "CrabRave",
+        "difficulty": "ExpertPlus",
         "score": 524272,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
