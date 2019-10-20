@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571558497,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JOHNZKY ",
+        "song": "Escape",
+        "difficulty": "Normal",
+        "score": 56851,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6753251552581787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 15633,
+            "goodCutsCount": 193,
+            "handDistanceTravelled": 317,
+            "missedCutsCount": 0,
+            "timePlayed": 161.46484375,
+            "totalScore": 56851
+        }
+    },
+    {
         "timestamp": 1571558214,
         "computerName": "budid",
         "isFail": false,
