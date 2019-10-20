@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571566030,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "EDITH FE",
+        "song": "BalearicPumping",
+        "difficulty": "Easy",
+        "score": 25107,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.423654317855835,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 14,
+            "cutScoreWithoutMultiplier": 9548,
+            "goodCutsCount": 154,
+            "handDistanceTravelled": 167,
+            "missedCutsCount": 2,
+            "timePlayed": 134.37890625,
+            "totalScore": 25107
+        }
+    },
+    {
         "timestamp": 1571565872,
         "song": "#unknown",
         "isFail": false,
