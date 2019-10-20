@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+08:01, 1s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, False, False, False, False
+08:00, 317s, False, False, KUNG, #2, CycleHit, 1580 / 1633, Expert, 1117100, False, False, False, False
 07:55, 9s, True, False, UNKNOWN, #2, #unknown, 31 / 37, #unknown, 0, False, False, False, False
 07:54, 169s, True, False, UNKNOWN, #2, #unknown, 826 / 867, #unknown, 0, False, False, False, False
 07:51, 45s, True, False, UNKNOWN, #2, #unknown, 221 / 238, #unknown, 0, False, False, False, False
