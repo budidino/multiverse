@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:04, 13s, False, True, UNKNOWN, #2, #unknown, 12 / 20, #unknown, 0, True, False, False, False
 05:12, 191s, False, False, MOP, #2, HighHopes, 428 / 546, Hard, 49083, True, False, False, False
 05:08, 201s, False, False, JOHNZKY, #2, Believer, 567 / 629, Hard, 152530, True, False, False, False
 05:04, 161s, False, False, JOHNZKY, #2, Escape, 151 / 157, Easy, 41030, True, False, False, False
