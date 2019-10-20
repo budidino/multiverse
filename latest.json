@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571554527,
-        "song": "#unknown",
+        "timestamp": 1571554544,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JOHNZKY",
+        "song": "Natural",
+        "difficulty": "Normal",
         "score": 77063,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
