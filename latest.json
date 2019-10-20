@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571554937,
-        "song": "#unknown",
+        "timestamp": 1571554950,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BACS",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
         "score": 31259,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
