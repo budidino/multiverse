@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571544088,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JUSTIN",
+        "song": "CountryRounds",
+        "difficulty": "Normal",
+        "score": 35973,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.522660493850708,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 12810,
+            "goodCutsCount": 183,
+            "handDistanceTravelled": 368,
+            "missedCutsCount": 15,
+            "timePlayed": 170.08984375,
+            "totalScore": 35973
+        }
+    },
+    {
         "timestamp": 1571543396,
         "computerName": "budid",
         "isFail": false,
