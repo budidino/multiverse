@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571555168,
-        "song": "#unknown",
+        "timestamp": 1571555178,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "PAUL",
+        "song": "CountryRounds",
+        "difficulty": "Normal",
         "score": 65414,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
