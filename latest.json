@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571561660,
-        "song": "#unknown",
+        "timestamp": 1571561753,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JOHNZKY",
+        "song": "TurnMeOn",
+        "difficulty": "Normal",
         "score": 49360,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
