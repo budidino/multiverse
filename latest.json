@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571573079,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "WhatTheCat",
+        "difficulty": "Expert",
+        "score": 723832,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.423654317855835,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 13,
+            "cutScoreWithoutMultiplier": 103200,
+            "goodCutsCount": 1032,
+            "handDistanceTravelled": 1256,
+            "missedCutsCount": 22,
+            "timePlayed": 205.30078125,
+            "totalScore": 723832
+        }
+    },
+    {
         "timestamp": 1571572866,
         "song": "#unknown",
         "isFail": false,
