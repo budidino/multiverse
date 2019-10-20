@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571543389,
-        "song": "#unknown",
+        "timestamp": 1571543396,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BRIX",
+        "song": "BeatSaber",
+        "difficulty": "Normal",
         "score": 17612,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
