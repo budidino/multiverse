@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571637018,
-        "song": "#unknown",
+        "timestamp": 1571637028,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SCHAINE",
+        "song": "PopStars",
+        "difficulty": "Easy",
         "score": 79964,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
