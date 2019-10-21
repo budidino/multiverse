@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571635516,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SCHAINE",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
+        "score": 24608,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3656712770462036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 8448,
+            "goodCutsCount": 88,
+            "handDistanceTravelled": 200,
+            "missedCutsCount": 3,
+            "timePlayed": 110.33203125,
+            "totalScore": 24608
+        }
+    },
+    {
         "timestamp": 1571635365,
         "computerName": "budid",
         "isFail": false,
