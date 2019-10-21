@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571635691,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SCHAINE",
+        "song": "CommercialPumping",
+        "difficulty": "Easy",
+        "score": 47303,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3656712770462036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 13266,
+            "goodCutsCount": 134,
+            "handDistanceTravelled": 307,
+            "missedCutsCount": 0,
+            "timePlayed": 141.515625,
+            "totalScore": 47303
+        }
+    },
+    {
         "timestamp": 1571635516,
         "computerName": "budid",
         "isFail": false,
