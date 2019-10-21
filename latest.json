@@ -1,5 +1,173 @@
 [
     {
+        "timestamp": 1571638099,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SCHAINE",
+        "song": "PopStars",
+        "difficulty": "Easy",
+        "score": 56862,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3656712770462036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 18832,
+            "goodCutsCount": 214,
+            "handDistanceTravelled": 298,
+            "missedCutsCount": 4,
+            "timePlayed": 189.25390625,
+            "totalScore": 56862
+        }
+    },
+    {
+        "timestamp": 1571637864,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SCHAINE",
+        "song": "AngelVoices",
+        "difficulty": "Easy",
+        "score": 145287,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3656712770462036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 38,
+            "cutScoreWithoutMultiplier": 49068,
+            "goodCutsCount": 522,
+            "handDistanceTravelled": 863,
+            "missedCutsCount": 47,
+            "timePlayed": 371.80859375,
+            "totalScore": 145287
+        }
+    },
+    {
+        "timestamp": 1571637442,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SCHAINE",
+        "song": "CrabRave",
+        "difficulty": "Easy",
+        "score": 47433,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3656712770462036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 14616,
+            "goodCutsCount": 168,
+            "handDistanceTravelled": 248,
+            "missedCutsCount": 8,
+            "timePlayed": 153.40625,
+            "totalScore": 47433
+        }
+    },
+    {
+        "timestamp": 1571637269,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SCHAINE",
+        "song": "WhatTheCat",
+        "difficulty": "Easy",
+        "score": 124441,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.3656712770462036,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 25,
+            "cutScoreWithoutMultiplier": 38897,
+            "goodCutsCount": 401,
+            "handDistanceTravelled": 627,
+            "missedCutsCount": 27,
+            "timePlayed": 205.30859375,
+            "totalScore": 124441
+        }
+    },
+    {
         "timestamp": 1571637028,
         "computerName": "budid",
         "isFail": false,
