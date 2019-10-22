@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571744144,
-        "song": "#unknown",
+        "timestamp": 1571744153,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "IRIS",
+        "song": "Immortal",
+        "difficulty": "Normal",
         "score": 111666,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
