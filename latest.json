@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1571722986,
+        "timestamp": 1571723328,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "SIRPAI",
-        "song": "custom_level_8B176DE1E1CDAC314746A70E5B1F62847A7A12F2",
+        "player": "PAPER",
+        "song": "custom_level_D54AD194FE09598964D1C065887E52F2C4248B30",
         "difficulty": "Hard",
-        "score": 42200,
+        "score": 125744,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 12,
-            "cutScoreWithoutMultiplier": 17301,
-            "goodCutsCount": 219,
-            "handDistanceTravelled": 272,
-            "missedCutsCount": 16,
-            "timePlayed": 90.46875,
-            "totalScore": 42200
+            "badCutsCount": 26,
+            "cutScoreWithoutMultiplier": 42800,
+            "goodCutsCount": 535,
+            "handDistanceTravelled": 569,
+            "missedCutsCount": 15,
+            "timePlayed": 208.265625,
+            "totalScore": 125744
         }
     },
     {
-        "timestamp": 1571722975,
-        "song": "#unknown",
+        "timestamp": 1571722986,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SIRPAI",
+        "song": "custom_level_8B176DE1E1CDAC314746A70E5B1F62847A7A12F2",
+        "difficulty": "Hard",
         "score": 42200,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
