@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571716971,
-        "song": "#unknown",
+        "timestamp": 1571716990,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "CAPDOT",
+        "song": "PopStars",
+        "difficulty": "Normal",
         "score": 65852,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
