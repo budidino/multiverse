@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571717390,
-        "song": "#unknown",
+        "timestamp": 1571717403,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SIRPAI",
+        "song": "HighHopes",
+        "difficulty": "Normal",
         "score": 92257,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
