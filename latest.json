@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571718379,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BAKLASIBACS",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 110901,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6331437826156616,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 43,
+            "cutScoreWithoutMultiplier": 42032,
+            "goodCutsCount": 568,
+            "handDistanceTravelled": 573,
+            "missedCutsCount": 18,
+            "timePlayed": 201.88671875,
+            "totalScore": 110901
+        }
+    },
+    {
         "timestamp": 1571718088,
         "computerName": "budid",
         "isFail": false,
