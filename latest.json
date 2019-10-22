@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1571724559,
-        "song": "#unknown",
+        "timestamp": 1571724936,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
+        "player": "JOHNZKY",
+        "song": "custom_level_927B9B6F1408A3477DBCBEBD62AD41EFA6BE6176",
+        "difficulty": "Normal",
+        "score": 130278,
+        "fullCombo": true,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6331437826156616,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 33108,
+            "goodCutsCount": 372,
+            "handDistanceTravelled": 611,
+            "missedCutsCount": 0,
+            "timePlayed": 236.203125,
+            "totalScore": 130278
+        }
+    },
+    {
+        "timestamp": 1571724564,
         "computerName": "budid",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NOOB",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
         "score": 108915,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
