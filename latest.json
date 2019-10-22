@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571718685,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "QUEBURIN",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 155511,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6331437826156616,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 30,
+            "cutScoreWithoutMultiplier": 52871,
+            "goodCutsCount": 581,
+            "handDistanceTravelled": 771,
+            "missedCutsCount": 18,
+            "timePlayed": 201.88671875,
+            "totalScore": 155511
+        }
+    },
+    {
         "timestamp": 1571718379,
         "computerName": "budid",
         "isFail": false,
