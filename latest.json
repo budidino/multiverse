@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571719517,
-        "song": "#unknown",
+        "timestamp": 1571719532,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "LAOSSIVIGO",
+        "song": "Believer",
+        "difficulty": "Hard",
         "score": 214330,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
