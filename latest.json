@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571718065,
-        "song": "#unknown",
+        "timestamp": 1571718088,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "PENIS",
+        "song": "Believer",
+        "difficulty": "Hard",
         "score": 113357,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
