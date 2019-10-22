@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571717720,
-        "song": "#unknown",
+        "timestamp": 1571717735,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BLUE",
+        "song": "EmperorsNewClothes",
+        "difficulty": "Normal",
         "score": 73305,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
