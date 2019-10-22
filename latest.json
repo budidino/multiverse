@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571745898,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "custom_level_C073F71529DD2615075083ED534D69922695A74C",
+        "difficulty": "ExpertPlus",
+        "score": 407628,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5333833694458008,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 38,
+            "cutScoreWithoutMultiplier": 128010,
+            "goodCutsCount": 1255,
+            "handDistanceTravelled": 1899,
+            "missedCutsCount": 50,
+            "timePlayed": 301.671875,
+            "totalScore": 407628
+        }
+    },
+    {
         "timestamp": 1571745584,
         "computerName": "budid",
         "isFail": false,
