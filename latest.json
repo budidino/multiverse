@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571744348,
-        "song": "#unknown",
+        "timestamp": 1571744356,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "IRIS",
+        "song": "GiveALittleLove",
+        "difficulty": "Normal",
         "score": 86045,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
