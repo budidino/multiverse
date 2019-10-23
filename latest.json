@@ -1,5 +1,45 @@
 [
     {
+        "timestamp": 1571821659,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 126507,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 21,
+            "cutScoreWithoutMultiplier": 39695,
+            "goodCutsCount": 467,
+            "handDistanceTravelled": 477,
+            "missedCutsCount": 34,
+            "timePlayed": 197.5234375,
+            "totalScore": 126507
+        }
+    },
+    {
         "timestamp": 1571821415,
         "computerName": "budid",
         "isFail": false,
