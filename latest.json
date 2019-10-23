@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571821256,
-        "song": "#unknown",
+        "timestamp": 1571821273,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NDR",
+        "song": "CrabRave",
+        "difficulty": "Normal",
         "score": 123461,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
