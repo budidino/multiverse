@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571821659,
-        "song": "#unknown",
+        "timestamp": 1571821666,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NDR",
+        "song": "Digital",
+        "difficulty": "Normal",
         "score": 126507,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
