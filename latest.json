@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571891968,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NDR",
+        "song": "HighHopes",
+        "difficulty": "Normal",
+        "score": 128820,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 34056,
+            "goodCutsCount": 344,
+            "handDistanceTravelled": 594,
+            "missedCutsCount": 2,
+            "timePlayed": 191.515625,
+            "totalScore": 128820
+        }
+    },
+    {
         "timestamp": 1571891757,
         "computerName": "budid",
         "isFail": false,
@@ -367,8 +409,4 @@
             "goodCutsCount": 533,
             "handDistanceTravelled": 620,
             "missedCutsCount": 17,
-            "timePlayed": 217.4296875,
-            "totalScore": 144043
-        }
-    }
-]
+            "timePlayed": 217.4296
