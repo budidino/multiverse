@@ -1,5 +1,89 @@
 [
     {
+        "timestamp": 1571890497,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NOOB",
+        "song": "custom_level_F9E6BBAC15279313E950827C6318687D6443FDAA",
+        "difficulty": "Expert",
+        "score": 58634,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 32,
+            "cutScoreWithoutMultiplier": 27798,
+            "goodCutsCount": 339,
+            "handDistanceTravelled": 337,
+            "missedCutsCount": 52,
+            "timePlayed": 91.2890625,
+            "totalScore": 58634
+        }
+    },
+    {
+        "timestamp": 1571890310,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "PAPER",
+        "song": "HighHopes",
+        "difficulty": "Hard",
+        "score": 120216,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 29,
+            "cutScoreWithoutMultiplier": 36281,
+            "goodCutsCount": 511,
+            "handDistanceTravelled": 376,
+            "missedCutsCount": 6,
+            "timePlayed": 191.515625,
+            "totalScore": 120216
+        }
+    },
+    {
         "timestamp": 1571890113,
         "song": "#unknown",
         "isFail": false,
