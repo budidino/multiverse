@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571893859,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BACS",
+        "song": "Believer",
+        "difficulty": "Expert",
+        "score": 132755,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 121,
+            "cutScoreWithoutMultiplier": 57870,
+            "goodCutsCount": 643,
+            "handDistanceTravelled": 871,
+            "missedCutsCount": 31,
+            "timePlayed": 201.8828125,
+            "totalScore": 132755
+        }
+    },
+    {
         "timestamp": 1571892487,
         "song": "#unknown",
         "isFail": false,
