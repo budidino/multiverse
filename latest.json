@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571892280,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NDR",
+        "song": "BadLiar",
+        "difficulty": "Normal",
+        "score": 176488,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 46512,
+            "goodCutsCount": 456,
+            "handDistanceTravelled": 769,
+            "missedCutsCount": 2,
+            "timePlayed": 252.4140625,
+            "totalScore": 176488
+        }
+    },
+    {
         "timestamp": 1571891999,
         "song": "#unknown",
         "isFail": false,
