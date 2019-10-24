@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571895095,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "TALOSIQUEB",
+        "song": "Radioactive",
+        "difficulty": "Hard",
+        "score": 100039,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 57,
+            "cutScoreWithoutMultiplier": 35328,
+            "goodCutsCount": 552,
+            "handDistanceTravelled": 370,
+            "missedCutsCount": 14,
+            "timePlayed": 184.8515625,
+            "totalScore": 100039
+        }
+    },
+    {
         "timestamp": 1571894867,
         "computerName": "budid",
         "isFail": false,
