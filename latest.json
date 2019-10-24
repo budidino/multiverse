@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571891229,
-        "song": "#unknown",
+        "timestamp": 1571891245,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NDR",
+        "song": "Believer",
+        "difficulty": "Normal",
         "score": 171659,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
