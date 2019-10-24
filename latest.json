@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571894375,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BACS",
+        "song": "TheGreatestShow",
+        "difficulty": "Expert",
+        "score": 123244,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 74,
+            "cutScoreWithoutMultiplier": 46545,
+            "goodCutsCount": 535,
+            "handDistanceTravelled": 592,
+            "missedCutsCount": 21,
+            "timePlayed": 168.1171875,
+            "totalScore": 123244
+        }
+    },
+    {
         "timestamp": 1571894103,
         "computerName": "budid",
         "isFail": false,
