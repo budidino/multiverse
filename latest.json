@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1571896317,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BACS",
+        "song": "custom_level_2AA1F5192828E075C30DD015B1E132BBA912EB86",
+        "difficulty": "Expert",
+        "score": 110196,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6197831630706787,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 37,
+            "cutScoreWithoutMultiplier": 38845,
+            "goodCutsCount": 457,
+            "handDistanceTravelled": 534,
+            "missedCutsCount": 11,
+            "timePlayed": 139.2421875,
+            "totalScore": 110196
+        }
+    },
+    {
         "timestamp": 1571896153,
         "computerName": "budid",
         "isFail": false,
