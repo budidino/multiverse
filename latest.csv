@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-02:39, 219s, False, False, UNKNOWN, #2, #unknown, 702 / 708, #unknown, 278656, True, False, False, False
+02:39, 219s, False, False, BACS, #2, custom, 702 / 708, Normal, 278656, True, False, False, False
 02:34, 232s, False, False, BACS, #2, ItsTime, 793 / 967, Expert, 165553, True, False, False, False
 02:27, 165s, False, False, TALO SI BACS, #2, Warriors, 498 / 525, Hard, 119344, True, False, False, False
 02:24, 197s, False, False, TALO SI BACS, #2, Digital, 647 / 718, Hard, 118918, True, False, False, False

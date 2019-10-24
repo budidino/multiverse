@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571899148,
-        "song": "#unknown",
+        "timestamp": 1571899151,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BACS",
+        "song": "custom_level_137E76FCFB08E99695F481F7133CEF173FD7FA8E",
+        "difficulty": "Normal",
         "score": 278656,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
