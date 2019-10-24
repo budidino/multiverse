@@ -1,14 +1,12 @@
 [
     {
-        "timestamp": 1571821666,
-        "computerName": "budid",
+        "timestamp": 1571889977,
+        "song": "#unknown",
         "isFail": false,
         "isQuit": false,
-        "player": "NDR",
-        "song": "Digital",
-        "difficulty": "Normal",
-        "score": 126507,
-        "fullCombo": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 144043,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
@@ -32,97 +30,13 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 21,
-            "cutScoreWithoutMultiplier": 39695,
-            "goodCutsCount": 467,
-            "handDistanceTravelled": 477,
-            "missedCutsCount": 34,
-            "timePlayed": 197.5234375,
-            "totalScore": 126507
-        }
-    },
-    {
-        "timestamp": 1571821415,
-        "computerName": "budid",
-        "isFail": false,
-        "isQuit": false,
-        "player": "NDR",
-        "song": "BeatSaber",
-        "difficulty": "Normal",
-        "score": 40908,
-        "fullCombo": false,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.6197831630706787,
-            "disableSFX": false,
-            "reduceDebris": true,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 0,
-            "cutScoreWithoutMultiplier": 11172,
-            "goodCutsCount": 114,
-            "handDistanceTravelled": 198,
-            "missedCutsCount": 2,
-            "timePlayed": 110.3203125,
-            "totalScore": 40908
-        }
-    },
-    {
-        "timestamp": 1571821273,
-        "computerName": "budid",
-        "isFail": false,
-        "isQuit": false,
-        "player": "NDR",
-        "song": "CrabRave",
-        "difficulty": "Normal",
-        "score": 123461,
-        "fullCombo": false,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.6197831630706787,
-            "disableSFX": false,
-            "reduceDebris": true,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 8,
-            "cutScoreWithoutMultiplier": 33761,
-            "goodCutsCount": 371,
-            "handDistanceTravelled": 431,
-            "missedCutsCount": 2,
-            "timePlayed": 153.40625,
-            "totalScore": 123461
+            "badCutsCount": 37,
+            "cutScoreWithoutMultiplier": 47437,
+            "goodCutsCount": 533,
+            "handDistanceTravelled": 620,
+            "missedCutsCount": 17,
+            "timePlayed": 217.4296875,
+            "totalScore": 144043
         }
     }
 ]
