@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571898269,
-        "song": "#unknown",
+        "timestamp": 1571898274,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "TALO SI BACS",
+        "song": "Digital",
+        "difficulty": "Hard",
         "score": 118918,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
