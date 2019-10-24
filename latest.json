@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571897702,
-        "song": "#unknown",
+        "timestamp": 1571897768,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "B",
+        "song": "Thunder",
+        "difficulty": "Easy",
         "score": 43093,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
