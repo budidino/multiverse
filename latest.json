@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571894628,
-        "song": "#unknown",
+        "timestamp": 1571894631,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "PAPER",
+        "song": "Believer",
+        "difficulty": "Expert",
         "score": 86545,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
