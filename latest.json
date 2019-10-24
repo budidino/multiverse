@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571891709,
-        "song": "#unknown",
+        "timestamp": 1571891757,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NOOB",
+        "song": "Victorious",
+        "difficulty": "Normal",
         "score": 53210,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
