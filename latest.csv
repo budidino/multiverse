@@ -1,4 +1,15 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:57, 211s, False, False, SHAQUIL, #2, WeWontBeAlone, 655 / 673, Expert, 454344, False, False, False, False
+04:53, 232s, False, False, SHAQUIL, #2, ItsTime, 928 / 967, Expert, 625577, False, False, False, False
+04:49, 203s, False, False, SHAQUIL, #2, Overkill, 823 / 879, Expert, 284306, True, False, False, False
+04:45, 64s, False, True, UNKNOWN, #2, #unknown, 213 / 246, #unknown, 0, True, False, False, False
+04:44, 0s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, True, False, False, False
+04:42, 177s, False, False, JJDY, #2, Thunder, 198 / 209, Easy, 59816, True, False, False, False
+04:36, 153s, False, False, PIA, #2, CrabRave, 370 / 381, Normal, 138502, True, False, False, False
+04:32, 24s, False, True, UNKNOWN, #2, #unknown, 52 / 61, #unknown, 0, True, False, False, False
+04:31, 16s, False, True, UNKNOWN, #2, #unknown, 33 / 38, #unknown, 0, True, False, False, False
+04:30, 191s, False, False, THEA, #2, HighHopes, 332 / 348, Normal, 113349, True, False, False, False
+04:25, 177s, False, False, JP, #2, Thunder, 314 / 334, Normal, 94128, True, False, False, False
 04:21, 191s, False, False, SAM, #2, HighHopes, 316 / 348, Normal, 67902, True, False, False, False
 04:16, 7s, False, True, UNKNOWN, #2, #unknown, 9 / 10, #unknown, 0, True, False, False, False
 04:14, 201s, False, False, PIA, #2, Believer, 487 / 506, Normal, 170758, True, False, False, False
