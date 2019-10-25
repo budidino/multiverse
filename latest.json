@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571988868,
-        "song": "#unknown",
+        "timestamp": 1571988870,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "V",
+        "song": "WeWontBeAlone",
+        "difficulty": "Expert",
         "score": 168437,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
