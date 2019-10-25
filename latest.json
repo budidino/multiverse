@@ -1,12 +1,54 @@
 [
     {
-        "timestamp": 1571988619,
+        "timestamp": 1571988868,
         "song": "#unknown",
         "isFail": false,
         "isQuit": false,
         "computerName": "budid",
         "player": "UNKNOWN",
+        "score": 168437,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6612496376037598,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 40,
+            "cutScoreWithoutMultiplier": 51211,
+            "goodCutsCount": 617,
+            "handDistanceTravelled": 643,
+            "missedCutsCount": 16,
+            "timePlayed": 211.0078125,
+            "totalScore": 168437
+        }
+    },
+    {
+        "timestamp": 1571988622,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "V",
+        "song": "PopStars",
+        "difficulty": "Expert",
         "score": 176533,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
