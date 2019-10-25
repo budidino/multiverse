@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572003680,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "PILYO",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 638437,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.503715991973877,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 80194,
+            "goodCutsCount": 794,
+            "handDistanceTravelled": 1183,
+            "missedCutsCount": 0,
+            "timePlayed": 191.515625,
+            "totalScore": 638437
+        }
+    },
+    {
         "timestamp": 1572003445,
         "computerName": "budid",
         "isFail": false,
