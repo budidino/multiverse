@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571996042,
-        "song": "#unknown",
+        "timestamp": 1571996049,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "GHOSTYYY",
+        "song": "TheGreatestShow",
+        "difficulty": "Normal",
         "score": 213884,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
