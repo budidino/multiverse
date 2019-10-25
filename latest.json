@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1571991602,
-        "song": "#unknown",
+        "timestamp": 1571991661,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SAM",
+        "song": "HighHopes",
+        "difficulty": "Normal",
         "score": 67902,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
