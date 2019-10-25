@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:14, 201s, False, False, PIA, #2, Believer, 487 / 506, Normal, 170758, True, False, False, False
+04:09, 162s, False, False, THEA, #2, GiveALittleLove, 207 / 211, Easy, 76865, True, False, False, False
 04:04, 216s, True, False, UNKNOWN, #2, #unknown, 589 / 616, #unknown, 0, False, False, False, False
 04:00, 252s, False, False, V, #2, BadLiar, 706 / 732, Expert, 229615, True, False, False, False
 03:56, 1s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, True, False, False, False

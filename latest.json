@@ -1,5 +1,89 @@
 [
     {
+        "timestamp": 1571991262,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "PIA",
+        "song": "Believer",
+        "difficulty": "Normal",
+        "score": 170758,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4762301445007324,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 49674,
+            "goodCutsCount": 487,
+            "handDistanceTravelled": 779,
+            "missedCutsCount": 11,
+            "timePlayed": 201.8828125,
+            "totalScore": 170758
+        }
+    },
+    {
+        "timestamp": 1571990999,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "THEA",
+        "song": "GiveALittleLove",
+        "difficulty": "Easy",
+        "score": 76865,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4762301445007324,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 21321,
+            "goodCutsCount": 207,
+            "handDistanceTravelled": 416,
+            "missedCutsCount": 2,
+            "timePlayed": 162.9296875,
+            "totalScore": 76865
+        }
+    },
+    {
         "timestamp": 1571990662,
         "song": "#unknown",
         "isFail": true,
