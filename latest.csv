@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+03:44, 10s, False, True, UNKNOWN, #2, #unknown, 28 / 30, #unknown, 0, True, False, False, False
+03:42, 0s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, True, False, False, False
 03:42, 71s, False, True, UNKNOWN, #2, #unknown, 257 / 290, #unknown, 0, True, False, False, False
 03:40, 156s, False, False, V, #2, EmperorsNewClothes, 557 / 581, Expert, 180040, True, False, False, False
 03:37, 156s, False, False, V, #2, EmperorsNewClothes, 539 / 581, Expert, 160325, True, False, False, False
