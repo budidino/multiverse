@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1571979308,
+        "timestamp": 1571979482,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "AJ",
         "song": "Elixia",
-        "difficulty": "Hard",
-        "score": 138446,
+        "difficulty": "Expert",
+        "score": 160220,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 1,
-            "cutScoreWithoutMultiplier": 35808,
-            "goodCutsCount": 373,
-            "handDistanceTravelled": 621,
-            "missedCutsCount": 1,
-            "timePlayed": 153.5546875,
-            "totalScore": 138446
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 44252,
+            "goodCutsCount": 481,
+            "handDistanceTravelled": 664,
+            "missedCutsCount": 6,
+            "timePlayed": 153.5625,
+            "totalScore": 160220
         }
     },
     {
-        "timestamp": 1571979304,
-        "song": "#unknown",
+        "timestamp": 1571979308,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "AJ",
+        "song": "Elixia",
+        "difficulty": "Hard",
         "score": 138446,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
