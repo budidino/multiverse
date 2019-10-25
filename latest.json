@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572003103,
-        "song": "#unknown",
+        "timestamp": 1572003111,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "PILYO",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
         "score": 600897,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
