@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572065012,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 707374,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5660345554351807,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 91770,
+            "goodCutsCount": 874,
+            "handDistanceTravelled": 1349,
+            "missedCutsCount": 6,
+            "timePlayed": 191.515625,
+            "totalScore": 707374
+        }
+    },
+    {
         "timestamp": 1572064797,
         "song": "#unknown",
         "isFail": true,
