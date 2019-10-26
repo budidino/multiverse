@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572068302,
-        "song": "#unknown",
+        "timestamp": 1572068315,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "GHOSTYYY",
+        "song": "Natural",
+        "difficulty": "Normal",
         "score": 16960,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
