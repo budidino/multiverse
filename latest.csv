@@ -1,5 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-02:50, 168s, False, False, UNKNOWN, #2, #unknown, 436 / 440, #unknown, 328593, False, False, False, False
+02:52, 0s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, False, False, False, False
+02:50, 168s, False, False, NDR, #2, TheGreatestShow, 436 / 440, Hard, 328593, False, False, False, False
 02:47, 52s, True, False, UNKNOWN, #2, #unknown, 158 / 175, #unknown, 0, False, False, False, False
 02:45, 177s, False, False, V, #2, Thunder, 631 / 651, Expert, 410933, False, False, False, False
 02:42, 67s, False, True, UNKNOWN, #2, #unknown, 212 / 220, #unknown, 0, False, False, False, False
