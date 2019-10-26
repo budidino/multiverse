@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572069948,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "TheGreatestShow",
+        "difficulty": "ExpertPlus",
+        "score": 532247,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5660345554351807,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 73185,
+            "goodCutsCount": 697,
+            "handDistanceTravelled": 1124,
+            "missedCutsCount": 12,
+            "timePlayed": 168.109375,
+            "totalScore": 532247
+        }
+    },
+    {
         "timestamp": 1572069770,
         "song": "#unknown",
         "isFail": false,
