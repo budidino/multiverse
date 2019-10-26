@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+09:17, 205s, False, False, BIT, #2, WhatTheCat, 1051 / 1067, Expert, 822242, False, False, False, False
+09:13, 0s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, False, False, False, False
+09:12, 2s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, True, False, False, False
 06:58, 191s, False, False, SCAHINE, #1, HighHopes, 199 / 204, Easy, 60567, True, False, False, False
 06:54, 189s, False, False, SCAHINE, #1, PopStars, 222 / 226, Easy, 70471, True, False, False, False
 06:50, 141s, False, False, SCAHINE, #1, CommercialPumping, 135 / 136, Easy, 49098, True, False, False, False
