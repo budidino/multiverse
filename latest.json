@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572072079,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "V",
+        "song": "BadLiar",
+        "difficulty": "Expert",
+        "score": 508782,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5660345554351807,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 67053,
+            "goodCutsCount": 721,
+            "handDistanceTravelled": 879,
+            "missedCutsCount": 4,
+            "timePlayed": 252.4140625,
+            "totalScore": 508782
+        }
+    },
+    {
         "timestamp": 1572071811,
         "computerName": "Oculus",
         "isFail": false,
