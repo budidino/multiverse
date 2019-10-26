@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572066160,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NDR",
+        "song": "TheGreatestShow",
+        "difficulty": "Normal",
+        "score": 221157,
+        "fullCombo": true,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5660345554351807,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 28215,
+            "goodCutsCount": 285,
+            "handDistanceTravelled": 478,
+            "missedCutsCount": 0,
+            "timePlayed": 168.1171875,
+            "totalScore": 221157
+        }
+    },
+    {
         "timestamp": 1572065893,
         "song": "#unknown",
         "isFail": true,
