@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572068819,
-        "song": "#unknown",
+        "timestamp": 1572068822,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MJ",
+        "song": "WhatTheCat",
+        "difficulty": "Hard",
         "score": 337751,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
