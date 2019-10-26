@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+02:02, 49s, False, True, UNKNOWN, #2, #unknown, 105 / 114, #unknown, 0, False, False, False, True
+02:02, 31s, True, False, UNKNOWN, #2, #unknown, 107 / 118, #unknown, 0, False, False, False, True
+02:01, 29s, True, False, UNKNOWN, #2, #unknown, 93 / 103, #unknown, 0, False, False, False, True
 02:00, 14s, True, False, UNKNOWN, #2, #unknown, 33 / 39, #unknown, 0, False, False, False, True
 02:00, 7s, False, True, UNKNOWN, #2, #unknown, 12 / 13, #unknown, 0, False, False, False, True
 02:00, 110s, False, False, TIN, #1, BeatSaber, 87 / 94, Easy, 13324, True, False, False, False
