@@ -1,10 +1,9 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
 02:36, 110s, False, False, DHADHA, #1, BeatSaber, 87 / 94, Easy, 22154, True, False, False, False
-02:34, 252s, False, False, UNKNOWN, #2, #unknown, 603 / 619, #unknown, 418645, False, False, False, False
+02:36, 252s, False, False, KUNG, #2, BadLiar, 603 / 619, Hard, 418645, False, False, False, False
 02:30, 63s, True, False, UNKNOWN, #2, #unknown, 153 / 162, #unknown, 0, False, False, False, False
 02:09, 51s, True, False, UNKNOWN, #2, #unknown, 234 / 257, #unknown, 0, False, False, False, False
 02:08, 156s, False, False, KUNG, #2, EmperorsNewClothes, 642 / 650, ExpertPlus, 509679, False, False, False, False
-02:08, 156s, False, False, UNKNOWN, #2, #unknown, 642 / 650, #unknown, 509679, False, False, False, False
 02:05, 168s, False, False, KUNG, #2, TheGreatestShow, 697 / 714, ExpertPlus, 532247, False, False, False, False
 02:02, 49s, False, True, UNKNOWN, #2, #unknown, 105 / 114, #unknown, 0, False, False, False, True
 02:02, 31s, True, False, UNKNOWN, #2, #unknown, 107 / 118, #unknown, 0, False, False, False, True
