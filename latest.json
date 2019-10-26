@@ -1,5 +1,89 @@
 [
     {
+        "timestamp": 1572067225,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ZXZZZZZZ",
+        "song": "custom_level_7C7F38D467BB43FE11A142581E63E324622ECC71",
+        "difficulty": "Hard",
+        "score": 20339,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": true,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5660345554351807,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 14,
+            "cutScoreWithoutMultiplier": 35460,
+            "goodCutsCount": 394,
+            "handDistanceTravelled": 844,
+            "missedCutsCount": 13,
+            "timePlayed": 190.3046875,
+            "totalScore": 20339
+        }
+    },
+    {
+        "timestamp": 1572066811,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "ZXZZZZZZ",
+        "song": "EmperorsNewClothes",
+        "difficulty": "Hard",
+        "score": 262899,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5660345554351807,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 35880,
+            "goodCutsCount": 390,
+            "handDistanceTravelled": 466,
+            "missedCutsCount": 1,
+            "timePlayed": 156.6484375,
+            "totalScore": 262899
+        }
+    },
+    {
         "timestamp": 1572066588,
         "computerName": "budid",
         "isFail": false,
