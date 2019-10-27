@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572152338,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "POL",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 161442,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.482263207435608,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 44208,
+            "goodCutsCount": 614,
+            "handDistanceTravelled": 394,
+            "missedCutsCount": 7,
+            "timePlayed": 201.8828125,
+            "totalScore": 161442
+        }
+    },
+    {
         "timestamp": 1572152119,
         "computerName": "budid",
         "isFail": false,
