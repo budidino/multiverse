@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572153981,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HEHYEFID",
+        "song": "Digital",
+        "difficulty": "Easy",
+        "score": 60026,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.482263207435608,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 18,
+            "cutScoreWithoutMultiplier": 21284,
+            "goodCutsCount": 313,
+            "handDistanceTravelled": 221,
+            "missedCutsCount": 5,
+            "timePlayed": 197.5234375,
+            "totalScore": 60026
+        }
+    },
+    {
         "timestamp": 1572153691,
         "computerName": "budid",
         "isFail": false,
