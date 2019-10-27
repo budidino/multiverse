@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572152963,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "POL",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
+        "score": 269905,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.482263207435608,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 34960,
+            "goodCutsCount": 437,
+            "handDistanceTravelled": 324,
+            "missedCutsCount": 2,
+            "timePlayed": 168.1171875,
+            "totalScore": 269905
+        }
+    },
+    {
         "timestamp": 1572152774,
         "computerName": "budid",
         "isFail": false,
