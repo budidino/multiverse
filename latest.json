@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1572155132,
+        "timestamp": 1572155470,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "SIRPAI",
-        "song": "HighHopes",
+        "song": "Believer",
         "difficulty": "Hard",
-        "score": 388107,
+        "score": 380164,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,65 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 5,
-            "cutScoreWithoutMultiplier": 51456,
-            "goodCutsCount": 536,
-            "handDistanceTravelled": 619,
-            "missedCutsCount": 5,
-            "timePlayed": 191.5078125,
-            "totalScore": 388107
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 54720,
+            "goodCutsCount": 608,
+            "handDistanceTravelled": 571,
+            "missedCutsCount": 6,
+            "timePlayed": 201.890625,
+            "totalScore": 380164
         }
     },
     {
-        "timestamp": 1572155130,
+        "timestamp": 1572155225,
         "song": "#unknown",
-        "isFail": false,
+        "isFail": true,
         "isQuit": false,
         "computerName": "budid",
         "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5888885259628296,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 13340,
+            "goodCutsCount": 145,
+            "handDistanceTravelled": 158,
+            "missedCutsCount": 6,
+            "timePlayed": 48.4453125,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572155132,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SIRPAI",
+        "song": "HighHopes",
+        "difficulty": "Hard",
         "score": 388107,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
