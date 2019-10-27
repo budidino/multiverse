@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572153199,
-        "song": "#unknown",
+        "timestamp": 1572153208,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "HEHYEFID",
+        "song": "TheGreatestShow",
+        "difficulty": "Easy",
         "score": 90571,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
