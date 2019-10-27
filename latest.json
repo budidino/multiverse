@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572154881,
-        "song": "#unknown",
+        "timestamp": 1572154891,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SIRPAI",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
         "score": 307422,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -49,46 +51,6 @@
         "difficulty": "Easy",
         "score": 28586,
         "fullCombo": false,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.482263207435608,
-            "disableSFX": false,
-            "reduceDebris": true,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 5,
-            "cutScoreWithoutMultiplier": 10744,
-            "goodCutsCount": 158,
-            "handDistanceTravelled": 126,
-            "missedCutsCount": 5,
-            "timePlayed": 179.8125,
-            "totalScore": 28586
-        }
-    },
-    {
-        "timestamp": 1572154206,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
-        "score": 28586,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
