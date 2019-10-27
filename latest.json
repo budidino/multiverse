@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572155609,
-        "song": "#unknown",
+        "timestamp": 1572155612,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SIRPAI",
+        "song": "custom_level_F9E6BBAC15279313E950827C6318687D6443FDAA",
+        "difficulty": "Expert",
         "score": 111413,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
