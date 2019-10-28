@@ -1,5 +1,89 @@
 [
     {
+        "timestamp": 1572244951,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JOHNZKY",
+        "song": "Thunder",
+        "difficulty": "Hard",
+        "score": 194334,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6898846626281738,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 46872,
+            "goodCutsCount": 504,
+            "handDistanceTravelled": 624,
+            "missedCutsCount": 2,
+            "timePlayed": 212.84375,
+            "totalScore": 194334
+        }
+    },
+    {
+        "timestamp": 1572244671,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "VIGO",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 268545,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6898846626281738,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 36400,
+            "goodCutsCount": 364,
+            "handDistanceTravelled": 581,
+            "missedCutsCount": 9,
+            "timePlayed": 177.5,
+            "totalScore": 268545
+        }
+    },
+    {
         "timestamp": 1572244524,
         "computerName": "budid",
         "isFail": false,
