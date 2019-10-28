@@ -1,14 +1,12 @@
 [
     {
-        "timestamp": 1572252254,
-        "computerName": "budid",
+        "timestamp": 1572254486,
+        "song": "#unknown",
         "isFail": false,
-        "isQuit": false,
-        "player": "CHABBYQT",
-        "song": "Radioactive",
-        "difficulty": "Expert",
-        "score": 536003,
-        "fullCombo": false,
+        "isQuit": true,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -32,23 +30,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 11,
-            "cutScoreWithoutMultiplier": 72176,
-            "goodCutsCount": 694,
-            "handDistanceTravelled": 890,
-            "missedCutsCount": 9,
-            "timePlayed": 184.859375,
-            "totalScore": 536003
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 900,
+            "goodCutsCount": 9,
+            "handDistanceTravelled": 12,
+            "missedCutsCount": 0,
+            "timePlayed": 5.0859375,
+            "totalScore": 0
         }
     },
     {
-        "timestamp": 1572252253,
-        "song": "#unknown",
+        "timestamp": 1572252254,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "CHABBYQT",
+        "song": "Radioactive",
+        "difficulty": "Expert",
         "score": 536003,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
