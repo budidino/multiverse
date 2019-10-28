@@ -1,4 +1,10 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+06:00, 16s, True, False, UNKNOWN, #2, #unknown, 87 / 98, #unknown, 0, False, False, False, False
+06:00, 3s, True, False, UNKNOWN, #2, #unknown, 8 / 13, #unknown, 0, False, False, False, False
+06:00, 11s, True, False, UNKNOWN, #2, #unknown, 52 / 62, #unknown, 0, False, False, False, False
+05:59, 91s, True, False, UNKNOWN, #2, #unknown, 389 / 425, #unknown, 0, False, False, False, False
+05:58, 47s, True, False, UNKNOWN, #2, #unknown, 155 / 171, #unknown, 0, False, False, False, False
+05:57, 31s, False, True, UNKNOWN, #2, #unknown, 45 / 50, #unknown, 0, False, False, False, True
 05:49, 446s, False, False, DINO, #2, AngelVoices, 1188 / 1202, Expert, 1037263, False, False, False, True
 05:44, 28s, False, True, UNKNOWN, #2, #unknown, 56 / 60, #unknown, 0, False, True, False, True
 05:43, 1s, False, True, UNKNOWN, #2, #unknown, 2 / 2, #unknown, 0, False, False, False, False
