@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572239823,
-        "song": "#unknown",
+        "timestamp": 1572239847,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "RIZZA",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
         "score": 19905,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
