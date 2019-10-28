@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572251715,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHABBYQT",
+        "song": "custom_level_A6A8F5C9146321B609645EEFB109197E301BFE71",
+        "difficulty": "Expert",
+        "score": 554258,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5446548461914062,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 11,
+            "cutScoreWithoutMultiplier": 77910,
+            "goodCutsCount": 735,
+            "handDistanceTravelled": 1106,
+            "missedCutsCount": 15,
+            "timePlayed": 193.6875,
+            "totalScore": 554258
+        }
+    },
+    {
         "timestamp": 1572251502,
         "song": "#unknown",
         "isFail": false,
