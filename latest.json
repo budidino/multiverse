@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572250475,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHABBYQT",
+        "song": "Warriors",
+        "difficulty": "Expert",
+        "score": 582616,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5446548461914062,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 78015,
+            "goodCutsCount": 743,
+            "handDistanceTravelled": 1061,
+            "missedCutsCount": 9,
+            "timePlayed": 165.9453125,
+            "totalScore": 582616
+        }
+    },
+    {
         "timestamp": 1572250294,
         "song": "#unknown",
         "isFail": false,
