@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+08:46, 110s, False, False, UNKNOWN, #2, #unknown, 121 / 121, #unknown, 36025, True, False, False, False
+08:05, 110s, False, False, UNKNOWN, #2, #unknown, 87 / 94, #unknown, 24484, True, False, False, False
+06:03, 135s, True, False, UNKNOWN, #2, #unknown, 621 / 657, #unknown, 0, False, False, False, False
 06:01, 20s, True, False, UNKNOWN, #2, #unknown, 110 / 123, #unknown, 0, False, False, False, False
 06:00, 16s, True, False, UNKNOWN, #2, #unknown, 87 / 98, #unknown, 0, False, False, False, False
 06:00, 3s, True, False, UNKNOWN, #2, #unknown, 8 / 13, #unknown, 0, False, False, False, False
