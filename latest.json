@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572241242,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "POL",
+        "song": "HighHopes",
+        "difficulty": "Hard",
+        "score": 305613,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6898846626281738,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 39096,
+            "goodCutsCount": 543,
+            "handDistanceTravelled": 393,
+            "missedCutsCount": 0,
+            "timePlayed": 191.5078125,
+            "totalScore": 305613
+        }
+    },
+    {
         "timestamp": 1572240953,
         "computerName": "budid",
         "isFail": false,
