@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572245298,
-        "song": "#unknown",
+        "timestamp": 1572245312,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JAM",
+        "song": "CrabRave",
+        "difficulty": "Normal",
         "score": 55123,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
