@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+03:05, 223s, False, False, V, #2, custom, 607 / 614, Expert, 180090, True, False, False, False
+03:01, 14s, False, True, UNKNOWN, #2, #unknown, 24 / 27, #unknown, 0, True, False, False, False
+03:01, 1s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 02:56, 177s, False, False, JOHNZKY, #2, Thunder, 511 / 521, Hard, 343791, False, False, False, False
 02:52, 106s, True, False, UNKNOWN, #2, #unknown, 332 / 353, #unknown, 0, False, False, False, False
 02:48, 153s, False, False, JAM, #2, CrabRave, 333 / 381, Normal, 55123, True, False, False, False
