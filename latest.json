@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572239851,
-        "song": "#unknown",
+        "timestamp": 1572239853,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JOHNZKY",
+        "song": "custom_level_2E6F858088C6D67E930E1BB357BD7455101B6626",
+        "difficulty": "Hard",
         "score": 195645,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
