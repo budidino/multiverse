@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572266810,
-        "song": "#unknown",
+        "timestamp": 1572266821,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "TOPHERS",
+        "song": "TurnMeOn",
+        "difficulty": "Easy",
         "score": 36025,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
