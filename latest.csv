@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+05:25, 15s, True, False, UNKNOWN, #2, #unknown, 39 / 47, #unknown, 0, False, False, False, False
+05:24, 189s, False, False, BART, #2, PopStars, 671 / 679, Expert, 527587, False, False, False, False
 05:21, 5s, False, True, UNKNOWN, #2, #unknown, 9 / 9, #unknown, 0, False, False, False, False
 04:44, 184s, False, False, CHABBYQT, #2, Radioactive, 694 / 714, Expert, 536003, False, False, False, False
 04:40, 58s, False, True, UNKNOWN, #2, #unknown, 54 / 58, #unknown, 0, False, False, False, True
