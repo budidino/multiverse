@@ -1,14 +1,92 @@
 [
     {
-        "timestamp": 1572255784,
-        "computerName": "budid",
+        "timestamp": 1572256162,
+        "song": "#unknown",
         "isFail": false,
         "isQuit": false,
-        "player": "DINO",
-        "song": "PopStars",
-        "difficulty": "ExpertPlus",
-        "score": 647854,
-        "fullCombo": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 1037263,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8882367610931396,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 125928,
+            "goodCutsCount": 1188,
+            "handDistanceTravelled": 2362,
+            "missedCutsCount": 8,
+            "timePlayed": 446.1640625,
+            "totalScore": 1037263
+        }
+    },
+    {
+        "timestamp": 1572255848,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": true,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": true,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8882367610931396,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 6048,
+            "goodCutsCount": 56,
+            "handDistanceTravelled": 135,
+            "missedCutsCount": 2,
+            "timePlayed": 28.8828125,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572255820,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": true,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -32,23 +110,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 10,
-            "cutScoreWithoutMultiplier": 94870,
-            "goodCutsCount": 895,
-            "handDistanceTravelled": 1666,
-            "missedCutsCount": 29,
-            "timePlayed": 189.25,
-            "totalScore": 647854
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 202,
+            "goodCutsCount": 2,
+            "handDistanceTravelled": 3,
+            "missedCutsCount": 0,
+            "timePlayed": 1.96875,
+            "totalScore": 0
         }
     },
     {
-        "timestamp": 1572255782,
-        "song": "#unknown",
+        "timestamp": 1572255784,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "DINO",
+        "song": "PopStars",
+        "difficulty": "ExpertPlus",
         "score": 647854,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
