@@ -1,14 +1,12 @@
 [
     {
-        "timestamp": 1572251205,
-        "computerName": "budid",
+        "timestamp": 1572251502,
+        "song": "#unknown",
         "isFail": false,
         "isQuit": false,
-        "player": "CHABBYQT",
-        "song": "PopStars",
-        "difficulty": "Expert",
-        "score": 654029,
-        "fullCombo": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 698947,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -17,10 +15,10 @@
             "enabledObstacleType": 0,
             "fastNotes": false,
             "strictAngles": false,
-            "disappearingArrows": true,
+            "disappearingArrows": false,
             "ghostNotes": false,
             "noBombs": false,
-            "songSpeed": 1
+            "songSpeed": 0
         },
         "settings": {
             "staticLights": false,
@@ -32,23 +30,65 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 1,
-            "cutScoreWithoutMultiplier": 72439,
-            "goodCutsCount": 677,
-            "handDistanceTravelled": 1116,
-            "missedCutsCount": 1,
-            "timePlayed": 227.1015625,
-            "totalScore": 654029
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 91245,
+            "goodCutsCount": 869,
+            "handDistanceTravelled": 1232,
+            "missedCutsCount": 4,
+            "timePlayed": 203.9375,
+            "totalScore": 698947
         }
     },
     {
-        "timestamp": 1572251204,
+        "timestamp": 1572251280,
         "song": "#unknown",
         "isFail": false,
-        "isQuit": false,
+        "isQuit": true,
         "computerName": "budid",
         "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5446548461914062,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 20009,
+            "goodCutsCount": 187,
+            "handDistanceTravelled": 359,
+            "missedCutsCount": 22,
+            "timePlayed": 59.5234375,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572251205,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHABBYQT",
+        "song": "PopStars",
+        "difficulty": "Expert",
         "score": 654029,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
