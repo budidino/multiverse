@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572242037,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SIRPAI",
+        "song": "HighHopes",
+        "difficulty": "Hard",
+        "score": 308548,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6898846626281738,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 40108,
+            "goodCutsCount": 542,
+            "handDistanceTravelled": 373,
+            "missedCutsCount": 1,
+            "timePlayed": 191.5078125,
+            "totalScore": 308548
+        }
+    },
+    {
         "timestamp": 1572241819,
         "computerName": "budid",
         "isFail": false,
