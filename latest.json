@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572244524,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "VIGO",
+        "song": "Machine",
+        "difficulty": "Hard",
+        "score": 371307,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6898846626281738,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 19,
+            "cutScoreWithoutMultiplier": 55752,
+            "goodCutsCount": 552,
+            "handDistanceTravelled": 869,
+            "missedCutsCount": 12,
+            "timePlayed": 179.8046875,
+            "totalScore": 371307
+        }
+    },
+    {
         "timestamp": 1572244301,
         "song": "#unknown",
         "isFail": true,
