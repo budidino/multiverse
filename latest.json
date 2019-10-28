@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572256162,
-        "song": "#unknown",
+        "timestamp": 1572256165,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "DINO",
+        "song": "AngelVoices",
+        "difficulty": "Expert",
         "score": 1037263,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
