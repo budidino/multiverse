@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572361896,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MIMIM",
+        "song": "Victorious",
+        "difficulty": "Hard",
+        "score": 130445,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6911096572875977,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 47,
+            "cutScoreWithoutMultiplier": 49700,
+            "goodCutsCount": 497,
+            "handDistanceTravelled": 767,
+            "missedCutsCount": 31,
+            "timePlayed": 176.0,
+            "totalScore": 130445
+        }
+    },
+    {
         "timestamp": 1572361589,
         "computerName": "budid",
         "isFail": false,
