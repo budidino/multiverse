@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572355711,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "custom_level_45F5F2D6BDFD62D0FAD6AF9F2A9AFC1008C3AF88",
+        "difficulty": "ExpertPlus",
+        "score": 277594,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.606874704360962,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 88,
+            "cutScoreWithoutMultiplier": 103326,
+            "goodCutsCount": 1013,
+            "handDistanceTravelled": 1140,
+            "missedCutsCount": 83,
+            "timePlayed": 167.984375,
+            "totalScore": 277594
+        }
+    },
+    {
         "timestamp": 1572355451,
         "computerName": "budid",
         "isFail": false,
