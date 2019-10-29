@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572360674,
-        "song": "#unknown",
+        "timestamp": 1572360680,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MINGMING",
+        "song": "custom_level_174DBEF7BFDD791378582D4E7B46F9D652BA44D8",
+        "difficulty": "Expert",
         "score": 371080,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
