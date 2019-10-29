@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572360449,
-        "song": "#unknown",
+        "timestamp": 1572360453,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MINGMING",
+        "song": "BadLiar",
+        "difficulty": "Expert",
         "score": 278545,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
