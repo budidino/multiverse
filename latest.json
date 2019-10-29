@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1572356246,
+        "timestamp": 1572357857,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "BIT",
-        "song": "CountryRounds",
+        "player": "MAEVE",
+        "song": "custom_level_2C8B8983D2067E9F49B4B2267FAC603DAE455200",
         "difficulty": "ExpertPlus",
-        "score": 282549,
+        "score": 430968,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -25,7 +25,7 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.606874704360962,
+            "playerHeight": 1.507014513015747,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
@@ -33,22 +33,24 @@
         },
         "gameStats": {
             "badCutsCount": 11,
-            "cutScoreWithoutMultiplier": 78960,
-            "goodCutsCount": 752,
-            "handDistanceTravelled": 1042,
-            "missedCutsCount": 10,
-            "timePlayed": 170.09375,
-            "totalScore": 282549
+            "cutScoreWithoutMultiplier": 111873,
+            "goodCutsCount": 1257,
+            "handDistanceTravelled": 1151,
+            "missedCutsCount": 2,
+            "timePlayed": 244.078125,
+            "totalScore": 430968
         }
     },
     {
-        "timestamp": 1572356244,
-        "song": "#unknown",
+        "timestamp": 1572356246,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "CountryRounds",
+        "difficulty": "ExpertPlus",
         "score": 282549,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
