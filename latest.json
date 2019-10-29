@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572330980,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KUNG",
+        "song": "custom_level_09953AA16A5F494B8A2FEE6311D4375D9C317D64",
+        "difficulty": "Expert",
+        "score": 563646,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5249128341674805,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 74655,
+            "goodCutsCount": 711,
+            "handDistanceTravelled": 1015,
+            "missedCutsCount": 6,
+            "timePlayed": 195.0078125,
+            "totalScore": 563646
+        }
+    },
+    {
         "timestamp": 1572330688,
         "computerName": "budid",
         "isFail": false,
