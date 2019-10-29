@@ -1,4 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+11:17, 50s, False, True, UNKNOWN, #2, #unknown, 130 / 199, #unknown, 0, True, False, False, False
 11:16, 189s, False, False, MIMIM, #2, RumNBass, 381 / 401, Hard, 131624, True, False, False, False
 11:11, 176s, False, False, MIMIM, #2, Victorious, 497 / 575, Hard, 130445, True, False, False, False
 11:06, 191s, False, False, MIMI, #2, custom, 368 / 466, Expert, 76042, True, False, False, False
