@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+05:23, 29s, True, False, UNKNOWN, #2, #unknown, 101 / 113, #unknown, 0, False, False, False, False
+05:22, 203s, False, False, CHABBYQT, #2, Overkill, 867 / 879, Expert, 728807, False, True, False, False
 05:22, 161s, False, False, M, #1, EscapeNoArrows, 135 / 157, Easy, 19312, True, False, False, False
 05:18, 161s, False, False, M, #1, EscapeNoArrows, 140 / 157, Easy, 24805, True, False, False, False
 05:18, 30s, True, False, UNKNOWN, #2, #unknown, 135 / 150, #unknown, 0, False, False, False, False
