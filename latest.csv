@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+09:05, 143s, True, False, UNKNOWN, #2, #unknown, 429 / 445, #unknown, 0, False, False, False, False
+09:03, 57s, False, True, UNKNOWN, #2, #unknown, 173 / 176, #unknown, 0, False, False, False, False
 09:02, 238s, False, False, HASH JR, #2, Crystallized, 602 / 620, Normal, 423794, False, False, False, False
 08:57, 205s, False, False, HASH JR, #2, WhatTheCat, 657 / 662, Normal, 519034, False, False, False, False
 08:53, 143s, False, True, UNKNOWN, #2, #unknown, 457 / 561, #unknown, 0, True, False, False, False
