@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572418457,
-        "song": "#unknown",
+        "timestamp": 1572418468,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "GHOSTYYYY",
+        "song": "ThisTime",
+        "difficulty": "Normal",
         "score": 11251,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
