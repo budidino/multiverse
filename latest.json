@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572429918,
-        "song": "#unknown",
+        "timestamp": 1572429921,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "V",
+        "song": "custom_level_2AA1F5192828E075C30DD015B1E132BBA912EB86",
+        "difficulty": "Expert",
         "score": 263016,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
