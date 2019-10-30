@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572414069,
-        "song": "#unknown",
+        "timestamp": 1572414072,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "DRACO",
+        "song": "Victorious",
+        "difficulty": "Expert",
         "score": 534903,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
