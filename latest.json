@@ -1,14 +1,14 @@
 [
     {
-        "timestamp": 1572414261,
+        "timestamp": 1572414458,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "DRACO",
-        "song": "Victorious",
+        "song": "PopStars",
         "difficulty": "Expert",
-        "score": 485323,
-        "fullCombo": false,
+        "score": 656284,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -19,8 +19,8 @@
             "strictAngles": false,
             "disappearingArrows": true,
             "ghostNotes": false,
-            "noBombs": true,
-            "songSpeed": 0
+            "noBombs": false,
+            "songSpeed": 1
         },
         "settings": {
             "staticLights": false,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 10,
-            "cutScoreWithoutMultiplier": 68880,
-            "goodCutsCount": 656,
-            "handDistanceTravelled": 1056,
-            "missedCutsCount": 8,
-            "timePlayed": 175.984375,
-            "totalScore": 485323
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 71974,
+            "goodCutsCount": 679,
+            "handDistanceTravelled": 1037,
+            "missedCutsCount": 0,
+            "timePlayed": 227.109375,
+            "totalScore": 656284
         }
     },
     {
-        "timestamp": 1572414260,
-        "song": "#unknown",
+        "timestamp": 1572414261,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "DRACO",
+        "song": "Victorious",
+        "difficulty": "Expert",
         "score": 485323,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
