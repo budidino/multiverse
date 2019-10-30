@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572430512,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHELS",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
+        "score": 116899,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.1877484321594238,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 35870,
+            "goodCutsCount": 422,
+            "handDistanceTravelled": 404,
+            "missedCutsCount": 11,
+            "timePlayed": 168.125,
+            "totalScore": 116899
+        }
+    },
+    {
         "timestamp": 1572430336,
         "computerName": "Oculus",
         "isFail": false,
