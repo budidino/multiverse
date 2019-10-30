@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572429916,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHELS",
+        "song": "HighHopes",
+        "difficulty": "Normal",
+        "score": 97987,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.1877484321594238,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 28308,
+            "goodCutsCount": 337,
+            "handDistanceTravelled": 398,
+            "missedCutsCount": 6,
+            "timePlayed": 191.5,
+            "totalScore": 97987
+        }
+    },
+    {
         "timestamp": 1572429735,
         "song": "#unknown",
         "isFail": false,
