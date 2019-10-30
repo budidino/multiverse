@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572419185,
-        "song": "#unknown",
+        "timestamp": 1572419189,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NDR",
+        "song": "BadLiar",
+        "difficulty": "Hard",
         "score": 213683,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
