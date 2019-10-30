@@ -1,5 +1,129 @@
 [
     {
+        "timestamp": 1572407252,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DRACO",
+        "song": "Warriors",
+        "difficulty": "Expert",
+        "score": 558824,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.504594087600708,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 75276,
+            "goodCutsCount": 738,
+            "handDistanceTravelled": 914,
+            "missedCutsCount": 10,
+            "timePlayed": 165.953125,
+            "totalScore": 558824
+        }
+    },
+    {
+        "timestamp": 1572407251,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 558824,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.504594087600708,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 9,
+            "cutScoreWithoutMultiplier": 75276,
+            "goodCutsCount": 738,
+            "handDistanceTravelled": 914,
+            "missedCutsCount": 10,
+            "timePlayed": 165.953125,
+            "totalScore": 558824
+        }
+    },
+    {
+        "timestamp": 1572407078,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DRACO",
+        "song": "Thunder",
+        "difficulty": "Expert",
+        "score": 504295,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.504594087600708,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 66456,
+            "goodCutsCount": 639,
+            "handDistanceTravelled": 870,
+            "missedCutsCount": 5,
+            "timePlayed": 177.359375,
+            "totalScore": 504295
+        }
+    },
+    {
         "timestamp": 1572406888,
         "computerName": "budid",
         "isFail": false,
