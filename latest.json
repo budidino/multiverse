@@ -42,13 +42,15 @@
         }
     },
     {
-        "timestamp": 1572430278,
-        "song": "#unknown",
+        "timestamp": 1572430289,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "GHOSTYYYY",
+        "song": "custom_level_7C7F38D467BB43FE11A142581E63E324622ECC71",
+        "difficulty": "Hard",
         "score": 62122,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
