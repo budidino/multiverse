@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1572438301,
+        "timestamp": 1572438809,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "MAEVE",
-        "song": "custom_level_2FDDB136BDA7F9E29B4CB6621D6D8E0F8A43B126",
+        "song": "custom_level_4310F1B1D5AE5344F6CCD0AB31B892DF166F6C1A",
         "difficulty": "ExpertPlus",
-        "score": 548166,
+        "score": 896934,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 56,
-            "cutScoreWithoutMultiplier": 168700,
-            "goodCutsCount": 1687,
-            "handDistanceTravelled": 2327,
-            "missedCutsCount": 69,
-            "timePlayed": 307.34375,
-            "totalScore": 548166
+            "badCutsCount": 130,
+            "cutScoreWithoutMultiplier": 283465,
+            "goodCutsCount": 3115,
+            "handDistanceTravelled": 2969,
+            "missedCutsCount": 124,
+            "timePlayed": 471.03125,
+            "totalScore": 896934
         }
     },
     {
-        "timestamp": 1572438300,
-        "song": "#unknown",
+        "timestamp": 1572438301,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "custom_level_2FDDB136BDA7F9E29B4CB6621D6D8E0F8A43B126",
+        "difficulty": "ExpertPlus",
         "score": 548166,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
