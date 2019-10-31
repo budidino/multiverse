@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572516683,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "V",
+        "song": "Epic",
+        "difficulty": "Expert",
+        "score": 221800,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5093286037445068,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 22,
+            "cutScoreWithoutMultiplier": 63000,
+            "goodCutsCount": 750,
+            "handDistanceTravelled": 653,
+            "missedCutsCount": 15,
+            "timePlayed": 200.90625,
+            "totalScore": 221800
+        }
+    },
+    {
         "timestamp": 1572516465,
         "song": "#unknown",
         "isFail": true,
