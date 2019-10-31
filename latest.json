@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572516311,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "GHOSTYYYY",
+        "song": "TillItsOver",
+        "difficulty": "Normal",
+        "score": 252571,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5093286037445068,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 11,
+            "cutScoreWithoutMultiplier": 35904,
+            "goodCutsCount": 408,
+            "handDistanceTravelled": 689,
+            "missedCutsCount": 2,
+            "timePlayed": 223.4375,
+            "totalScore": 252571
+        }
+    },
+    {
         "timestamp": 1572497347,
         "computerName": "budid",
         "isFail": false,
