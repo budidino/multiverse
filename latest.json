@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572517463,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "GHOSTYYYY",
+        "song": "Victorious",
+        "difficulty": "Normal",
+        "score": 45179,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5093286037445068,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 32670,
+            "goodCutsCount": 363,
+            "handDistanceTravelled": 709,
+            "missedCutsCount": 1,
+            "timePlayed": 149.59375,
+            "totalScore": 45179
+        }
+    },
+    {
         "timestamp": 1572517173,
         "computerName": "budid",
         "isFail": false,
