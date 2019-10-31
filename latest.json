@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572517888,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "GHOSTYYYY",
+        "song": "EmperorsNewClothes",
+        "difficulty": "Hard",
+        "score": 111619,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5093286037445068,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 19,
+            "cutScoreWithoutMultiplier": 35040,
+            "goodCutsCount": 365,
+            "handDistanceTravelled": 712,
+            "missedCutsCount": 14,
+            "timePlayed": 156.65625,
+            "totalScore": 111619
+        }
+    },
+    {
         "timestamp": 1572517717,
         "computerName": "budid",
         "isFail": false,
