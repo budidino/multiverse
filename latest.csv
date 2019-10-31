@@ -1,4 +1,16 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+08:47, 110s, False, False, UNKNOWN, #1, #unknown, 79 / 94, #unknown, 11004, True, False, False, False
+07:06, 197s, False, False, UNKNOWN, #2, #unknown, 701 / 791, #unknown, 76309, True, False, False, False
+07:01, 116s, False, False, GHOSTYYYY, #2, custom, 413 / 437, Expert, 52323, True, False, False, False
+06:58, 223s, False, False, GHOSTYYYY, #2, custom, 418 / 421, Hard, 135284, True, False, False, False
+06:53, 210s, False, False, A, #2, custom, 723 / 771, Expert, 215370, True, False, False, False
+06:49, 60s, False, True, UNKNOWN, #2, #unknown, 140 / 142, #unknown, 0, True, False, False, False
+06:47, 132s, False, True, UNKNOWN, #2, #unknown, 400 / 431, #unknown, 0, True, False, False, False
+06:45, 130s, False, False, A, #2, INeedYou, 406 / 423, Expert, 131296, True, False, False, False
+06:43, 130s, False, False, A, #2, INeedYou, 328 / 338, Hard, 113134, True, False, False, False
+06:40, 1s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, True, False, False, False
+06:40, 64s, False, True, UNKNOWN, #2, #unknown, 138 / 148, #unknown, 0, True, False, False, False
+06:39, 189s, False, False, GHOSTYYYY, #2, RumNBass, 272 / 285, Normal, 84935, True, False, False, False
 06:34, 191s, False, False, GHOSTYYYY, #2, HighHopes, 342 / 348, Normal, 122524, True, False, False, False
 06:31, 156s, False, False, GHOSTYYYY, #2, EmperorsNewClothes, 365 / 398, Hard, 111619, True, False, False, False
 06:28, 156s, False, False, GHOSTYYYY, #2, EmperorsNewClothes, 268 / 268, Normal, 99779, True, False, False, False
