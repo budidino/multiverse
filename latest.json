@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572517173,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "A",
+        "song": "Boundless",
+        "difficulty": "Hard",
+        "score": 181534,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5093286037445068,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 17,
+            "cutScoreWithoutMultiplier": 50232,
+            "goodCutsCount": 546,
+            "handDistanceTravelled": 638,
+            "missedCutsCount": 5,
+            "timePlayed": 184.75,
+            "totalScore": 181534
+        }
+    },
+    {
         "timestamp": 1572516977,
         "song": "#unknown",
         "isFail": false,
