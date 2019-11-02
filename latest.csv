@@ -1,5 +1,5 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-03:29, 110s, False, False, UNKNOWN, #1, #unknown, 88 / 94, #unknown, 19890, True, False, False, False
+03:29, 110s, False, False, MARL, #1, BeatSaber, 88 / 94, Easy, 19890, True, False, False, False
 03:29, 110s, False, False, UNKNOWN, #1, #unknown, 88 / 94, #unknown, 19890, True, False, False, False
 12:17, 161s, False, False, DINO, #2, Escape, 589 / 600, ExpertPlus, 458829, False, False, False, False
 12:13, 141s, False, False, DINO, #2, 100Bills, 722 / 734, ExpertPlus, 285302, True, False, False, False

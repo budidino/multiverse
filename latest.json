@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572679753,
-        "song": "#unknown",
+        "timestamp": 1572679768,
+        "computerName": "Oculus",
         "isFail": false,
         "isQuit": false,
-        "computerName": "Oculus",
-        "player": "UNKNOWN",
+        "player": "MARL",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
         "score": 19890,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
