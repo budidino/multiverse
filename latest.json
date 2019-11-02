@@ -1,12 +1,56 @@
 [
     {
-        "timestamp": 1572668025,
-        "song": "#unknown",
+        "timestamp": 1572668226,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
+        "player": "DINO",
+        "song": "Escape",
+        "difficulty": "ExpertPlus",
+        "score": 458829,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.9146225452423096,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 61845,
+            "goodCutsCount": 589,
+            "handDistanceTravelled": 1288,
+            "missedCutsCount": 4,
+            "timePlayed": 161.46875,
+            "totalScore": 458829
+        }
+    },
+    {
+        "timestamp": 1572668033,
         "computerName": "budid",
-        "player": "UNKNOWN",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "100Bills",
+        "difficulty": "ExpertPlus",
         "score": 285302,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
