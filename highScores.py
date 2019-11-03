@@ -65,7 +65,7 @@ def updateHighScores():
     # generate HighScore list for song 'Overkill'
     timeString = datetime.datetime.now().strftime("%B %d - %I").replace(' 0', ' ')
     print(f"{competitionSongName} - {timeString}")
-    players = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG"]
+    players = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
     htmlString = ""
     htmlStringKids = ""
     for key, value in scores.items():
