@@ -1,5 +1,10 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-03:29, 110s, False, False, MARL, #1, BeatSaber, 88 / 94, Easy, 19890, True, False, False, False
-03:29, 110s, False, False, UNKNOWN, #1, #unknown, 88 / 94, #unknown, 19890, True, False, False, False
-12:17, 161s, False, False, DINO, #2, Escape, 589 / 600, ExpertPlus, 458829, False, False, False, False
-12:13, 141s, False, False, DINO, #2, 100Bills, 722 / 734, ExpertPlus, 285302, True, False, False, False
+01:30, 70s, True, False, UNKNOWN, #2, #unknown, 196 / 206, #unknown, 0, False, False, False, False
+01:27, 85s, False, True, UNKNOWN, #2, #unknown, 240 / 306, #unknown, 0, True, False, False, False
+01:25, 7s, False, True, UNKNOWN, #2, #unknown, 1 / 16, #unknown, 0, True, False, False, False
+01:24, 81s, True, False, UNKNOWN, #2, #unknown, 249 / 262, #unknown, 0, False, False, False, False
+01:21, 59s, True, False, UNKNOWN, #2, #unknown, 155 / 168, #unknown, 0, False, False, False, True
+01:20, 40s, False, True, UNKNOWN, #2, #unknown, 101 / 113, #unknown, 0, False, False, False, True
+01:18, 191s, False, False, SHAQUIL, #2, HighHopes, 777 / 795, Expert, 575941, False, False, False, False
+01:14, 191s, False, False, SHAQUIL, #2, HighHopes, 540 / 546, Hard, 423276, False, False, False, False
+01:10, 215s, False, False, SHAQUIL, #2, custom, 725 / 835, Expert, 194383, True, False, False, False

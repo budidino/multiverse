@@ -1,17 +1,15 @@
 [
     {
-        "timestamp": 1572679768,
-        "computerName": "Oculus",
-        "isFail": false,
+        "timestamp": 1572759038,
+        "song": "#unknown",
+        "isFail": true,
         "isQuit": false,
-        "player": "MARL",
-        "song": "BeatSaber",
-        "difficulty": "Easy",
-        "score": 19890,
-        "fullCombo": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
         "modifiers": {
             "energyType": 0,
-            "noFail": true,
+            "noFail": false,
             "instaFail": false,
             "failOnSaberClash": false,
             "enabledObstacleType": 0,
@@ -25,30 +23,30 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.1877484321594238,
+            "playerHeight": 1.5341360569000244,
             "disableSFX": false,
-            "reduceDebris": false,
+            "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 5,
-            "cutScoreWithoutMultiplier": 7744,
-            "goodCutsCount": 88,
-            "handDistanceTravelled": 174,
-            "missedCutsCount": 1,
-            "timePlayed": 110.3125,
-            "totalScore": 19890
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 19796,
+            "goodCutsCount": 196,
+            "handDistanceTravelled": 296,
+            "missedCutsCount": 6,
+            "timePlayed": 70.21875,
+            "totalScore": 0
         }
     },
     {
-        "timestamp": 1572679752,
+        "timestamp": 1572758848,
         "song": "#unknown",
         "isFail": false,
-        "isQuit": false,
-        "computerName": "Oculus",
+        "isQuit": true,
+        "computerName": "budid",
         "player": "UNKNOWN",
-        "score": 19890,
+        "score": 0,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
@@ -65,31 +63,191 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.1877484321594238,
+            "playerHeight": 1.5341360569000244,
             "disableSFX": false,
-            "reduceDebris": false,
+            "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 5,
-            "cutScoreWithoutMultiplier": 7744,
-            "goodCutsCount": 88,
-            "handDistanceTravelled": 174,
-            "missedCutsCount": 1,
-            "timePlayed": 110.3125,
-            "totalScore": 19890
+            "badCutsCount": 24,
+            "cutScoreWithoutMultiplier": 25200,
+            "goodCutsCount": 240,
+            "handDistanceTravelled": 572,
+            "missedCutsCount": 42,
+            "timePlayed": 85.53125,
+            "totalScore": 0
         }
     },
     {
-        "timestamp": 1572668226,
+        "timestamp": 1572758729,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": true,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5341360569000244,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 8,
+            "cutScoreWithoutMultiplier": 3,
+            "goodCutsCount": 1,
+            "handDistanceTravelled": 23,
+            "missedCutsCount": 7,
+            "timePlayed": 7.734375,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572758641,
+        "song": "#unknown",
+        "isFail": true,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5341360569000244,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 26145,
+            "goodCutsCount": 249,
+            "handDistanceTravelled": 437,
+            "missedCutsCount": 7,
+            "timePlayed": 81.703125,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572758505,
+        "song": "#unknown",
+        "isFail": true,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5341360569000244,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 16120,
+            "goodCutsCount": 155,
+            "handDistanceTravelled": 234,
+            "missedCutsCount": 9,
+            "timePlayed": 59.328125,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572758449,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": true,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5341360569000244,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 10504,
+            "goodCutsCount": 101,
+            "handDistanceTravelled": 174,
+            "missedCutsCount": 5,
+            "timePlayed": 40.625,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1572758292,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "DINO",
-        "song": "Escape",
-        "difficulty": "ExpertPlus",
-        "score": 458829,
+        "player": "SHAQUIL",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 575941,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -107,31 +265,73 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.9146225452423096,
+            "playerHeight": 1.5341360569000244,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 7,
-            "cutScoreWithoutMultiplier": 61845,
-            "goodCutsCount": 589,
-            "handDistanceTravelled": 1288,
-            "missedCutsCount": 4,
-            "timePlayed": 161.46875,
-            "totalScore": 458829
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 78477,
+            "goodCutsCount": 777,
+            "handDistanceTravelled": 1150,
+            "missedCutsCount": 12,
+            "timePlayed": 191.515625,
+            "totalScore": 575941
         }
     },
     {
-        "timestamp": 1572668033,
+        "timestamp": 1572758066,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "DINO",
-        "song": "100Bills",
-        "difficulty": "ExpertPlus",
-        "score": 285302,
+        "player": "SHAQUIL",
+        "song": "HighHopes",
+        "difficulty": "Hard",
+        "score": 423276,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5341360569000244,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 56160,
+            "goodCutsCount": 540,
+            "handDistanceTravelled": 931,
+            "missedCutsCount": 3,
+            "timePlayed": 191.515625,
+            "totalScore": 423276
+        }
+    },
+    {
+        "timestamp": 1572757814,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SHAQUIL",
+        "song": "custom_level_2A40D12C7573360C52D621558340AD41EECE47A8",
+        "difficulty": "Expert",
+        "score": 194383,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -149,20 +349,20 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.9146225452423096,
+            "playerHeight": 1.5341360569000244,
             "disableSFX": false,
             "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 4,
-            "cutScoreWithoutMultiplier": 77254,
-            "goodCutsCount": 722,
-            "handDistanceTravelled": 1346,
-            "missedCutsCount": 8,
-            "timePlayed": 141.515625,
-            "totalScore": 285302
+            "badCutsCount": 43,
+            "cutScoreWithoutMultiplier": 71775,
+            "goodCutsCount": 725,
+            "handDistanceTravelled": 1274,
+            "missedCutsCount": 67,
+            "timePlayed": 215.796875,
+            "totalScore": 194383
         }
     }
 ]
