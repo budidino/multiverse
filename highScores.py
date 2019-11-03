@@ -17,9 +17,9 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 10.0
 
-competitionSongName = "WhatTheCat"
-competitionDateStart = datetime.date(2019, 10, 1)
-competitionDateEnd = datetime.date(2019, 10, 31)
+competitionSongName = "HighHopes"
+competitionDateStart = datetime.date(2019, 11, 1)
+competitionDateEnd = datetime.date(2019, 11, 30)
 
 def git_push():
     try:
