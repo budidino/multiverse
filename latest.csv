@@ -1,4 +1,6 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:06, 41s, True, False, UNKNOWN, #2, #unknown, 92 / 100, #unknown, 0, False, False, False, False
+04:06, 10s, False, True, UNKNOWN, #2, #unknown, 22 / 26, #unknown, 0, False, False, False, False
 04:05, 161s, False, False,  BUDZ, #2, Escape, 384 / 399, Expert, 270659, False, False, False, False
 04:02, 17s, True, False, UNKNOWN, #2, #unknown, 29 / 35, #unknown, 0, False, False, False, False
 04:02, 127s, True, False, UNKNOWN, #2, #unknown, 369 / 387, #unknown, 0, False, False, False, False
