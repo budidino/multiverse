@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572854382,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "FN",
+        "song": "Radioactive",
+        "difficulty": "Normal",
+        "score": 94766,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.722963809967041,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 27,
+            "cutScoreWithoutMultiplier": 30888,
+            "goodCutsCount": 396,
+            "handDistanceTravelled": 438,
+            "missedCutsCount": 12,
+            "timePlayed": 184.859375,
+            "totalScore": 94766
+        }
+    },
+    {
         "timestamp": 1572854147,
         "computerName": "budid",
         "isFail": false,
