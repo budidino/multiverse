@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1572854645,
+        "timestamp": 1572854915,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "GABMM",
-        "song": "BurningSands",
+        "player": "GAB",
+        "song": "PopStars",
         "difficulty": "Normal",
-        "score": 123501,
+        "score": 129468,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 16,
-            "cutScoreWithoutMultiplier": 36320,
-            "goodCutsCount": 454,
-            "handDistanceTravelled": 474,
-            "missedCutsCount": 2,
-            "timePlayed": 216.984375,
-            "totalScore": 123501
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 35404,
+            "goodCutsCount": 334,
+            "handDistanceTravelled": 713,
+            "missedCutsCount": 3,
+            "timePlayed": 189.265625,
+            "totalScore": 129468
         }
     },
     {
-        "timestamp": 1572854643,
-        "song": "#unknown",
+        "timestamp": 1572854645,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "GABMM",
+        "song": "BurningSands",
+        "difficulty": "Normal",
         "score": 123501,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
