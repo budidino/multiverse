@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572853628,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "F",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
+        "score": 98766,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.460418462753296,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 20,
+            "cutScoreWithoutMultiplier": 39066,
+            "goodCutsCount": 383,
+            "handDistanceTravelled": 741,
+            "missedCutsCount": 37,
+            "timePlayed": 168.125,
+            "totalScore": 98766
+        }
+    },
+    {
         "timestamp": 1572853418,
         "computerName": "budid",
         "isFail": false,
