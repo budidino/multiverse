@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572852942,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "GAB",
+        "song": "HighHopes",
+        "difficulty": "Normal",
+        "score": 96454,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7238600254058838,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 26598,
+            "goodCutsCount": 341,
+            "handDistanceTravelled": 457,
+            "missedCutsCount": 1,
+            "timePlayed": 191.5,
+            "totalScore": 96454
+        }
+    },
+    {
         "timestamp": 1572852606,
         "computerName": "budid",
         "isFail": false,
