@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1572853910,
+        "timestamp": 1572854147,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "FM",
-        "song": "TheGreatestShow",
+        "player": "F",
+        "song": "Victorious",
         "difficulty": "Hard",
-        "score": 127386,
+        "score": 58553,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 9,
-            "cutScoreWithoutMultiplier": 34749,
-            "goodCutsCount": 429,
-            "handDistanceTravelled": 514,
-            "missedCutsCount": 2,
-            "timePlayed": 168.125,
-            "totalScore": 127386
+            "badCutsCount": 66,
+            "cutScoreWithoutMultiplier": 30222,
+            "goodCutsCount": 438,
+            "handDistanceTravelled": 404,
+            "missedCutsCount": 71,
+            "timePlayed": 175.984375,
+            "totalScore": 58553
         }
     },
     {
-        "timestamp": 1572853906,
-        "song": "#unknown",
+        "timestamp": 1572853910,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "FM",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
         "score": 127386,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
