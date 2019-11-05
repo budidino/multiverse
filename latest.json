@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572941811,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "SHAQUIL",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 589805,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.722963809967041,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 13,
+            "cutScoreWithoutMultiplier": 74304,
+            "goodCutsCount": 774,
+            "handDistanceTravelled": 974,
+            "missedCutsCount": 8,
+            "timePlayed": 229.828125,
+            "totalScore": 589805
+        }
+    },
+    {
         "timestamp": 1572941614,
         "computerName": "budid",
         "isFail": false,
