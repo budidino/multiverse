@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1572930646,
-        "song": "#unknown",
+        "timestamp": 1572930723,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "JAYMARU",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
         "score": 21265,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
