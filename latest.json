@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1572930873,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "M",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
+        "score": 27508,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.722963809967041,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 2,
+            "cutScoreWithoutMultiplier": 8096,
+            "goodCutsCount": 92,
+            "handDistanceTravelled": 189,
+            "missedCutsCount": 0,
+            "timePlayed": 110.328125,
+            "totalScore": 27508
+        }
+    },
+    {
         "timestamp": 1572930723,
         "computerName": "budid",
         "isFail": false,
