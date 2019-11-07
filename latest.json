@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573135278,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BAN",
+        "song": "Overkill",
+        "difficulty": "Expert",
+        "score": 732384,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 1
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6847906112670898,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 4,
+            "cutScoreWithoutMultiplier": 88072,
+            "goodCutsCount": 872,
+            "handDistanceTravelled": 1302,
+            "missedCutsCount": 3,
+            "timePlayed": 244.734375,
+            "totalScore": 732384
+        }
+    },
+    {
         "timestamp": 1573135101,
         "song": "#unknown",
         "isFail": false,
