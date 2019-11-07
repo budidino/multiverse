@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573125816,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 324128,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6610519886016846,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 10,
+            "cutScoreWithoutMultiplier": 89128,
+            "goodCutsCount": 857,
+            "handDistanceTravelled": 1266,
+            "missedCutsCount": 16,
+            "timePlayed": 191.515625,
+            "totalScore": 324128
+        }
+    },
+    {
         "timestamp": 1573125411,
         "computerName": "budid",
         "isFail": false,
