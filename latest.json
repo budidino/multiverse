@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573209213,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "V",
+        "song": "custom_level_46b1 (Bad Guy - dgrj4life)",
+        "difficulty": "Expert",
+        "score": 184387,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.7466638088226318,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 40,
+            "cutScoreWithoutMultiplier": 63826,
+            "goodCutsCount": 679,
+            "handDistanceTravelled": 760,
+            "missedCutsCount": 42,
+            "timePlayed": 193.6875,
+            "totalScore": 184387
+        }
+    },
+    {
         "timestamp": 1573209005,
         "song": "#unknown",
         "isFail": false,
