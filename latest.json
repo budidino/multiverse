@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573197986,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CARISSA",
+        "song": "100Bills",
+        "difficulty": "Easy",
+        "score": 37397,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.2466413974761963,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 12789,
+            "goodCutsCount": 147,
+            "handDistanceTravelled": 265,
+            "missedCutsCount": 4,
+            "timePlayed": 141.515625,
+            "totalScore": 37397
+        }
+    },
+    {
         "timestamp": 1573197800,
         "computerName": "budid",
         "isFail": false,
