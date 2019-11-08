@@ -1,17 +1,17 @@
 [
     {
-        "timestamp": 1573213500,
+        "timestamp": 1573213820,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "MAEVE",
-        "song": "custom_level_0B0EB53CFF905C3A62FB57DCD62AB3281FF39B2B",
-        "difficulty": "ExpertPlus",
-        "score": 904565,
+        "song": "custom_level_FB1CD2C47872A6527F97C9B0D04B6BD4596E9E37",
+        "difficulty": "Expert",
+        "score": 347623,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
-            "noFail": false,
+            "noFail": true,
             "instaFail": false,
             "failOnSaberClash": false,
             "enabledObstacleType": 0,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 20,
-            "cutScoreWithoutMultiplier": 123930,
-            "goodCutsCount": 1215,
-            "handDistanceTravelled": 1569,
-            "missedCutsCount": 9,
-            "timePlayed": 218.78125,
-            "totalScore": 904565
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 102290,
+            "goodCutsCount": 965,
+            "handDistanceTravelled": 1546,
+            "missedCutsCount": 40,
+            "timePlayed": 186.921875,
+            "totalScore": 347623
         }
     },
     {
-        "timestamp": 1573213499,
-        "song": "#unknown",
+        "timestamp": 1573213500,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "custom_level_0B0EB53CFF905C3A62FB57DCD62AB3281FF39B2B",
+        "difficulty": "ExpertPlus",
         "score": 904565,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
