@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573209491,
-        "song": "#unknown",
+        "timestamp": 1573209501,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NDR",
+        "song": "TheGreatestShow",
+        "difficulty": "Hard",
         "score": 152978,
+        "fullCombo": true,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
