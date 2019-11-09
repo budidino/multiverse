@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573282814,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "POL",
+        "song": "Radioactive",
+        "difficulty": "Hard",
+        "score": 377991,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6127521991729736,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 5,
+            "cutScoreWithoutMultiplier": 49200,
+            "goodCutsCount": 615,
+            "handDistanceTravelled": 464,
+            "missedCutsCount": 3,
+            "timePlayed": 184.859375,
+            "totalScore": 377991
+        }
+    },
+    {
         "timestamp": 1573282090,
         "computerName": "budid",
         "isFail": false,
