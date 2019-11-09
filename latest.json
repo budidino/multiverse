@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573274092,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JL",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 118598,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6127521991729736,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 58,
+            "cutScoreWithoutMultiplier": 51870,
+            "goodCutsCount": 546,
+            "handDistanceTravelled": 833,
+            "missedCutsCount": 25,
+            "timePlayed": 201.890625,
+            "totalScore": 118598
+        }
+    },
+    {
         "timestamp": 1573273805,
         "computerName": "budid",
         "isFail": false,
