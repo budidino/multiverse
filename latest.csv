@@ -1,4 +1,17 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+09:10, 216s, False, False, MAEVE, #2, BurningSands, 1066 / 1126, ExpertPlus, 362131, True, False, False, False
+09:06, 311s, False, False, MAEVE, #2, custom, 1188 / 1200, Expert, 449233, True, False, False, False
+08:49, 279s, False, False, KUNG, #2, custom, 1509 / 1650, ExpertPlus, 431157, True, False, False, False
+08:44, 59s, True, False, UNKNOWN, #2, #unknown, 340 / 354, #unknown, 0, False, False, False, False
+08:42, 17s, False, True, UNKNOWN, #2, #unknown, 5 / 5, #unknown, 0, False, False, False, False
+08:42, 158s, True, False, UNKNOWN, #2, #unknown, 585 / 626, #unknown, 0, False, False, False, True
+08:40, 11s, False, True, UNKNOWN, #2, #unknown, 42 / 42, #unknown, 0, True, False, False, False
+08:39, 5s, False, True, UNKNOWN, #2, #unknown, 17 / 17, #unknown, 0, True, False, False, False
+08:14, 214s, False, False, BIT, #2, ReasonForLiving, 873 / 903, ExpertPlus, 330351, True, False, False, False
+08:10, 216s, False, False, BIT, #2, BurningSands, 1085 / 1126, ExpertPlus, 391165, True, False, False, False
+08:06, 218s, False, False, BIT, #2, custom, 1213 / 1244, ExpertPlus, 911625, False, False, False, False
+08:02, 160s, False, False, BIT, #2, custom, 912 / 925, ExpertPlus, 719074, False, False, False, False
+07:58, 144s, False, False, BIT, #2, custom, 699 / 709, Expert, 557902, False, False, False, False
 07:54, 196s, False, False, MAEVE, #2, custom, 1024 / 1042, Expert, 755861, False, False, False, False
 07:50, 186s, False, False, MAEVE, #2, custom, 965 / 1010, Expert, 347623, True, False, False, False
 07:45, 218s, False, False, MAEVE, #2, custom, 1215 / 1244, ExpertPlus, 904565, False, False, False, False
