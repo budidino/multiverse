@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573298279,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "LuvUNeedU",
+        "difficulty": "ExpertPlus",
+        "score": 240973,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5872251987457275,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 16,
+            "cutScoreWithoutMultiplier": 71276,
+            "goodCutsCount": 692,
+            "handDistanceTravelled": 971,
+            "missedCutsCount": 17,
+            "timePlayed": 147.5625,
+            "totalScore": 240973
+        }
+    },
+    {
         "timestamp": 1573288605,
         "song": "#unknown",
         "isFail": false,
