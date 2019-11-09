@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573283929,
-        "song": "#unknown",
+        "timestamp": 1573284023,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MALEA",
+        "song": "BeatSaber",
+        "difficulty": "Easy",
         "score": 23945,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
