@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573452491,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "TestMe",
+        "difficulty": "Expert",
+        "score": 684943,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8751659393310547,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 88088,
+            "goodCutsCount": 847,
+            "handDistanceTravelled": 1443,
+            "missedCutsCount": 4,
+            "timePlayed": 183.8125,
+            "totalScore": 684943
+        }
+    },
+    {
         "timestamp": 1573452211,
         "computerName": "Oculus",
         "isFail": false,
