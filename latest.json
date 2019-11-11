@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573452211,
+        "computerName": "Oculus",
+        "isFail": false,
+        "isQuit": false,
+        "player": "DINO",
+        "song": "Glide",
+        "difficulty": "Expert",
+        "score": 597343,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.8751659393310547,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 76719,
+            "goodCutsCount": 717,
+            "handDistanceTravelled": 1404,
+            "missedCutsCount": 1,
+            "timePlayed": 196.8125,
+            "totalScore": 597343
+        }
+    },
+    {
         "timestamp": 1573451989,
         "song": "#unknown",
         "isFail": true,
