@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573561677,
-        "song": "#unknown",
+        "timestamp": 1573561689,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NICO",
+        "song": "RockIt",
+        "difficulty": "Hard",
         "score": 133032,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
