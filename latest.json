@@ -1,5 +1,87 @@
 [
     {
+        "timestamp": 1573548902,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHEEKEN",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 128134,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5783329010009766,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 17,
+            "cutScoreWithoutMultiplier": 90100,
+            "goodCutsCount": 850,
+            "handDistanceTravelled": 1516,
+            "missedCutsCount": 16,
+            "timePlayed": 162.78125,
+            "totalScore": 128134
+        }
+    },
+    {
+        "timestamp": 1573548900,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 128134,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5783329010009766,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 17,
+            "cutScoreWithoutMultiplier": 90100,
+            "goodCutsCount": 850,
+            "handDistanceTravelled": 1516,
+            "missedCutsCount": 16,
+            "timePlayed": 162.78125,
+            "totalScore": 128134
+        }
+    },
+    {
         "timestamp": 1573548667,
         "computerName": "budid",
         "isFail": false,
