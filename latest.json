@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573561404,
-        "song": "#unknown",
+        "timestamp": 1573561436,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "NICO",
+        "song": "custom_level_2E6F858088C6D67E930E1BB357BD7455101B6626",
+        "difficulty": "Hard",
         "score": 146815,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
