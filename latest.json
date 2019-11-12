@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1573558365,
+        "timestamp": 1573558700,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "BIT",
-        "song": "WhatTheCat",
+        "player": "MAEVE",
+        "song": "Play",
         "difficulty": "ExpertPlus",
-        "score": 339873,
+        "score": 344193,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -25,30 +25,32 @@
         "settings": {
             "staticLights": false,
             "leftHanded": false,
-            "playerHeight": 1.6019556522369385,
+            "playerHeight": 1.4923756122589111,
             "disableSFX": false,
-            "reduceDebris": false,
+            "reduceDebris": true,
             "noTextsAndHuds": false,
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 81,
-            "cutScoreWithoutMultiplier": 113730,
-            "goodCutsCount": 1115,
-            "handDistanceTravelled": 1253,
-            "missedCutsCount": 90,
-            "timePlayed": 205.296875,
-            "totalScore": 339873
+            "badCutsCount": 21,
+            "cutScoreWithoutMultiplier": 102375,
+            "goodCutsCount": 975,
+            "handDistanceTravelled": 1391,
+            "missedCutsCount": 25,
+            "timePlayed": 183.078125,
+            "totalScore": 344193
         }
     },
     {
-        "timestamp": 1573558362,
-        "song": "#unknown",
+        "timestamp": 1573558365,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "BIT",
+        "song": "WhatTheCat",
+        "difficulty": "ExpertPlus",
         "score": 339873,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
