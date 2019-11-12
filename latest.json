@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573550368,
-        "song": "#unknown",
+        "timestamp": 1573550380,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "SHAQUIL",
+        "song": "HighHopes",
+        "difficulty": "Expert",
         "score": 595405,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
