@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573562371,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "NICO",
+        "song": "Crystallized",
+        "difficulty": "Normal",
+        "score": 186192,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6725733280181885,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 27,
+            "cutScoreWithoutMultiplier": 55872,
+            "goodCutsCount": 582,
+            "handDistanceTravelled": 883,
+            "missedCutsCount": 11,
+            "timePlayed": 238.421875,
+            "totalScore": 186192
+        }
+    },
+    {
         "timestamp": 1573562118,
         "song": "#unknown",
         "isFail": false,
