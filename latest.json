@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573563320,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "BIT",
+        "song": "CycleHit",
+        "difficulty": "ExpertPlus",
+        "score": 625217,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5951461791992188,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 68,
+            "cutScoreWithoutMultiplier": 190434,
+            "goodCutsCount": 1867,
+            "handDistanceTravelled": 1949,
+            "missedCutsCount": 88,
+            "timePlayed": 317.15625,
+            "totalScore": 625217
+        }
+    },
+    {
         "timestamp": 1573562965,
         "computerName": "budid",
         "isFail": false,
