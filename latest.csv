@@ -1,4 +1,8 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+07:32, 205s, False, False, BIT, #2, WhatTheCat, 1115 / 1286, ExpertPlus, 339873, True, False, False, False
+07:32, 205s, False, False, UNKNOWN, #2, #unknown, 1115 / 1286, #unknown, 339873, True, False, False, False
+07:28, 0s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, False, False, False, False
+07:28, 188s, False, True, UNKNOWN, #2, #unknown, 864 / 883, #unknown, 0, False, False, False, False
 07:25, 32s, False, True, UNKNOWN, #2, #unknown, 134 / 139, #unknown, 0, False, False, False, False
 07:24, 0s, False, True, UNKNOWN, #2, #unknown, 0 / 0, #unknown, 0, False, False, False, False
 07:24, 147s, False, False, BIT, #2, LuvUNeedU, 717 / 725, ExpertPlus, 284219, True, False, False, False
