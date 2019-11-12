@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573560741,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MINGMING",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 265498,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4726617336273193,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 18,
+            "cutScoreWithoutMultiplier": 75537,
+            "goodCutsCount": 763,
+            "handDistanceTravelled": 1016,
+            "missedCutsCount": 14,
+            "timePlayed": 191.515625,
+            "totalScore": 265498
+        }
+    },
+    {
         "timestamp": 1573560517,
         "computerName": "budid",
         "isFail": false,
