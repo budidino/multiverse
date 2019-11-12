@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573551570,
-        "song": "#unknown",
+        "timestamp": 1573551601,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "CHEEKEN",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
         "score": 645123,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
@@ -49,46 +51,6 @@
         "difficulty": "ExpertPlus",
         "score": 311398,
         "fullCombo": false,
-        "modifiers": {
-            "energyType": 0,
-            "noFail": true,
-            "instaFail": false,
-            "failOnSaberClash": false,
-            "enabledObstacleType": 0,
-            "fastNotes": false,
-            "strictAngles": false,
-            "disappearingArrows": false,
-            "ghostNotes": false,
-            "noBombs": false,
-            "songSpeed": 0
-        },
-        "settings": {
-            "staticLights": false,
-            "leftHanded": false,
-            "playerHeight": 1.3061628341674805,
-            "disableSFX": false,
-            "reduceDebris": true,
-            "noTextsAndHuds": false,
-            "advancedHud": true
-        },
-        "gameStats": {
-            "badCutsCount": 16,
-            "cutScoreWithoutMultiplier": 89250,
-            "goodCutsCount": 850,
-            "handDistanceTravelled": 1413,
-            "missedCutsCount": 17,
-            "timePlayed": 191.515625,
-            "totalScore": 311398
-        }
-    },
-    {
-        "timestamp": 1573551295,
-        "song": "#unknown",
-        "isFail": false,
-        "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
-        "score": 311398,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
