@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573548667,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHEEKEN",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 123311,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 2
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5783329010009766,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 24,
+            "cutScoreWithoutMultiplier": 88830,
+            "goodCutsCount": 846,
+            "handDistanceTravelled": 1569,
+            "missedCutsCount": 13,
+            "timePlayed": 162.78125,
+            "totalScore": 123311
+        }
+    },
+    {
         "timestamp": 1573548425,
         "song": "#unknown",
         "isFail": false,
