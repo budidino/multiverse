@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573558920,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "Shiawase",
+        "difficulty": "ExpertPlus",
+        "score": 363143,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.4923756122589111,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 109304,
+            "goodCutsCount": 1051,
+            "handDistanceTravelled": 1534,
+            "missedCutsCount": 36,
+            "timePlayed": 209.40625,
+            "totalScore": 363143
+        }
+    },
+    {
         "timestamp": 1573558700,
         "computerName": "budid",
         "isFail": false,
