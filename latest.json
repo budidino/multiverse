@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1573548902,
+        "timestamp": 1573549110,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "player": "CHEEKEN",
+        "player": "CHEEKENM",
         "song": "HighHopes",
         "difficulty": "ExpertPlus",
-        "score": 128134,
+        "score": 258729,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -20,7 +20,7 @@
             "disappearingArrows": false,
             "ghostNotes": false,
             "noBombs": false,
-            "songSpeed": 2
+            "songSpeed": 0
         },
         "settings": {
             "staticLights": false,
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 17,
-            "cutScoreWithoutMultiplier": 90100,
-            "goodCutsCount": 850,
-            "handDistanceTravelled": 1516,
-            "missedCutsCount": 16,
-            "timePlayed": 162.78125,
-            "totalScore": 128134
+            "badCutsCount": 39,
+            "cutScoreWithoutMultiplier": 85365,
+            "goodCutsCount": 813,
+            "handDistanceTravelled": 1381,
+            "missedCutsCount": 31,
+            "timePlayed": 191.515625,
+            "totalScore": 258729
         }
     },
     {
-        "timestamp": 1573548900,
-        "song": "#unknown",
+        "timestamp": 1573548902,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "CHEEKEN",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
         "score": 128134,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
