@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573618625,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HADDOG",
+        "song": "Rattlesnake",
+        "difficulty": "Hard",
+        "score": 156880,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": true,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.644310474395752,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 54524,
+            "goodCutsCount": 634,
+            "handDistanceTravelled": 605,
+            "missedCutsCount": 9,
+            "timePlayed": 214.53125,
+            "totalScore": 156880
+        }
+    },
+    {
         "timestamp": 1573618376,
         "computerName": "budid",
         "isFail": false,
