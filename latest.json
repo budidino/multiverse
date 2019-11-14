@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573703025,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JL",
+        "song": "HighHopes",
+        "difficulty": "ExpertPlus",
+        "score": 46853,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.642052173614502,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 84,
+            "cutScoreWithoutMultiplier": 42849,
+            "goodCutsCount": 529,
+            "handDistanceTravelled": 787,
+            "missedCutsCount": 270,
+            "timePlayed": 191.515625,
+            "totalScore": 46853
+        }
+    },
+    {
         "timestamp": 1573702813,
         "computerName": "budid",
         "isFail": false,
