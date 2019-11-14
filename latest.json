@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573714729,
-        "song": "#unknown",
+        "timestamp": 1573714731,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "MAEVE",
+        "song": "custom_level_F296BD4317EB7BD62A06C239F2349D58B75F0FF3",
+        "difficulty": "Expert",
         "score": 232890,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
