@@ -1,12 +1,14 @@
 [
     {
-        "timestamp": 1573736745,
-        "song": "#unknown",
+        "timestamp": 1573736752,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "KBYE",
+        "song": "Origins",
+        "difficulty": "Normal",
         "score": 116236,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": true,
