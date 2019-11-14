@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573736930,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "KBYE",
+        "song": "Origins",
+        "difficulty": "Hard",
+        "score": 315796,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.580643892288208,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 0,
+            "cutScoreWithoutMultiplier": 40553,
+            "goodCutsCount": 379,
+            "handDistanceTravelled": 737,
+            "missedCutsCount": 1,
+            "timePlayed": 147.921875,
+            "totalScore": 315796
+        }
+    },
+    {
         "timestamp": 1573736752,
         "computerName": "budid",
         "isFail": false,
