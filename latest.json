@@ -1,5 +1,87 @@
 [
     {
+        "timestamp": 1573722262,
+        "song": "#unknown",
+        "isFail": true,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 0,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6486738920211792,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 4200,
+            "goodCutsCount": 40,
+            "handDistanceTravelled": 99,
+            "missedCutsCount": 4,
+            "timePlayed": 21.375,
+            "totalScore": 0
+        }
+    },
+    {
+        "timestamp": 1573722165,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "JOHN",
+        "song": "Believer",
+        "difficulty": "Hard",
+        "score": 411642,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6486738920211792,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 55447,
+            "goodCutsCount": 623,
+            "handDistanceTravelled": 613,
+            "missedCutsCount": 3,
+            "timePlayed": 201.875,
+            "totalScore": 411642
+        }
+    },
+    {
         "timestamp": 1573721923,
         "computerName": "budid",
         "isFail": false,
