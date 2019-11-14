@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573721681,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH JR",
+        "song": "custom_level_865989367D940D9964CC158CAC54768676176EA4",
+        "difficulty": "Hard",
+        "score": 213447,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6486738920211792,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 3,
+            "cutScoreWithoutMultiplier": 58242,
+            "goodCutsCount": 571,
+            "handDistanceTravelled": 1016,
+            "missedCutsCount": 6,
+            "timePlayed": 243.5,
+            "totalScore": 213447
+        }
+    },
+    {
         "timestamp": 1573721423,
         "song": "#unknown",
         "isFail": true,
