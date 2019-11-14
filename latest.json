@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573703266,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "HASH JR",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 181491,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.642052173614502,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 35,
+            "cutScoreWithoutMultiplier": 68000,
+            "goodCutsCount": 680,
+            "handDistanceTravelled": 967,
+            "missedCutsCount": 80,
+            "timePlayed": 191.515625,
+            "totalScore": 181491
+        }
+    },
+    {
         "timestamp": 1573703025,
         "computerName": "budid",
         "isFail": false,
