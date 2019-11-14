@@ -1,13 +1,13 @@
 [
     {
-        "timestamp": 1573719504,
+        "timestamp": 1573719687,
         "computerName": "budid",
         "isFail": false,
         "isQuit": false,
         "player": "CHEE KEN",
-        "song": "custom_level_A6A8F5C9146321B609645EEFB109197E301BFE71",
+        "song": "Warriors",
         "difficulty": "Expert",
-        "score": 559372,
+        "score": 605825,
         "fullCombo": false,
         "modifiers": {
             "energyType": 0,
@@ -17,7 +17,7 @@
             "enabledObstacleType": 0,
             "fastNotes": false,
             "strictAngles": false,
-            "disappearingArrows": false,
+            "disappearingArrows": true,
             "ghostNotes": false,
             "noBombs": false,
             "songSpeed": 0
@@ -32,23 +32,25 @@
             "advancedHud": true
         },
         "gameStats": {
-            "badCutsCount": 21,
-            "cutScoreWithoutMultiplier": 77592,
-            "goodCutsCount": 732,
-            "handDistanceTravelled": 1038,
-            "missedCutsCount": 8,
-            "timePlayed": 193.6875,
-            "totalScore": 559372
+            "badCutsCount": 6,
+            "cutScoreWithoutMultiplier": 76960,
+            "goodCutsCount": 740,
+            "handDistanceTravelled": 985,
+            "missedCutsCount": 11,
+            "timePlayed": 165.953125,
+            "totalScore": 605825
         }
     },
     {
-        "timestamp": 1573719502,
-        "song": "#unknown",
+        "timestamp": 1573719504,
+        "computerName": "budid",
         "isFail": false,
         "isQuit": false,
-        "computerName": "budid",
-        "player": "UNKNOWN",
+        "player": "CHEE KEN",
+        "song": "custom_level_A6A8F5C9146321B609645EEFB109197E301BFE71",
+        "difficulty": "Expert",
         "score": 559372,
+        "fullCombo": false,
         "modifiers": {
             "energyType": 0,
             "noFail": false,
