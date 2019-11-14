@@ -1,5 +1,47 @@
 [
     {
+        "timestamp": 1573721096,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHEE KEN",
+        "song": "custom_level_F9E6BBAC15279313E950827C6318687D6443FDAA",
+        "difficulty": "Expert",
+        "score": 142071,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6486738920211792,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 13,
+            "cutScoreWithoutMultiplier": 40400,
+            "goodCutsCount": 404,
+            "handDistanceTravelled": 452,
+            "missedCutsCount": 6,
+            "timePlayed": 91.28125,
+            "totalScore": 142071
+        }
+    },
+    {
         "timestamp": 1573720983,
         "computerName": "budid",
         "isFail": false,
