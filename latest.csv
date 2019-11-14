@@ -1,4 +1,9 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+12:37, 92s, False, True, UNKNOWN, #2, #unknown, 506 / 648, #unknown, 0, True, False, False, False
+12:35, 43s, False, True, UNKNOWN, #2, #unknown, 210 / 247, #unknown, 0, True, False, False, False
+12:34, 165s, False, False, MJ, #2, Warriors, 721 / 788, ExpertPlus, 250038, True, False, False, False
+12:29, 183s, False, False, PILYO, #2, TestMe, 851 / 857, Expert, 664812, False, False, False, False
+12:25, 2s, False, True, UNKNOWN, #2, #unknown, 2 / 2, #unknown, 0, False, False, False, False
 12:21, 110s, True, False, UNKNOWN, #1, #unknown, 487 / 521, #unknown, 0, False, False, False, False
 12:19, 35s, True, False, UNKNOWN, #1, #unknown, 161 / 175, #unknown, 0, False, False, False, False
 11:55, 191s, False, False, SIRPAI, #2, HighHopes, 756 / 795, Expert, 506312, False, False, False, False
