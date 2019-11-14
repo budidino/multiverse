@@ -1,4 +1,7 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
+04:50, 1s, True, False, UNKNOWN, #2, #unknown, 3 / 8, #unknown, 0, False, False, False, False
+04:50, 2s, True, False, UNKNOWN, #2, #unknown, 4 / 9, #unknown, 0, False, False, False, False
+04:48, 177s, False, False, CHEE KEN, #2, Thunder, 642 / 651, Expert, 509178, False, False, False, False
 04:44, 91s, False, False, CHEE KEN, #2, custom, 404 / 423, Expert, 142071, True, False, False, False
 04:43, 191s, False, False, CHEE KEN, #2, custom, 792 / 822, ExpertPlus, 288542, True, False, False, False
 04:39, 175s, False, False, CHEE KEN, #2, Victorious, 664 / 674, Expert, 527171, False, False, False, False
