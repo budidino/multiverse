@@ -1,5 +1,129 @@
 [
     {
+        "timestamp": 1573715162,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "F",
+        "song": "ReasonForLiving",
+        "difficulty": "ExpertPlus",
+        "score": 258733,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5658518075942993,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 16,
+            "cutScoreWithoutMultiplier": 84048,
+            "goodCutsCount": 824,
+            "handDistanceTravelled": 1220,
+            "missedCutsCount": 63,
+            "timePlayed": 214.03125,
+            "totalScore": 258733
+        }
+    },
+    {
+        "timestamp": 1573715161,
+        "song": "#unknown",
+        "isFail": false,
+        "isQuit": false,
+        "computerName": "budid",
+        "player": "UNKNOWN",
+        "score": 258733,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5658518075942993,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 16,
+            "cutScoreWithoutMultiplier": 84048,
+            "goodCutsCount": 824,
+            "handDistanceTravelled": 1220,
+            "missedCutsCount": 63,
+            "timePlayed": 214.03125,
+            "totalScore": 258733
+        }
+    },
+    {
+        "timestamp": 1573714929,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "MAEVE",
+        "song": "GiveALittleLove",
+        "difficulty": "ExpertPlus",
+        "score": 234900,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": true,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.5658518075942993,
+            "disableSFX": false,
+            "reduceDebris": true,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 15,
+            "cutScoreWithoutMultiplier": 74151,
+            "goodCutsCount": 749,
+            "handDistanceTravelled": 844,
+            "missedCutsCount": 27,
+            "timePlayed": 162.921875,
+            "totalScore": 234900
+        }
+    },
+    {
         "timestamp": 1573714731,
         "computerName": "budid",
         "isFail": false,
