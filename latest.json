@@ -1,5 +1,89 @@
 [
     {
+        "timestamp": 1573720559,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHEE KEN",
+        "song": "Origins",
+        "difficulty": "Expert",
+        "score": 424378,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6486738920211792,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 1,
+            "cutScoreWithoutMultiplier": 56280,
+            "goodCutsCount": 536,
+            "handDistanceTravelled": 789,
+            "missedCutsCount": 5,
+            "timePlayed": 147.921875,
+            "totalScore": 424378
+        }
+    },
+    {
+        "timestamp": 1573720391,
+        "computerName": "budid",
+        "isFail": false,
+        "isQuit": false,
+        "player": "CHEE KEN",
+        "song": "HighHopes",
+        "difficulty": "Expert",
+        "score": 611993,
+        "fullCombo": false,
+        "modifiers": {
+            "energyType": 0,
+            "noFail": false,
+            "instaFail": false,
+            "failOnSaberClash": false,
+            "enabledObstacleType": 0,
+            "fastNotes": false,
+            "strictAngles": false,
+            "disappearingArrows": false,
+            "ghostNotes": false,
+            "noBombs": false,
+            "songSpeed": 0
+        },
+        "settings": {
+            "staticLights": false,
+            "leftHanded": false,
+            "playerHeight": 1.6486738920211792,
+            "disableSFX": false,
+            "reduceDebris": false,
+            "noTextsAndHuds": false,
+            "advancedHud": true
+        },
+        "gameStats": {
+            "badCutsCount": 7,
+            "cutScoreWithoutMultiplier": 82468,
+            "goodCutsCount": 778,
+            "handDistanceTravelled": 1071,
+            "missedCutsCount": 10,
+            "timePlayed": 191.515625,
+            "totalScore": 611993
+        }
+    },
+    {
         "timestamp": 1573720190,
         "computerName": "budid",
         "isFail": false,
