@@ -1,5 +1,9 @@
 time, duration, fail, quit, player, pc, song, cuts, difficulty, score, no fail, disappearing, ghost, faster song
-01:32, 217s, False, False, UNKNOWN, #2, #unknown, 517 / 587, #unknown, 150872, True, False, False, False
+01:43, 95s, True, False, UNKNOWN, #2, #unknown, 324 / 333, #unknown, 0, False, False, False, False
+01:41, 93s, True, False, UNKNOWN, #2, #unknown, 293 / 317, #unknown, 0, False, False, False, False
+01:39, 78s, False, False, SIRPAI, #2, custom, 120 / 138, Expert, 31111, True, False, False, False
+01:37, 166s, False, True, UNKNOWN, #2, #unknown, 578 / 659, #unknown, 0, True, False, False, False
+01:33, 217s, False, False, HASH JR, #2, custom, 517 / 587, Hard, 150872, True, False, False, False
 01:28, 55s, False, True, UNKNOWN, #2, #unknown, 230 / 280, #unknown, 0, True, False, False, False
 01:27, 91s, False, False, HASH JR, #2, custom, 355 / 423, Expert, 96977, True, False, False, False
 01:11, 229s, False, False, UNKNOWN, #2, #unknown, 850 / 883, #unknown, 688561, False, True, False, True
