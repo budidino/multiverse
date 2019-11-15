@@ -111,8 +111,8 @@ def updateHighScores():
     for score in latestScores[:50]:
         dateFromTS = datetime.datetime.utcfromtimestamp(score["timestamp"]).strftime('%Y-%m-%d')
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
-        #if dateFromTS != dateToday:
-        #    continue
+        if dateFromTS != dateToday:
+            continue
 
         songName = score['song']
         player = score['player']
