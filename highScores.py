@@ -167,6 +167,7 @@ def updateHighScores():
 		<head>
 			<title>Multiverse VR</title>
 			<meta http-equiv="refresh" content="30" />
+            <meta name="format-detection" content="telephone=no">
 			<meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
 			<link rel="stylesheet" type="text/css" href="style.css">
 		</head>
