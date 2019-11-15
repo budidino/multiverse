@@ -61,3 +61,7 @@ td {
 .recents {
 	min-width:700px;
 }
+
+.long {
+	color: red;
+}
