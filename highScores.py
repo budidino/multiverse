@@ -155,7 +155,7 @@ def updateHighScores():
         duration = int(score['gameStats']['timePlayed'])
         durationHtml = ""
         if duration >= 60*4:
-            durationHtml = f"<div style: 'color: red'>{duration}</div>"
+            durationHtml = f"<div color='red'>{duration}</div>"
         else:
             durationHtml = duration
         
