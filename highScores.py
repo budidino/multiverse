@@ -155,7 +155,7 @@ def updateHighScores():
         duration = int(score['gameStats']['timePlayed'])
         durationHtml = ""
         if duration >= 60*4:
-            durationHtml = f"<div color='red'>{duration}</div>"
+            durationHtml = f"<div class='long'>{duration}</div>"
         else:
             durationHtml = duration
         
@@ -168,7 +168,7 @@ def updateHighScores():
 			<title>Multiverse VR</title>
 			<meta http-equiv="refresh" content="30" />
 			<meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
-			<link rel="stylesheet" type="text/css" href="champions.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
 		</head>
 		<body>
 			<h1>""" + datetime.datetime.now().strftime("%B") + """ Competition - """ + competitionSongName + """</h1>

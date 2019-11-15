@@ -33,34 +33,31 @@ hr {
 	margin-bottom: 25px;
 }
 
+.older, .younger {
+width: 100%;
+}
 
+h1 {
+	font-size: 18px;
+}
 
+h2 {
+	font-size: 16px;
+}
 
-	.older, .younger {
-	width: 100%;
-	}
+th {
+	font-size: 15;
+}
 
-	h1 {
-		font-size: 18px;
-	}
+td {
+	font-size: 14;
+	padding: 1px 2px;
+}
 
-	h2 {
-		font-size: 16px;
-	}
+.older, .younger {
+	min-width:600px;
+}
 
-	th {
-		font-size: 15;
-	}
-
-	td {
-		font-size: 14;
-		padding: 1px 2px;
-	}
-
-	.older, .younger {
-		min-width:600px;
-	}
-
-	.recents {
-		min-width:700px;
-	}
+.recents {
+	min-width:700px;
+}
