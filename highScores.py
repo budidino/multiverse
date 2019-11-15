@@ -87,20 +87,15 @@ def updateHighScores():
                     bad = score['gameStats']['badCutsCount']
                     miss = score['gameStats']['missedCutsCount']
                     scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %d - %I:%M")
-
-                    noFail = score['modifiers']['noFail']
-                    disappearingArrows = score['modifiers']['disappearingArrows']
-                    ghostNotes = score['modifiers']['ghostNotes']
-                    fasterSong = score['modifiers']['songSpeed'] == 1
                     
                     modifiersHtmlString = ""
-                    if noFail:
+                    if score['modifiers']['noFail']:
                         modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px; filter:invert(100%);'>"
-                    if ghostNotes:
+                    if score['modifiers']['ghostNotes']:
                         modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px; filter:invert(100%);'>"
-                    if disappearingArrows:
+                    if score['modifiers']['disappearingArrows']:
                         modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px; filter:invert(100%);'>"
-                    if fasterSong:
+                    if score['modifiers']['songSpeed'] == 1:
                         modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px; filter:invert(100%);'>"
                     
                     if player in winnerPlayers:
@@ -146,26 +141,26 @@ def updateHighScores():
             status = "FAIL"
         elif score['isQuit']:
             status = "QUIT"
-
-        noFail = score['modifiers']['noFail']
-        disappearingArrows = score['modifiers']['disappearingArrows']
-        ghostNotes = score['modifiers']['ghostNotes']
-        fasterSong = score['modifiers']['songSpeed'] == 1
         
         modifiersHtmlString = ""
-        if noFail:
+        if score['modifiers']['noFail']:
             modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px; filter:invert(100%);'>"
-        if ghostNotes:
+        if score['modifiers']['ghostNotes']:
             modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px; filter:invert(100%);'>"
-        if disappearingArrows:
+        if score['modifiers']['disappearingArrows']:
             modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px; filter:invert(100%);'>"
-        if fasterSong:
+        if score['modifiers']['songSpeed'] == 1:
             modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px; filter:invert(100%);'>"
                     
         duration = int(score['gameStats']['timePlayed'])
+        durationHtml = ""
+        if duration >= 60*4:
+            durationHtml = f"<div style: 'color: red'>{duration}</div>"
+        else:
+            durationHtml = duration
         
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{duration}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
