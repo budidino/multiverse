@@ -99,9 +99,9 @@ def updateHighScores():
                         modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px; filter:invert(100%);'>"
                     
                     if player in winnerPlayers:
-                        htmlStringWinners += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlStringWinners += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     else:
-                        htmlString += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlString += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few    
@@ -160,7 +160,7 @@ def updateHighScores():
             durationHtml = duration
         
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good} / {good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
