@@ -89,14 +89,22 @@ def updateHighScores():
                     scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %d - %I:%M")
                     
                     modifiersHtmlString = ""
-                    if score['modifiers']['noFail']:
-                        modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px; filter:invert(100%);'>"
-                    if score['modifiers']['ghostNotes']:
-                        modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px; filter:invert(100%);'>"
+					if score['modifiers']['energyType'] == 1:
+                        modifiersHtmlString += "<img src='icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
+					if score['modifiers']['noFail']:
+                        modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px;'>"
+					if score['modifiers']['instaFail']:
+                        modifiersHtmlString += "<img src='icons/instaFail.png' title='Insta Fail' style='width:16px; height:16px;'>"
+					if score['modifiers']['enabledObstacleType'] == 1:
+                        modifiersHtmlString += "<img src='icons/noObstacles.png' title='No Obstacles' style='width:16px; height:16px;'>"
                     if score['modifiers']['disappearingArrows']:
-                        modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px; filter:invert(100%);'>"
+                        modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px;'>"
+					if score['modifiers']['ghostNotes']:
+                        modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px;'>"
+					if score['modifiers']['noBombs']:
+                        modifiersHtmlString += "<img src='icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
                     if score['modifiers']['songSpeed'] == 1:
-                        modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px; filter:invert(100%);'>"
+                        modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
                     
                     if player in winnerPlayers:
                         htmlStringWinners += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
@@ -143,14 +151,22 @@ def updateHighScores():
             status = "QUIT"
         
         modifiersHtmlString = ""
-        if score['modifiers']['noFail']:
-            modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px; filter:invert(100%);'>"
-        if score['modifiers']['ghostNotes']:
-            modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px; filter:invert(100%);'>"
-        if score['modifiers']['disappearingArrows']:
-            modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px; filter:invert(100%);'>"
-        if score['modifiers']['songSpeed'] == 1:
-            modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px; filter:invert(100%);'>"
+		if score['modifiers']['energyType'] == 1:
+			modifiersHtmlString += "<img src='icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
+		if score['modifiers']['noFail']:
+			modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px;'>"
+		if score['modifiers']['instaFail']:
+			modifiersHtmlString += "<img src='icons/instaFail.png' title='Insta Fail' style='width:16px; height:16px;'>"
+		if score['modifiers']['enabledObstacleType'] == 1:
+			modifiersHtmlString += "<img src='icons/noObstacles.png' title='No Obstacles' style='width:16px; height:16px;'>"
+		if score['modifiers']['disappearingArrows']:
+			modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px;'>"
+		if score['modifiers']['ghostNotes']:
+			modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px;'>"
+		if score['modifiers']['noBombs']:
+			modifiersHtmlString += "<img src='icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
+		if score['modifiers']['songSpeed'] == 1:
+			modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
                     
         duration = int(score['gameStats']['timePlayed'])
         durationHtml = ""
