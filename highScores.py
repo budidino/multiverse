@@ -46,12 +46,13 @@ def updateHighScores():
     files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
 
     for f in files:
-        with open(f, "r") as data_file:
-            try:
-                data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
-            except Exception as e:
-                print(f"damaged JSON for file: {f} - {e}")
-                continue
+        try:
+            with open(f, "r") as data_file:
+                try:
+                    data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+                except Exception as e:
+                    print(f"damaged JSON for file: {f} - {e}")
+                    continue
 
             song = data['song']
 
@@ -62,6 +63,10 @@ def updateHighScores():
                 else:
                     scores[song] = [data]
             #print(f"end: {f}")
+            
+        except FileNotFoundError:
+            print("File not found!")
+            continue
 
     # sort all the highscore lists
     for s in scores.keys():
