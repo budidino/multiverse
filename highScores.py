@@ -24,6 +24,10 @@ competitionDateEnd = datetime.date(2019, 11, 30)
 winnerPlayers = ["BIT", "YENG", "CHEEKEN"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
 
+renamePlayers = {
+    "CHEEKEN": "CHEE KEN"
+}
+
 def git_push():
     try:
         repo = Repo(f'{oneDriveDir}githubProject/.git')
@@ -76,6 +80,10 @@ def updateHighScores():
                 player = score['player']
                 if "JR " in player or " JR" in player:
                     player = player.replace(" JR", " ").replace("JR ", "")
+                for key, value in renamePlayers.items():
+                    if key == player:
+                        player = value
+
 
                 if player not in ignorePlayers and player not in processedPlayers and len(player) > 1:
                     resultDate = datetime.date.fromtimestamp(score['timestamp'])
