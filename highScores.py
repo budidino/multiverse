@@ -21,7 +21,7 @@ competitionSongName = "HighHopes"
 competitionDateStart = datetime.date(2019, 11, 1)
 competitionDateEnd = datetime.date(2019, 11, 30)
 
-winnerPlayers = ["BIT", "YENG", "CHEEKEN"]
+winnerPlayers = ["BIT", "YENG", "CHEE KEN"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
 
 renamePlayers = {
