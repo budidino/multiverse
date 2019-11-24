@@ -25,7 +25,8 @@ winnerPlayers = ["BIT", "YENG", "CHEE KEN"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
 
 renamePlayers = {
-    "CHEEKEN": "CHEE KEN"
+    "CHEEKEN": "CHEE KEN",
+    "BB": "CHEE KEN"
 }
 
 def git_push():
@@ -63,7 +64,7 @@ def updateHighScores():
                 else:
                     scores[song] = [data]
             #print(f"end: {f}")
-            
+
         except FileNotFoundError:
             print("File not found!")
             continue
