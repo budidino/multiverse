@@ -80,6 +80,8 @@ def updateHighScores():
     processedPlayers = []
     htmlString = ""
     htmlStringWinners = ""
+    rowsStarters = 0
+    rowsWinners = 0
     for key, value in scores.items():
         if key.lower() == competitionSongName.lower():
             for score in value:
@@ -120,14 +122,30 @@ def updateHighScores():
                     if score['modifiers']['songSpeed'] == 1:
                         modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
                     
+                    #calculate row number and odd/even
+                    rowNumber = 1
                     if player in winnerPlayers:
-                        htmlStringWinners += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        rowsWinners += 1
+                        rowNumber = rowsWinners
                     else:
-                        htmlString += f"<tr><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        rowsStarters += 1
+                        rowNumber = rowsStarters
+
+                    classHtml = f"class='row-{rowNumber} "
+                    if rowNumber % 2 == 1:
+                        classHtml += "row-odd'"
+                    else:
+                        classHtml += "row-even'"
+
+                    if player in winnerPlayers:
+                        htmlStringWinners += f"<tr {classHtml}><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                    else:
+                        htmlString += f"<tr {classHtml}><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few    
     htmlStringLatest = ""
+    rowNumber = 0
     latestScores = sorted(latestScores, key=itemgetter('timestamp'), reverse=True)
     #print("latest scores")
     for score in latestScores[:50]:
@@ -189,8 +207,13 @@ def updateHighScores():
         else:
             durationHtml = duration
         
+        rowNumber += 1
+        classHtml = "even"
+        if rowNumber % 2 == 1:
+            classHtml = "odd"
+
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlStringLatest += f"<tr class='{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
@@ -276,7 +299,7 @@ def updateHighScores():
         f.write(message)
         f.close()
 
-        git_push() # push changes to gitHub
+        #git_push() # push changes to gitHub
 
     time.sleep(waitTime)
 
