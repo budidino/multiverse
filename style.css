@@ -1,14 +1,13 @@
 body {
+	font-family: Geneva, Verdana, sans-serif;
 	background-color: black;
 	color: white;
 	padding: 1vw;
 }
 
 h1, h2 {
-	font-family: monospace;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 700;
 	color: greenyellow;
 }
 
@@ -17,24 +16,15 @@ table, th, td {
 }
 
 th, td {
-	font-family: monospace;
 	font-style: normal;
 	font-variant: normal;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-tr:nth-child(even) {
-	background-color:#303030;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 hr {
 	margin-top: 30px;
 	margin-bottom: 25px;
-}
-
-.older, .younger {
-width: 100%;
 }
 
 h1 {
@@ -46,12 +36,37 @@ h2 {
 }
 
 th {
-	font-size: 15;
+	font-size: 15px;
 }
 
 td {
-	font-size: 14;
+	font-size: 14px;
 	padding: 1px 2px;
+}
+
+.row-even, .even {
+	
+}
+
+.row-odd, .odd {
+	background-color:#303030;
+}
+
+.row-1 {
+	color: #34ebc9;
+}
+
+.row-2 {
+	color: #17d960;
+}
+
+.row-3 {
+	color: #fdff76;
+}
+
+.older, .younger {
+	float: left;
+	width: 100%;
 }
 
 .older, .younger {
@@ -59,6 +74,7 @@ td {
 }
 
 .recents {
+	float: left;
 	min-width:700px;
 }
 
