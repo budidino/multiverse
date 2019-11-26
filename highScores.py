@@ -138,9 +138,9 @@ def updateHighScores():
                         classHtml += "row-even'"
 
                     if player in winnerPlayers:
-                        htmlStringWinners += f"<tr {classHtml}><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlStringWinners += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsWinners}.</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     else:
-                        htmlString += f"<tr {classHtml}><td style='text-align: right'>{scoreTime}</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsStarters}.</td><td>{player}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few    
@@ -231,7 +231,7 @@ def updateHighScores():
 					<h2>Starters League</h2>
 					<table>
 						<tr>
-							<th style="text-align: center">TIME</th>
+							<th style="text-align: center">#</th>
 							<th style="text-align: left">PLAYER</th>
 							<th>CUTS</th>
 							<th>DIFFICULTY</th>
@@ -245,7 +245,7 @@ def updateHighScores():
 					<h2>Champions League</h2>
 					<table>
 						<tr>
-							<th style="text-align: center">TIME</th>
+							<th style="text-align: center">#</th>
 							<th style="text-align: left">PLAYER</th>
 							<th>CUTS</th>
 							<th>DIFFICULTY</th>
@@ -299,7 +299,7 @@ def updateHighScores():
         f.write(message)
         f.close()
 
-        #git_push() # push changes to gitHub
+        git_push() # push changes to gitHub
 
     time.sleep(waitTime)
 
