@@ -44,11 +44,11 @@ td {
 	padding: 1px 2px;
 }
 
-.row-even, .even {
+.row-even {
 	
 }
 
-.row-odd, .odd {
+.row-odd {
 	background-color:#303030;
 }
 
