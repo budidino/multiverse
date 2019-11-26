@@ -138,9 +138,9 @@ def updateHighScores():
                         classHtml += "row-even'"
 
                     if player in winnerPlayers:
-                        htmlStringWinners += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsWinners}.</td><td>{player}</td><td style='text-align: center' title='{good}/{good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlStringWinners += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsWinners}.</td><td>{player}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     else:
-                        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsStarters}.</td><td>{player}</td><td style='text-align: center' title='{good}/{good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsStarters}.</td><td>{player}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few    
