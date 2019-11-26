@@ -18,8 +18,8 @@ table, th, td {
 th, td {
 	font-style: normal;
 	font-variant: normal;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 hr {
@@ -41,7 +41,6 @@ th {
 
 td {
 	font-size: 14px;
-	padding: 1px 2px;
 }
 
 .row-even {
