@@ -24,8 +24,27 @@ th, td {
 	padding-right: 15px;
 }
 
-tr:nth-child(even) {
-	background-color:#303030;
+.row-even, .even {
+	background-color:#50505075;
+}
+
+.row-odd, .odd {
+	background-color:#20202075;
+}
+
+.row-1 {
+	color: #34ebc9;
+	font-weight: 700;
+}
+
+.row-2 {
+	color: #17d960;
+	font-weight: 700;
+}
+
+.row-3 {
+	color: #fdff76;
+	font-weight: 700;
 }
 
 hr {
