@@ -17,16 +17,15 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 10.0
 
-competitionSongName = "HighHopes"
-competitionDateStart = datetime.date(2019, 11, 1)
-competitionDateEnd = datetime.date(2019, 11, 30)
+competitionSongName = "TestMe"
+competitionDateStart = datetime.date(2019, 12, 1)
+competitionDateEnd = datetime.date(2019, 12, 31)
 
-winnerPlayers = ["BIT", "YENG", "CHEE KEN"]
+winnerPlayers = ["BIT", "YENG", "CHEE KEN", "MAEVE"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
 
 renamePlayers = {
-    "CHEEKEN": "CHEE KEN",
-    "BB": "CHEE KEN"
+    "CHEEKEN": "CHEE KEN"
 }
 
 def git_push():
