@@ -25,9 +25,7 @@ renamePlayers = {
     "CHEEKEN": "CHEE KEN"
 }
 
-scores = defaultdict() # dictionary of int values
-scores = []
-players = set()
+scoresDict = defaultdict()
 hasChanges = False
 
 def git_push():
@@ -40,14 +38,11 @@ def git_push():
     except Exception as e:
         print('Failed to push with error: '+ str(e))
     
-def process(player):
+def processPlayerScores(name, scores):
     htmlString = ""
     rowCount = 0
     for score in scores:
         name = score['player']
-        if name != players:
-            continue
-
         song = score['song']
         good = score['gameStats']['goodCutsCount']
         bad = score['gameStats']['badCutsCount']
@@ -87,13 +82,13 @@ def process(player):
     # generate and save HTML file
     message = """<html>
         <head>
-            <title>""" + player + """</title>
+            <title>""" + name + """</title>
             <meta name="format-detection" content="telephone=no">
             <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
             <link rel="stylesheet" type="text/css" href="../../style.css">
         </head>
         <body>
-            <h1>""" + player + """</h1>
+            <h1>""" + name + """</h1>
             <div>
                 <div class="older">
                     <table>
@@ -113,7 +108,7 @@ def process(player):
     </html>"""
 
     # create folder if needed
-    folder = f'{oneDriveDir}githubProject/players/{player}'
+    folder = f'{oneDriveDir}githubProject/players/{name}'
     if not os.path.exists(folder):
         os.makedirs(folder)
 
@@ -127,7 +122,7 @@ def process(player):
     # update player.html file
     if hashStringNew != hashStringOld:
         hasChanges = True
-        print(f"updating {player}.html")
+        print(f"updating {name}.html")
         f = open(f'{folder}/index.html', 'w')
         f.write(message)
         f.close()
@@ -153,11 +148,14 @@ def getAllScores():
                     player = value
             player = player.strip()
             data['player'] = player
-            players.add(player)
 
             # store score if valid
             if player != "UNKNOWN" and len(player) > 1:
-                scores.append(data)
+                if player not in scoresDict.keys():
+                    array = [data]
+                    scoresDict[player] = array
+                else:
+                    scoresDict[player].append(data)
 
         except FileNotFoundError:
             print("File not found!")
@@ -168,8 +166,12 @@ def getAllScores():
 #while True:
 getAllScores()
 
-for player in players:
-    process(player)
+for name, scores in scoresDict.items():
+    print(name, len(scores))
+#print(scores)
+
+for name, scores in scoresDict.items():
+    processPlayerScores(name, scores)
 
 if hasChanges:
     print("pushing changes")
