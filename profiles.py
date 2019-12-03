@@ -85,17 +85,16 @@ def process(player):
         # generate and save HTML file
         message = """<html>
             <head>
-                <title>Multiverse VR</title>
+                <title>""" + player + """</title>
                 <meta http-equiv="refresh" content="30" />
                 <meta name="format-detection" content="telephone=no">
                 <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
                 <link rel="stylesheet" type="text/css" href="style.css">
             </head>
             <body>
-                <h1>""" + datetime.datetime.now().strftime("%B") + """</h1>
+                <h1>""" + player + """</h1>
                 <div>
                     <div class="older">
-                        <h2>Starters League</h2>
                         <table>
                             <tr>
                                 <th style="text-align: center">#</th>
@@ -112,7 +111,12 @@ def process(player):
             </body>
         </html>"""
 
-    with open(f'{oneDriveDir}githubProject/{player}.html', "w+") as htmlFile:
+    # create folder if needed
+    folder = f'{oneDriveDir}githubProject/players/{player}'
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    with open(f'{folder}/index.html', "w+") as htmlFile:
         hashObjectOld = hashlib.md5(htmlFile.read().encode('utf-8'))
         hashStringOld = hashObjectOld.hexdigest()
 
@@ -127,7 +131,7 @@ def process(player):
     # update player.html file
     if hashStringNew != hashStringOld:
         print(f"updating {player}.html and pushing code")
-        f = open(f'{oneDriveDir}githubProject/{player}.html', 'w')
+        f = open(f'{folder}/index.html', 'w')
         f.write(message)
         f.close()
 
