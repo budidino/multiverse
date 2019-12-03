@@ -114,7 +114,6 @@ def processPlayerScores(name, scores):
         os.makedirs(folder)
 
     # update player.html file
-    print(f"updating {name}.html")
     f = open(f'{folder}/index.html', 'w')
     f.write(message)
     f.close()
