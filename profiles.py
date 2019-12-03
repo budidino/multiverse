@@ -41,6 +41,7 @@ def process(player):
     htmlString = ""
     rowCount = 0
     for score in scores:
+        song = score['song']
         name = score['player']
         if name != "BIT":
             continue
@@ -73,13 +74,13 @@ def process(player):
 
         rowCount += 1
 
-        classHtml = f"class='row-{rowNumber} "
+        classHtml = f"class='row-"
         if rowNumber % 2 == 1:
-            classHtml += "row-odd'"
+            classHtml += "odd'"
         else:
-            classHtml += "row-even'"
+            classHtml += "even'"
 
-        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowCount}.</td><td>{name}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowCount}.</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
         #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
         # generate and save HTML file
@@ -98,7 +99,7 @@ def process(player):
                         <table>
                             <tr>
                                 <th style="text-align: center">#</th>
-                                <th style="text-align: left">PLAYER</th>
+                                <th style="text-align: left">SONG</th>
                                 <th>MISSES</th>
                                 <th>DIFFICULTY</th>
                                 <th style="text-align: right">SCORE</th>
