@@ -7,6 +7,7 @@ from operator import itemgetter #sorting
 import hashlib # hash strings (detect index.html file changes)
 import time # so we can sleep
 import datetime
+from collections import defaultdict
 
 # github related imports and settings
 import os
@@ -24,8 +25,10 @@ renamePlayers = {
     "CHEEKEN": "CHEE KEN"
 }
 
+scores = defaultdict() # dictionary of int values
 scores = []
 players = set()
+hasChanges = False
 
 def git_push():
     try:
@@ -41,11 +44,11 @@ def process(player):
     htmlString = ""
     rowCount = 0
     for score in scores:
-        song = score['song']
         name = score['player']
-        if name != "BIT":
+        if name != players:
             continue
 
+        song = score['song']
         good = score['gameStats']['goodCutsCount']
         bad = score['gameStats']['badCutsCount']
         miss = score['gameStats']['missedCutsCount']
@@ -81,33 +84,33 @@ def process(player):
         htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowCount}.</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
         #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
-        # generate and save HTML file
-        message = """<html>
-            <head>
-                <title>""" + player + """</title>
-                <meta name="format-detection" content="telephone=no">
-                <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
-                <link rel="stylesheet" type="text/css" href="../../style.css">
-            </head>
-            <body>
-                <h1>""" + player + """</h1>
-                <div>
-                    <div class="older">
-                        <table>
-                            <tr>
-                                <th style="text-align: center">#</th>
-                                <th style="text-align: left">SONG</th>
-                                <th>MISSES</th>
-                                <th>DIFFICULTY</th>
-                                <th style="text-align: right">SCORE</th>
-                                <th style="text-align: center">MODIFIERS</th>
-                            </tr>
-                            """ + htmlString + """
-                        </table>
-                    </div>
+    # generate and save HTML file
+    message = """<html>
+        <head>
+            <title>""" + player + """</title>
+            <meta name="format-detection" content="telephone=no">
+            <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="../../style.css">
+        </head>
+        <body>
+            <h1>""" + player + """</h1>
+            <div>
+                <div class="older">
+                    <table>
+                        <tr>
+                            <th style="text-align: center">#</th>
+                            <th style="text-align: left">SONG</th>
+                            <th>MISSES</th>
+                            <th>DIFFICULTY</th>
+                            <th style="text-align: right">SCORE</th>
+                            <th style="text-align: center">MODIFIERS</th>
+                        </tr>
+                        """ + htmlString + """
+                    </table>
                 </div>
-            </body>
-        </html>"""
+            </div>
+        </body>
+    </html>"""
 
     # create folder if needed
     folder = f'{oneDriveDir}githubProject/players/{player}'
@@ -121,19 +124,13 @@ def process(player):
         hashObjectNew = hashlib.md5(message.encode('utf-8'))
         hashStringNew = hashObjectNew.hexdigest()
 
-        if hashStringNew == hashStringOld:
-            print("NO UPDATES")
-        else:
-            print("UPDATING")
-
     # update player.html file
     if hashStringNew != hashStringOld:
-        print(f"updating {player}.html and pushing code")
+        hasChanges = True
+        print(f"updating {player}.html")
         f = open(f'{folder}/index.html', 'w')
         f.write(message)
         f.close()
-
-        git_push() # push changes to gitHub
 
 def getAllScores():
     files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
@@ -154,6 +151,7 @@ def getAllScores():
             for key, value in renamePlayers.items():
                 if key == player:
                     player = value
+            player = player.strip()
             data['player'] = player
             players.add(player)
 
@@ -172,3 +170,7 @@ getAllScores()
 
 for player in players:
     process(player)
+
+if hasChanges:
+    print("pushing changes")
+    git_push() # push changes to gitHub
