@@ -29,7 +29,6 @@ def git_push():
     try:
         repo = Repo(f'{oneDriveDir}githubProject/.git')
         repo.git.add(update=True)
-        print("about to commit")
         for f in repo.untracked_files:
             print(f)
             repo.git.add(f)
