@@ -53,21 +53,21 @@ def process(player):
         
         modifiersHtmlString = ""
         if score['modifiers']['energyType'] == 1:
-            modifiersHtmlString += "<img src='icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
         if score['modifiers']['noFail']:
-            modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/noFail.png' title='No Fail' style='width:16px; height:16px;'>"
         if score['modifiers']['instaFail']:
-            modifiersHtmlString += "<img src='icons/instaFail.png' title='Insta Fail' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/instaFail.png' title='Insta Fail' style='width:16px; height:16px;'>"
         if score['modifiers']['enabledObstacleType'] == 1:
-            modifiersHtmlString += "<img src='icons/noObstacles.png' title='No Obstacles' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/noObstacles.png' title='No Obstacles' style='width:16px; height:16px;'>"
         if score['modifiers']['disappearingArrows']:
-            modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px;'>"
         if score['modifiers']['ghostNotes']:
-            modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px;'>"
         if score['modifiers']['noBombs']:
-            modifiersHtmlString += "<img src='icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
         if score['modifiers']['songSpeed'] == 1:
-            modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
+            modifiersHtmlString += "<img src='../../icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
         
         #calculate row number and odd/even
         rowNumber = 1
