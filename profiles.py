@@ -1,10 +1,7 @@
-# TODO: show highscore in that song
-
 import glob #directory listing
 import json
 from pprint import pprint #pritty json print
 from operator import itemgetter #sorting
-import hashlib # hash strings (detect index.html file changes)
 import time # so we can sleep
 import datetime
 from collections import defaultdict
@@ -27,12 +24,15 @@ renamePlayers = {
 }
 
 scoresDict = defaultdict()
-hasChanges = False
 
 def git_push():
     try:
         repo = Repo(f'{oneDriveDir}githubProject/.git')
         repo.git.add(update=True)
+        print("about to commit")
+        for f in repo.untracked_files:
+            print(f)
+            repo.git.add(f)
         repo.index.commit('update from the python profiles script')
         origin = repo.remote(name='origin')
         origin.push()
@@ -113,20 +113,11 @@ def processPlayerScores(name, scores):
     if not os.path.exists(folder):
         os.makedirs(folder)
 
-    with open(f'{folder}/index.html', "w+") as htmlFile:
-        hashObjectOld = hashlib.md5(htmlFile.read().encode('utf-8'))
-        hashStringOld = hashObjectOld.hexdigest()
-
-        hashObjectNew = hashlib.md5(message.encode('utf-8'))
-        hashStringNew = hashObjectNew.hexdigest()
-
     # update player.html file
-    if hashStringNew != hashStringOld:
-        hasChanges = True
-        print(f"updating {name}.html")
-        f = open(f'{folder}/index.html', 'w')
-        f.write(message)
-        f.close()
+    print(f"updating {name}.html")
+    f = open(f'{folder}/index.html', 'w')
+    f.write(message)
+    f.close()
 
 def getAllScores():
     files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
@@ -174,6 +165,5 @@ for name, scores in scoresDict.items():
 for name, scores in scoresDict.items():
     processPlayerScores(name, scores)
 
-if hasChanges:
-    print("pushing changes")
-    git_push() # push changes to gitHub
+print("pushing changes")
+git_push() # push changes to gitHub
