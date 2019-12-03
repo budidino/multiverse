@@ -22,7 +22,8 @@ competitionWinners = ["BIT"]
 competitionSongs = ["TestMe"]
 
 renamePlayers = {
-    "CHEEKEN": "CHEE KEN"
+    "CHEEKEN": "CHEE KEN",
+    "CHABBYQT": "CHEE KEN"
 }
 
 scoresDict = defaultdict()
