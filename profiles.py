@@ -70,12 +70,10 @@ def process(player):
             modifiersHtmlString += "<img src='../../icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
         
         #calculate row number and odd/even
-        rowNumber = 1
-
         rowCount += 1
 
         classHtml = f"class='row-"
-        if rowNumber % 2 == 1:
+        if rowCount % 2 == 1:
             classHtml += "odd'"
         else:
             classHtml += "even'"
