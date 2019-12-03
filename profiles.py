@@ -85,7 +85,6 @@ def process(player):
         message = """<html>
             <head>
                 <title>""" + player + """</title>
-                <meta http-equiv="refresh" content="30" />
                 <meta name="format-detection" content="telephone=no">
                 <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
                 <link rel="stylesheet" type="text/css" href="../../style.css">
@@ -156,6 +155,7 @@ def getAllScores():
                 if key == player:
                     player = value
             data['player'] = player
+            players.add(player)
 
             # store score if valid
             if player != "UNKNOWN" and len(player) > 1:
@@ -169,4 +169,6 @@ def getAllScores():
 
 #while True:
 getAllScores()
-process("BIT")
+
+for player in players:
+    process(player)
