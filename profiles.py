@@ -80,7 +80,15 @@ def processPlayerScores(name, scores):
         songsDict[song].append(score)
 
     for song in songsDict:
+        # get top score
+        # generate new file with all the scores for that song
+        htmlScores = ""
+        topScore = song
         for score in songsDict:
+            if score['score'] > topScore['score']:
+                topScore = score
+        
+        
 
     # profile stats (games played, songs played, date of first game on record, date of last game on record, days played, weeks played, accuracy?, tournament wins (which month and song))
     # list best score per song and number of attempts - sort by number of attempts
