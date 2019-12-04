@@ -37,6 +37,40 @@ def git_push():
         origin.push()
     except Exception as e:
         print('Failed to push with error: '+ str(e))
+
+def getAllScores():
+    files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
+
+    for f in files:
+        try:
+            with open(f, "r") as data_file:
+                try:
+                    data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+                except Exception as e:
+                    print(f"damaged JSON for file: {f} - {e}")
+                    continue
+
+            # get and update player name
+            player = data['player']
+            if "JR " in player or " JR" in player:
+                player = player.replace(" JR", " ").replace("JR ", "")
+            for key, value in renamePlayers.items():
+                if key == player:
+                    player = value
+            player = player.strip()
+            data['player'] = player
+
+            # store score if valid
+            if player != "UNKNOWN" and len(player) > 1:
+                if player not in scoresDict.keys():
+                    array = [data]
+                    scoresDict[player] = array
+                else:
+                    scoresDict[player].append(data)
+
+        except FileNotFoundError:
+            print("File not found!")
+            continue
     
 def processPlayerScores(name, scores):
     htmlString = ""
@@ -116,40 +150,6 @@ def processPlayerScores(name, scores):
     f = open(f'{folder}/index.html', 'w')
     f.write(message)
     f.close()
-
-def getAllScores():
-    files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
-
-    for f in files:
-        try:
-            with open(f, "r") as data_file:
-                try:
-                    data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
-                except Exception as e:
-                    print(f"damaged JSON for file: {f} - {e}")
-                    continue
-
-            # get and update player name
-            player = data['player']
-            if "JR " in player or " JR" in player:
-                player = player.replace(" JR", " ").replace("JR ", "")
-            for key, value in renamePlayers.items():
-                if key == player:
-                    player = value
-            player = player.strip()
-            data['player'] = player
-
-            # store score if valid
-            if player != "UNKNOWN" and len(player) > 1:
-                if player not in scoresDict.keys():
-                    array = [data]
-                    scoresDict[player] = array
-                else:
-                    scoresDict[player].append(data)
-
-        except FileNotFoundError:
-            print("File not found!")
-            continue
 
     #time.sleep(waitTime)
 
