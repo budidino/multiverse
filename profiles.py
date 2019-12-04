@@ -151,17 +151,19 @@ def processPlayerScores(name, scores):
     f.write(message)
     f.close()
 
-    #time.sleep(waitTime)
+    #
 
-#while True:
-getAllScores()
+while True:
+    getAllScores()
 
-for name, scores in scoresDict.items():
-    print(name, len(scores))
-#print(scores)
+    for name, scores in scoresDict.items():
+        print(name, len(scores))
+    #print(scores)
 
-for name, scores in scoresDict.items():
-    processPlayerScores(name, scores)
+    for name, scores in scoresDict.items():
+        processPlayerScores(name, scores)
 
-print("pushing changes")
-git_push() # push changes to gitHub
+    print("pushing changes")
+    git_push() # push changes to gitHub
+
+    time.sleep(waitTime)
