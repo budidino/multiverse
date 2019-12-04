@@ -5,6 +5,7 @@ from operator import itemgetter #sorting
 import time # so we can sleep
 import datetime
 from collections import defaultdict
+from slugify import slugify
 
 # github related imports and settings
 import os
@@ -81,6 +82,9 @@ def processPlayerScores(name, scores):
     for song in songsDict:
         for score in songsDict:
 
+    # profile stats (games played, songs played, date of first game on record, date of last game on record)
+    # list best score per song and number of attempts - sort by number of attempts
+    # generate file for each song that has all the games listed
 
     htmlString = ""
     rowCount = 0
