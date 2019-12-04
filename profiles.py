@@ -73,6 +73,13 @@ def getAllScores():
             continue
     
 def processPlayerScores(name, scores):
+    songsDict = defaultdict()
+    for score in scores:
+        song = score['song']
+        songsDict[song].append(score)
+
+    for song
+
     htmlString = ""
     rowCount = 0
     for score in scores:
