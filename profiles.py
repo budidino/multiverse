@@ -74,8 +74,6 @@ def getAllScores():
             continue
 
 def topScoreHtml(score, rowNumber, attempts):
-    result = ''
-    name = score['player']
     song = score['song']
     good = score['gameStats']['goodCutsCount']
     bad = score['gameStats']['badCutsCount']
@@ -137,14 +135,10 @@ def processPlayerScores(name, scores):
 
         # TODO: generate new file with all the scores for that song
 
-
-    # profile stats (games played, songs played, date of first game on record, date of last game on record, days played, weeks played, accuracy?, tournament wins (which month and song))
-    # list best score per song and number of attempts - sort by number of attempts
-    # generate file for each song that has all the games listed
-
     htmlStats = ""
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Songs played</td><td style='text-align: right'>{len(songsDict)}</td></tr>"
+    # TODO: date of first game on record, date of last game on record, days played, weeks played, accuracy?, tournament wins (which month and song)
 
     # generate and save HTML file
     html = """<html>
