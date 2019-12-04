@@ -92,6 +92,7 @@ def processPlayerScores(name, scores):
         miss = score['gameStats']['missedCutsCount']
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %d - %I:%M")
         
+        # only if after August 18
         modifiersHtmlString = ""
         if score['modifiers']['energyType'] == 1:
             modifiersHtmlString += "<img src='../../icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
