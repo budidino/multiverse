@@ -130,7 +130,7 @@ def processPlayerScores(name, scores):
             if scoreData['score'] > topScore['score']:
                 topScore = scoreData
         
-        htmlSongs += topScoreHtml(topScore, rowNumber, len(song))
+        htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray))
 
         # TODO: generate new file with all the scores for that song
 
