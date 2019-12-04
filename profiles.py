@@ -162,7 +162,7 @@ def processPlayerScores(name, scores):
                 <h2>SONGS</h2>
                 <table>
                     <tr>
-                        <th style="text-align: center">ATTEMPTS</th>
+                        <th style="text-align: center">PLAYS</th>
                         <th style="text-align: right">SCORE</th>
                         <th style="text-align: left">SONG</th>
                         <th>MISSES</th>
