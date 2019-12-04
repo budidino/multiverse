@@ -185,10 +185,6 @@ def processPlayerScores(name, scores):
 #while True:
 getAllScores()
 
-#    for name, scores in scoresDict.items():
-#        print(name, len(scores))
-#print(scores)
-
 for name, scores in scoresDict.items():
     processPlayerScores(name, scores)
 
