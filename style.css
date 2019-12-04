@@ -23,7 +23,7 @@ th, td {
 }
 
 a {
-	color: white;
+	color: inherit;
 	text-decoration: none;
 }
 
