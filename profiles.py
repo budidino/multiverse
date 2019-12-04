@@ -13,7 +13,7 @@ from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
-waitTime = 300.0 # 
+waitTime = 60.0 # calculate every minute
 
 competitionWinners = ["BIT"]
 competitionSongs = ["TestMe"]
@@ -111,7 +111,6 @@ def processPlayerScores(name, scores):
             classHtml += "even'"
 
         htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowCount}.</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
-        #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # generate and save HTML file
     message = """<html>
