@@ -73,7 +73,7 @@ def getAllScores():
             print("File not found!")
             continue
 
-def topScoreHtml(score):
+def topScoreHtml(score, rowNumber):
     result = ''
     name = score['player']
     song = score['song']
@@ -82,7 +82,7 @@ def topScoreHtml(score):
     miss = score['gameStats']['missedCutsCount']
     scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %d - %I:%M")
     
-    # only if after August 18
+    # TODO: only if after August 18
     modifiersHtmlString = ""
     if score['modifiers']['energyType'] == 1:
         modifiersHtmlString += "<img src='../../icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
@@ -100,9 +100,6 @@ def topScoreHtml(score):
         modifiersHtmlString += "<img src='../../icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
     if score['modifiers']['songSpeed'] == 1:
         modifiersHtmlString += "<img src='../../icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
-    
-    #calculate row number and odd/even
-    rowCount += 1
 
     classHtml = f"class='row-"
     if rowCount % 2 == 1:
@@ -110,7 +107,7 @@ def topScoreHtml(score):
     else:
         classHtml += "even'"
 
-    htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowCount}.</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+    htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{score['score']}</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
     
 def processPlayerScores(name, scores):
     songsDict = defaultdict()
