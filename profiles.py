@@ -137,19 +137,22 @@ def processPlayerScores(name, scores):
         <body>
             <h1>""" + name + """</h1>
             <div>
-                <div class="older">
-                    <table>
-                        <tr>
-                            <th style="text-align: center">#</th>
-                            <th style="text-align: left">SONG</th>
-                            <th>MISSES</th>
-                            <th>DIFFICULTY</th>
-                            <th style="text-align: right">SCORE</th>
-                            <th style="text-align: center">MODIFIERS</th>
-                        </tr>
-                        """ + htmlString + """
-                    </table>
-                </div>
+                <h2>STATS</h2>
+                <table>
+                    """ + htmlStats + """
+                </table>
+
+                <h2>SONGS</h2>
+                <table>
+                    <tr>
+                        <th style="text-align: right">SCORE</th>
+                        <th style="text-align: left">SONG</th>
+                        <th>MISSES</th>
+                        <th>DIFFICULTY</th>
+                        <th style="text-align: center">MODIFIERS</th>
+                    </tr>
+                    """ + htmlSongs + """
+                </table>
             </div>
         </body>
     </html>"""
@@ -163,8 +166,6 @@ def processPlayerScores(name, scores):
     f = open(f'{folder}/index.html', 'w')
     f.write(message)
     f.close()
-
-    #
 
 while True:
     getAllScores()
