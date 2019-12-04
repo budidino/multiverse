@@ -127,7 +127,7 @@ def processPlayerScores(name, scores):
         htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowCount}.</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     # generate and save HTML file
-    message = """<html>
+    html = """<html>
         <head>
             <title>""" + name + """</title>
             <meta name="format-detection" content="telephone=no">
