@@ -119,6 +119,8 @@ def processPlayerScores(name, scores):
         else:
             songsDict[song].append(score)
 
+    songsDict = sorted()
+
     rowNumber = 0
     htmlSongs = ""
 
