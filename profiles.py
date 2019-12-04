@@ -164,7 +164,7 @@ def processPlayerScores(name, scores):
 
     # update player.html file
     f = open(f'{folder}/index.html', 'w')
-    f.write(message)
+    f.write(html)
     f.close()
 
 while True:
