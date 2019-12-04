@@ -74,6 +74,7 @@ def getAllScores():
             continue
 
 def topScoreHtml(score):
+    result = ''
     name = score['player']
     song = score['song']
     good = score['gameStats']['goodCutsCount']
