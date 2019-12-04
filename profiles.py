@@ -80,7 +80,7 @@ def processPlayerScores(name, scores):
 
     for song in songsDict:
         for score in songsDict:
-            
+
 
     htmlString = ""
     rowCount = 0
