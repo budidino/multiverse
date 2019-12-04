@@ -126,7 +126,6 @@ def processPlayerScores(name, scores):
 
     for songName in sortedSongNames:
         scoresArray = songsDict[songName]
-    #for songName, scoresArray in songsDict.items():
         rowNumber += 1
 
         topScore = scoresArray[0]
