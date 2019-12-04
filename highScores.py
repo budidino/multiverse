@@ -7,6 +7,7 @@ from operator import itemgetter #sorting
 import hashlib # hash strings (detect index.html file changes)
 import time # so we can sleep
 import datetime
+from slugify import slugify
 
 # github related imports and settings
 import os
@@ -137,9 +138,9 @@ def updateHighScores():
                         classHtml += "row-even'"
 
                     if player in winnerPlayers:
-                        htmlStringWinners += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsWinners}.</td><td>{player}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlStringWinners += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsWinners}.</td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     else:
-                        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsStarters}.</td><td>{player}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+                        htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowsStarters}.</td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
                     #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few    
@@ -212,7 +213,7 @@ def updateHighScores():
             classHtml = "odd"
 
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td>{player}</td><td>{songName}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td>{songName}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
