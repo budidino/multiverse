@@ -13,7 +13,7 @@ from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
-waitTime = 10.0
+waitTime = 300.0 # 
 
 competitionWinners = ["BIT"]
 competitionSongs = ["TestMe"]
