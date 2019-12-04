@@ -119,7 +119,7 @@ def processPlayerScores(name, scores):
         else:
             songsDict[song].append(score)
 
-    songsDict = sorted(songsDict,)
+    songsDict = sorted(songsDict, key = lambda key: len(songsDict[key]))
 
     rowNumber = 0
     htmlSongs = ""
