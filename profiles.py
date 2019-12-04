@@ -73,7 +73,7 @@ def getAllScores():
             print("File not found!")
             continue
 
-def topScoreHtml(score, rowNumber):
+def topScoreHtml(score, rowNumber, attempts):
     result = ''
     name = score['player']
     song = score['song']
@@ -102,38 +102,46 @@ def topScoreHtml(score, rowNumber):
         modifiersHtmlString += "<img src='../../icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
 
     classHtml = f"class='row-"
-    if rowCount % 2 == 1:
+    if rowNumber % 2 == 1:
         classHtml += "odd'"
     else:
         classHtml += "even'"
 
-    htmlString += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{score['score']}</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+    return f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{attempts}</td><td style='text-align: right'>{score['score']}</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
     
 def processPlayerScores(name, scores):
     songsDict = defaultdict()
     for score in scores:
         song = score['song']
-        songsDict[song].append(score)
 
-    for song in songsDict:
-        # get top score
-        # generate new file with all the scores for that song
-        htmlScores = ""
-        topScore = song
-        for score in songsDict:
-            if score['score'] > topScore['score']:
-                topScore = score
+        if song not in songsDict:
+            songsDict[song] = [score]
+        else:
+            songsDict[song].append(score)
+
+    rowNumber = 0
+    htmlSongs = ""
+
+    for songName, scoresArray in songsDict.items():
+        rowNumber += 1
+
+        topScore = scoresArray[0]
+        for scoreData in scoresArray:
+            if scoreData['score'] > topScore['score']:
+                topScore = scoreData
         
+        htmlSongs += topScoreHtml(topScore, rowNumber, len(song))
+
+        # TODO: generate new file with all the scores for that song
 
 
     # profile stats (games played, songs played, date of first game on record, date of last game on record, days played, weeks played, accuracy?, tournament wins (which month and song))
     # list best score per song and number of attempts - sort by number of attempts
     # generate file for each song that has all the games listed
 
-    htmlString = ""
-    rowCount = 0
-    for score in scores:
-        
+    htmlStats = ""
+    htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
+    htmlStats += f"<tr class='row-even'><td style='text-align: left'>Songs played</td><td style='text-align: right'>{len(songsDict)}</td></tr>"
 
     # generate and save HTML file
     html = """<html>
@@ -154,6 +162,7 @@ def processPlayerScores(name, scores):
                 <h2>SONGS</h2>
                 <table>
                     <tr>
+                        <th style="text-align: center">ATTEMPTS</th>
                         <th style="text-align: right">SCORE</th>
                         <th style="text-align: left">SONG</th>
                         <th>MISSES</th>
@@ -167,7 +176,7 @@ def processPlayerScores(name, scores):
     </html>"""
 
     # create folder if needed
-    folder = f'{oneDriveDir}githubProject/players/{name}'
+    folder = f'{oneDriveDir}githubProject/players/{slugify(name)}'
     if not os.path.exists(folder):
         os.makedirs(folder)
 
@@ -179,8 +188,8 @@ def processPlayerScores(name, scores):
 while True:
     getAllScores()
 
-    for name, scores in scoresDict.items():
-        print(name, len(scores))
+#    for name, scores in scoresDict.items():
+#        print(name, len(scores))
     #print(scores)
 
     for name, scores in scoresDict.items():
