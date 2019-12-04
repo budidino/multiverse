@@ -82,7 +82,7 @@ def processPlayerScores(name, scores):
     for song in songsDict:
         for score in songsDict:
 
-    # profile stats (games played, songs played, date of first game on record, date of last game on record)
+    # profile stats (games played, songs played, date of first game on record, date of last game on record, days played, weeks played, accuracy?, tournament wins (which month and song))
     # list best score per song and number of attempts - sort by number of attempts
     # generate file for each song that has all the games listed
 
