@@ -85,7 +85,7 @@ def updateHighScores():
     for key, value in scores.items():
         if key.lower() == competitionSongName.lower():
             for score in value:
-                player = score['player']
+                player = score['player'].strip()
                 if "JR " in player or " JR" in player:
                     player = player.replace(" JR", " ").replace("JR ", "")
                 for key, value in renamePlayers.items():
@@ -155,7 +155,7 @@ def updateHighScores():
             continue
 
         songName = score['song']
-        player = score['player']
+        player = score['player'].strip()
         good = score['gameStats']['goodCutsCount']
         bad = score['gameStats']['badCutsCount']
         miss = score['gameStats']['missedCutsCount']
