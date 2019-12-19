@@ -37,7 +37,11 @@ class Song():
     gamesPlayed: int
     hoursPlayed: str
 
-class Player()
+class Player():
+    name: str
+    gold: int
+    silver: int
+    bronce: int
 
 scoresSongsDict = defaultdict()
 scoresPlayersDict = defaultdict()
