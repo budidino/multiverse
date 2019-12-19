@@ -355,6 +355,8 @@ def generateLeaderboardHtml():
         """ + html + """
     </table>"""
 
+    print("done")
+
 # competition
 
 def updateHighScores():
