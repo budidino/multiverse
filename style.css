@@ -48,19 +48,22 @@ td {
 }
 
 .row-odd {
-	background-color:#303030;
+	background-color:#26263d;
 }
 
 .row-1 {
-	color: #34ebc9;
+	color: #41ff07;
+	/* color: #34ebc9; */
 }
 
 .row-2 {
-	color: #17d960;
+	color: #3ac900;
+	/* color: #17d960; */
 }
 
 .row-3 {
-	color: #fdff76;
+	color: #00ab03;
+	/* color: #fdff76; */
 }
 
 .older, .younger {

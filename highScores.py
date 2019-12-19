@@ -227,7 +227,6 @@ def updateHighScores():
             <div class="tab">
                 <button class="tablinks" onclick="openTab(event, 'Competition')" id="Competition">Competition</button>
                 <button class="tablinks" onclick="openTab(event, 'Leaderboard')" id="Leaderboard">Leaderboard</button>
-                <button class="tablinks" onclick="openTab(event, 'Stats')" id="Stats">Stats</button>
                 <button class="tablinks" onclick="openTab(event, 'Today')" id="Today">Today</button>
             </div>
 
