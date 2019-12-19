@@ -238,6 +238,11 @@ def processLeaderboardScores(name, scores):
         
         htmlSongs += topScoreHtml(pScore, rowNumber, pAttempts, player)
 
+    htmlStats = ""
+    htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
+    htmlStats += f"<tr class='row-even'><td style='text-align: left'>Songs played</td><td style='text-align: right'>{len(songsDict)}</td></tr>"
+    htmlStats += f"<tr class='row-even'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(timePlayed/60/60, 2))}</td></tr>"
+
     # generate and save HTML file
     html = """<html>
         <head>
