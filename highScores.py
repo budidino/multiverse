@@ -248,7 +248,7 @@ def processLeaderboardScores(name, scores):
         
         htmlSongs += topScoreHtml(pScore, rowNumber, pAttempts, player)
 
-        if rowNumber == 0:
+        if rowNumber == 1:
             song = Song()
             song.data = pScore
             song.gamesPlayed = len(scores)
