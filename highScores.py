@@ -46,6 +46,8 @@ def git_push():
 
 # profiles and leaderboard
 def getAllScores():
+    scoresSongsDict.clear()
+    scoresPlayersDict.clear()
     files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
 
     for f in files:
@@ -207,30 +209,31 @@ def processPlayerScores(name, scores):
     f.close()
 
 def processLeaderboardScores(name, scores):
-    playersDict = defaultdict()
+    playersScore = defaultdict()
+    playerAttempts = defaultdict()
     for score in scores:
         player = score['player']
 
-        if player not in playersDict:
-            playersDict[player] = [score]
+        if player not in playerAttempts:
+            playerAttempts[player] = 1
+            playersScore[player] = score
         else:
-            playersDict[player].append(score)
+            playerAttempts[player] += 1
+            if playersScore[player]['score'] > score['score']:
+                playersScore[player] = score
 
-    sortedPlayerNames = sorted(playersDict, key = lambda key: len(playersDict[key]), reverse=True)
+    #sortedPlayerNames = sorted(playersDict, key = lambda key: len(playersDict[key]), reverse=True)
+    sortedPlayerNames = sorted(playersScore, key = itemgetter(1))
 
-    playCounter = 0
+    rowNumber = 0
     htmlSongs = ""
 
     for player in sortedPlayerNames:
-        scoresArray = playersDict[player]
-        playCounter += 1
-
-        topScore = scoresArray[0]
-        for scoreData in scoresArray:
-            if scoreData['score'] > topScore['score']:
-                topScore = scoreData
+        rowNumber += 1
+        pScore = playersScore[player]
+        pAttempts = playerAttempts[player]
         
-        htmlSongs += topScoreHtml(topScore, playCounter, len(scoresArray), topScore['song'])
+        htmlSongs += topScoreHtml(pScore, rowNumber, pAttempts, player)
 
     # generate and save HTML file
     html = """<html>
