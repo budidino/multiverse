@@ -156,9 +156,6 @@ def updateHighScores():
 
         songName = score['song']
         player = score['player'].strip()
-        good = score['gameStats']['goodCutsCount']
-        bad = score['gameStats']['badCutsCount']
-        miss = score['gameStats']['missedCutsCount']
         pcName = '#2'
         if score['computerName'] == "Oculus":
             pcName = '#1'
@@ -213,7 +210,7 @@ def updateHighScores():
             classHtml = "odd"
 
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td>{songName}</td><td style='text-align: center'>{good}/{good + bad + miss}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td>{songName}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     # generate and save HTML file
     message = """<html>
@@ -267,7 +264,6 @@ def updateHighScores():
                         <th>STATUS</th>
 						<th style="text-align: left">PLAYER</th>
 						<th style="text-align: left">SONG</th>
-						<th>CUTS</th>
 						<th>DIFFICULTY</th>
 						<th style="text-align: right">SCORE</th>
                         <th style="text-align: center">MODIFIERS</th>
