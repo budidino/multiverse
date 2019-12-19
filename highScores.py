@@ -347,7 +347,8 @@ def generateLeaderboardHtml():
         player = song.data['player']
         html += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{song.playersPlayed}</td><td style='text-align: center'>{song.gamesPlayed}</td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{song.data['difficulty']}</td><td style='text-align: right'>{song.data['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
     
-    
+    # TODO:
+    # 
 
     global htmlStringLeaderboard
     htmlStringLeaderboard = """ <table>
