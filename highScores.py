@@ -340,20 +340,19 @@ def generateLeaderboardHtml():
         player = song.data['player']
         html += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{song.playersPlayed}</td><td style='text-align: center'>{song.gamesPlayed}</td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{song.data['difficulty']}</td><td style='text-align: right'>{song.data['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
     
-    htmlStringLeaderboard = """
-    <table>
-        <tr>
-            <th style="text-align: center">PLAYERS</th>
-            <th style="text-align: center">GAMES</th>
-            <th style="text-align: left">SONG</th>
-            <th style="text-align: left">PLAYER</th>
-            <th>MISSES</th>
-            <th>DIFFICULTY</th>
-            <th style="text-align: right">SCORE</th>
-            <th style="text-align: center">MODIFIERS</th>
-        </tr>
-        """ + html + """
-    </table>"""
+    htmlStringLeaderboard = """ <table>
+                                    <tr>
+                                        <th style="text-align: center">PLAYERS</th>
+                                        <th style="text-align: center">GAMES</th>
+                                        <th style="text-align: left">SONG</th>
+                                        <th style="text-align: left">PLAYER</th>
+                                        <th>MISSES</th>
+                                        <th>DIFFICULTY</th>
+                                        <th style="text-align: right">SCORE</th>
+                                        <th style="text-align: center">MODIFIERS</th>
+                                    </tr>
+                                    """ + html + """
+                                </table>"""
 
     print("done")
 
