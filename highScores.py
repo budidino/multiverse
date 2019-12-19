@@ -88,8 +88,7 @@ def getAllScores():
             print("File not found!")
             continue
 
-def topScoreHtml(score, rowNumber, attempts):
-    song = score['song']
+def topScoreHtml(score, rowNumber, attempts, name):
     good = score['gameStats']['goodCutsCount']
     bad = score['gameStats']['badCutsCount']
     miss = score['gameStats']['missedCutsCount']
@@ -120,7 +119,7 @@ def topScoreHtml(score, rowNumber, attempts):
     else:
         classHtml += "even'"
 
-    return f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{attempts}</td><td style='text-align: right'>{score['score']}</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+    return f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{attempts}</td><td style='text-align: right'>{score['score']}</td><td>{name}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
 def processPlayerScores(name, scores):
     songsDict = defaultdict()
@@ -148,7 +147,7 @@ def processPlayerScores(name, scores):
             if scoreData['score'] > topScore['score']:
                 topScore = scoreData
         
-        htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray))
+        htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray), topScore['song'])
 
         # TODO: generate new file with all the scores for that song
 
@@ -207,26 +206,23 @@ def processPlayerScores(name, scores):
     f.write(html)
     f.close()
 
-def processLeaderboard():
-    print("leaderboard processing")
-
-    songsDict = defaultdict()
+def processLeaderboardScores(name, scores):
+    playersDict = defaultdict()
     for score in scores:
-        song = score['song']
-        timePlayed += score['gameStats']['timePlayed']
+        player = score['player']
 
-        if song not in songsDict:
-            songsDict[song] = [score]
+        if player not in playersDict:
+            playersDict[player] = [score]
         else:
-            songsDict[song].append(score)
+            playersDict[player].append(score)
 
-    sortedSongNames = sorted(songsDict, key = lambda key: len(songsDict[key]), reverse=True)
+    sortedPlayerNames = sorted(playersDict, key = lambda key: len(playersDict[key]), reverse=True)
 
     playCounter = 0
     htmlSongs = ""
 
-    for songName in sortedSongNames:
-        scoresArray = songsDict[songName]
+    for player in sortedPlayerNames:
+        scoresArray = playersDict[player]
         playCounter += 1
 
         topScore = scoresArray[0]
@@ -234,25 +230,44 @@ def processLeaderboard():
             if scoreData['score'] > topScore['score']:
                 topScore = scoreData
         
-        htmlSongs += topScoreHtml(topScore, playCounter, len(scoresArray))
-
-    htmlStringLeaderboard = ""
+        htmlSongs += topScoreHtml(topScore, playCounter, len(scoresArray), topScore['song'])
 
     # generate and save HTML file
-    html = """
-        <div>
-            <table>
-                <tr>
-                    <th style="text-align: center">PLAYS</th>
-                    <th style="text-align: right">SCORE</th>
-                    <th style="text-align: left">SONG</th>
-                    <th>MISSES</th>
-                    <th>DIFFICULTY</th>
-                    <th style="text-align: center">MODIFIERS</th>
-                </tr>
-                """ + htmlSongs + """
-            </table>
-        </div>"""
+    html = """<html>
+        <head>
+            <title>""" + name + """</title>
+            <meta name="format-detection" content="telephone=no">
+            <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="../../style.css">
+        </head>
+        <body>
+            <h1>""" + name + """</h1>
+            <div>
+                <h2>LEADERBOARD</h2>
+                <table>
+                    <tr>
+                        <th style="text-align: center">PLAYS</th>
+                        <th style="text-align: right">SCORE</th>
+                        <th style="text-align: left">SONG</th>
+                        <th>MISSES</th>
+                        <th>DIFFICULTY</th>
+                        <th style="text-align: center">MODIFIERS</th>
+                    </tr>
+                    """ + htmlSongs + """
+                </table>
+            </div>
+        </body>
+    </html>"""
+
+    # create folder if needed
+    folder = f'{oneDriveDir}githubProject/songs/{slugify(name)}'
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    # update player.html file
+    f = open(f'{folder}/index.html', 'w')
+    f.write(html)
+    f.close()
 
 # competition
 
@@ -533,14 +548,17 @@ def updateHighScores():
 
         git_push() # push changes to gitHub
 
-        # since there was changes to the index file, update profiles and leaderboard
-        getAllScores()
-
-        # profiles
-        for name, scores in scoresPlayersDict.items():
-            processPlayerScores(name, scores)
-
     time.sleep(waitTime)
 
+def updateLeaderboardAndProfiles():
+    getAllScores()
+
+    for name, scores in scoresPlayersDict.items():
+        processPlayerScores(name, scores)
+
+    for name, scores in scoresSongsDict.items():
+        processLeaderboardScores(name, scores)
+
 while True:
+    updateLeaderboardAndProfiles()
     updateHighScores()
