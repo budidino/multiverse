@@ -249,6 +249,10 @@ def processLeaderboardScores(name, scores):
         <body>
             <h1>""" + name + """</h1>
             <div>
+            <h2>STATS</h2>
+                <table>
+                    """ + htmlStats + """
+                </table>
                 <h2>LEADERBOARD</h2>
                 <table>
                     <tr>
