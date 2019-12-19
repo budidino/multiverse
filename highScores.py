@@ -220,57 +220,70 @@ def updateHighScores():
             <meta name="format-detection" content="telephone=no">
 			<meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
 			<link rel="stylesheet" type="text/css" href="style.css">
+            <script type="text/javascript" src="scripts.js"></script>  
 		</head>
 		<body>
-			<h1>""" + datetime.datetime.now().strftime("%B") + """ Competition - """ + competitionSongName + """</h1>
-			<div>
-				<div class="older">
-					<h2>Starters League</h2>
-					<table>
-						<tr>
-							<th style="text-align: center">#</th>
-							<th style="text-align: left">PLAYER</th>
-							<th>MISSES</th>
-							<th>DIFFICULTY</th>
-							<th style="text-align: right">SCORE</th>
+            <h1 style="color: green;">Multiverse <span style="color: greenyellow;">VR</span> cafe</h1>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Competition')" id="Competition">Competition</button>
+                <button class="tablinks" onclick="openTab(event, 'Leaderboard')" id="Leaderboard">Leaderboard</button>
+                <button class="tablinks" onclick="openTab(event, 'Stats')" id="Stats">Stats</button>
+                <button class="tablinks" onclick="openTab(event, 'Today')" id="Today">Today</button>
+            </div>
+
+            <div id="CompetitionView" class="tabcontent">
+                <h2>""" + datetime.datetime.now().strftime("%B") + """ song: """ + competitionSongName + """</h2>
+                <div>
+                    <div class="older">
+                        <h2>Starters League</h2>
+                        <table>
+                            <tr>
+                                <th style="text-align: center">#</th>
+                                <th style="text-align: left">PLAYER</th>
+                                <th>MISSES</th>
+                                <th>DIFFICULTY</th>
+                                <th style="text-align: right">SCORE</th>
+                                <th style="text-align: center">MODIFIERS</th>
+                            </tr>
+                            """ + htmlString + """
+                        </table>
+                    </div>
+                    <div class="younger">
+                        <h2>Champions League</h2>
+                        <table>
+                            <tr>
+                                <th style="text-align: center">#</th>
+                                <th style="text-align: left">PLAYER</th>
+                                <th>MISSES</th>
+                                <th>DIFFICULTY</th>
+                                <th style="text-align: right">SCORE</th>
+                                <th style="text-align: center">MODIFIERS</th>
+                            </tr>
+                            """ + htmlStringWinners + """
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="TodayView" class="tabcontent">
+                <div class="recents">
+                    <table>
+                        <tr>
+                            <th style="text-align: right">TIME</th>
+                            <th>PC</th>
+                            <th>SEC</th>
+                            <th>STATUS</th>
+                            <th style="text-align: left">PLAYER</th>
+                            <th style="text-align: left">SONG</th>
+                            <th>DIFFICULTY</th>
+                            <th style="text-align: right">SCORE</th>
                             <th style="text-align: center">MODIFIERS</th>
-						</tr>
-						""" + htmlString + """
-					</table>
-				</div>
-				<div class="younger">
-					<h2>Champions League</h2>
-					<table>
-						<tr>
-							<th style="text-align: center">#</th>
-							<th style="text-align: left">PLAYER</th>
-							<th>MISSES</th>
-							<th>DIFFICULTY</th>
-							<th style="text-align: right">SCORE</th>
-                            <th style="text-align: center">MODIFIERS</th>
-						</tr>
-						""" + htmlStringWinners + """
-					</table>
-				</div>
-			</div>
-			<div class="recents">
-				<hr>
-				<h2>Recent Games</h2>
-				<table>
-					<tr>
-						<th style="text-align: right">TIME</th>
-						<th>PC</th>
-                        <th>SEC</th>
-                        <th>STATUS</th>
-						<th style="text-align: left">PLAYER</th>
-						<th style="text-align: left">SONG</th>
-						<th>DIFFICULTY</th>
-						<th style="text-align: right">SCORE</th>
-                        <th style="text-align: center">MODIFIERS</th>
-					</tr>
-					""" + htmlStringLatest + """
-				</table>
-			</div>
+                        </tr>
+                        """ + htmlStringLatest + """
+                    </table>
+                </div>
+            </div>
+
 		</body>
 	</html>"""
 
