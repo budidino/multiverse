@@ -77,9 +77,9 @@ def getAllScores():
                 else:
                     scoresPlayersDict[player].append(data)
             
-            # store song scores if valid
+            # store song scores if valid # ignore custom levels for now
             songName = data['song']
-            if player != "UNKNOWN" and len(player) > 1:
+            if player != "UNKNOWN" and len(player) > 1 and "custom_level" not in songName:
                 if songName not in scoresSongsDict.keys():
                     array = [data]
                     scoresSongsDict[songName] = array
@@ -226,13 +226,8 @@ def processLeaderboardScores(name, scores):
                 playersTopScore[player] = newScore
                 playersScore[player] = score
 
-    #sortedPlayerNames = sorted(playersDict, key = lambda key: len(playersDict[key]), reverse=True)
-    #sortedPlayerNames = sorted(playersTopScore, key = itemgetter(1))
-
     sortedPlayerNames = sorted(playersScore, key = lambda k: playersTopScore[k], reverse=True)
-    
-    if len(playersTopScore.keys()) > 5:
-        print("check me out")
+
     rowNumber = 0
     htmlSongs = ""
 
@@ -557,8 +552,6 @@ def updateHighScores():
         f.write(message)
         f.close()
 
-        git_push() # push changes to gitHub
-
     time.sleep(waitTime)
 
 def updateLeaderboardAndProfiles():
@@ -573,3 +566,4 @@ def updateLeaderboardAndProfiles():
 while True:
     updateLeaderboardAndProfiles()
     updateHighScores()
+    git_push() # push changes to gitHub
