@@ -230,6 +230,10 @@ def updateHighScores():
                 <button class="tablinks" onclick="openTab(event, 'Today')" id="Today">Today</button>
             </div>
 
+            <div id="LeaderboardView" class="tabcontent">
+                <p>work in progress</p>
+            </div>
+
             <div id="CompetitionView" class="tabcontent">
                 <h2 style="color: green;">""" + datetime.datetime.now().strftime("%B") + """ song: <span style="color: greenyellow;">""" + competitionSongName + """</span></h2>
                 <div>

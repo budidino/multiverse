@@ -101,14 +101,9 @@ td {
 	  font-size: 17px;
   }
   
-  .tab button:hover {
+  .tab button:hover, button.active {
 	  color: greenyellow;
-	  background-color: #1b1b3d;
-  }
-  
-  .tab button.active {
-	  color: greenyellow;
-	  background-color: #1b1b3d;
+	  background-color: #26263d;
   }
   
   .tabcontent {
