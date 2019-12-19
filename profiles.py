@@ -141,7 +141,14 @@ def processPlayerScores(name, scores):
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Songs played</td><td style='text-align: right'>{len(songsDict)}</td></tr>"
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(timePlayed/60/60, 2))}</td></tr>"
-    # TODO: date of first game on record, date of last game on record, days played, weeks played, accuracy?, tournament wins (which month and song)
+    # TODO: 
+    # date of first game on record
+    # date of last game on record
+    # unique days played
+    # unique weeks played
+    # accuracy?
+    # leaderboard stats (1, 2, 3 places)
+    # tournament wins (which month and song)
 
     # generate and save HTML file
     html = """<html>

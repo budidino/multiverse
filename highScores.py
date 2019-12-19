@@ -7,6 +7,7 @@ from operator import itemgetter #sorting
 import hashlib # hash strings (detect index.html file changes)
 import time # so we can sleep
 import datetime
+from collections import defaultdict
 from slugify import slugify
 
 # github related imports and settings
@@ -29,6 +30,10 @@ renamePlayers = {
     "CHEEKEN": "CHEE KEN"
 }
 
+scoresSongsDict = defaultdict()
+scoresPlayersDict = defaultdict()
+htmlStringLeaderboard = "<p>try again later</p>"
+
 def git_push():
     try:
         repo = Repo(f'{oneDriveDir}githubProject/.git')
@@ -39,6 +44,217 @@ def git_push():
     except Exception as e:
         print('Failed to push with error: '+ str(e))
 
+# profiles and leaderboard
+def getAllScores():
+    files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
+
+    for f in files:
+        try:
+            with open(f, "r") as data_file:
+                try:
+                    data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+                except Exception as e:
+                    print(f"damaged JSON for file: {f} - {e}")
+                    continue
+
+            # get and update player name
+            player = data['player']
+            if "JR " in player or " JR" in player:
+                player = player.replace(" JR", " ").replace("JR ", "")
+            for key, value in renamePlayers.items():
+                if key == player:
+                    player = value
+            player = player.strip()
+            data['player'] = player
+
+            # store player score if valid
+            if player != "UNKNOWN" and len(player) > 1:
+                if player not in scoresPlayersDict.keys():
+                    array = [data]
+                    scoresPlayersDict[player] = array
+                else:
+                    scoresPlayersDict[player].append(data)
+            
+            # store song scores if valid
+            songName = data['song']
+            if player != "UNKNOWN" and len(player) > 1:
+                if songName not in scoresSongsDict.keys():
+                    array = [data]
+                    scoresSongsDict[songName] = array
+                else:
+                    scoresSongsDict[songName].append(data)
+
+        except FileNotFoundError:
+            print("File not found!")
+            continue
+
+def topScoreHtml(score, rowNumber, attempts):
+    song = score['song']
+    good = score['gameStats']['goodCutsCount']
+    bad = score['gameStats']['badCutsCount']
+    miss = score['gameStats']['missedCutsCount']
+    scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime("%b %d - %I:%M")
+    
+    # TODO: only if after August 18
+    modifiersHtmlString = ""
+    if score['modifiers']['energyType'] == 1:
+        modifiersHtmlString += "<img src='../../icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
+    if score['modifiers']['noFail']:
+        modifiersHtmlString += "<img src='../../icons/noFail.png' title='No Fail' style='width:16px; height:16px;'>"
+    if score['modifiers']['instaFail']:
+        modifiersHtmlString += "<img src='../../icons/instaFail.png' title='Insta Fail' style='width:16px; height:16px;'>"
+    if score['modifiers']['enabledObstacleType'] == 1:
+        modifiersHtmlString += "<img src='../../icons/noObstacles.png' title='No Obstacles' style='width:16px; height:16px;'>"
+    if score['modifiers']['disappearingArrows']:
+        modifiersHtmlString += "<img src='../../icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px;'>"
+    if score['modifiers']['ghostNotes']:
+        modifiersHtmlString += "<img src='../../icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px;'>"
+    if score['modifiers']['noBombs']:
+        modifiersHtmlString += "<img src='../../icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
+    if score['modifiers']['songSpeed'] == 1:
+        modifiersHtmlString += "<img src='../../icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
+
+    classHtml = f"class='row-"
+    if rowNumber % 2 == 1:
+        classHtml += "odd'"
+    else:
+        classHtml += "even'"
+
+    return f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{attempts}</td><td style='text-align: right'>{score['score']}</td><td>{song}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+
+def processPlayerScores(name, scores):
+    songsDict = defaultdict()
+    timePlayed = 0
+    for score in scores:
+        song = score['song']
+        timePlayed += score['gameStats']['timePlayed']
+
+        if song not in songsDict:
+            songsDict[song] = [score]
+        else:
+            songsDict[song].append(score)
+
+    sortedSongNames = sorted(songsDict, key = lambda key: len(songsDict[key]), reverse=True)
+
+    rowNumber = 0
+    htmlSongs = ""
+
+    for songName in sortedSongNames:
+        scoresArray = songsDict[songName]
+        rowNumber += 1
+
+        topScore = scoresArray[0]
+        for scoreData in scoresArray:
+            if scoreData['score'] > topScore['score']:
+                topScore = scoreData
+        
+        htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray))
+
+        # TODO: generate new file with all the scores for that song
+
+    htmlStats = ""
+    htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
+    htmlStats += f"<tr class='row-even'><td style='text-align: left'>Songs played</td><td style='text-align: right'>{len(songsDict)}</td></tr>"
+    htmlStats += f"<tr class='row-even'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(timePlayed/60/60, 2))}</td></tr>"
+    # TODO: 
+    # date of first game on record
+    # date of last game on record
+    # unique days played
+    # unique weeks played
+    # accuracy?
+    # leaderboard stats (1, 2, 3 places)
+    # tournament wins (which month and song)
+
+    # generate and save HTML file
+    html = """<html>
+        <head>
+            <title>""" + name + """</title>
+            <meta name="format-detection" content="telephone=no">
+            <meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="../../style.css">
+        </head>
+        <body>
+            <h1>""" + name + """</h1>
+            <div>
+                <h2>STATS</h2>
+                <table>
+                    """ + htmlStats + """
+                </table>
+
+                <h2>SONGS</h2>
+                <table>
+                    <tr>
+                        <th style="text-align: center">PLAYS</th>
+                        <th style="text-align: right">SCORE</th>
+                        <th style="text-align: left">SONG</th>
+                        <th>MISSES</th>
+                        <th>DIFFICULTY</th>
+                        <th style="text-align: center">MODIFIERS</th>
+                    </tr>
+                    """ + htmlSongs + """
+                </table>
+            </div>
+        </body>
+    </html>"""
+
+    # create folder if needed
+    folder = f'{oneDriveDir}githubProject/players/{slugify(name)}'
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    # update player.html file
+    f = open(f'{folder}/index.html', 'w')
+    f.write(html)
+    f.close()
+
+def processLeaderboard():
+    print("leaderboard processing")
+
+    songsDict = defaultdict()
+    for score in scores:
+        song = score['song']
+        timePlayed += score['gameStats']['timePlayed']
+
+        if song not in songsDict:
+            songsDict[song] = [score]
+        else:
+            songsDict[song].append(score)
+
+    sortedSongNames = sorted(songsDict, key = lambda key: len(songsDict[key]), reverse=True)
+
+    playCounter = 0
+    htmlSongs = ""
+
+    for songName in sortedSongNames:
+        scoresArray = songsDict[songName]
+        playCounter += 1
+
+        topScore = scoresArray[0]
+        for scoreData in scoresArray:
+            if scoreData['score'] > topScore['score']:
+                topScore = scoreData
+        
+        htmlSongs += topScoreHtml(topScore, playCounter, len(scoresArray))
+
+    htmlStringLeaderboard = ""
+
+    # generate and save HTML file
+    html = """
+        <div>
+            <table>
+                <tr>
+                    <th style="text-align: center">PLAYS</th>
+                    <th style="text-align: right">SCORE</th>
+                    <th style="text-align: left">SONG</th>
+                    <th>MISSES</th>
+                    <th>DIFFICULTY</th>
+                    <th style="text-align: center">MODIFIERS</th>
+                </tr>
+                """ + htmlSongs + """
+            </table>
+        </div>"""
+
+# competition
 
 def updateHighScores():
     # process score files
@@ -231,11 +447,11 @@ def updateHighScores():
             </div>
 
             <div id="LeaderboardView" class="tabcontent">
-                <p>work in progress</p>
+                """+ htmlStringLeaderboard +"""
             </div>
 
             <div id="CompetitionView" class="tabcontent">
-                <h2 style="color: green;">""" + datetime.datetime.now().strftime("%B") + """ song: <span style="color: greenyellow;">""" + competitionSongName + """</span></h2>
+                <h2>""" + datetime.datetime.now().strftime("%B") + """ song: <span style="color: greenyellow;">""" + competitionSongName + """</span></h2>
                 <div>
                     <div class="older">
                         <h2>Starters League</h2>
@@ -316,6 +532,13 @@ def updateHighScores():
         f.close()
 
         git_push() # push changes to gitHub
+
+        # since there was changes to the index file, update profiles and leaderboard
+        getAllScores()
+
+        # profiles
+        for name, scores in scoresPlayersDict.items():
+            processPlayerScores(name, scores)
 
     time.sleep(waitTime)
 
