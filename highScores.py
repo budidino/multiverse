@@ -25,6 +25,7 @@ competitionDateEnd = datetime.date(2019, 12, 31)
 
 winnerPlayers = ["BIT", "YENG", "CHEE KEN", "MAEVE"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
+ignoreSongs = ["custom_level", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 
 renamePlayers = {
     "CHEEKEN": "CHEE KEN"
@@ -88,7 +89,12 @@ def getAllScores():
             
             # store song scores if valid # ignore custom levels for now
             songName = data['song']
-            if player != "UNKNOWN" and len(player) > 1 and "custom_level" not in songName:
+            skipSong = False
+            for ignore in ignoreSongs:
+                if ignore in songName:
+                    skipSong = True
+
+            if player != "UNKNOWN" and len(player) > 1 and not skipSong:
                 if songName not in scoresSongsDict.keys():
                     array = [data]
                     scoresSongsDict[songName] = array
@@ -308,7 +314,6 @@ def generateLeaderboardHtml():
     html = ""
     rowNumber = 0
     for song in leaderboard:
-        print(song.data['song'])
         good = song.data['gameStats']['goodCutsCount']
         bad = song.data['gameStats']['badCutsCount']
         miss = song.data['gameStats']['missedCutsCount']
