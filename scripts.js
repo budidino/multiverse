@@ -16,7 +16,9 @@ function openTab(evt, tabName) {
 }
 
 // Open last opened tab
-if (localStorage.getItem('tab') === null) {
-    localStorage.setItem('tab', 'Competition');
+function loaded() {
+    if (localStorage.getItem('tab') === null) {
+        localStorage.setItem('tab', 'Competition');
+    }
+    document.getElementById(localStorage.getItem('tab')).click();
 }
-document.getElementById(localStorage.getItem('tab')).click();

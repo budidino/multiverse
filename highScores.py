@@ -285,9 +285,6 @@ def updateHighScores():
             </div>
 
             <script type="text/javascript">
-                function loaded() {
-                    alert('ok');
-                }
                 window.onload = loaded;
             </script>
 
