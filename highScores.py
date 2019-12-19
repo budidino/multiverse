@@ -41,12 +41,14 @@ class Player():
     name: str
     gold: int
     silver: int
-    bronce: int
+    bronze: int
+    score: int
 
 scoresSongsDict = defaultdict()
 scoresPlayersDict = defaultdict()
 htmlStringLeaderboard = ""
 leaderboard: [Song] = []
+leaderboardPlayers = defaultdict()
 
 def git_push():
     try:
@@ -354,25 +356,60 @@ def generateLeaderboardHtml():
         player = song.data['player']
         html += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{song.playersPlayed}</td><td style='text-align: center'>{song.gamesPlayed}</td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{song.data['difficulty']}</td><td style='text-align: right'>{song.data['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
-        if play
+        if rowNumber <= 3:
+            if player not in leaderboardPlayers:
+                p = Player()
+                p.name = player
+                p.gold = 0
+                p.silver = 0
+                p.bronze = 0
+                p.score = 0
+                leaderboardPlayers[player] = p
+            
+            p = leaderboardPlayers[player]
+            if rowNumber == 1:
+                p.gold += 1
+                p.score += 3
+            elif rowNumber == 2:
+                p.silver += 1
+            elif rowNumber == 3:
+                p.bronze += 1
+
     
     # TODO:
     # Medals per player (gold, silver, bronze) based on songs score
 
+    playersHtml = ""
+    for p in leaderboardPlayers.values():
+        playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{p.name}</td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td><td style='text-align: center'>{p.score}</td></tr>"
+
     global htmlStringLeaderboard
-    htmlStringLeaderboard = """ <table>
-                                    <tr>
-                                        <th style="text-align: center">PLAYERS</th>
-                                        <th style="text-align: center">GAMES</th>
-                                        <th style="text-align: left">SONG</th>
-                                        <th style="text-align: left">PLAYER</th>
-                                        <th>MISSES</th>
-                                        <th>DIFFICULTY</th>
-                                        <th style="text-align: right">SCORE</th>
-                                        <th style="text-align: center">MODIFIERS</th>
-                                    </tr>
-                                    """ + html + """
-                                </table>"""
+    htmlStringLeaderboard = """
+        <h2>PLAYERS</h2>
+        <table>
+            <tr>
+                <th style="text-align: left">PLAYERS</th>
+                <th style="text-align: center">GOLD</th>
+                <th style="text-align: center">SILVER</th>
+                <th style="text-align: center">BRONZE</th>
+                <th style="text-align: center">SCORE</th>
+            </tr>
+            """ + playersHtml + """
+
+        <h2>SONGS</h2>
+        <table>
+            <tr>
+                <th style="text-align: center">PLAYERS</th>
+                <th style="text-align: center">GAMES</th>
+                <th style="text-align: left">SONG</th>
+                <th style="text-align: left">PLAYER</th>
+                <th>MISSES</th>
+                <th>DIFFICULTY</th>
+                <th style="text-align: right">SCORE</th>
+                <th style="text-align: center">MODIFIERS</th>
+            </tr>
+            """ + html + """
+        </table>"""
 
 # competition
 
@@ -662,6 +699,7 @@ def updateLeaderboardAndProfiles():
         processPlayerScores(name, scores)
 
     leaderboard.clear()
+    leaderboardPlayers.clear()
     for name, scores in scoresSongsDict.items():
         processLeaderboardScores(name, scores)
     
