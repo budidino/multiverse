@@ -37,6 +37,8 @@ class Song():
     gamesPlayed: int
     hoursPlayed: str
 
+class Player()
+
 scoresSongsDict = defaultdict()
 scoresPlayersDict = defaultdict()
 htmlStringLeaderboard = ""
