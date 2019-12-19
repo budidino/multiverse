@@ -1,6 +1,6 @@
 body {
 	font-family: Geneva, Verdana, sans-serif;
-	background-color: black;
+	background-color: #0f0f23;
 	color: white;
 	padding: 1vw;
 }
@@ -85,3 +85,36 @@ td {
 .long {
 	color: red;
 }
+
+
+.tab {
+	overflow: hidden;
+  }
+  
+  .tab button {
+	  color: green;
+	  background-color: inherit;
+	  float: left;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 14px 16px;
+	  transition: 0.3s;
+	  font-size: 17px;
+  }
+  
+  .tab button:hover {
+	  color: greenyellow;
+	  background-color: #1b1b3d;
+  }
+  
+  .tab button.active {
+	  color: greenyellow;
+	  background-color: #1b1b3d;
+  }
+  
+  .tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border-top: none;
+  }
