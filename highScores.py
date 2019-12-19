@@ -38,7 +38,7 @@ class Song():
 
 scoresSongsDict = defaultdict()
 scoresPlayersDict = defaultdict()
-htmlStringLeaderboard = "<p>try again later</p>"
+htmlStringLeaderboard = ""
 leaderboard: [Song] = []
 
 def git_push():
@@ -303,7 +303,7 @@ def processLeaderboardScores(name, scores):
     f.close()
 
 def generateLeaderboardHtml():
-    htmlStringLeaderboard = ""
+    html = ""
     rowNumber = 0
     for song in leaderboard:
         print(song.data['song'])
@@ -332,12 +332,28 @@ def generateLeaderboardHtml():
         
         #calculate row number and odd/even
         rowNumber += 1
+        classHtml = "class='row-even'"
         if rowNumber % 2 == 1:
-            classHtml += "class='row-odd'"
-        else:
-            classHtml += "class='row-even'"
+            classHtml = "class='row-odd'"
 
-        htmlStringLeaderboard += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowNumber}.</td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        songName = song.data['song']
+        player = song.data['player']
+        html += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{song.playersPlayed}</td><td style='text-align: center'>{song.gamesPlayed}</td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{song.data['difficulty']}</td><td style='text-align: right'>{song.data['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+    
+    htmlStringLeaderboard = """
+    <table>
+        <tr>
+            <th style="text-align: center">PLAYERS</th>
+            <th style="text-align: center">GAMES</th>
+            <th style="text-align: left">SONG</th>
+            <th style="text-align: left">PLAYER</th>
+            <th>MISSES</th>
+            <th>DIFFICULTY</th>
+            <th style="text-align: right">SCORE</th>
+            <th style="text-align: center">MODIFIERS</th>
+        </tr>
+        """ + html + """
+    </table>"""
 
 # competition
 
