@@ -314,7 +314,7 @@ def generateLeaderboardHtml():
     html = ""
     rowNumber = 0
     sortedLeaderboard = sorted(leaderboard, key=lambda x: x.playersPlayed, reverse=True)
-    for song in leaderboard:
+    for song in sortedLeaderboard:
         good = song.data['gameStats']['goodCutsCount']
         bad = song.data['gameStats']['badCutsCount']
         miss = song.data['gameStats']['missedCutsCount']
