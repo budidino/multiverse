@@ -350,7 +350,6 @@ def generateLeaderboardHtml():
     
     # TODO:
     # Medals per player (gold, silver, bronze) based on songs score
-    # sort songs by players played
 
     global htmlStringLeaderboard
     htmlStringLeaderboard = """ <table>
