@@ -209,6 +209,7 @@ def processPlayerScores(name, scores):
     f.close()
 
 def processLeaderboardScores(name, scores):
+    playersTopScore = defaultdict()
     playersScore = defaultdict()
     playerAttempts = defaultdict()
     for score in scores:
@@ -217,14 +218,21 @@ def processLeaderboardScores(name, scores):
         if player not in playerAttempts:
             playerAttempts[player] = 1
             playersScore[player] = score
+            playersTopScore[player] = score['score']
         else:
             playerAttempts[player] += 1
-            if int(playersScore[player]['score']) < int(score['score']):
+            newScore = score['score']
+            if newScore > playersTopScore[player]:
+                playersTopScore[player] = newScore
                 playersScore[player] = score
 
     #sortedPlayerNames = sorted(playersDict, key = lambda key: len(playersDict[key]), reverse=True)
-    sortedPlayerNames = sorted(playersScore, key = itemgetter(1))
+    #sortedPlayerNames = sorted(playersTopScore, key = itemgetter(1))
 
+    sortedPlayerNames = sorted(playersScore, key = lambda k: playersTopScore[k], reverse=True)
+    
+    if len(playersTopScore.keys()) > 5:
+        print("check me out")
     rowNumber = 0
     htmlSongs = ""
 
