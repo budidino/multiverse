@@ -313,6 +313,7 @@ def processLeaderboardScores(name, scores):
 def generateLeaderboardHtml():
     html = ""
     rowNumber = 0
+    sortedLeaderboard = sorted(leaderboard, key=lambda x: x.count, reverse=True)
     for song in leaderboard:
         good = song.data['gameStats']['goodCutsCount']
         bad = song.data['gameStats']['badCutsCount']
