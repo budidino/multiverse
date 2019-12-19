@@ -45,6 +45,8 @@ def git_push():
     try:
         repo = Repo(f'{oneDriveDir}githubProject/.git')
         repo.git.add(update=True)
+        for f in repo.untracked_files:
+            repo.git.add(f)
         repo.index.commit('update from the python script')
         origin = repo.remote(name='origin')
         origin.push()
@@ -354,8 +356,6 @@ def generateLeaderboardHtml():
                                     </tr>
                                     """ + html + """
                                 </table>"""
-
-    print("done")
 
 # competition
 
