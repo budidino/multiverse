@@ -30,9 +30,16 @@ renamePlayers = {
     "CHEEKEN": "CHEE KEN"
 }
 
+class Song():
+    data = {}
+    playersPlayed: int
+    gamesPlayed: int
+    hoursPlayed: str
+
 scoresSongsDict = defaultdict()
 scoresPlayersDict = defaultdict()
 htmlStringLeaderboard = "<p>try again later</p>"
+leaderboard: [Song] = []
 
 def git_push():
     try:
@@ -241,6 +248,14 @@ def processLeaderboardScores(name, scores):
         
         htmlSongs += topScoreHtml(pScore, rowNumber, pAttempts, player)
 
+        if rowNumber == 0:
+            song = Song()
+            song.data = pScore
+            song.gamesPlayed = len(scores)
+            song.playersPlayed = len(playersScore)
+            song.hoursPlayed = str(round(timePlayed/60/60, 2))
+            leaderboard.append(song)
+
     htmlStats = ""
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Players played</td><td style='text-align: right'>{len(playersScore)}</td></tr>"
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
@@ -286,6 +301,43 @@ def processLeaderboardScores(name, scores):
     f = open(f'{folder}/index.html', 'w')
     f.write(html)
     f.close()
+
+def generateLeaderboardHtml():
+    htmlStringLeaderboard = ""
+    rowNumber = 0
+    for song in leaderboard:
+        print(song.data['song'])
+        good = song.data['gameStats']['goodCutsCount']
+        bad = song.data['gameStats']['badCutsCount']
+        miss = song.data['gameStats']['missedCutsCount']
+        scoreTime = datetime.datetime.fromtimestamp(song.data['timestamp']).strftime("%b %d - %I:%M")
+        
+        modifiersHtmlString = ""
+        if song.data['modifiers']['energyType'] == 1:
+            modifiersHtmlString += "<img src='icons/battery.png' title='Battery Energy' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['noFail']:
+            modifiersHtmlString += "<img src='icons/noFail.png' title='No Fail' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['instaFail']:
+            modifiersHtmlString += "<img src='icons/instaFail.png' title='Insta Fail' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['enabledObstacleType'] == 1:
+            modifiersHtmlString += "<img src='icons/noObstacles.png' title='No Obstacles' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['disappearingArrows']:
+            modifiersHtmlString += "<img src='icons/disappearingArrows.png' title='Disappearing Arrows' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['ghostNotes']:
+            modifiersHtmlString += "<img src='icons/ghostNotes.png' title='Ghost Notes' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['noBombs']:
+            modifiersHtmlString += "<img src='icons/noBombs.png' title='No Bombs' style='width:16px; height:16px;'>"
+        if song.data['modifiers']['songSpeed'] == 1:
+            modifiersHtmlString += "<img src='icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
+        
+        #calculate row number and odd/even
+        rowNumber += 1
+        if rowNumber % 2 == 1:
+            classHtml += "class='row-odd'"
+        else:
+            classHtml += "class='row-even'"
+
+        htmlStringLeaderboard += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{rowNumber}.</td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
 # competition
 
@@ -572,8 +624,11 @@ def updateLeaderboardAndProfiles():
     for name, scores in scoresPlayersDict.items():
         processPlayerScores(name, scores)
 
+    leaderboard.clear()
     for name, scores in scoresSongsDict.items():
         processLeaderboardScores(name, scores)
+    
+    generateLeaderboardHtml()
 
 while True:
     updateLeaderboardAndProfiles()
