@@ -396,7 +396,7 @@ def generateLeaderboardHtml():
             </tr>
             """ + playersHtml + """
 
-        <h2>SONGS</h2>
+        <h2 style:"">SONGS</h2>
         <table>
             <tr>
                 <th style="text-align: center">PLAYERS</th>
