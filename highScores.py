@@ -219,7 +219,7 @@ def processLeaderboardScores(name, scores):
             playersScore[player] = score
         else:
             playerAttempts[player] += 1
-            if playersScore[player]['score'] > score['score']:
+            if int(playersScore[player]['score']) < int(score['score']):
                 playersScore[player] = score
 
     #sortedPlayerNames = sorted(playersDict, key = lambda key: len(playersDict[key]), reverse=True)
