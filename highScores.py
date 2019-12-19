@@ -451,7 +451,7 @@ def updateHighScores():
             </div>
 
             <div id="CompetitionView" class="tabcontent">
-                <h2>""" + datetime.datetime.now().strftime("%B") + """ song: <span style="color: greenyellow;">""" + competitionSongName + """</span></h2>
+                <h2 style="color: white;">""" + datetime.datetime.now().strftime("%B") + """ song: <span style="color: greenyellow;">""" + competitionSongName + """</span></h2>
                 <div>
                     <div class="older">
                         <h2>Starters League</h2>
