@@ -204,6 +204,7 @@ def processPlayerScores(name, scores):
         os.makedirs(folder)
 
     # update player.html file
+    # TODO: fix crash - permission denied to players/gatdog/index.html
     f = open(f'{folder}/index.html', 'w')
     f.write(html)
     f.close()
@@ -212,7 +213,9 @@ def processLeaderboardScores(name, scores):
     playersTopScore = defaultdict()
     playersScore = defaultdict()
     playerAttempts = defaultdict()
+    timePlayed = 0
     for score in scores:
+        timePlayed += score['gameStats']['timePlayed']
         player = score['player']
 
         if player not in playerAttempts:
