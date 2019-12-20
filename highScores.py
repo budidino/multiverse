@@ -146,6 +146,8 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
     else:
         classHtml += "even'"
 
+    ahref = 
+
     return f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{attempts}</td><td style='text-align: right'>{score['score']}</td><td>{name}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
 def processPlayerScores(name, scores):
