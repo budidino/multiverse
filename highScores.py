@@ -394,7 +394,7 @@ def generateLeaderboardHtml():
             classHtml += "row-odd'"
         else:
             classHtml += "row-even'"
-        playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{p.score}</td><td style='text-align: left'>{p.name}</td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td></tr>"
+        playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{p.score}</td><td style='text-align: left'><a href='players/{slugify(p.name)}'>{p.name}</a></td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td></tr>"
 
     global htmlStringLeaderboard
     htmlStringLeaderboard = """
@@ -597,7 +597,7 @@ def updateHighScores():
             classHtml = "odd"
 
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td>{songName}</td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
     global htmlStringLeaderboard
 
