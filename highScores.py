@@ -699,8 +699,8 @@ def updateHighScores():
     if hashStringNew != hashStringOld:
         print("updating index.html and pushing code")
         try:
-            folder = 
-            f = open(f'{oneDriveDir}githubProject/index.html', 'w')
+            fileName = f'{oneDriveDir}githubProject/index.html'
+            f = open(fileName, 'w')
             f.write(message)
             f.close()
         except Exception as e:
