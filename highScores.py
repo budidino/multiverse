@@ -176,8 +176,6 @@ def processPlayerScores(name, scores):
         
         htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray), topScore['song'])
 
-        # TODO: generate new file with all the scores for that song
-
     htmlStats = ""
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Songs played</td><td style='text-align: right'>{len(songsDict)}</td></tr>"
