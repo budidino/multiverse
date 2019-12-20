@@ -233,7 +233,7 @@ def processPlayerScores(name, scores):
         f.write(html)
         f.close()
     except Exception as e:
-        print(f"failed to write file: {f} - {e}")
+        print(f"failed to write file to folder: {folder} - {e}")
         continue
 
 def processLeaderboardScores(name, scores):
