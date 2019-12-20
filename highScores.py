@@ -386,7 +386,7 @@ def generateLeaderboardHtml():
 
     playersHtml = ""
     sortedLeaderboardPlayers = sorted(leaderboardPlayers.values(), key=lambda x: x.score, reverse=True)
-    rowNumber = 1
+    rowNumber = 0
     for p in sortedLeaderboardPlayers:
         rowNumber += 1
         classHtml = f"class='row-{rowNumber} "
