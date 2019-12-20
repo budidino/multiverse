@@ -620,7 +620,7 @@ def updateHighScores():
                 """ + htmlStringLatest + """
             </table>
         </div>
-    """
+        """
 
     global htmlStringLeaderboard
 
