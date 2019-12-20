@@ -704,7 +704,7 @@ def updateHighScores():
             f.write(message)
             f.close()
         except Exception as e:
-            print(f"failed to write file to folder: {folder} - {e}")
+            print(f"failed to write main index file: {fileName} - {e}")
             # TODO: maybe call the same function again?
 
     time.sleep(waitTime)
