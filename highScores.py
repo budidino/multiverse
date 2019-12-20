@@ -233,13 +233,7 @@ def processPlayerScores(name, scores):
         f.write(html)
         f.close()
     except Exception as e:
-        print(f"damaged JSON for file: {f} - {e}")
-        continue
-    
-    try:
-        data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
-    except Exception as e:
-        print(f"damaged JSON for file: {f} - {e}")
+        print(f"failed to write file: {f} - {e}")
         continue
 
 def processLeaderboardScores(name, scores):
