@@ -338,9 +338,13 @@ def processLeaderboardScores(name, scores):
         os.makedirs(folder)
 
     # update player.html file
-    f = open(f'{folder}/index.html', 'w')
-    f.write(html)
-    f.close()
+    try:
+        f = open(f'{folder}/index.html', 'w')
+        f.write(html)
+        f.close()
+    except Exception as e:
+        print(f"failed to write file to folder: {folder} - {e}")
+        # TODO: maybe call the same function again?
 
 def generateLeaderboardHtml():
     html = ""
