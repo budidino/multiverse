@@ -115,7 +115,7 @@ def getAllScores():
             print("File not found!")
             continue
 
-def topScoreHtml(score, rowNumber, attempts, name):
+def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
     good = score['gameStats']['goodCutsCount']
     bad = score['gameStats']['badCutsCount']
     miss = score['gameStats']['missedCutsCount']
