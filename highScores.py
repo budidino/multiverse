@@ -372,29 +372,31 @@ def generateLeaderboardHtml():
                 p.score += 3
             elif rowNumber == 2:
                 p.silver += 1
+                p.score += 2
             elif rowNumber == 3:
                 p.bronze += 1
-
+                p.score += 1
     
     # TODO:
     # Medals per player (gold, silver, bronze) based on songs score
 
     playersHtml = ""
     for p in leaderboardPlayers.values():
-        playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{p.name}</td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td><td style='text-align: center'>{p.score}</td></tr>"
+        playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{p.score}</td><td style='text-align: left'>{p.name}</td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td></tr>"
 
     global htmlStringLeaderboard
     htmlStringLeaderboard = """
         <h2>PLAYERS</h2>
         <table>
             <tr>
-                <th style="text-align: left">PLAYERS</th>
+            <th style="text-align: right">SCORE</th>
+                <th style="text-align: left">PLAYER</th>
                 <th style="text-align: center">GOLD</th>
                 <th style="text-align: center">SILVER</th>
                 <th style="text-align: center">BRONZE</th>
-                <th style="text-align: center">SCORE</th>
             </tr>
             """ + playersHtml + """
+        </table>
 
         <h2 style:"padding-top: 20px">SONGS</h2>
         <table>
