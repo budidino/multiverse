@@ -650,8 +650,8 @@ def updateHighScores():
                 """ + htmlStringLatestPC2 + """
             </table>
 
-            <h2>PC 1</h2>
-            <table>
+            <h2 style="padding-top: 20px">PC 1</h2>
+            <table style="padding-bottom: 30px">
                 <tr>
                     <th style="text-align: right">TIME</th>
                     <th>SEC</th>
