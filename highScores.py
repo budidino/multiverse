@@ -230,7 +230,7 @@ def processPlayerScores(name, scores):
     # TODO: fix crash - permission denied to players/gatdog/index.html
     f = open(f'{folder}/index.html', 'w')
     f.write(html)
-    f.close()
+    f.close()fdasfdas
 
 def processLeaderboardScores(name, scores):
     playersTopScore = defaultdict()
