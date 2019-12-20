@@ -19,6 +19,8 @@ oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
 waitTime = 10.0
 
+longSongDuration: int = 60 * 5
+
 competitionSongName = "TestMe"
 competitionDateStart = datetime.date(2019, 12, 1)
 competitionDateEnd = datetime.date(2019, 12, 31)
