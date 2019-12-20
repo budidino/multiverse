@@ -535,10 +535,17 @@ def updateHighScores():
                     #print(f"{score['score']} {player} ({good} / {good + bad + miss}) - {score['difficulty']}")
 
     # sort scores by timestamp and display last few    
-    htmlStringLatest = ""
-    rowNumber = 0
+    htmlStringLatestPC1 = ""
+    htmlStringLatestPC2 = ""
+    rowNumberPC1 = 0
+    rowNumberPC2 = 0
     latestScores = sorted(latestScores, key=itemgetter('timestamp'), reverse=True)
     #print("latest scores")
+
+    todayGamesPlayed = 0
+    todaySecondsPlayed = 0
+    todayPlayers = set()
+
     for score in latestScores:
         dateFromTS = datetime.datetime.utcfromtimestamp(score["timestamp"]).strftime('%Y-%m-%d')
         dateToday = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -594,30 +601,68 @@ def updateHighScores():
             durationHtml = f"<div class='long'>{duration}</div>"
         else:
             durationHtml = duration
-        
-        rowNumber += 1
-        classHtml = "even"
-        if rowNumber % 2 == 1:
-            classHtml = "odd"
+
+        # stats
+        todaySecondsPlayed += duration
+        todayGamesPlayed += 1
+        if player != "?":
+            todayPlayers.add(player)
 
         #print(f"{pcName} {score['score']} {player} ({good} / {good + bad + miss}) - {difficulty} - {songName}")
-        htmlStringLatest += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{pcName}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        if pcName == "#1":
+            rowNumberPC1 += 1
+            classHtml = "even"
+            if rowNumberPC1 % 2 == 1:
+                classHtml = "odd"
+
+            htmlStringLatestPC1 += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+        else:
+            rowNumberPC2 += 1
+            classHtml = "even"
+            if rowNumberPC2 % 2 == 1:
+                classHtml = "odd"
+            htmlStringLatestPC2 += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+
+    htmlStats = ""
+    htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Players played</td><td style='text-align: right'>{len(todayPlayers)}</td></tr>"
+    htmlStats += f"<tr class='row-even'><td style='text-align: left'>Games played</td><td style='text-align: right'>{todayGamesPlayed}</td></tr>"
+    htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(todaySecondsPlayed/60/60, 2))}</td></tr>"
 
     htmlToday = """
         <div class="recents">
+            <h2>STATS</h2>
+            <table>
+                """ + htmlStats + """
+            </table>
+
+            <h2 style="padding-top: 20px">PC 2</h2>
             <table>
                 <tr>
                     <th style="text-align: right">TIME</th>
-                    <th>PC</th>
                     <th>SEC</th>
                     <th>STATUS</th>
                     <th style="text-align: left">PLAYER</th>
                     <th style="text-align: left">SONG</th>
                     <th>DIFFICULTY</th>
                     <th style="text-align: right">SCORE</th>
-                    <th style="text-align: center">MODIFIERS</th>
+                    <th style="text-align: center">MODIF</th>
                 </tr>
-                """ + htmlStringLatest + """
+                """ + htmlStringLatestPC2 + """
+            </table>
+
+            <h2>PC 1</h2>
+            <table>
+                <tr>
+                    <th style="text-align: right">TIME</th>
+                    <th>SEC</th>
+                    <th>STATUS</th>
+                    <th style="text-align: left">PLAYER</th>
+                    <th style="text-align: left">SONG</th>
+                    <th>DIFFICULTY</th>
+                    <th style="text-align: right">SCORE</th>
+                    <th style="text-align: center">MODIF</th>
+                </tr>
+                """ + htmlStringLatestPC1 + """
             </table>
         </div>
         """
