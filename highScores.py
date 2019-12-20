@@ -25,7 +25,7 @@ competitionDateEnd = datetime.date(2019, 12, 31)
 
 winnerPlayers = ["BIT", "YENG", "CHEE KEN", "MAEVE"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ"]
-ignoreSongs = []#"custom_level", "OneSaber", "NoArrows", "360Degree", "90Degree"]
+ignoreSongs = ["custom_level", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 
 renamePlayers = {
     "CHEEKEN": "CHEE KEN",
