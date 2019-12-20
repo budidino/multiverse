@@ -227,7 +227,6 @@ def processPlayerScores(name, scores):
         os.makedirs(folder)
 
     # update player.html file
-    # TODO: fix crash - permission denied to players/gatdog/index.html
     try:
         f = open(f'{folder}/index.html', 'w')
         f.write(html)
