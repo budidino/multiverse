@@ -389,9 +389,11 @@ def generateLeaderboardHtml():
     rowNumber = 1
     for p in sortedLeaderboardPlayers:
         rowNumber += 1
-        classHtml = "class='row-even'"
+        classHtml = f"class='row-{rowNumber} "
         if rowNumber % 2 == 1:
-            classHtml = "class='row-odd'"
+            classHtml += "row-odd'"
+        else:
+            classHtml += "row-even'"
         playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{p.score}</td><td style='text-align: left'>{p.name}</td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td></tr>"
 
     global htmlStringLeaderboard
