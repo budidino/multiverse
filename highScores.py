@@ -662,7 +662,7 @@ def updateHighScores():
             </div>
 
             <div id="TodayView" class="tabcontent">
-                
+                """ + htmlToday + """
             </div>
 
             <script type="text/javascript">
