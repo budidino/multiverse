@@ -662,22 +662,7 @@ def updateHighScores():
             </div>
 
             <div id="TodayView" class="tabcontent">
-                <div class="recents">
-                    <table>
-                        <tr>
-                            <th style="text-align: right">TIME</th>
-                            <th>PC</th>
-                            <th>SEC</th>
-                            <th>STATUS</th>
-                            <th style="text-align: left">PLAYER</th>
-                            <th style="text-align: left">SONG</th>
-                            <th>DIFFICULTY</th>
-                            <th style="text-align: right">SCORE</th>
-                            <th style="text-align: center">MODIFIERS</th>
-                        </tr>
-                        """ + htmlStringLatest + """
-                    </table>
-                </div>
+                
             </div>
 
             <script type="text/javascript">
