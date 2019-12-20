@@ -228,9 +228,13 @@ def processPlayerScores(name, scores):
 
     # update player.html file
     # TODO: fix crash - permission denied to players/gatdog/index.html
-    f = open(f'{folder}/index.html', 'w')
-    f.write(html)
-    f.close()
+    try:
+        f = open(f'{folder}/index.html', 'w')
+        f.write(html)
+        f.close()
+    except Exception as e:
+        print(f"damaged JSON for file: {f} - {e}")
+        continue
     
     try:
         data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
