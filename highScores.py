@@ -146,9 +146,9 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
     else:
         classHtml += "even'"
 
-    linkedName = f"<a href='players/{slugify(name)}'>{name}</a>"
+    linkedName = f"<a href='../../players/{slugify(name)}'>{name}</a>"
     if not isPlayer:
-        linkedName = f"<a href='songs/{slugify(name)}'>{name}</a>"
+        linkedName = f"<a href='../../songs/{slugify(name)}'>{name}</a>"
 
     return f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{attempts}</td><td style='text-align: right'>{score['score']}</td><td>{linkedName}</td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{score['difficulty']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
