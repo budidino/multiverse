@@ -230,7 +230,13 @@ def processPlayerScores(name, scores):
     # TODO: fix crash - permission denied to players/gatdog/index.html
     f = open(f'{folder}/index.html', 'w')
     f.write(html)
-    f.close()fdasfdas
+    f.close()
+    
+    try:
+        data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+    except Exception as e:
+        print(f"damaged JSON for file: {f} - {e}")
+        continue
 
 def processLeaderboardScores(name, scores):
     playersTopScore = defaultdict()
