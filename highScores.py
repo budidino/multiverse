@@ -174,7 +174,7 @@ def processPlayerScores(name, scores):
             if scoreData['score'] > topScore['score']:
                 topScore = scoreData
         
-        htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray), topScore['song'])
+        htmlSongs += topScoreHtml(topScore, rowNumber, len(scoresArray), topScore['song'], False)
 
     htmlStats = ""
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
