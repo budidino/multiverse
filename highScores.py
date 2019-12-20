@@ -234,7 +234,7 @@ def processPlayerScores(name, scores):
         f.close()
     except Exception as e:
         print(f"failed to write file to folder: {folder} - {e}")
-        continue
+        # TODO: maybe call the same function again?
 
 def processLeaderboardScores(name, scores):
     playersTopScore = defaultdict()
