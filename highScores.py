@@ -28,7 +28,9 @@ ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BU
 ignoreSongs = ["custom_level", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 
 renamePlayers = {
-    "CHEEKEN": "CHEE KEN"
+    "CHEEKEN": "CHEE KEN",
+    "CHABBYQT": "CHEE KEN",
+    "QT": "CHEE KEN"
 }
 
 class Song():
@@ -272,6 +274,27 @@ def processLeaderboardScores(name, scores):
             song.hoursPlayed = str(round(timePlayed/60/60, 2))
             leaderboard.append(song)
 
+        if rowNumber <= 3:
+            if player not in leaderboardPlayers:
+                p = Player()
+                p.name = player
+                p.gold = 0
+                p.silver = 0
+                p.bronze = 0
+                p.score = 0
+                leaderboardPlayers[player] = p
+            
+            p = leaderboardPlayers[player]
+            if rowNumber == 1:
+                p.gold += 1
+                p.score += 3
+            elif rowNumber == 2:
+                p.silver += 1
+                p.score += 2
+            elif rowNumber == 3:
+                p.bronze += 1
+                p.score += 1
+
     htmlStats = ""
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Players played</td><td style='text-align: right'>{len(playersScore)}</td></tr>"
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
@@ -356,32 +379,14 @@ def generateLeaderboardHtml():
         player = song.data['player']
         html += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: center'>{song.playersPlayed}</td><td style='text-align: center'>{song.gamesPlayed}</td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td><a href='players/{slugify(player)}'>{player}</a></td><td style='text-align: center' title='{good} / {good + bad + miss}'>{bad + miss}</td><td style='text-align: center'>{song.data['difficulty']}</td><td style='text-align: right'>{song.data['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
 
-        if rowNumber <= 3:
-            if player not in leaderboardPlayers:
-                p = Player()
-                p.name = player
-                p.gold = 0
-                p.silver = 0
-                p.bronze = 0
-                p.score = 0
-                leaderboardPlayers[player] = p
-            
-            p = leaderboardPlayers[player]
-            if rowNumber == 1:
-                p.gold += 1
-                p.score += 3
-            elif rowNumber == 2:
-                p.silver += 1
-                p.score += 2
-            elif rowNumber == 3:
-                p.bronze += 1
-                p.score += 1
-    
-    # TODO:
-    # Medals per player (gold, silver, bronze) based on songs score
-
     playersHtml = ""
-    for p in leaderboardPlayers.values():
+    sortedLeaderboardPlayers = sorted(leaderboardPlayers.values(), key=lambda x: x.score, reverse=True)
+    rowNumber = 1
+    for p in sortedLeaderboardPlayers:
+        rowNumber += 1
+        classHtml = "class='row-even'"
+        if rowNumber % 2 == 1:
+            classHtml = "class='row-odd'"
         playersHtml += f"<tr {classHtml} title='{scoreTime}'><td style='text-align: right'>{p.score}</td><td style='text-align: left'>{p.name}</td><td style='text-align: center'>{p.gold}</td><td style='text-align: center'>{p.silver}</td><td style='text-align: center'>{p.bronze}</td></tr>"
 
     global htmlStringLeaderboard
