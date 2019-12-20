@@ -599,7 +599,7 @@ def updateHighScores():
                     
         duration = int(score['gameStats']['timePlayed'])
         durationHtml = ""
-        if duration >= 60*4:
+        if duration >= longSongDuration:
             durationHtml = f"<div class='long'>{duration}</div>"
         else:
             durationHtml = duration
