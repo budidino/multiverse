@@ -468,7 +468,7 @@ def updateHighScores():
 
     # generate HighScore list for competition song
     timeString = datetime.datetime.now().strftime("%B %d").replace(' 0', ' ')
-    print(f"{competitionSongName} - {timeString}")
+    #print(f"{competitionSongName} - {timeString}")
     
     processedPlayers = []
     htmlString = ""
