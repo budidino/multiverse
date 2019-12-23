@@ -17,7 +17,7 @@ from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
-waitTime = 10.0
+waitTime = 30.0
 
 longSongDuration: int = 60 * 5
 
