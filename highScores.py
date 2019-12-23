@@ -767,6 +767,8 @@ def updateHighScores():
     for i in range(waitTime):
         timeLeft = waitTime - i
         if timeLeft <= 3:
+            if timeLeft == 1:
+                
             print(f"{timeLeft} ", end="", flush=True)
         else:
             print(".", end="", flush=True)
