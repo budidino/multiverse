@@ -17,7 +17,7 @@ from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
 
-waitTime = 30.0
+waitTime = 30
 
 longSongDuration: int = 60 * 5
 
@@ -764,7 +764,10 @@ def updateHighScores():
             print(f"failed to write main index file: {fileName} - {e}")
             # TODO: maybe call the same function again?
 
-    time.sleep(waitTime)
+    for i in range(waitTime):
+        if i
+        print(".", end="", flush=True)
+        time.sleep(1)    
 
 def updateLeaderboardAndProfiles():
     getAllScores()
