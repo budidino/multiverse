@@ -768,8 +768,9 @@ def updateHighScores():
         timeLeft = waitTime - i
         if timeLeft <= 3:
             print(f"{timeLeft}", end="", flush=True)
-        print(".", end="", flush=True)
-        time.sleep(1)    
+        else:
+            print(".", end="", flush=True)
+        time.sleep(1)
 
 def updateLeaderboardAndProfiles():
     getAllScores()
