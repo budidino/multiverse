@@ -7,9 +7,9 @@ customSongsDir = 'C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat 
 folders = [f for f in glob.glob(f"{customSongsDir}*/")]
 for folder in folders:
     try:
-        with open(f"{folder}info.dat", "r") as data_file:
+        with open(f"{folder}info.dat", "r") as infoFileData:
             try:
-                data = json.load(data_file) # TODO: maybe write down which file it was in some error log file?
+                data = json.load(infoFileData) # TODO: maybe write down which file it was in some error log file?
                 
                 subFolders = []
                 # _difficultyBeatmapSets
@@ -20,7 +20,7 @@ for folder in folders:
                     for beatmap in beatmaps:
                         subFolders.append(beatmap["_beatmapFilename"])
 
-                hashString = data_file.read()
+                hashString = infoFileData.read()
                 for sub in subFolders:
                     try:
                         with open(f"{folder}{sub}", "r") as beatmapData:
