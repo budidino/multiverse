@@ -27,7 +27,7 @@ for folder in folders:
                 for sub in subFolders:
                     try:
                         with open(f"{folder}{sub}", "r") as beatmapData:
-                            hashString += beatmapData
+                            hashString += beatmapData.read()
                     except Exception as e:
                         print(f"failed opening file: {folder}{sub} - {e}")
                         continue
