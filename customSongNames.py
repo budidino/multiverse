@@ -1,8 +1,11 @@
 import glob     # directory listing
 import hashlib  # sha1
 import json
+from collections import defaultdict
 
 customSongsDir = 'C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomLevels/'
+
+songsDict = defaultdict()
 
 folders = [f for f in glob.glob(f"{customSongsDir}*/")]
 for folder in folders:
