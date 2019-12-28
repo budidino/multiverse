@@ -1,3 +1,4 @@
 import hashlib
-m = hashlib.md5("Dino Budimilic")
-print(m)
+string = "abcdef".encode('utf-8')
+encoded = hashlib.sha1(string).hexdigest()
+print(encoded)
