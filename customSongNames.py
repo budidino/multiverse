@@ -33,11 +33,6 @@ for folder in folders:
                 sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
 
                 print(f"song: {data['_songName']} - {sha1}")
-
-                #if data['_songName'] == "Overkill":
-                    # print(f"song: {data['_songName']} - {sha1}")
-
-                # 2FDDB136BDA7F9E29B4CB6621D6D8E0F8A43B126
                 
             except Exception as e:
                 print(f"damaged JSON for file: {folder} - {e}")
@@ -45,11 +40,3 @@ for folder in folders:
     except Exception as e:
                 print(f"failed opening file: {folder} - {e}")
                 continue
-
-
-#songDir = "1f90 (Overkill - Nuketime)"
-
-#string = "abcdef".encode('utf-8')
-#sha1 = hashlib.sha1(string).hexdigest()
-
-#print(sha1)
