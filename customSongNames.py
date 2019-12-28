@@ -32,7 +32,9 @@ for folder in folders:
                         print(f"failed opening file: {folder}{sub} - {e}")
                         continue
 
-                print(f"song: {data['_songName']} - ")
+                sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
+
+                print(f"song: {data['_songName']} - {sha1}")
                 
             except Exception as e:
                 print(f"damaged JSON for file: {folder} - {e}")
