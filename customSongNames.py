@@ -32,10 +32,10 @@ for folder in folders:
 
                 sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
 
-                # print(f"song: {data['_songName']} - {sha1}")
+                print(f"song: {data['_songName']} - {sha1}")
 
-                if data['_songName'] == "Overkill":
-                    print(f"song: {data['_songName']} - {sha1}")
+                #if data['_songName'] == "Overkill":
+                    # print(f"song: {data['_songName']} - {sha1}")
 
                 # 2FDDB136BDA7F9E29B4CB6621D6D8E0F8A43B126
                 
