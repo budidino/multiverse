@@ -20,7 +20,7 @@ for folder in folders:
                     for beatmap in beatmaps:
                         subFolders.append(beatmap["_beatmapFilename"])
 
-                hashString = ""
+                hashString = data_file.read()
                 for sub in subFolders:
                     try:
                         with open(f"{folder}{sub}", "r") as beatmapData:
