@@ -1,0 +1,6 @@
+import hashlib
+
+hash_object = hashlib.sha1(b'HelWorld')
+pbHash = hash_object.hexdigest()
+length = len(pbHash.decode("hex"))
+print length
