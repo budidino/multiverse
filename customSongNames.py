@@ -9,6 +9,7 @@ for folder in folders:
     try:
         with open(f"{folder}info.dat", "r") as infoFileData:
             try:
+                infoFileText = infoFileData
                 data = json.load(infoFileData) # TODO: maybe write down which file it was in some error log file?
                 
                 subFolders = []
