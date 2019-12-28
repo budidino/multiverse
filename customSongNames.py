@@ -14,17 +14,16 @@ for folder in folders:
             try:
                 test = infoFileData
                 data = json.load(infoFileData) # TODO: maybe write down which file it was in some error log file?
+                songName = data['_songName']
+                hashString = open(f"{folder}info.dat", "r").read()
                 
                 subFolders = []
-                # _difficultyBeatmapSets
-                
                 sets = data['_difficultyBeatmapSets']
                 for s in sets:
                     beatmaps = s["_difficultyBeatmaps"]
                     for beatmap in beatmaps:
                         subFolders.append(beatmap["_beatmapFilename"])
 
-                hashString = open(f"{folder}info.dat", "r").read()
                 for sub in subFolders:
                     try:
                         with open(f"{folder}{sub}", "r") as beatmapData:
@@ -33,6 +32,7 @@ for folder in folders:
                         print(f"failed opening file: {folder}{sub} - {e}")
                         continue
 
+                
                 sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
                 songsDict[sha1] = data['_songName']
 
