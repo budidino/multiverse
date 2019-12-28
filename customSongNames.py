@@ -44,5 +44,6 @@ for folder in folders:
                 print(f"failed opening file: {folder} - {e}")
                 continue
 
-with open('customSongNames.json', 'w') as f:
-    json.dump(songsDict, f)
+sortedDict = {k: v for k, v in sorted(songsDict.items(), key=lambda item: item[1].lower())}
+with open('customSongNames-raw.json', 'w') as f:
+    json.dump(sortedDict, f)
