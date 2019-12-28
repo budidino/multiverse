@@ -19,9 +19,6 @@ for folder in folders:
                     beatmaps = s["_difficultyBeatmaps"]
                     for beatmap in beatmaps:
                         subFolders.append(beatmap["_beatmapFilename"])
-                
-                #print(f"song: {data['_songName']}")
-                #print(f"files: {subFolders}")
 
                 hashString = ""
                 for sub in subFolders:
@@ -34,7 +31,12 @@ for folder in folders:
 
                 sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
 
-                print(f"song: {data['_songName']} - {sha1}")
+                # print(f"song: {data['_songName']} - {sha1}")
+
+                if data['_songName'] == "Overkill":
+                    print(f"song: {data['_songName']} - {sha1}")
+
+                # 2FDDB136BDA7F9E29B4CB6621D6D8E0F8A43B126
                 
             except Exception as e:
                 print(f"damaged JSON for file: {folder} - {e}")
