@@ -1,13 +1,13 @@
 import hashlib
 
-customSongsDir = f'C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\CustomLevels'
+customSongsDir = f'C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data\CustomLevels'
 
 
 # overkill test
 
 songDir = "1f90 (Overkill - Nuketime)"
 
-files = [f for f in glob.glob(f"{oneDriveDir}scores/*.txt")]
+files = [f for f in glob.glob(f"{customSongsDir}/*.txt")]
 for f in files:
     try:
         with open(f, "r") as data_file:
