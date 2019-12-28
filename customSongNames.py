@@ -26,7 +26,7 @@ for folder in folders:
                 hashString = ""
                 for sub in subFolders:
                     try:
-                        with open(f"{folder}{sub}", "r") as data:
+                        with open(f"{folder}{sub}", "r") as beat:
                             hashString += data
                     except Exception as e:
                         print(f"failed opening file: {folder}{sub} - {e}")
