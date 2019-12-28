@@ -1,13 +1,11 @@
 import hashlib
 
-customSongsDir = f'C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data\CustomLevels'
+customSongsDir = 'C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomLevels'
 
 
 # overkill test
 
-songDir = "1f90 (Overkill - Nuketime)"
-
-files = [f for f in glob.glob(f"{customSongsDir}/*.txt")]
+folders = [f for f in glob.glob(f"{customSongsDir}/*.txt")]
 for f in files:
     try:
         with open(f, "r") as data_file:
@@ -17,6 +15,8 @@ for f in files:
                 print(f"damaged JSON for file: {f} - {e}")
                 continue
 
+
+songDir = "1f90 (Overkill - Nuketime)"
 
 string = "abcdef".encode('utf-8')
 sha1 = hashlib.sha1(string).hexdigest()
