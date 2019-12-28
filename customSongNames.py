@@ -21,7 +21,7 @@ for folder in folders:
                     for beatmap in beatmaps:
                         subFolders.append(beatmap["_beatmapFilename"])
 
-                hashString = str = open('very_Important.txt', 'r').read()
+                hashString = open(f"{folder}info.dat", "r").read()
                 for sub in subFolders:
                     try:
                         with open(f"{folder}{sub}", "r") as beatmapData:
