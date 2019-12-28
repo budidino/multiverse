@@ -44,5 +44,5 @@ for folder in folders:
                 print(f"failed opening file: {folder} - {e}")
                 continue
 
-with open('customSongNames.json', 'w') as fp:
-    json.dump(sample, fp)
+with open('customSongNames.json', 'w') as f:
+    json.dump(songsDict, f)
