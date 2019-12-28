@@ -40,3 +40,7 @@ for folder in folders:
     except Exception as e:
                 print(f"failed opening file: {folder} - {e}")
                 continue
+
+
+with open('customSongNames.json', 'w') as fp:
+    json.dump(sample, fp)
