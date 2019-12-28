@@ -16,7 +16,7 @@ for folder in folders:
                 data = json.load(infoFileData) # TODO: maybe write down which file it was in some error log file?
                 songName = data['_songName']
                 hashString = open(f"{folder}info.dat", "r").read()
-                
+
                 subFolders = []
                 sets = data['_difficultyBeatmapSets']
                 for s in sets:
@@ -32,11 +32,10 @@ for folder in folders:
                         print(f"failed opening file: {folder}{sub} - {e}")
                         continue
 
-                
                 sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
                 songsDict[sha1] = data['_songName']
 
-                print(f"{} - {sha1}")
+                print(f"{songName} - {sha1}")
                 
             except Exception as e:
                 print(f"damaged JSON for file: {folder} - {e}")
@@ -44,7 +43,6 @@ for folder in folders:
     except Exception as e:
                 print(f"failed opening file: {folder} - {e}")
                 continue
-
 
 with open('customSongNames.json', 'w') as fp:
     json.dump(sample, fp)
