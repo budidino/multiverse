@@ -9,7 +9,7 @@ for folder in folders:
     try:
         with open(f"{folder}info.dat", "r") as infoFileData:
             try:
-                infoFileText = infoFileData
+                infoFileText = infoFileData.read()
                 data = json.load(infoFileData) # TODO: maybe write down which file it was in some error log file?
                 
                 subFolders = []
@@ -21,7 +21,7 @@ for folder in folders:
                     for beatmap in beatmaps:
                         subFolders.append(beatmap["_beatmapFilename"])
 
-                hashString = infoFileData.read()
+                hashString = infoFileText
                 for sub in subFolders:
                     try:
                         with open(f"{folder}{sub}", "r") as beatmapData:
