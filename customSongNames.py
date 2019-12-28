@@ -32,7 +32,7 @@ for folder in folders:
 
                 sha1 = hashlib.sha1(hashString.encode('utf-8')).hexdigest()
 
-                print(f"song: {data['_songName']} - {sha1}")
+                print(f"{data['_songName']} - {sha1}")
                 
             except Exception as e:
                 print(f"damaged JSON for file: {folder} - {e}")
