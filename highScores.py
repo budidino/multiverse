@@ -163,12 +163,12 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
         songType = ""
         for t in songTypes:
             if t in songId:
-                songType = t
+                songType = f" [{t}]"
             songId = songId.replace(t, "")
 
         songId = songId.lower()
         if songId in customSongNamesDict:
-            name = f"{customSongNamesDict[songId]} [{songType}]"
+            name = f"{customSongNamesDict[songId]}{songType}"
 
     linkedName = f"<a href='../../players/{slugify(name)}'>{name}</a>"
     if not isPlayer:
@@ -589,11 +589,11 @@ def updateHighScores():
             songType = ""
             for t in songTypes:
                 if t in songId:
-                    songType = f"t
+                    songType = f" [{t}]"
                 songId = songId.replace(t, "")
             songId = songId.lower()
             if songId in customSongNamesDict:
-                songName = f"{customSongNamesDict[songId]} [{songType}]"
+                songName = f"{customSongNamesDict[songId]}{songType}"
             
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M").replace(' 0', '  ').strip()
 
