@@ -159,7 +159,7 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
         classHtml += "even'"
 
     if "custom_level_" in name:
-        songId = name.replace("custom_level_", "")
+        songId = name.replace("custom_level_", "").lower()
         if songId in customSongNamesDict:
             name = customSongNamesDict[songId]
 
@@ -575,7 +575,7 @@ def updateHighScores():
         if score['computerName'] == "Oculus":
             pcName = '#1'
         if "custom_level" in songName:
-            songId = songName.replace("custom_level_", "")
+            songId = songName.replace("custom_level_", "").lower()
             if songId in customSongNamesDict:
                 songName = customSongNamesDict[songId]
             else:
