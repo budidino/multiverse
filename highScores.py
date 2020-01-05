@@ -16,6 +16,7 @@ os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
+customSongNamesJsonFile = "customSongNames.json"
 
 waitTime = 30
 
@@ -49,11 +50,16 @@ class Player():
     bronze: int
     score: int
 
+customSongNamesDict = defaultdict()
 scoresSongsDict = defaultdict()
 scoresPlayersDict = defaultdict()
 htmlStringLeaderboard = ""
 leaderboard: [Song] = []
 leaderboardPlayers = defaultdict()
+
+# get all the custom song names
+with open(customSongNamesJsonFile) as handle:
+    customSongNamesDict = json.loads(handle.read())
 
 def git_push():
     try:
@@ -100,7 +106,7 @@ def getAllScores():
                 else:
                     scoresPlayersDict[player].append(data)
             
-            # store song scores if valid # ignore custom levels for now
+            # store song scores if valid
             songName = data['song']
             skipSong = False
             for ignore in ignoreSongs:
@@ -561,7 +567,11 @@ def updateHighScores():
         if score['computerName'] == "Oculus":
             pcName = '#1'
         if "custom_level" in songName:
-            songName = "custom"
+            songId = songName.replace("custom_level_", "")
+            if songId in customSongNamesDict:
+                songName = customSongNamesDict[songId]
+            else:
+                songName = "custom"
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M").replace(' 0', '  ').strip()
 
         difficulty = "?"
