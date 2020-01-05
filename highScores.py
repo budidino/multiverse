@@ -590,13 +590,7 @@ def updateHighScores():
                     songType = t
                 songId = songId.replace(t, "")
             if songId.lower() in customSongNamesDict:
-                name = f"{customSongNamesDict[songId]} [{songType}]"
-            
-            songId = songName.lower()
-            for word in ignoreSongs:
-                songId = songId.replace(word.lower(), "")
-            if songId in customSongNamesDict:
-                songName = customSongNamesDict[songId]
+                songId = f"{customSongNamesDict[songId]} [{songType}]"
             else:
                 songName = "custom"
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M").replace(' 0', '  ').strip()
