@@ -333,7 +333,7 @@ def processLeaderboardScores(name, scores):
 
     # fix song name if needed
     if "custom_level_" in name.lower():
-        songId = name.replace("custom_level_", "").lower
+        songId = name.replace("custom_level_", "").lower()
         songType = ""
         for t in songTypes:
             if t in songId:
