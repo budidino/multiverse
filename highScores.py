@@ -160,10 +160,11 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
     if "custom_level_" in name:
         nameClassHtml = "class='customSong'"
         songId = name.replace("custom_level_", "")
+        songType = ""
         for t in songTypes:
             if t in songTypes:
-                
-            songId = songId.replace(word.lower(), "")
+                songType = t
+            songId = songId.replace(word, "")
         if songId in customSongNamesDict:
             name = customSongNamesDict[songId]
 
