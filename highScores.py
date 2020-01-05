@@ -152,15 +152,16 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
         classHtml += "even'"
 
     nameClassHtml = ""
-    if "custom_level_" in name.lower():
+    if "custom_level_" in name:
         nameClassHtml = "class='customSong'"
-        songId = name.lower().replace("custom_level_", "")
+        songId = name.replace("custom_level_", "")
         songType = ""
         for t in songTypes:
-            if t in name:
+            if t in songId:
                 songType = f" [{t}]"
-            songId = songId.replace(t.lower(), "")
+            songId = songId.replace(t, "")
 
+        songId = songId.lower()
         if songId in customSongNamesDict:
             name = f"{customSongNamesDict[songId]}{songType}"
 
@@ -331,13 +332,13 @@ def processLeaderboardScores(name, scores):
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(timePlayed/60/60, 2))}</td></tr>"
 
     # fix song name if needed
-    if "custom_level_" in name.lower():
-        songId = name.lower().replace("custom_level_", "")
+    if "custom_level_" in name:
+        songId = name.replace("custom_level_", "")
         songType = ""
         for t in songTypes:
-            if t in name:
+            if t in songId:
                 songType = f" [{t}]"
-            songId = songId.replace(t.lower(), "")
+            songId = songId.replace(t, "")
 
         songId = songId.lower()
         if songId in customSongNamesDict:
@@ -597,15 +598,15 @@ def updateHighScores():
             pcName = '#1'
         
         nameClassHtml = "class=''"
-        if "custom_level_" in songName.lower():
+        if "custom_level_" in songName:
             nameClassHtml = "class='customSong'"
-            songId = songName.lower().replace("custom_level_", "")
+            songId = songName.replace("custom_level_", "")
             songType = ""
             for t in songTypes:
-                if t in songName:
+                if t in songId:
                     songType = f" [{t}]"
-                songId = songId.replace(t.lower(), "")
-
+                songId = songId.replace(t, "")
+            songId = songId.lower()
             if songId in customSongNamesDict:
                 songName = f"{customSongNamesDict[songId]}{songType}"
             
