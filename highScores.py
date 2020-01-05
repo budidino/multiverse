@@ -149,16 +149,15 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
     if score['modifiers']['songSpeed'] == 1:
         modifiersHtmlString += "<img src='../../icons/fasterSong.png' title='Faster Song' style='width:16px; height:16px;'>"
 
-    nameClassHtml = ""
-    if "custom_level_" in name:
-        classHtml = "class='customSong'"
     classHtml = "class='row-"
     if rowNumber % 2 == 1:
         classHtml += "odd'"
     else:
         classHtml += "even'"
 
+    nameClassHtml = ""
     if "custom_level_" in name:
+        nameClassHtml = "class='customSong'"
         songId = name.replace("custom_level_", "").lower()
         if songId in customSongNamesDict:
             name = customSongNamesDict[songId]
