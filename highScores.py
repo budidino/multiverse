@@ -16,7 +16,7 @@ os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 from git import Repo
 
 oneDriveDir = f'C:/Users/Oculus/OneDrive/'
-customSongNamesJsonFile = "customSongNames.json"
+customSongNamesJsonFile = "C:/Users/Oculus/OneDrive/githubProject/customSongNames.json"
 
 waitTime = 30
 
