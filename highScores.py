@@ -264,6 +264,12 @@ def processLeaderboardScores(name, scores):
     playerAttempts = defaultdict()
     timePlayed = 0
     for score in scores:
+        songName = score['song']
+        skipSong = False
+        for ignore in ignoreSongs:
+            if ignore in songName:
+                skipSong = True
+
         timePlayed += score['gameStats']['timePlayed']
         player = score['player']
 
