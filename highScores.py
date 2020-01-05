@@ -162,7 +162,7 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
         songId = name.replace("custom_level_", "")
         songType = ""
         for t in songTypes:
-            if t in songTypes:
+            if t in songId:
                 songType = t
             songId = songId.replace(t, "")
 
@@ -588,8 +588,8 @@ def updateHighScores():
             songId = songName.replace("custom_level_", "")
             songType = ""
             for t in songTypes:
-                if t in songTypes:
-                    songType = t
+                if t in songId:
+                    songType = f"t
                 songId = songId.replace(t, "")
             songId = songId.lower()
             if songId in customSongNamesDict:
