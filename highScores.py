@@ -164,8 +164,8 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
         for t in songTypes:
             if t in songTypes:
                 songType = t
-            songId = songId.replace(word, "")
-        if songId in customSongNamesDict:
+            songId = songId.replace(t, "")
+        if songId.lower() in customSongNamesDict:
             name = customSongNamesDict[songId]
 
     linkedName = f"<a href='../../players/{slugify(name)}'>{name}</a>"
