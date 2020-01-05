@@ -265,23 +265,25 @@ def processLeaderboardScores(name, scores):
     timePlayed = 0
     for score in scores:
         songName = score['song']
+        skipSong = False
         for ignore in ignoreSongs:
             if ignore in songName:
-                continue
+                skipSong = True
 
         timePlayed += score['gameStats']['timePlayed']
         player = score['player']
 
-        if player not in playerAttempts:
-            playerAttempts[player] = 1
-            playersScore[player] = score
-            playersTopScore[player] = score['score']
-        else:
-            playerAttempts[player] += 1
-            newScore = score['score']
-            if newScore > playersTopScore[player]:
-                playersTopScore[player] = newScore
+        if skipSong == False:
+            if player not in playerAttempts:
+                playerAttempts[player] = 1
                 playersScore[player] = score
+                playersTopScore[player] = score['score']
+            else:
+                playerAttempts[player] += 1
+                newScore = score['score']
+                if newScore > playersTopScore[player]:
+                    playersTopScore[player] = newScore
+                    playersScore[player] = score
 
     sortedPlayerNames = sorted(playersScore, key = lambda k: playersTopScore[k], reverse=True)
 
