@@ -315,6 +315,7 @@ def processLeaderboardScores(name, scores):
                 p.score = 0
                 leaderboardPlayers[player] = p
             
+            # don't reward players for certain songs
             songName = pScore['song']
             skipSong = False
             for ignore in ignoreSongs:
