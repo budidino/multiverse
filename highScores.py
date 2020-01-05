@@ -332,8 +332,8 @@ def processLeaderboardScores(name, scores):
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(timePlayed/60/60, 2))}</td></tr>"
 
     # fix song name if needed
-    if "custom_level_" in name:
-        songId = name.replace("custom_level_", "")
+    if "custom_level_" in name.lower():
+        songId = name.replace("custom_level_", "").lower()
         songType = ""
         for t in songTypes:
             if t in songId:
