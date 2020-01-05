@@ -264,12 +264,6 @@ def processLeaderboardScores(name, scores):
     playerAttempts = defaultdict()
     timePlayed = 0
     for score in scores:
-        # songName = score['song']
-        # skipSong = False
-        # for ignore in ignoreSongs:
-        #     if ignore in songName:
-        #         skipSong = True
-
         timePlayed += score['gameStats']['timePlayed']
         player = score['player']
 
@@ -303,7 +297,14 @@ def processLeaderboardScores(name, scores):
             song.gamesPlayed = len(scores)
             song.playersPlayed = len(playersScore)
             song.hoursPlayed = str(round(timePlayed/60/60, 2))
-            leaderboard.append(song)
+
+            songName = pScore['song']
+            skipSong = False
+            for ignore in ignoreSongs:
+                if ignore in songName:
+                    skipSong = True
+            if skipSong == False:
+                leaderboard.append(song)
 
         # don't reward players for certain songs
         songName = pScore['song']
