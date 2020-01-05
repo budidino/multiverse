@@ -28,7 +28,7 @@ competitionDateEnd = datetime.date(2020, 1, 31)
 
 winnerPlayers = ["BIT", "YENG", "CHEE KEN", "MAEVE", "JOHNZKY"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ", "JHEN"]
-ignoreSongs = ["custom_level", "OneSaber", "NoArrows", "360Degree", "90Degree"]
+ignoreSongs = ["custom_level_", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 
 renamePlayers = {
     "CHEEKEN": "CHEE KEN",
@@ -158,7 +158,9 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
     nameClassHtml = ""
     if "custom_level_" in name:
         nameClassHtml = "class='customSong'"
-        songId = name.replace("custom_level_", "").lower()
+        songId = name.lower()
+        for word in ignoreSongs:
+            songId = songId.replace(word.lower(), "")
         if songId in customSongNamesDict:
             name = customSongNamesDict[songId]
 
@@ -577,7 +579,9 @@ def updateHighScores():
         nameClassHtml = "class=''"
         if "custom_level" in songName:
             nameClassHtml = "class='customSong'"
-            songId = songName.replace("custom_level_", "").lower()
+            songId = songName.lower()
+            for word in ignoreSongs:
+                songId = songId.replace(word.lower(), "")
             if songId in customSongNamesDict:
                 songName = customSongNamesDict[songId]
             else:
