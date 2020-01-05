@@ -265,10 +265,9 @@ def processLeaderboardScores(name, scores):
     timePlayed = 0
     for score in scores:
         songName = score['song']
-        skipSong = False
         for ignore in ignoreSongs:
             if ignore in songName:
-                skipSong = True
+                continue
 
         timePlayed += score['gameStats']['timePlayed']
         player = score['player']
