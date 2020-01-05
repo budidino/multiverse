@@ -114,7 +114,7 @@ def getAllScores():
                 if ignore in songName:
                     skipSong = True
 
-            if player != "UNKNOWN" and len(player) > 1 and not skipSong:
+            if player != "UNKNOWN" and len(player) > 1: # and not skipSong:
                 if songName not in scoresSongsDict.keys():
                     array = [data]
                     scoresSongsDict[songName] = array
