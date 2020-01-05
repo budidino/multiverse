@@ -576,6 +576,7 @@ def updateHighScores():
         
         nameClassHtml = "class=''"
         if "custom_level" in songName:
+            nameClassHtml = "class='customSong'"
             songId = songName.replace("custom_level_", "").lower()
             if songId in customSongNamesDict:
                 songName = customSongNamesDict[songId]
@@ -637,7 +638,7 @@ def updateHighScores():
             if rowNumberPC1 % 2 == 1:
                 classHtml = "odd"
 
-            htmlStringLatestPC1 += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td><a href='songs/{slugify(songName)}'>{songName}</a></td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
+            htmlStringLatestPC1 += f"<tr class='row-{classHtml}'><td style='text-align: right'>{scoreTime}</td><td style='text-align: center'>{durationHtml}</td><td style='text-align: center'>{status}</td><td><a href='players/{slugify(player)}'>{player}</a></td><td {nameClassHtml}><a href='songs/{slugify(songName)}'>{songName}</a></td><td style='text-align: center'>{difficulty}</td><td style='text-align: right'>{score['score']}</td><td style='text-align: center'>{modifiersHtmlString}</td></tr>"
         else:
             rowNumberPC2 += 1
             classHtml = "even"
