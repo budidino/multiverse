@@ -329,6 +329,20 @@ def processLeaderboardScores(name, scores):
     htmlStats += f"<tr class='row-even'><td style='text-align: left'>Games played</td><td style='text-align: right'>{len(scores)}</td></tr>"
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Hours played</td><td style='text-align: right'>{str(round(timePlayed/60/60, 2))}</td></tr>"
 
+    # fix song name if needed
+    if "custom_level_" in name:
+        nameClassHtml = "class='customSong'"
+        songId = name.replace("custom_level_", "")
+        songType = ""
+        for t in songTypes:
+            if t in songId:
+                songType = f" [{t}]"
+            songId = songId.replace(t, "")
+
+        songId = songId.lower()
+        if songId in customSongNamesDict:
+            name = f"{customSongNamesDict[songId]}{songType}"
+
     # generate and save HTML file
     html = """<html>
         <head>
