@@ -33,7 +33,7 @@ renamePlayers = {
     "CHEEKEN": "CHEE KEN",
     "CHABBYQT": "CHEE KEN",
     "QT": "CHEE KEN",
-    "BART"
+    "BART": "BARTENDER"
 }
 
 class Song():
