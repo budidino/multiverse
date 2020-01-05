@@ -581,8 +581,17 @@ def updateHighScores():
             pcName = '#1'
         
         nameClassHtml = "class=''"
-        if "custom_level" in songName:
+        if "custom_level_" in songName:
             nameClassHtml = "class='customSong'"
+            songId = songName.replace("custom_level_", "")
+            songType = ""
+            for t in songTypes:
+                if t in songTypes:
+                    songType = t
+                songId = songId.replace(t, "")
+            if songId.lower() in customSongNamesDict:
+                name = f"{customSongNamesDict[songId]} [{songType}]"
+            
             songId = songName.lower()
             for word in ignoreSongs:
                 songId = songId.replace(word.lower(), "")
