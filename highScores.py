@@ -165,7 +165,9 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
             if t in songTypes:
                 songType = t
             songId = songId.replace(t, "")
-        if songId.lower() in customSongNamesDict:
+
+        songId = songId.lower()
+        if songId in customSongNamesDict:
             name = f"{customSongNamesDict[songId]} [{songType}]"
 
     linkedName = f"<a href='../../players/{slugify(name)}'>{name}</a>"
@@ -589,10 +591,10 @@ def updateHighScores():
                 if t in songTypes:
                     songType = t
                 songId = songId.replace(t, "")
-            if songId.lower() in customSongNamesDict:
-                songId = f"{customSongNamesDict[songId]} [{songType}]"
-            else:
-                songName = "custom"
+            songId = songId.lower()
+            if songId in customSongNamesDict:
+                songName = f"{customSongNamesDict[songId]} [{songType}]"
+            
         scoreTime = datetime.datetime.fromtimestamp(score['timestamp']).strftime(" %I:%M").replace(' 0', '  ').strip()
 
         difficulty = "?"
