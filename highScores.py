@@ -152,16 +152,15 @@ def topScoreHtml(score, rowNumber, attempts, name, isPlayer = True):
         classHtml += "even'"
 
     nameClassHtml = ""
-    if "custom_level_" in name:
+    if "custom_level_" in name.lower():
         nameClassHtml = "class='customSong'"
-        songId = name.replace("custom_level_", "")
+        songId = name.lower().replace("custom_level_", "")
         songType = ""
         for t in songTypes:
-            if t in songId:
+            if t in name:
                 songType = f" [{t}]"
-            songId = songId.replace(t, "")
+            songId = songId.replace(t.lower(), "")
 
-        songId = songId.lower()
         if songId in customSongNamesDict:
             name = f"{customSongNamesDict[songId]}{songType}"
 
@@ -598,15 +597,15 @@ def updateHighScores():
             pcName = '#1'
         
         nameClassHtml = "class=''"
-        if "custom_level_" in songName:
+        if "custom_level_" in songName.lower():
             nameClassHtml = "class='customSong'"
-            songId = songName.replace("custom_level_", "")
+            songId = songName.lower().replace("custom_level_", "")
             songType = ""
             for t in songTypes:
-                if t in songId:
+                if t in songName:
                     songType = f" [{t}]"
-                songId = songId.replace(t, "")
-            songId = songId.lower()
+                songId = songId.replace(t.lower(), "")
+
             if songId in customSongNamesDict:
                 songName = f"{customSongNamesDict[songId]}{songType}"
             
