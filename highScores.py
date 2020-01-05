@@ -306,34 +306,33 @@ def processLeaderboardScores(name, scores):
             leaderboard.append(song)
 
         # don't reward players for certain songs
-            songName = pScore['song']
-            skipSong = False
-            for ignore in ignoreSongs:
-                if ignore in songName:
-                    skipSong = True
-            
-            if skipSong == False:
+        songName = pScore['song']
+        skipSong = False
+        for ignore in ignoreSongs:
+            if ignore in songName:
+                skipSong = True
+        
+        if skipSong == False:
+            if rowNumber <= 3:
+                if player not in leaderboardPlayers:
+                    p = Player()
+                    p.name = player
+                    p.gold = 0
+                    p.silver = 0
+                    p.bronze = 0
+                    p.score = 0
+                    leaderboardPlayers[player] = p
                 
-        if rowNumber <= 3:
-            if player not in leaderboardPlayers:
-                p = Player()
-                p.name = player
-                p.gold = 0
-                p.silver = 0
-                p.bronze = 0
-                p.score = 0
-                leaderboardPlayers[player] = p
-            
-            p = leaderboardPlayers[player]
-            if rowNumber == 1:
-                p.gold += 1
-                p.score += 3
-            elif rowNumber == 2:
-                p.silver += 1
-                p.score += 2
-            elif rowNumber == 3:
-                p.bronze += 1
-                p.score += 1
+                p = leaderboardPlayers[player]
+                if rowNumber == 1:
+                    p.gold += 1
+                    p.score += 3
+                elif rowNumber == 2:
+                    p.silver += 1
+                    p.score += 2
+                elif rowNumber == 3:
+                    p.bronze += 1
+                    p.score += 1
 
     htmlStats = ""
     htmlStats += f"<tr class='row-odd'><td style='text-align: left'>Players played</td><td style='text-align: right'>{len(playersScore)}</td></tr>"
