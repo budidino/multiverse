@@ -32,7 +32,8 @@ ignoreSongs = ["custom_level", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 renamePlayers = {
     "CHEEKEN": "CHEE KEN",
     "CHABBYQT": "CHEE KEN",
-    "QT": "CHEE KEN"
+    "QT": "CHEE KEN",
+    "BART"
 }
 
 class Song():
