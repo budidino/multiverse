@@ -315,6 +315,13 @@ def processLeaderboardScores(name, scores):
                 p.score = 0
                 leaderboardPlayers[player] = p
             
+            songName = score['song']
+            skipSong = False
+            for ignore in ignoreSongs:
+                if ignore in songName:
+                    skipSong = True
+            
+            if skipSong
             p = leaderboardPlayers[player]
             if rowNumber == 1:
                 p.gold += 1
