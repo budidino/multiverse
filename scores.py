@@ -1,7 +1,6 @@
 # ideas: sync scores across computers (update highscore)
 # update LocalDailyLeaderboards.dat to delete lowest score in any list that has 10 songs to make sure we fetch every score
 # keep only the best score per user
-# add difficulty to fail/quit because it's available through player data
 
 import getpass #computer name
 import time
@@ -13,7 +12,6 @@ from pprint import pprint #pritty json print
 waitTime = 1.0
 computerUser = getpass.getuser()
 scoresFolderPath = f"C:/Users/{computerUser}/OneDrive/scores/"
-#scoresFolderPath = f"C:/Users/{computerUser}/OneDrive/scoresV2/"
 
 previousGameData = {}
 previousGameScore = {}
