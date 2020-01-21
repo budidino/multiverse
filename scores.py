@@ -1,7 +1,6 @@
 # ideas: sync scores across computers (update highscore)
-# upload scores json somewhere based on device ID and them merge those two on iOS or wherever we preview data?
 # update LocalDailyLeaderboards.dat to delete lowest score in any list that has 10 songs to make sure we fetch every score
-# maybe keep only the best score
+# keep only the best score per user
 # add difficulty to fail/quit because it's available through player data
 
 import getpass #computer name
