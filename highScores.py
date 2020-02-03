@@ -22,11 +22,11 @@ waitTime = 30
 
 longSongDuration: int = 60 * 5
 
-competitionSongName = "AmericanIdiot"
-competitionDateStart = datetime.date(2020, 1, 1)
-competitionDateEnd = datetime.date(2020, 1, 31)
+competitionSongName = "FullCharge"
+competitionDateStart = datetime.date(2020, 2, 1)
+competitionDateEnd = datetime.date(2020, 2, 29)
 
-winnerPlayers = ["BIT", "YENG", "CHEE KEN", "MAEVE", "JOHNZKY"]
+winnerPlayers = ["YENG", "CHEE KEN", "BIT", "MAEVE", "JOHNZKY", "MJ"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ", "JHEN"]
 ignoreSongs = ["custom_level_", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 songTypes = ["OneSaber", "NoArrows", "360Degree", "90Degree"]
