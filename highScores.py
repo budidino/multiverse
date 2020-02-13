@@ -737,7 +737,7 @@ def updateHighScores():
             <meta name="format-detection" content="telephone=no">
 			<meta name="viewport" content="width=device-width, content=height=device-height, initial-scale=1.0">
 			<link rel="stylesheet" type="text/css" href="style.css">
-            <script type="text/javascript" src="scripts.js"></script>  
+            <script type="text/javascript" src="scripts.js"></script>
 		</head>
 		<body>
             <h1 style="color: green;">Multiverse <span style="color: greenyellow;">VR</span> cafe</h1>
