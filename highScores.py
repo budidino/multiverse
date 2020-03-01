@@ -26,7 +26,7 @@ competitionSongName = "FullCharge"
 competitionDateStart = datetime.date(2020, 2, 1)
 competitionDateEnd = datetime.date(2020, 2, 29)
 
-winnerPlayers = ["YENG", "CHEE KEN", "BIT", "MAEVE", "JOHNZKY", "MJ"]
+winnerPlayers = ["YENG", "CHEE KEN", "BIT", "MAEVE", "JOHNZKY", "MJ", "POL"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ", "JHEN"]
 ignoreSongs = ["custom_level_", "OneSaber", "NoArrows", "360Degree", "90Degree"]
 songTypes = ["OneSaber", "NoArrows", "360Degree", "90Degree"]
