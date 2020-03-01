@@ -22,9 +22,9 @@ waitTime = 30
 
 longSongDuration: int = 60 * 5
 
-competitionSongName = "FullCharge"
-competitionDateStart = datetime.date(2020, 2, 1)
-competitionDateEnd = datetime.date(2020, 2, 29)
+competitionSongName = "BeThereForYou"
+competitionDateStart = datetime.date(2020, 3, 1)
+competitionDateEnd = datetime.date(2020, 3, 31)
 
 winnerPlayers = ["YENG", "CHEE KEN", "BIT", "MAEVE", "JOHNZKY", "MJ", "POL"]
 ignorePlayers = ["DINO", "BAN", "BARTENDER", "KING", "PILYO", "KUNG", "JET", "BUDZ", "JHEN"]
