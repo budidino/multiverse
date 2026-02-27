@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.5;
+        max-width: 760px;
+      }
+      h1, h2 { margin-bottom: 0.4rem; }
+      p { margin: 0.6rem 0; }
+      .muted { opacity: 0.8; font-size: 0.95rem; }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy</h1>
+
+    <p id="intro"></p>
+
+    <p id="data-storage"></p>
+
+    <p>
+      The app works fully offline where possible. No account is required and no personal
+      information is requested or saved by the developer.
+    </p>
+
+    <p id="purchase"></p>
+
+    <p>
+      The app may use anonymous and aggregated analytics to understand feature usage and
+      improve the app experience. This data cannot be used to identify you.
+    </p>
+
+    <h2>Contact</h2>
+    <p id="contact"></p>
+    <p class="muted" id="last-updated"></p>
+
+    <script>
+      (function () {
+        const params = new URLSearchParams(window.location.search);
+
+        const app = params.get("app") || "This app";
+        const developer = params.get("developer") || "the developer";
+        const contactEmail = params.get("contact") || "";
+        const subscriptionsRaw = (params.get("subscriptions") || "").toLowerCase();
+
+        const usesSubscriptions =
+          subscriptionsRaw === "true" ||
+          subscriptionsRaw === "1" ||
+          subscriptionsRaw === "yes";
+
+        const intro = document.getElementById("intro");
+        const dataStorage = document.getElementById("data-storage");
+        const purchase = document.getElementById("purchase");
+        const contact = document.getElementById("contact");
+        const updated = document.getElementById("last-updated");
+
+        intro.textContent = `${developer} built ${app} as a commercial app${
+          usesSubscriptions
+            ? " with optional subscriptions and possible one-time purchases."
+            : "."
+        }`;
+
+        dataStorage.textContent =
+          `${app} does not collect, store, or process personal data on private servers. ` +
+          `App data is stored locally on your device and may sync via iCloud if enabled by Apple.`;
+
+        purchase.textContent = usesSubscriptions
+          ? `Subscriptions and purchases are handled entirely by Apple through the App Store. ${app} does not have access to your payment information, Apple ID, or personal purchase data.`
+          : `Any purchases (if offered) are handled entirely by Apple through the App Store. ${app} does not have access to your payment information, Apple ID, or personal purchase data.`;
+
+        contact.textContent = contactEmail
+          ? `If you have any questions or suggestions about this Privacy Policy, contact: ${contactEmail}`
+          : "If you have any questions or suggestions about this Privacy Policy, feel free to contact the developer.";
+
+        updated.textContent = `Last updated: ${new Date().toISOString().slice(0, 10)}`;
+      })();
+    </script>
+  </body>
+</html>
